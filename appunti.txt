@@ -44,5 +44,6 @@ Aug 22 (Fri), 2025
 
 
 ==============================================
-Among those excluded as white males, there were 7 annotators in the complete corpus (NOT THE TEST SET ONLY) who explicitely said to be part of a minority group, as being homosexual, disabled, veterans, immigrants, jewish or poor.
-We were not able to include them in the study since the prompt would have not taken into account these information. 
+Among white males annotators, there were 7 annotators in the complete corpus who explicitely said to be part of a minority group, as being homosexual, disabled, veterans, immigrants, jewish or poor.
+One of them was part of the test set (he was a veteran).
+We were not able to include him in the study since the prompt would have not taken into account this information. 
