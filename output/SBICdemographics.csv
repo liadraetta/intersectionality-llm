@@ -1,0 +1,308 @@
+,set,WorkerId,annotatorGender,annotatorMinority,annotatorPolitics,annotatorRace,annotatorAge,annotatorGeneration,IntersectionMinority
+0,train,-8935932304856669427,woman,,liberal,white,45.0,GenX,YesMinority
+1,train,6347880360297734464,man,,mod-liberal,white,35.0,GenY,NoMinority
+2,train,-7452610791699819066,man,,liberal,asian,23.0,GenZ,YesMinority
+3,train,-500114755446676507,man,,liberal,white,25.0,GenY,NoMinority
+5,train,7912096326098817047,woman,,liberal,white,32.0,GenY,YesMinority
+8,train,118631008378348260,woman,"gender, sexuality, mental illness",liberal,white,28.0,GenY,YesMinority
+10,train,2430897476320006833,man,,cons,white,32.0,GenY,NoMinority
+12,train,1389628790122253253,man,"white, male",cons,white,31.0,GenY,NoMinority
+14,train,6927542478311092738,woman,,liberal,white,24.0,GenY,YesMinority
+15,train,-6837958490067487319,woman,women,liberal,white,34.0,GenY,YesMinority
+16,train,-4903257119943710595,woman,none,liberal,white,32.0,GenY,YesMinority
+17,train,8789702980570783632,woman,,other,hisp,27.0,GenY,YesMinority
+19,train,4554125108380068779,man,,mod-liberal,white,27.0,GenY,NoMinority
+21,train,-8810733183869606469,woman,,liberal,white,34.0,GenY,YesMinority
+23,train,5330619308534303933,woman,female,mod-cons,white,35.0,GenY,YesMinority
+26,train,-2877140746380073212,man,,cons,white,42.0,GenX,NoMinority
+27,train,3541686222721437796,man,,liberal,white,37.0,GenY,NoMinority
+28,train,-5471608738051449110,woman,,other,white,35.0,GenY,YesMinority
+29,train,2428559182657536645,woman,,liberal,white,29.0,GenY,YesMinority
+30,train,-1563458821535984332,woman,women,liberal,white,22.0,GenZ,YesMinority
+31,train,980292540985390308,woman,,liberal,white,51.0,GenX,YesMinority
+33,train,7067515179960755087,woman,"Woman, African American",mod-liberal,black,30.0,GenY,YesMinority
+40,train,-7790343187498138255,man,,cons,white,49.0,GenX,NoMinority
+41,train,1869048359460155317,woman,,mod-cons,white,22.0,GenZ,YesMinority
+44,train,-7713443391178782699,man,,mod-liberal,white,27.0,GenY,NoMinority
+45,train,-3579354685786976851,man,,mod-cons,white,35.0,GenY,NoMinority
+48,train,-4671295340405687436,woman,,other,white,31.0,GenY,YesMinority
+52,train,-7090297418013232722,woman,women,other,white,38.0,GenY,YesMinority
+60,train,7162172225567546910,woman,women,liberal,white,27.0,GenY,YesMinority
+64,train,2385617559681638227,man,,liberal,white,26.0,GenY,NoMinority
+66,train,2659038022143379063,woman,women,mod-cons,white,47.0,GenX,YesMinority
+72,train,-3114316428557054065,woman,none,mod-cons,white,33.0,GenY,YesMinority
+84,train,1558992385113521549,man,,libert,white,39.0,GenY,NoMinority
+87,train,4224836053735053558,woman,"racial minority, gender",liberal,asian,25.0,GenY,YesMinority
+88,train,-5870881806826799680,man,,liberal,white,38.0,GenY,NoMinority
+89,train,6650634677954316496,woman,,libert,white,25.0,GenY,YesMinority
+94,train,6164268409378511170,man,,libert,white,49.0,GenX,NoMinority
+99,train,7891575995618716029,man,,mod-liberal,white,40.0,GenX,NoMinority
+103,train,994433822302201964,man,,mod-cons,white,39.0,GenY,NoMinority
+104,train,-7353159578349448466,man,,mod-liberal,white,32.0,GenY,NoMinority
+109,train,2588569829026181549,man,,cons,white,41.0,GenX,NoMinority
+116,train,1664464732976706798,woman,,mod-cons,hisp,33.0,GenY,YesMinority
+120,train,-2426765382719881843,man,,mod-cons,white,43.0,GenX,NoMinority
+123,train,-6352039173957003457,woman,,mod-cons,white,36.0,GenY,YesMinority
+124,train,-7753276331228015558,woman,,mod-cons,white,34.0,GenY,YesMinority
+135,train,-5313160613530610330,man,,liberal,white,25.0,GenY,NoMinority
+136,train,-1074131302321565002,woman,"Hispanic, female, bisexual",mod-liberal,hisp,29.0,GenY,YesMinority
+156,train,-397721847506341609,woman,veteran,mod-liberal,black,31.0,GenY,YesMinority
+177,train,-7945328595909653965,woman,,cons,white,38.0,GenY,YesMinority
+181,train,5225876289250202382,woman,"disabled, bisexual",liberal,white,32.0,GenY,YesMinority
+191,train,3401190781414184435,woman,,mod-liberal,white,46.0,GenX,YesMinority
+195,train,1970909591341798263,woman,,na,white,44.0,GenX,YesMinority
+198,train,-4210633818511154946,woman,,liberal,white,38.0,GenY,YesMinority
+202,train,955703508749055793,woman,,liberal,asian,23.0,GenZ,YesMinority
+215,train,-2394418997796114243,man,,mod-liberal,white,30.0,GenY,NoMinority
+249,train,8805298672758419198,woman,,liberal,white,49.0,GenX,YesMinority
+271,train,3169503690680674782,woman,,liberal,white,29.0,GenY,YesMinority
+283,train,3014462452121555470,man,,mod-liberal,white,38.0,GenY,NoMinority
+290,train,-2495997829008017327,man,,libert,white,35.0,GenY,NoMinority
+341,train,1843185595144375092,man,,liberal,white,29.0,GenY,NoMinority
+354,train,-3559048982681398316,woman,,liberal,white,31.0,GenY,YesMinority
+362,train,-2238863521358699827,woman,sexuality,liberal,white,35.0,GenY,YesMinority
+390,train,-7598494085232335834,woman,,liberal,white,41.0,GenX,YesMinority
+536,train,-8552832676484929543,woman,No,liberal,white,39.0,GenY,YesMinority
+602,train,446815182533233009,woman,,other,white,35.0,GenY,YesMinority
+868,train,4697640660379270168,man,Chinese,mod-liberal,asian,32.0,GenY,YesMinority
+901,train,-4972502847858722232,woman,,liberal,white,30.0,GenY,YesMinority
+2405,train,-200256957560215819,woman,,liberal,white,35.0,GenY,YesMinority
+2407,train,-768683606829583421,man,pacific islander,liberal,other,35.0,GenY,YesMinority
+2448,train,7627469655324893957,man,,liberal,white,23.0,GenZ,NoMinority
+2504,train,-1638570835356793490,man,,mod-cons,hisp,23.0,GenZ,YesMinority
+2520,train,-7010577106277885124,woman,,mod-liberal,other,29.0,GenY,YesMinority
+2653,train,-3384256065534372786,man,,liberal,white,27.0,GenY,NoMinority
+2977,train,-5675095108694766721,woman,,liberal,white,55.0,GenX,YesMinority
+3352,train,-3884767217976670259,man,No.,liberal,white,39.0,GenY,NoMinority
+3367,train,3063367745612339446,woman,,mod-liberal,black,32.0,GenY,YesMinority
+3612,train,-8112240862397798182,man,,other,asian,19.0,GenZ,YesMinority
+3799,train,1549664617862804761,woman,,liberal,white,43.0,GenX,YesMinority
+4837,train,1147960939871721323,man,,mod-cons,asian,24.0,GenY,YesMinority
+4843,train,5538943157371849067,woman,,other,white,33.0,GenY,YesMinority
+5021,train,-7297283282402353981,man,,liberal,hisp,28.0,GenY,YesMinority
+5061,train,4697728593752918982,man,,other,white,23.0,GenZ,NoMinority
+5130,train,7946560778645705171,man,,libert,white,53.0,GenX,NoMinority
+5272,train,-4362706623577326474,woman,,mod-liberal,white,46.0,GenX,YesMinority
+6216,train,-2116932465855176706,man,"Native American, bisexual",liberal,native,46.0,GenX,YesMinority
+6375,train,1781840716988750702,man,,liberal,white,29.0,GenY,NoMinority
+7150,train,802357183710712329,woman,"woman, bisexual",liberal,other,52.0,GenX,YesMinority
+7777,train,7078565686352027872,woman,gender,liberal,white,30.0,GenY,YesMinority
+9097,train,4587989698772014511,man,,liberal,white,37.0,GenY,NoMinority
+9269,train,-450836770736143243,woman,none,mod-liberal,white,56.0,Boomer,YesMinority
+9354,train,1721931711342191927,woman,,liberal,white,34.0,GenY,YesMinority
+10315,train,-6806223206028346267,woman,,mod-liberal,white,57.0,Boomer,YesMinority
+10543,train,-2089320934817326825,man,,libert,white,30.0,GenY,NoMinority
+10552,train,7415036800210640903,man,,mod-liberal,white,37.0,GenY,NoMinority
+10581,train,8390651940705791863,man,american,liberal,white,36.0,GenY,NoMinority
+12967,train,4558099272172767335,woman,"female, part black",liberal,other,30.0,GenY,YesMinority
+12996,train,-8533176676673559430,man,,na,white,49.0,GenX,NoMinority
+13011,train,4808256095316961949,man,,liberal,white,30.0,GenY,NoMinority
+13437,train,6850748243603538565,woman,,liberal,white,39.0,GenY,YesMinority
+18145,train,7787748718828705809,woman,,liberal,white,36.0,GenY,YesMinority
+18200,train,995503448845532400,man,,liberal,white,35.0,GenY,NoMinority
+20725,train,1303165327163975890,woman,,other,white,35.0,GenY,YesMinority
+20730,train,-366799570504194700,man,,mod-liberal,white,37.0,GenY,NoMinority
+22459,train,1419925216678465335,woman,,liberal,white,29.0,GenY,YesMinority
+25883,train,-7697679384042174398,man,,liberal,white,28.0,GenY,NoMinority
+25969,train,-7214361523799359328,woman,none,mod-liberal,white,48.0,GenX,YesMinority
+26108,train,7662185345024102485,woman,,mod-liberal,white,36.0,GenY,YesMinority
+26262,train,1993680211374950203,woman,,mod-liberal,white,47.0,GenX,YesMinority
+26623,train,3926884831122847491,man,,mod-liberal,white,35.0,GenY,NoMinority
+28187,train,3489865248226106191,man,,mod-liberal,asian,33.0,GenY,YesMinority
+28702,train,-6832201870259787760,woman,"jewish, veteran",mod-liberal,white,31.0,GenY,YesMinority
+30361,train,-6088387133832600548,man,,mod-cons,white,65.0,Boomer,NoMinority
+32232,train,-2456924882387792676,man,no,other,white,46.0,GenX,NoMinority
+37145,train,4353089101445495060,woman,,liberal,white,27.0,GenY,YesMinority
+43022,train,-596770163283181346,woman,,liberal,white,25.0,GenY,YesMinority
+51010,train,6777479259311868740,woman,"Asian, female",mod-liberal,asian,38.0,GenY,YesMinority
+51096,train,7449758950431406038,woman,,liberal,white,66.0,Boomer,YesMinority
+53397,train,3606751089659870616,woman,none,cons,white,37.0,GenY,YesMinority
+56271,train,-346604421764059966,man,,liberal,white,25.0,GenY,NoMinority
+71326,train,-7935411144904639017,man,,liberal,white,49.0,GenX,NoMinority
+71330,train,4514737810343419652,man,no,liberal,white,59.0,Boomer,NoMinority
+71335,train,6907532596943371729,man,poor liberal,liberal,white,32.0,GenY,NoMinority
+71338,train,976328585242872367,na,no,na,na,100.0,Unknown,YesMinority
+71340,train,-9147217452378128741,man,,liberal,white,34.0,GenY,NoMinority
+71343,train,3763064409772641979,man,,mod-cons,white,51.0,GenX,NoMinority
+71360,train,318303359243717266,woman,,mod-liberal,white,29.0,GenY,YesMinority
+71373,train,-1777722222970876535,woman,I don't identify with anyone,liberal,na,35.0,GenY,YesMinority
+71376,train,-8007013469429389201,woman,,cons,other,37.0,GenY,YesMinority
+71383,train,4338181281808388962,man,No,other,white,28.0,GenY,NoMinority
+71386,train,-4082762580197357764,man,,liberal,white,33.0,GenY,NoMinority
+71409,train,-5667696435616685086,man,,liberal,white,47.0,GenX,NoMinority
+71411,train,-4588315991558575787,man,,other,hisp,20.0,GenZ,YesMinority
+71423,train,-2628547618817820814,man,,cons,white,30.0,GenY,NoMinority
+71443,train,2380856750481742699,woman,,liberal,white,30.0,GenY,YesMinority
+71447,train,1132130677431178544,man,,liberal,white,33.0,GenY,NoMinority
+71455,train,-2922511662392025125,man,,mod-liberal,white,46.0,GenX,NoMinority
+71459,train,3541018993852359379,man,none,mod-liberal,white,26.0,GenY,NoMinority
+71470,train,6650881713667040747,woman,immigrant,liberal,hisp,33.0,GenY,YesMinority
+71472,train,5402161598565671121,man,,mod-cons,white,42.0,GenX,NoMinority
+71508,train,6184201384638388163,man,,mod-cons,white,28.0,GenY,NoMinority
+71511,train,-5318958897055533631,man,,mod-cons,white,48.0,GenX,NoMinority
+71526,train,-2150626220301863876,man,gay,liberal,white,28.0,GenY,NoMinority
+71572,train,4867961470741987692,man,,liberal,white,32.0,GenY,NoMinority
+71582,train,-4566504284150331953,man,,mod-liberal,white,40.0,GenX,NoMinority
+71604,train,1709767154375169652,man,,liberal,white,25.0,GenY,NoMinority
+71619,train,-2620415963409387230,woman,"women, SES",liberal,white,26.0,GenY,YesMinority
+71678,train,6893666880876130831,man,racial,mod-liberal,asian,34.0,GenY,YesMinority
+71748,train,9197611500047011851,man,,mod-liberal,white,34.0,GenY,NoMinority
+71761,train,2927664123049618507,man,,cons,white,22.0,GenZ,NoMinority
+71778,train,1734594915848752451,man,,liberal,white,33.0,GenY,NoMinority
+71811,train,-5292647603161753098,man,,liberal,white,37.0,GenY,NoMinority
+71840,train,3009224380518796197,man,,liberal,white,29.0,GenY,NoMinority
+72010,train,6349982533671012086,woman,,na,white,42.0,GenX,YesMinority
+72176,train,-8134979802649521709,man,,liberal,white,38.0,GenY,NoMinority
+72341,train,5801547757330045962,man,,mod-liberal,white,23.0,GenZ,NoMinority
+72409,train,-6107682800337141067,man,,liberal,white,28.0,GenY,NoMinority
+72545,train,-7952282996031894546,woman,,mod-cons,white,31.0,GenY,YesMinority
+72554,train,494614169247793472,woman,no I do not,liberal,white,41.0,GenX,YesMinority
+72555,train,-159535536828490838,man,,other,white,25.0,GenY,NoMinority
+72589,train,4003820851705942641,woman,no I don't,na,white,49.0,GenX,YesMinority
+72605,train,6951704960787448711,man,none,liberal,white,58.0,Boomer,NoMinority
+72666,train,-9041581465162765065,woman,,liberal,white,34.0,GenY,YesMinority
+72930,train,3915765540939080211,woman,,liberal,white,40.0,GenX,YesMinority
+72942,train,5076316936821688665,man,,other,white,31.0,GenY,NoMinority
+73021,train,-2152266399756627331,woman,,mod-liberal,white,57.0,Boomer,YesMinority
+73105,train,3868845317391982155,woman,,liberal,hisp,27.0,GenY,YesMinority
+73206,train,1299309880375955903,woman,"Female, mentally ill, poverty",liberal,white,27.0,GenY,YesMinority
+73236,train,3017625147309933842,woman,"women, disabled",mod-cons,white,56.0,Boomer,YesMinority
+73571,train,-534884097443594236,transman,"trans, black, jewish, poor, disabled",other,black,34.0,GenY,YesMinority
+73572,train,7306868799263648492,woman,,liberal,white,29.0,GenY,YesMinority
+73585,train,-7619023086633556011,woman,"woman, asian",liberal,other,29.0,GenY,YesMinority
+73595,train,2336585818171253692,man,,mod-cons,white,30.0,GenY,NoMinority
+73613,train,4413319372122017436,woman,,liberal,white,51.0,GenX,YesMinority
+73618,train,2879076067479746330,woman,,liberal,white,64.0,Boomer,YesMinority
+73667,train,2703526354699600887,woman,gender identity,liberal,white,21.0,GenZ,YesMinority
+73686,train,5143825549893949345,man,,na,white,100.0,Unknown,NoMinority
+73713,train,-2304089470049226997,woman,,liberal,white,40.0,GenX,YesMinority
+73721,train,3649093982018872,woman,women,liberal,white,60.0,Boomer,YesMinority
+73726,train,-6116609289382672843,woman,,cons,white,34.0,GenY,YesMinority
+73728,train,-6685893136924827725,man,,liberal,white,32.0,GenY,NoMinority
+73747,train,-7234215183599233825,na,,na,na,100.0,Unknown,YesMinority
+73749,train,8202769572127375364,woman,,liberal,white,28.0,GenY,YesMinority
+73758,train,6041104216362272240,man,,liberal,white,26.0,GenY,NoMinority
+73777,train,5050508240412312865,man,,liberal,white,24.0,GenY,NoMinority
+73788,train,3762293416202425307,man,,liberal,white,29.0,GenY,NoMinority
+73792,train,-8861856845515263843,woman,,mod-liberal,white,43.0,GenX,YesMinority
+73795,train,6815615366109218150,man,,mod-cons,white,57.0,Boomer,NoMinority
+73825,train,-2345731796790099913,woman,,other,white,32.0,GenY,YesMinority
+73990,train,3143252583521797318,woman,,cons,white,35.0,GenY,YesMinority
+73996,train,6312351384020301426,woman,,liberal,white,40.0,GenX,YesMinority
+74028,train,1702540103853007900,man,,mod-cons,white,38.0,GenY,NoMinority
+74033,train,1987424795466947085,woman,,mod-liberal,white,49.0,GenX,YesMinority
+74045,train,3767706252219042504,man,,mod-liberal,white,45.0,GenX,NoMinority
+74059,train,-2027081134341282812,man,,mod-liberal,white,38.0,GenY,NoMinority
+74082,train,-509773807264999124,woman,"Woman, Bisexual",liberal,white,25.0,GenY,YesMinority
+74227,train,-8812974739595303366,woman,parent/caretaker of disabled adult child; senior citizen,liberal,white,70.0,Boomer,YesMinority
+74251,train,4916309815335043909,woman,,cons,native,42.0,GenX,YesMinority
+74257,train,-3449779230725492793,man,,other,white,38.0,GenY,NoMinority
+74271,train,854841812999809816,woman,Woman,liberal,white,49.0,GenX,YesMinority
+74335,train,-1524485271811582808,woman,,mod-cons,white,23.0,GenZ,YesMinority
+74341,train,-5908813688334868815,woman,,mod-cons,white,28.0,GenY,YesMinority
+74440,train,409397507657107034,woman,latinx,liberal,other,29.0,GenY,YesMinority
+74441,train,-6091736646524726837,woman,bisexual,liberal,white,39.0,GenY,YesMinority
+74474,train,-24314400960734595,woman,,mod-liberal,white,36.0,GenY,YesMinority
+74813,train,-4178921991616656092,man,No.,mod-liberal,white,36.0,GenY,NoMinority
+75018,train,-7501611213391175140,woman,,cons,white,51.0,GenX,YesMinority
+75033,train,-355451947900769848,woman,,cons,white,27.0,GenY,YesMinority
+75350,train,-5951878301847391732,man,Debilitating anxiety disorder,liberal,white,34.0,GenY,NoMinority
+75708,train,-4733676337378263392,woman,none,liberal,white,46.0,GenX,YesMinority
+76194,train,-2190942281966320865,woman,,other,white,36.0,GenY,YesMinority
+76343,train,3019178572213575274,woman,,libert,white,19.0,GenZ,YesMinority
+76785,train,7582016597608926294,woman,,mod-liberal,white,26.0,GenY,YesMinority
+77111,train,-2655440725860180323,woman,woman,mod-cons,white,39.0,GenY,YesMinority
+77319,train,-4039664100526761461,woman,none,cons,white,41.0,GenX,YesMinority
+77322,train,-5109868785538311197,man,,liberal,white,100.0,Unknown,NoMinority
+77326,train,1084757519480895950,man,,liberal,white,38.0,GenY,NoMinority
+77633,train,-1310646036860668451,man,,liberal,white,38.0,GenY,NoMinority
+77635,train,6857724353182626531,man,veteran,mod-cons,white,34.0,GenY,NoMinority
+77637,train,-5734617607504519796,woman,,mod-cons,black,27.0,GenY,YesMinority
+77655,train,-716875288809883623,woman,,liberal,white,36.0,GenY,YesMinority
+77662,train,-6736688876649182098,woman,Asian,other,asian,51.0,GenX,YesMinority
+77681,train,7552399243251602130,man,jewish,liberal,white,33.0,GenY,NoMinority
+77689,train,-7387611220952382965,woman,,mod-cons,hisp,35.0,GenY,YesMinority
+77690,train,-8118634557125175586,man,demographic,mod-cons,white,26.0,GenY,NoMinority
+77721,train,2029862906644414291,man,,libert,white,34.0,GenY,NoMinority
+77732,train,7573239924133173304,man,,mod-liberal,white,30.0,GenY,NoMinority
+77750,train,-7438690095980128013,woman,Women,other,white,24.0,GenY,YesMinority
+77754,train,-5842395305593786914,woman,no i do not identidy,liberal,white,45.0,GenX,YesMinority
+77756,train,4748642673809691378,woman,,liberal,white,33.0,GenY,YesMinority
+77764,train,-7881659540718953426,man,,liberal,white,30.0,GenY,NoMinority
+77766,train,-2255870870481943810,man,,liberal,white,22.0,GenZ,NoMinority
+77768,train,-1165689991116277193,man,,other,white,48.0,GenX,NoMinority
+77772,train,-4225072230323525997,woman,,mod-liberal,white,30.0,GenY,YesMinority
+77774,train,-7217201980388115616,na,,na,na,100.0,Unknown,YesMinority
+77782,train,-5138888676143590941,woman,,other,hisp,51.0,GenX,YesMinority
+77786,train,8640581553563334415,man,,mod-cons,white,25.0,GenY,NoMinority
+77804,train,-3439732896838598644,woman,"gender (woman), sexuality (bisexual)",liberal,black,30.0,GenY,YesMinority
+77837,train,-3735884176452387481,woman,Bisexual,mod-liberal,white,27.0,GenY,YesMinority
+77839,train,1805330297953367661,woman,,cons,white,41.0,GenX,YesMinority
+77902,train,8812650282653725280,woman,,na,white,37.0,GenY,YesMinority
+77935,train,6868414929574857809,man,,liberal,white,34.0,GenY,NoMinority
+77951,train,-4679415264854274459,woman,,liberal,white,33.0,GenY,YesMinority
+77964,train,7692765635570655118,man,,na,na,46.0,GenX,YesMinority
+78003,train,-5578038846863900111,man,Black,na,black,39.0,GenY,YesMinority
+78016,train,-7465519148150247742,woman,,cons,white,30.0,GenY,YesMinority
+78063,train,7659738348008004169,nonBinary,,liberal,white,38.0,GenY,YesMinority
+78065,train,-5321674222866429411,woman,women,libert,white,46.0,GenX,YesMinority
+78071,train,5999612682153459798,woman,,mod-cons,white,71.0,Boomer,YesMinority
+78104,train,-2488333666741092674,woman,,mod-liberal,hisp,23.0,GenZ,YesMinority
+78111,train,-4766953831790380488,woman,,other,white,55.0,GenX,YesMinority
+78118,train,-4389899797072178006,na,,na,na,100.0,Unknown,YesMinority
+78119,train,8691119989129338148,woman,i identify as a humanist and believe everyone should have equal rights,liberal,white,68.0,Boomer,YesMinority
+78133,train,-4684713114723998155,woman,,mod-cons,white,52.0,GenX,YesMinority
+78141,train,4879047445214414749,woman,,liberal,white,42.0,GenX,YesMinority
+78144,train,-89770990850534182,na,,mod-liberal,white,20.0,GenZ,YesMinority
+78146,train,-1905538272985652632,woman,"female,bisexual",other,white,29.0,GenY,YesMinority
+78155,train,-5066356432351785125,woman,LGBT,liberal,white,34.0,GenY,YesMinority
+78184,train,1099868407012775595,woman,,mod-liberal,white,42.0,GenX,YesMinority
+78201,train,9182394816199825585,woman,,liberal,white,27.0,GenY,YesMinority
+78202,train,1255166511022862851,man,disabled,liberal,white,61.0,Boomer,NoMinority
+78224,train,-1562884231959442698,woman,race and gender,liberal,other,56.0,Boomer,YesMinority
+78340,train,3090767092344031273,woman,none,other,white,37.0,GenY,YesMinority
+83421,train,-6824717916856203450,woman,,libert,white,39.0,GenY,YesMinority
+10790,dev,-2163002765605643050,woman,,cons,white,38.0,GenY,YesMinority
+10902,dev,1956442348998506367,woman,,other,white,28.0,GenY,YesMinority
+11060,dev,-3459181971300521393,man,,mod-liberal,black,36.0,GenY,YesMinority
+11163,dev,-7435417554092625360,man,,mod-cons,white,37.0,GenY,NoMinority
+11440,dev,8435913235633420457,man,Asian,mod-cons,asian,65.0,Boomer,YesMinority
+11750,dev,6315255080711914942,man,,cons,white,54.0,GenX,NoMinority
+11769,dev,-4601114246654508015,woman,Asian,other,asian,37.0,GenY,YesMinority
+11824,dev,7825501402930607406,woman,,mod-liberal,white,33.0,GenY,YesMinority
+11842,dev,530493570384251986,woman,Black/African American,liberal,black,53.0,GenX,YesMinority
+11856,dev,4246335756275154489,woman,"female, mixed race",other,other,35.0,GenY,YesMinority
+11860,dev,-4245256846909861829,woman,,liberal,white,27.0,GenY,YesMinority
+11864,dev,-4233961676663211791,woman,Women,mod-liberal,white,30.0,GenY,YesMinority
+11876,dev,2815847016835367805,woman,,liberal,white,34.0,GenY,YesMinority
+11898,dev,6291943954636793563,woman,bisexual,liberal,other,51.0,GenX,YesMinority
+11929,dev,-5366744906889641343,woman,,cons,white,52.0,GenX,YesMinority
+11948,dev,-3222606710507645256,transman,"Gender identity, disabled",liberal,white,36.0,GenY,YesMinority
+11952,dev,243383504243061875,man,no i don't,liberal,white,48.0,GenX,NoMinority
+11965,dev,8139073541273200136,woman,african american,mod-liberal,black,51.0,GenX,YesMinority
+11972,dev,1842952786819833287,woman,,cons,white,48.0,GenX,YesMinority
+11982,dev,6954028308826747840,woman,,liberal,white,41.0,GenX,YesMinority
+12000,dev,-6795162307239389615,man,,cons,white,36.0,GenY,NoMinority
+12002,dev,5278612994238586940,woman,,cons,white,28.0,GenY,YesMinority
+12010,dev,6857564787621928550,man,,mod-liberal,white,49.0,GenX,NoMinority
+11688,test,9206328272440847405,man,none,cons,white,36.0,GenY,NoMinority
+11939,test,2327767131383405876,man,black,mod-liberal,black,33.0,GenY,YesMinority
+11968,test,-8249187944280260153,man,White,liberal,white,35.0,GenY,NoMinority
+12025,test,3403173103359039420,woman,"women, lower class",mod-liberal,white,39.0,GenY,YesMinority
+12431,test,2011033542242691543,woman,,liberal,white,25.0,GenY,YesMinority
+12441,test,4031915788391915883,woman,,mod-liberal,white,36.0,GenY,YesMinority
+12447,test,5989402132766487260,woman,,mod-cons,white,39.0,GenY,YesMinority
+12460,test,7077218499938257316,nonBinary,"Black, non-binary, disabled, Muslim, working-class",liberal,black,33.0,GenY,YesMinority
+12462,test,37268579025533780,woman,,liberal,white,23.0,GenZ,YesMinority
+12494,test,-9025462013607560094,woman,,mod-cons,white,30.0,GenY,YesMinority
+12512,test,4581576459652811257,woman,,liberal,hisp,33.0,GenY,YesMinority
+12517,test,-7903702584350502682,man,,liberal,white,22.0,GenZ,NoMinority
+12534,test,8341506518329047244,man,No I do not,liberal,white,36.0,GenY,NoMinority
+12565,test,467206711319904900,man,,liberal,asian,37.0,GenY,YesMinority
+12568,test,1273846443237044931,man,,liberal,white,25.0,GenY,NoMinority
+12582,test,-9009092953903040528,woman,women,mod-liberal,white,25.0,GenY,YesMinority
+12639,test,-6006589323792788442,man,"immigrants, and veterans",mod-liberal,white,29.0,GenY,NoMinority
+12653,test,9066386007166689024,woman,,liberal,white,34.0,GenY,YesMinority
+12663,test,-4960607763680882489,woman,,liberal,white,52.0,GenX,YesMinority
+12673,test,-6979374753606241848,woman,,other,white,40.0,GenX,YesMinority
+12723,test,-1874066282224317493,man,,cons,white,46.0,GenX,NoMinority
