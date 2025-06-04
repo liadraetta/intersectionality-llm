@@ -34,7 +34,10 @@ df_test = df_test[df_test["IntersectionMinority"] != "NoMinority"]
 
 
 # Dataset information and statistics
+print("Filtered dataset shape: ", df_test.shape)
 print_info(df_test)
+
+df_test.to_csv("./output/FilteredTestSet.csv", index=False)
 
 
 
