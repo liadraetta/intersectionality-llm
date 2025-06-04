@@ -31,10 +31,13 @@ df_test = df_test.merge(df_demographics[["WorkerId", "annotatorGeneration", "Int
 # Remove unwanted annotators 
 df_test = df_test[df_test["annotatorGeneration"] != "Unknown"] 
 df_test = df_test[df_test["IntersectionMinority"] != "NoMinority"] 
-
+df_test = df_test[['whoTarget','intentYN', 'sexYN', 'offensiveYN',
+       'annotatorGender', 'speakerMinorityYN', 'WorkerId', 'HITId',
+       'annotatorRace', 'post', 'targetMinority','dataSource',
+       'annotatorGeneration']]
 
 # Dataset information and statistics
-print("Filtered dataset shape: ", df_test.shape)
+print("\n","Filtered dataset shape: ", df_test.shape)
 print_info(df_test)
 
 df_test.to_csv("./output/FilteredTestSet.csv", index=False)
