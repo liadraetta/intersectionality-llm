@@ -5,7 +5,8 @@ FILTRARE DATASET:
 
 BASELINE
 - Senza specificare dati demografici annotare [intentYN] e offensiveYN (modelli quelli che sono nel file).
-
+LIA: llama deepseek
+Marem: Mistral, Qwen
 ESPERIMENTI
 - Fare annotazione con i tre modelli per ogni post secondo le intersezioni
 subset length:  1
@@ -39,8 +40,6 @@ conclusion
 DEADLINE: 25 Luglio
 Up to 8 pages (excluding references)
 Aug 22 (Fri), 2025
-
-
 
 
 ==============================================
