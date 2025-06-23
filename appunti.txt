@@ -1,7 +1,13 @@
 T0 DO:
 
-FILTRARE DATASET:
-- rimuovere tutti i post annotati solo da persone che non fanno parte di una minoranza (white, men)
+
+[X] rimuovere tutti i post annotati solo da persone che non fanno parte di una minoranza (white, men)
+[X] combinare i dati demografici
+[X] preparare i prompt (vanilla and chain-of-thought)
+[] provare tutto ed estrarre risultati 
+
+==============================================
+IMPOSTAZIONE ESPERIMENTO: 
 
 BASELINE
 - Senza specificare dati demografici annotare [intentYN] e offensiveYN (modelli quelli che sono nel file).
