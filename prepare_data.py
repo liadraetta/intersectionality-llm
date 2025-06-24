@@ -20,7 +20,7 @@ df_demographics = df_demographics.drop_duplicates(subset="WorkerId")
 df_demographics["annotatorGeneration"] = df_demographics.apply(age_range, axis=1)
 df_demographics["IntersectionMinority"] = df_demographics.apply(white_male, axis=1)
 
-df_demographics.to_csv("./output/SBICdemographics.csv")
+df_demographics.to_csv("./dataset/SBICdemographics.csv")
 
 
 """We will work on the test set only"""
@@ -40,7 +40,7 @@ df_test = df_test[['whoTarget','intentYN', 'sexYN', 'offensiveYN',
 print("\n","Filtered dataset shape: ", df_test.shape)
 print_info(df_test)
 
-df_test.to_csv("./output/FilteredTestSet.csv", index=False)
+df_test.to_csv("./dataset/FilteredTestSet.csv", index=False)
 
 
 
