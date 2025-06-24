@@ -3,8 +3,13 @@ import csv
 import transformers
 import torch
 from tqdm import tqdm
+from pathlib import Path
 from utils.prompts import Prompts
 from utils.clean_output import *
+
+Path("predictions/original").mkdir(parents=True, exist_ok=True)
+Path("predictions/cleaned").mkdir(parents=True, exist_ok=True)
+Path("processed_dataset").mkdir(exist_ok=True)
 
 prompts = Prompts()
 
@@ -35,7 +40,7 @@ df_subset = pd.read_csv("subset_50_marem.csv")
 #  process subset
 df = df_subset.copy()
 demographic_traits=None
-CoT=False
+CoT=True
 
 df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=demographic_traits, CoT=CoT), axis=1)
 
@@ -54,9 +59,10 @@ prediction_filename = f'predictions_{model_name}_{cot_str}_{demogr_str}.csv'
 # create the file 
 print(f"Creating file: {prediction_filename}")
 
-file = open(f"./predictions/{prediction_filename}", mode='w')
+file = open(f"./predictions/original/{prediction_filename}", mode='w')
 writer = csv.DictWriter(file,fieldnames=["offensiveYN","HITId", "WorkerId","output"])
 writer.writeheader()
+
 
 # classify
 transformers.set_seed(42)
@@ -65,6 +71,7 @@ pipeline = transformers.pipeline(
     model=model_id,
     device_map="auto",
     model_kwargs={"torch_dtype": torch.bfloat16},
+    token = "my_token"
 )
 
 # Print device information
@@ -80,17 +87,17 @@ else:
 for _,item in tqdm(df.iterrows(),total=len(df)):
   output = pipeline(
     item.prompt,
-    max_new_tokens=50,
+    max_new_tokens=40,
   )
 
   writer.writerow({'offensiveYN':item.offensiveYN,'HITId':item.HITId, 'WorkerId': item.WorkerId, 'output':output})
 
 
 # clean the output
-df_pred = pd.read_csv(f"./predictions/{prediction_filename}")
+df_pred = pd.read_csv(f"./predictions/original/{prediction_filename}")
 df_pred['parsed_output'] = df_pred['output'].apply(parse_output)
 df_pred['prediction'] = df_pred['parsed_output'].apply(extract_prediction)
 
 
 # save the final file 
-df_pred.to_csv(f"./predictions/{prediction_filename}", index=False)
+df_pred.to_csv(f"./predictions/cleaned/{prediction_filename}", index=False)
