@@ -1,6 +1,6 @@
 from utils.evaluator import generate_classification_reports
 
-predictions_dir="./predictions/"
+predictions_dir="./predictions/cleaned/"
 results_dir="./results/"
 pattern="predictions_*_*_*.csv"
 

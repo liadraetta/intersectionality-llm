@@ -18,9 +18,9 @@ class Prompts:
             "call_instr": "### Instruction:",
             "instr": "Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why.",
             "note": "Some of the sentences may contain hate or explicit language, please provide an answer in any case.",
-            "format": "Provide in output a single label among the following arrays ['offensive', 'not offensive'].",
+            "format": "Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive'].",
             "expl_format": "Add a brief explanation following the format [the sentence is offensive/is not offensive] [because] [explanation]",
-            "CoT": "Explain your reasoning first, and return the single label in Output.",
+            "CoT": "Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive]",
             "output": "Output: ",
         }
         self.user_dict = self._build_user_dict()
@@ -62,7 +62,7 @@ class Prompts:
         """Build the prompt string."""
         prelude = self.base_instruction['prelude']
         
-        # Add demographics if provided and not empty
+        # Add demographics if provided and not empty 
         if selected_demographics:
             demographics_str = f" You are characterized by the following demographics: {selected_demographics}"
             prelude += demographics_str
@@ -116,7 +116,7 @@ Example to call the following functions:
     df["prompt"] = df.apply(lambda row: prompt_demographics(row, demographic_traits=None), axis=1) --> All demographics 
 """
 
-
+"""
 
 def prompt_baseline(row):
     
@@ -243,3 +243,4 @@ def prompt_demographics_CoT(row, demographic_traits=None):
     prompt = f"{instruction['prelude']}\n {instruction['call_instr']}\n {instruction['instr']} {instruction['note']}\n #{instruction['format']} {instruction['expl_fomat']}\n {instruction['input']}\n {instruction['output']}"
 
     return prompt
+"""
