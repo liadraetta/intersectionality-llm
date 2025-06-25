@@ -7,9 +7,13 @@ from pathlib import Path
 from utils.prompts import Prompts
 from utils.clean_output import *
 
-Path("predictions/original").mkdir(parents=True, exist_ok=True)
-Path("predictions/cleaned").mkdir(parents=True, exist_ok=True)
-Path("processed_dataset").mkdir(exist_ok=True)
+Path("/home/marem/VScProjects/intersectionality-llm/predictions/original").mkdir(parents=True, exist_ok=True)
+Path("/home/marem/VScProjects/intersectionality-llm/predictions/cleaned").mkdir(parents=True, exist_ok=True)
+Path("/home/marem/VScProjects/intersectionality-llm/processed_dataset").mkdir(exist_ok=True)
+
+dir_predictions_original = "/home/marem/VScProjects/intersectionality-llm/predictions/original"
+dir_predictions_cleaned = "/home/marem/VScProjects/intersectionality-llm/predictions/cleaned"
+dir_processed_dataset = "/home/marem/VScProjects/intersectionality-llm/processed_dataset"
 
 prompts = Prompts()
 
@@ -34,13 +38,13 @@ df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=[
 
 
 # obtain subset
-df_subset = pd.read_csv("subset_50_marem.csv")
+df_subset = pd.read_csv("/home/marem/VScProjects/intersectionality-llm/dataset/subset_50_marem.csv")
 
 
 #  process subset
 df = df_subset.copy()
 demographic_traits=None
-CoT=True
+CoT=False
 
 df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=demographic_traits, CoT=CoT), axis=1)
 
@@ -52,14 +56,14 @@ model_name = model_id.split("/")[1].split("-")[0]
 demogr_str = "_".join(demographic_traits) if demographic_traits else "baseline"
 cot_str = "CoT" if CoT else "noCoT"
 
-df.to_csv(f'processed_dataset/processed_subset_{model_name}_{cot_str}_{demogr_str}.csv',index=False)
+df.to_csv(f'{dir_processed_dataset}/processed_subset_{model_name}_{cot_str}_{demogr_str}.csv',index=False)
 prediction_filename = f'predictions_{model_name}_{cot_str}_{demogr_str}.csv'
 
 
 # create the file 
 print(f"Creating file: {prediction_filename}")
 
-file = open(f"./predictions/original/{prediction_filename}", mode='w')
+file = open(f"{dir_predictions_original}/{prediction_filename}", mode='w')
 writer = csv.DictWriter(file,fieldnames=["offensiveYN","HITId", "WorkerId","output"])
 writer.writeheader()
 
@@ -94,10 +98,10 @@ for _,item in tqdm(df.iterrows(),total=len(df)):
 
 
 # clean the output
-df_pred = pd.read_csv(f"./predictions/original/{prediction_filename}")
+df_pred = pd.read_csv(f"{dir_predictions_original}/{prediction_filename}")
 df_pred['parsed_output'] = df_pred['output'].apply(parse_output)
 df_pred['prediction'] = df_pred['parsed_output'].apply(extract_prediction)
 
 
 # save the final file 
-df_pred.to_csv(f"./predictions/cleaned/{prediction_filename}", index=False)
+df_pred.to_csv(f"{dir_predictions_cleaned}/{prediction_filename}", index=False)

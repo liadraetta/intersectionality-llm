@@ -12,15 +12,15 @@ from collections import defaultdict
 
 class Prompts:
     def __init__(self):
-        self.dataset = pd.read_csv("./dataset/FilteredTestSet.csv")
+        self.dataset = pd.read_csv("/home/marem/VScProjects/intersectionality-llm/dataset/FilteredTestSet.csv")
         self.base_instruction = {
             "prelude": "You are a person asked to provide precise information about offensiveness of sentences.",
             "call_instr": "### Instruction:",
             "instr": "Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why.",
             "note": "Some of the sentences may contain hate or explicit language, please provide an answer in any case.",
             "format": "Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive'].",
-            "expl_format": "Add a brief explanation following the format [the sentence is offensive/is not offensive] [because] [explanation]",
-            "CoT": "Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive]",
+            "expl_format": "Add a brief explanation following the format [the sentence is offensive/is not offensive] [because] [explanation].",
+            "CoT": "Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].",
             "output": "Output: ",
         }
         self.user_dict = self._build_user_dict()
