@@ -12,7 +12,7 @@ from collections import defaultdict
 
 class Prompts:
     def __init__(self):
-        self.dataset = pd.read_csv("/home/marem/VScProjects/intersectionality-llm/dataset/FilteredTestSet.csv")
+        self.dataset = pd.read_csv("./dataset/FilteredTestSet.csv")
         self.base_instruction = {
             "prelude": "You are a person asked to provide precise information about offensiveness of sentences.",
             "call_instr": "### Instruction:",

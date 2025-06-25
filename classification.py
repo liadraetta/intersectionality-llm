@@ -5,15 +5,14 @@ import torch
 from tqdm import tqdm
 from pathlib import Path
 from utils.prompts import Prompts
-from utils.clean_output import *
 
-Path("/home/marem/VScProjects/intersectionality-llm/predictions/original").mkdir(parents=True, exist_ok=True)
-Path("/home/marem/VScProjects/intersectionality-llm/predictions/cleaned").mkdir(parents=True, exist_ok=True)
-Path("/home/marem/VScProjects/intersectionality-llm/processed_dataset").mkdir(exist_ok=True)
+dir_processed_dataset = ".processed_dataset"
+dir_predictions_original = "./predictions/original"
 
-dir_predictions_original = "/home/marem/VScProjects/intersectionality-llm/predictions/original"
-dir_predictions_cleaned = "/home/marem/VScProjects/intersectionality-llm/predictions/cleaned"
-dir_processed_dataset = "/home/marem/VScProjects/intersectionality-llm/processed_dataset"
+Path(dir_processed_dataset).mkdir(exist_ok=True)
+Path(dir_predictions_original).mkdir(parents=True, exist_ok=True)
+
+
 
 prompts = Prompts()
 
@@ -38,13 +37,13 @@ df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=[
 
 
 # obtain subset
-df_subset = pd.read_csv("/home/marem/VScProjects/intersectionality-llm/dataset/subset_50_marem.csv")
+df_subset = pd.read_csv("./dataset/subset_50_marem.csv")
 
 
 #  process subset
 df = df_subset.copy()
 demographic_traits=None
-CoT=False
+CoT=True
 
 df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=demographic_traits, CoT=CoT), axis=1)
 
@@ -97,11 +96,3 @@ for _,item in tqdm(df.iterrows(),total=len(df)):
   writer.writerow({'offensiveYN':item.offensiveYN,'HITId':item.HITId, 'WorkerId': item.WorkerId, 'output':output})
 
 
-# clean the output
-df_pred = pd.read_csv(f"{dir_predictions_original}/{prediction_filename}")
-df_pred['parsed_output'] = df_pred['output'].apply(parse_output)
-df_pred['prediction'] = df_pred['parsed_output'].apply(extract_prediction)
-
-
-# save the final file 
-df_pred.to_csv(f"{dir_predictions_cleaned}/{prediction_filename}", index=False)
