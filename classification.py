@@ -1,6 +1,5 @@
 import pandas as pd 
 import csv
-import re
 import transformers
 import torch
 from tqdm import tqdm
@@ -9,7 +8,7 @@ from utils.prompts import Prompts
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from utils.clean_output import extract_demographics
 
-dir_processed_dataset = ".processed_dataset"
+dir_processed_dataset = "./processed_dataset"
 dir_predictions_original = "./predictions/original"
 
 Path(dir_processed_dataset).mkdir(exist_ok=True)
@@ -40,7 +39,7 @@ df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=[
 
 
 # obtain subset
-df_subset = pd.read_csv("./dataset/subset_50_marem.csv")
+df_subset = pd.read_csv("./dataset/subset_100.csv")
 
 
 #  process subset
