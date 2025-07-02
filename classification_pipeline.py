@@ -1,13 +1,10 @@
 import pandas as pd 
 import csv
-import re
 import transformers
 import torch
 from tqdm import tqdm
 from pathlib import Path
 from utils.prompts import Prompts
-from transformers import AutoTokenizer, AutoModelForCausalLM
-from utils.clean_output import extract_demographics
 
 dir_processed_dataset = ".processed_dataset"
 dir_predictions_original = "./predictions/original"
@@ -52,7 +49,7 @@ df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=d
 
 
 # obtain variables for the file name and the processed dataset
-model_id = "meta-llama/Llama-3.1-8B"
+model_id = "mistralai/Ministral-8B-Instruct-2410"
 model_name = model_id.split("/")[1].split("-")[0]
 
 demogr_str = "_".join(demographic_traits) if demographic_traits else "baseline"
@@ -66,51 +63,34 @@ prediction_filename = f'predictions_{model_name}_{cot_str}_{demogr_str}.csv'
 print(f"Creating file: {prediction_filename}")
 
 file = open(f"{dir_predictions_original}/{prediction_filename}", mode='w')
-writer = csv.DictWriter(file,fieldnames=["offensiveYN","HITId", "WorkerId","demographics","output"])
+writer = csv.DictWriter(file,fieldnames=["offensiveYN","HITId", "WorkerId","output"])
 writer.writeheader()
 
 
 # classify
 transformers.set_seed(42)
+pipeline = transformers.pipeline(
+    "text-generation",
+    model=model_id,
+    device_map="auto",
+    model_kwargs={"torch_dtype": torch.bfloat16},
+    token = "my_token"
+)
 
-tokenizer = AutoTokenizer.from_pretrained(model_id, token="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")
-model = AutoModelForCausalLM.from_pretrained(
-  model_id, 
-  token="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",
-  torch_dtype=torch.bfloat16,
-  device_map="auto"
-  )
+# Print device information
+print(f"Available GPUs: {torch.cuda.device_count()}")
+if hasattr(pipeline.model, 'hf_device_map'):
+    print(f"Device map: {pipeline.model.hf_device_map}")
+else:
+    first_param_device = next(pipeline.model.parameters()).device
+    print(f"Model device: {first_param_device}")
+
 
 # extract the output and write it
-device=next(model.parameters()).device
-
 for _,item in tqdm(df.iterrows(),total=len(df)):
-  encoded = tokenizer(item.prompt, return_tensors="pt")
-  input_ids = encoded.input_ids.to(device)
-  attention_mask = encoded.attention_mask.to(device)
+  output = pipeline(
+    item.prompt,
+    max_new_tokens=40,
+  )
 
-  with torch.no_grad():
-    outputs = model.generate(
-      input_ids,
-      attention_mask = attention_mask,
-      do_sample=False,
-      max_new_tokens=30,
-      pad_token_id=tokenizer.eos_token_id
-    )
-
-  # gen_output = tokenizer.batch_decode(outputs, skip_special_tokens=True)[0]
-  input_length = input_ids.shape[1]
-  new_tokens = outputs[0][input_length:]
-  gen_output = tokenizer.decode(new_tokens, skip_special_tokens=True)
-  
-  demographics = extract_demographics(item.prompt)
-
-  writer.writerow({
-    'offensiveYN':item.offensiveYN,
-    'HITId':item.HITId, 
-    'WorkerId': item.WorkerId, 
-    'demographics':demographics, 
-    'output':gen_output
-    })
-
-
+  writer.writerow({'offensiveYN':item.offensiveYN,'HITId':item.HITId, 'WorkerId': item.WorkerId, 'output':output})

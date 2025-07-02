@@ -10,6 +10,7 @@ dir_predictions_cleaned = "./predictions/cleaned"
 
 results_dir="./results/"
 pattern="predictions_*_*_*.csv"
+pattern_cleaned = "cleaned_predictions_*_*_*.csv"
 
 
 for file in glob(os.path.join(dir_predictions_original, pattern)):
@@ -21,4 +22,4 @@ for file in glob(os.path.join(dir_predictions_original, pattern)):
     df.to_csv(f"{dir_predictions_cleaned}/cleaned_{filename}", index=False)
 
 # evaluate
-generate_classification_reports(dir_predictions_cleaned, results_dir, pattern)
+generate_classification_reports(dir_predictions_cleaned, results_dir, pattern_cleaned)

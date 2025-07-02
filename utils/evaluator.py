@@ -43,8 +43,10 @@ def generate_classification_reports(predictions_dir,
                 print(f"Warning: 'prediction' column not found in {filename}")
                 continue
             
-            y_true = df_pred["offensiveYN"].astype(int).tolist()
-            y_pred = df_pred["prediction"].astype(int).tolist()
+            df_pred.loc[(df_pred['offensiveYN'] == 0.5) | (df_pred['offensiveYN'].isna()), 'offensiveYN'] = -1
+            filtered_df_pred = df_pred[df_pred["offensiveYN"]>=0]
+            y_true = filtered_df_pred["offensiveYN"].astype(int).tolist()
+            y_pred = filtered_df_pred["prediction"].astype(int).tolist()
             
 
             if len(y_true) != len(y_pred):
