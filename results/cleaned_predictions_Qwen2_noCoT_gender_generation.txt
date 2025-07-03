@@ -1,0 +1,14 @@
+Classification Report for cleaned_predictions_Qwen2_noCoT_gender_generation
+==================================================
+Total samples: 91
+
+              precision    recall  f1-score   support
+
+          -1      0.000     0.000     0.000         0
+           0      0.842     0.432     0.571        37
+           1      0.725     0.926     0.813        54
+
+    accuracy                          0.725        91
+   macro avg      0.522     0.453     0.461        91
+weighted avg      0.772     0.725     0.715        91
+

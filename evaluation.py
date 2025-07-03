@@ -17,8 +17,7 @@ for file in glob(os.path.join(dir_predictions_original, pattern)):
     print(file)
     filename = file.split("/")[-1]
     df = pd.read_csv(file)
-    df['parsed_output'] = df['output'].apply(parse_output)
-    df['prediction'] = df['parsed_output'].apply(extract_prediction)
+    df['prediction'] = df['output'].apply(extract_prediction)
     df.to_csv(f"{dir_predictions_cleaned}/cleaned_{filename}", index=False)
 
 # evaluate

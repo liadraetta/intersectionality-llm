@@ -1,0 +1,14 @@
+Classification Report for cleaned_predictions_Llama_CoT_baseline
+==================================================
+Total samples: 91
+
+              precision    recall  f1-score   support
+
+          -1      0.000     0.000     0.000         0
+           0      0.333     0.027     0.050        37
+           1      0.596     0.630     0.613        54
+
+    accuracy                          0.385        91
+   macro avg      0.310     0.219     0.221        91
+weighted avg      0.489     0.385     0.384        91
+

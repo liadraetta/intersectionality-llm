@@ -1,0 +1,625 @@
+Unnamed: 0,offensiveYN,HITId,WorkerId,post,prompt
+1803,0.0,3P7RGTLO6E7ORYF06RVZW5G2VCBKA0,-1638570835356793490,"I'm getting extremely frustrated cuz my WWE Network keeps glitching!! Idk if it's the network or shitty service, but it's pissing me off!!!!","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'man', 'race': 'hisp', 'generation': 'GenZ'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: I'm getting extremely frustrated cuz my WWE Network keeps glitching!! Idk if it's the network or shitty service, but it's pissing me off!!!!
+ Output: "
+321,1.0,35JDMRECC43MFP0TW5C6UWE089QGEJ,-6352039173957003457,&#8220;@nhalegood: When hoes feel like their photo didnt get enough favorites http://t.co/ZDf98BpF94&#8221;,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: &#8220;@nhalegood: When hoes feel like their photo didnt get enough favorites http://t.co/ZDf98BpF94&#8221;
+ Output: "
+7316,1.0,35NNO802AVQ45MJ1FSFS5VLPVVVNIB,1993680211374950203,i would never <allcaps> rape a woman children are far too fun to pass up .,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenX'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: i would never <allcaps> rape a woman children are far too fun to pass up .
+ Output: "
+8064,0.0,341H3G5YF08NFGG4EQ1GUES2QRBZ0T,-3559048982681398316,"Bus driver:: Wow, you've been enjoying the sun a lot lately, you're all tanned! Me (mixed ethnicity young woman):: No, that's just my colour. It happens a lot when I meet new people, or even strangers. I get the popular ''where are you from?'' but a lot of comments about going to the tanning salon, coming back from a vacation, laying in the sun, etc. Makes me sad that people give so much importance to skin colour and feel entitled to ask a complete stranger to explain why their skin is the colour it is. Sometimes I wish I was either South Asian or Caucasian, but not both because then I need to do a lot of explaining and people ooooh and aaahhh as if I was talking about dog breeds.","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Bus driver:: Wow, you've been enjoying the sun a lot lately, you're all tanned! Me (mixed ethnicity young woman):: No, that's just my colour. It happens a lot when I meet new people, or even strangers. I get the popular ''where are you from?'' but a lot of comments about going to the tanning salon, coming back from a vacation, laying in the sun, etc. Makes me sad that people give so much importance to skin colour and feel entitled to ask a complete stranger to explain why their skin is the colour it is. Sometimes I wish I was either South Asian or Caucasian, but not both because then I need to do a lot of explaining and people ooooh and aaahhh as if I was talking about dog breeds.
+ Output: "
+10055,0.0,3LAZVA75NILICM5BR4UDX4ED4QKO23,6927542478311092738,Has anybody here with recessed maxillas/mandibles done double jaw (bimax) surgery?,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Has anybody here with recessed maxillas/mandibles done double jaw (bimax) surgery?
+ Output: "
+3459,1.0,3MJ28H2Y1E2ABJOY9NWBVBHPLME5OT,1869048359460155317,Whats the first sign of AIDS? A rhythmic pounding sensation in your ass,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenZ'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Whats the first sign of AIDS? A rhythmic pounding sensation in your ass
+ Output: "
+1760,0.0,3CMV9YRYP3VACX0MLXKD44W0AZ9JLH,1147960939871721323,"""Just when you think the Swans are dead and buried... you here the Takers """"Gong""""! #GameOn #AFLSwansPies""","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'man', 'race': 'asian', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: ""Just when you think the Swans are dead and buried... you here the Takers """"Gong""""! #GameOn #AFLSwansPies""
+ Output: "
+2515,0.0,39WICJI5ATMJW8F1XDJZWCQ9RSR3Z0,6850748243603538565,"Still out here smilin as much as I can wishin people good days and actually meaning it , little shit but it can make a difference.","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Still out here smilin as much as I can wishin people good days and actually meaning it , little shit but it can make a difference.
+ Output: "
+6825,1.0,3J9L0X0VDFG1HFZC3Z02OLZDCYGW91,446815182533233009,"Ugh, I can't. @Stevobrooo Nothing quite as degrading as a man using a feather duster. #GenderRoleShock #NotSexist #JustManly","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Ugh, I can't. @Stevobrooo Nothing quite as degrading as a man using a feather duster. #GenderRoleShock #NotSexist #JustManly
+ Output: "
+35,1.0,37S0QRNUFBAQD9KK04EIA91G9NA88R,-3114316428557054065,bitches dumb,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: bitches dumb
+ Output: "
+761,0.0,3P0I4CQYVY14O23I5OJKLBU2600OWA,-397721847506341609,"if the Grand Prix of Paris is such a prestigious and important tournament then why not actually rank the guy who won it, Jimmy Kennedy","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'black', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: if the Grand Prix of Paris is such a prestigious and important tournament then why not actually rank the guy who won it, Jimmy Kennedy
+ Output: "
+1617,0.0,3CZH926SIC86397914A5L7HXJ5I4EO,-5471608738051449110,"lisa: plays message on machine lisa, halfway through the message: leaves the fucking house","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: lisa: plays message on machine lisa, halfway through the message: leaves the fucking house
+ Output: "
+3405,1.0,3M47JKRKCXV39V1W7PHKQV5P2CL869,7067515179960755087,Whats green and hangs in my back garden? Its MY nigger and I'll paint it whatever colour I want to!,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'black', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Whats green and hangs in my back garden? Its MY nigger and I'll paint it whatever colour I want to!
+ Output: "
+7930,0.5,3NQUW096N62L6LNDZLT0FAIXEMXL98,446815182533233009,Well he was wearing a hoodie... at night... in a gated community.,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Well he was wearing a hoodie... at night... in a gated community.
+ Output: "
+7609,1.0,3R4QIDVOJP6OVB42QAMIUTTOUB9EEX,-7945328595909653965,went to a paris restaurant for snails today . <repeat> pretty disappointed . <repeat> came out with a gut full of slugs .,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: went to a paris restaurant for snails today . <repeat> pretty disappointed . <repeat> came out with a gut full of slugs .
+ Output: "
+3274,0.0,3IYI9285WSUH9T6G8KRE1L6DE9PCJO,-4903257119943710595,"I held a bingo game in Iraq. When I said,""B-52!"". everyone left.","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: I held a bingo game in Iraq. When I said,""B-52!"". everyone left.
+ Output: "
+7778,1.0,3TL87MO8CMJU7VEQ27TSP648HKSFLU,-8112240862397798182,You're pretty for a black girl.,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'man', 'race': 'asian', 'generation': 'GenZ'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: You're pretty for a black girl.
+ Output: "
+4368,1.0,3T8DUCXY0N09PYVI8UVR11SE6RLT93,-7090297418013232722,"Niggers pulling up in new whips these days. Back in my day, we used to hit them with 'em.","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Niggers pulling up in new whips these days. Back in my day, we used to hit them with 'em.
+ Output: "
+7162,1.0,3KI0JD2ZU1CZ9HWDXKPECV9UMG767J,-450836770736143243,what do you call an ethiopian athlete who uses steroids ? lance no - armstrong,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'Boomer'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: what do you call an ethiopian athlete who uses steroids ? lance no - armstrong
+ Output: "
+39,1.0,30U1YOGZGAQKDOVKVAV3DSFIW8EDS2,5330619308534303933,That bitch got 5 million boyfriends,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: That bitch got 5 million boyfriends
+ Output: "
+4706,1.0,3GONHBMNHVSKIUNB3VOESBZFROBZMP,-2238863521358699827,"The slogan on the entrance of Auschwitz was the well-known ""work sets you free"". But what was the slogan at the exit? ""Hot surface. Do not touch.""","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: The slogan on the entrance of Auschwitz was the well-known ""work sets you free"". But what was the slogan at the exit? ""Hot surface. Do not touch.""
+ Output: "
+2592,1.0,3B0MCRZMBROWPTII82I4IHRWMPCPPD,-3114316428557054065,RT @bubblestbh: When bae says somethin that pisses you off but you're trying to not to be crazy anymore https://t.co/iYDsEokR1x,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: RT @bubblestbh: When bae says somethin that pisses you off but you're trying to not to be crazy anymore https://t.co/iYDsEokR1x
+ Output: "
+7894,1.0,3OJX0UFJ0Z1OPBA78ZL16XEGRDQ9UQ,7067515179960755087,"I'm not going to screen you for STDs because you aren't really at risk as a lesbian. But then again, I don't really know how you people have sex.","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'black', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: I'm not going to screen you for STDs because you aren't really at risk as a lesbian. But then again, I don't really know how you people have sex.
+ Output: "
+10101,0.0,3HRWUH63QUWSTYOM88WYGMHKYQ65N6,980292540985390308,"Woman takes advantage of her husband, performs deviant act on him despite him saying he was against it beforehand (practically rape)","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenX'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Woman takes advantage of her husband, performs deviant act on him despite him saying he was against it beforehand (practically rape)
+ Output: "
+7300,1.0,3JMNNNO3B1YQHVEDIQLNEYRZZB1W2Z,-3114316428557054065,why are blacks the most common users of vine ? because it brings them back to when they were swinging on the vines <number> years ago .,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: why are blacks the most common users of vine ? because it brings them back to when they were swinging on the vines <number> years ago .
+ Output: "
+7458,1.0,35F6NGNVM8D5BF7PTXX7N5186X6T7N,-4671295340405687436,i date women like i like my eggs in the morning . <repeat> whites only,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: i date women like i like my eggs in the morning . <repeat> whites only
+ Output: "
+10206,0.0,3GVPRXWRPHOF21REZLY39YZZ3X97I9,-4972502847858722232,Do they ever get tired of finding excuses to link here?,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Do they ever get tired of finding excuses to link here?
+ Output: "
+9972,0.0,36JW4WBR06ESLZV0BMEUXEB118AHFR,-5471608738051449110,"I think I'm gonna cry again
+Another NYE alone
+
+I hate my life so much 
+
+Where's my New Year's Kiss and party 
+
+Fuck","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: I think I'm gonna cry again
+Another NYE alone
+
+I hate my life so much 
+
+Where's my New Year's Kiss and party 
+
+Fuck
+ Output: "
+9021,1.0,3TX9T2ZCB9VGN6HP7XU11916SZZWZ8,-4210633818511154946,"All the jews I have ever known will do anything for money , and all I can say is there are no good jews","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: All the jews I have ever known will do anything for money , and all I can say is there are no good jews
+ Output: "
+1655,0.0,3MIVREZQVHSGEEMHVNSLM5V7ZUWKQ6,-1638570835356793490,Whelp gotta simplify the control scheme because my original media is gone forever that or I spend a year remaking my first album.,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'man', 'race': 'hisp', 'generation': 'GenZ'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Whelp gotta simplify the control scheme because my original media is gone forever that or I spend a year remaking my first album.
+ Output: "
+6705,0.0,367O8HRHKG27DSCR2ZUAAOLCKT6S4M,4224836053735053558,"Enjoyed ""Wild,"" digging the female-centered story, wish we made more nuanced, deep stories like it with nonwhite casts.","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'asian', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Enjoyed ""Wild,"" digging the female-centered story, wish we made more nuanced, deep stories like it with nonwhite casts.
+ Output: "
+4040,1.0,3UQVX1UPFSBX95DSPJS273IV3AE208,1993680211374950203,How did the Jews react when WW II was over? They were so gassed,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenX'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: How did the Jews react when WW II was over? They were so gassed
+ Output: "
+4829,1.0,32L724R85LE487VEV7SK9KQK0GLPIF,-3114316428557054065,What do you call a Jew with autism? Auschwistic,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: What do you call a Jew with autism? Auschwistic
+ Output: "
+7862,,3JYPJ2TAYI2KYGTOUZMZ6NDSMUSPF1,1970909591341798263,"We're very sorry if we offended you. This was very uncomfortable for us. The problem was not you, G-d forbid, but that your relationship would become a topic at the Shabbos table that might cause our other guests discomfort and confuse our children. Again we apologize for offending you. Shabbat Shalom.","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenX'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: We're very sorry if we offended you. This was very uncomfortable for us. The problem was not you, G-d forbid, but that your relationship would become a topic at the Shabbos table that might cause our other guests discomfort and confuse our children. Again we apologize for offending you. Shabbat Shalom.
+ Output: "
+8273,0.0,3MJ9GGZYO30TAIBAHLPVW9U8F832A3,-8112240862397798182,"WH statement: ""ANY DEAL ON DACA MUST END CHAIN MIGRATION, ELIMINATE THE VISA LOTTERY, AND FULLY SECURE THE BORDER, INCLUDING WITH A WALL.""","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'man', 'race': 'asian', 'generation': 'GenZ'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: WH statement: ""ANY DEAL ON DACA MUST END CHAIN MIGRATION, ELIMINATE THE VISA LOTTERY, AND FULLY SECURE THE BORDER, INCLUDING WITH A WALL.""
+ Output: "
+500,0.5,3XU80RHWHZAOB7AGCYYSCL565H244X,-4210633818511154946,i want a dyke clique,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: i want a dyke clique
+ Output: "
+7822,0.0,3D0LPO3EABT8D7YIKP1868FII0MOYG,-4972502847858722232,Bad management decisions could easily blow any amount of money.,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Bad management decisions could easily blow any amount of money.
+ Output: "
+2963,1.0,3L2OEKSTW945SFB2D8CC9MPI1LCY8V,1970909591341798263,You used to be able to walk into a shop with £2.00 and leave with all you could possibly need. Now all the blacks are beating us to it.,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenX'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: You used to be able to walk into a shop with £2.00 and leave with all you could possibly need. Now all the blacks are beating us to it.
+ Output: "
+4337,1.0,3L7SUC0TTUONG9HLZ1BMMCWT9FVM0J,1664464732976706798,When two fat American's have sex it's... MISSIONARY IMPOSSIBLE.,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'hisp', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: When two fat American's have sex it's... MISSIONARY IMPOSSIBLE.
+ Output: "
+10078,1.0,31S7M7DAGGK4Q0WRXRYH6AJ99YSLTB,8789702980570783632,"The sub is so much better when it's private
+You don't have to fight with normans in every post","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'hisp', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: The sub is so much better when it's private
+You don't have to fight with normans in every post
+ Output: "
+4193,0.5,3WJGKMRWVI34676OYO53YNB09Q0DCL,-1638570835356793490,"How many soldiers do you need to defend Paris against the Germans? I don't know, they never tried.","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'man', 'race': 'hisp', 'generation': 'GenZ'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: How many soldiers do you need to defend Paris against the Germans? I don't know, they never tried.
+ Output: "
+311,1.0,3MDWE879UHW9TC11884617MS1ZIB9N,-6352039173957003457,"just like i made you hoes come for me , i can make yall go away &#128080;&#9996;&#65039;","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: just like i made you hoes come for me , i can make yall go away &#128080;&#9996;&#65039;
+ Output: "
+9022,1.0,3TX9T2ZCB9VGN6HP7XU11916SZZWZ8,-4210633818511154946,"All the jews I have ever known will do anything for money , and all I can say is there are no good jews","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: All the jews I have ever known will do anything for money , and all I can say is there are no good jews
+ Output: "
+1599,0.0,3909MD9T2ZBG1P4YLL6OCBEO8VRFEN,-4903257119943710595,"The store had a good sale! It was Monday! I knew it was evil, but I didn't suspect Kardashian-level horror was coming!","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: The store had a good sale! It was Monday! I knew it was evil, but I didn't suspect Kardashian-level horror was coming!
+ Output: "
+7676,1.0,3UZUVSO3P7PM7ZWF78A171YX3D0EMM,-6806223206028346267,what 's the difference between an ariana grande concert and a faggot ? faggots bang in the end and ariana grande ends in a bang .,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'Boomer'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: what 's the difference between an ariana grande concert and a faggot ? faggots bang in the end and ariana grande ends in a bang .
+ Output: "
+5202,1.0,3ZURAPD288HHHOAM9XB95RVUH8TF1G,1869048359460155317,Did you hear that they transformed Madame Tussauds into a place where children get beaten? It's a whacks museum,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenZ'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Did you hear that they transformed Madame Tussauds into a place where children get beaten? It's a whacks museum
+ Output: "
+2109,0.0,33K3E8REWWPGSALS8CQAQ8I9ZFLX8R,-5471608738051449110,"I never look away; I want to stare into your face, The gentle look away; I let my true feelings be sitting here trying to","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: I never look away; I want to stare into your face, The gentle look away; I let my true feelings be sitting here trying to
+ Output: "
+9709,0.5,3UY4PIS8QRFT5GN37LUMDW43MAZ1NI,-7297283282402353981,"Are you guys tired of being lumped in with rich old white men in politics and in business, while you toil away and live from paycheck to paycheck?","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'man', 'race': 'hisp', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Are you guys tired of being lumped in with rich old white men in politics and in business, while you toil away and live from paycheck to paycheck?
+ Output: "
+4808,1.0,34R3P23QHSVUWLHV1BOU12X1T09HW9,5330619308534303933,What does a black man do after sex with a white woman 25 too life,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: What does a black man do after sex with a white woman 25 too life
+ Output: "
+4582,1.0,39O0SQZVJN1SV0UXP8SCNQ0QNIXR7D,-4903257119943710595,"What do you do when your daughter starts wearing short skirts? Beat the shit out of your wife, as she was the one who let her wear clothes.","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: What do you do when your daughter starts wearing short skirts? Beat the shit out of your wife, as she was the one who let her wear clothes.
+ Output: "
+5641,0.0,3VQTAXTYN3F7D4P46JZXX396D9MUB4,-397721847506341609,😂 Well you remember the rumors of her and jack having a baby...they will tell you it's kangaroo meat,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'black', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: 😂 Well you remember the rumors of her and jack having a baby...they will tell you it's kangaroo meat
+ Output: "
+4058,0.0,30IRMPJWDZDGQF1H82HLRV5CT00KRB,4224836053735053558,i woke up after dying satan told me that i will be sent back to earth since its the worst punishment,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'asian', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: i woke up after dying satan told me that i will be sent back to earth since its the worst punishment
+ Output: "
+2885,1.0,3DZKABX2ZIZQ0O6AP95X49H79VVVCP,7067515179960755087,what’s the phenomenon that makes women bleed from their uterus for 4-7 days diy abortions,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'black', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: what’s the phenomenon that makes women bleed from their uterus for 4-7 days diy abortions
+ Output: "
+6786,0.0,386659BNTLBQKKVW6FSO2K8QDHE10W,446815182533233009,Watching gaters confuse @ggautoblocker and @theblockbot while screetching at @popehat. just another morning. &lt;3,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Watching gaters confuse @ggautoblocker and @theblockbot while screetching at @popehat. just another morning. &lt;3
+ Output: "
+8037,1.0,3UZUVSO3P7PM7ZWF78A171YX5O3MEL,-3559048982681398316,I didn't know that such a dark girl could be pretty.,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: I didn't know that such a dark girl could be pretty.
+ Output: "
+3107,0.5,3WRKFXQBOB1YHLNFMUO3MBJW4HHYI3,-7214361523799359328,How do you name a jew pokémon trainer Ash,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenX'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: How do you name a jew pokémon trainer Ash
+ Output: "
+1536,0.0,3ABAOCJ4R8YB42MKGZ511INBOZQMQC,-8112240862397798182,"""i feel bad for intentionally mishearing this part in park bo gum's song (but i swear on me mum it sounded like """"chinko"""" IM SORRY)""","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'man', 'race': 'asian', 'generation': 'GenZ'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: ""i feel bad for intentionally mishearing this part in park bo gum's song (but i swear on me mum it sounded like """"chinko"""" IM SORRY)""
+ Output: "
+9573,1.0,35U0MRQMUJ1R9D3DFEEOZ9BO1NHVOK,7912096326098817047,I Can tell you right now if a black mob is threatening my life and burning my town I 'm going to start shooting .,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: I Can tell you right now if a black mob is threatening my life and burning my town I 'm going to start shooting .
+ Output: "
+7997,1.0,3EQVJH0T40F244D166JJEIQ2RCRTH9,-2116932465855176706,Go back to China.,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'man', 'race': 'native', 'generation': 'GenX'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Go back to China.
+ Output: "
+2152,0.0,35XW21VSVG83B0JC8RTRW5NN41BLSO,7662185345024102485,Well...the recent news about shariff Floyd may change our draft plans a little bit. #Vikings #InjuryBug,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Well...the recent news about shariff Floyd may change our draft plans a little bit. #Vikings #InjuryBug
+ Output: "
+439,1.0,3VCK0Q0PO58TYR2LB2QMZRLTFMH0N8,-3559048982681398316,"money before bitches, bc bitches follow money.","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: money before bitches, bc bitches follow money.
+ Output: "
+7108,1.0,31SIZS5W59921IZCL71INHHLNTCQRY,-4588315991558575787,how do you get a nigger to stop talking in a car ? wet his lips and stick them to the window,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'man', 'race': 'hisp', 'generation': 'GenZ'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: how do you get a nigger to stop talking in a car ? wet his lips and stick them to the window
+ Output: "
+4573,1.0,3NC6WP7WJHECTBCKWAAU257O8MOWWM,-1074131302321565002,Black People are functional members of society. Lock this post if you agree,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'hisp', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Black People are functional members of society. Lock this post if you agree
+ Output: "
+1833,0.0,3KL228NDMVGP1PS3SRN9SRR5T7OKGC,-397721847506341609,Hey @NBAOfficial the refs in Toronto are fucking trash,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'black', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Hey @NBAOfficial the refs in Toronto are fucking trash
+ Output: "
+2833,1.0,3AQN9REUTFAH9A7TUGNSVE3JCC9YD1,-7945328595909653965,"A gay guy, A black guy, and A Jew get hit by a bus They all appear in front of the gates of heaven. The Angel says. ""Welcome to Heaven!"" The three guys beg him for a second chance. The angel says,""I can only do it if you promised to give up what you love doing the most."" The three men immediately agreed to do that.
+
+Suddenly, they're on the street and the bus is passing by. They cautiously cross the street, and continue walking, until they come across a car which has an open window and a purse. The gay guy says to the black guy, ""Don't do it man, you're stronger than that!"" But he reaches in anyway. Poof! Black guy disappears.
+
+They continue walking until the Jew comes across a penny. He bends down with the gay guy behind him. Poof! Gay guy disappears.","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: A gay guy, A black guy, and A Jew get hit by a bus They all appear in front of the gates of heaven. The Angel says. ""Welcome to Heaven!"" The three guys beg him for a second chance. The angel says,""I can only do it if you promised to give up what you love doing the most."" The three men immediately agreed to do that.
+
+Suddenly, they're on the street and the bus is passing by. They cautiously cross the street, and continue walking, until they come across a car which has an open window and a purse. The gay guy says to the black guy, ""Don't do it man, you're stronger than that!"" But he reaches in anyway. Poof! Black guy disappears.
+
+They continue walking until the Jew comes across a penny. He bends down with the gay guy behind him. Poof! Gay guy disappears.
+ Output: "
+673,1.0,301KG0KX9CF8K5JONRZNDVHCQ67H2B,-3114316428557054065,4) safety gloves. It's time we start calling out the hypocrisy and end our coddling of religion. No more tax breaks for churches. No more,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: 4) safety gloves. It's time we start calling out the hypocrisy and end our coddling of religion. No more tax breaks for churches. No more
+ Output: "
+5362,1.0,3IYI9285WSUH9T6G8KRE1L6DEEICJR,1869048359460155317,What is black and sits on the top of the stairs A cripple in a house fire,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenZ'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: What is black and sits on the top of the stairs A cripple in a house fire
+ Output: "
+2184,1.0,3DW3BNF1GHCOOLGX8XPS2NLOJ568VU,7067515179960755087,so we driving &amp; we smell like a shitty sewage smell &#128553; &amp; hope is like brooo wtf that smell is horrible &#128514;&#128514;&#128514;,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'black', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: so we driving &amp; we smell like a shitty sewage smell &#128553; &amp; hope is like brooo wtf that smell is horrible &#128514;&#128514;&#128514;
+ Output: "
+7236,1.0,35A1YQPVFEA0FXDVBSJ6BEL34AV5I3,4413319372122017436,what 's the same about feminism and the holocaust ? they 're both irrelevant and mean nothing to society .,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenX'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: what 's the same about feminism and the holocaust ? they 're both irrelevant and mean nothing to society .
+ Output: "
+1112,0.0,3OPLMF3EU5H6VNR70VC5XBDHJJ9LNI,5330619308534303933,How would they carry on the story to season 2 though if the whole plot of s1 was about hannah baker's death? #13ReasonsWhy,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: How would they carry on the story to season 2 though if the whole plot of s1 was about hannah baker's death? #13ReasonsWhy
+ Output: "
+5662,1.0,3K3IX1W4S6LP2PCGJJ07SM21NA9PA8,7067515179960755087,What is a Mexican's favourite sport? Cross-country,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'black', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: What is a Mexican's favourite sport? Cross-country
+ Output: "
+4716,1.0,3T8DUCXY0N09PYVI8UVR11SE6TJ9TL,-768683606829583421,What's the difference between a black person and a couch? The couch can support a family,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'man', 'race': 'other', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: What's the difference between a black person and a couch? The couch can support a family
+ Output: "
+7341,1.0,3MYASTQBG75808G7366YIS0H81AQDZ,3143252583521797318,i wish i were gay but i ca n't fuck something that i respect [ source jim jeffries ],"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: i wish i were gay but i ca n't fuck something that i respect [ source jim jeffries ]
+ Output: "
+592,0.0,3KVQ0UJWPXFIGSX009NLC5UBP4B5W0,-4903257119943710595,And mi hate a bum bitch Mi really really hate bum niggas,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: And mi hate a bum bitch Mi really really hate bum niggas
+ Output: "
+4541,1.0,37S0QRNUFBAQD9KK04EIA91G88J885,980292540985390308,My humour is so dark that cops are beating it,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenX'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: My humour is so dark that cops are beating it
+ Output: "
+2357,,3N3WJQXELSKA612EECEL5NAJ6872LZ,-1563458821535984332,"""As we loaded on the shuttle, our gate agent ran by our tarmac shuttle yelling """"where is the white plains plane parked?"""" #lowconfidence""","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenZ'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: ""As we loaded on the shuttle, our gate agent ran by our tarmac shuttle yelling """"where is the white plains plane parked?"""" #lowconfidence""
+ Output: "
+1954,0.0,32TZXEA1OLE7J8DXPGFQENY3SEB14X,446815182533233009,dude i vividly remember this book cover but forgot the title &amp; actual plot how the fuck do i go about finding it,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: dude i vividly remember this book cover but forgot the title &amp; actual plot how the fuck do i go about finding it
+ Output: "
+6904,0.0,33NKDW9FFXCI4DB5PO6FSUESRLPXCC,-7452610791699819066,".@Femitheist @ktonieskacze Hard to say w/o knowing if avg. welfare w/o a dad is &gt; or &lt; avg. CS payment.  If less, it would REDUCE incentive.","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'man', 'race': 'asian', 'generation': 'GenZ'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: .@Femitheist @ktonieskacze Hard to say w/o knowing if avg. welfare w/o a dad is &gt; or &lt; avg. CS payment.  If less, it would REDUCE incentive.
+ Output: "
+119,1.0,3QREJ3J433R5NH643IKP5JWDON3KL8,-4903257119943710595,"RT @useemitch: 1, 2, 3, 4... how many niggers are in my store, I knooooooow your stealing! &#128514;&#128514;&#128514;","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: RT @useemitch: 1, 2, 3, 4... how many niggers are in my store, I knooooooow your stealing! &#128514;&#128514;&#128514;
+ Output: "
+7847,0.0,3XAOZ9UYRZLE8D0VNDM3HQZ8QGW1Q4,-8810733183869606469,"Marshal Law my friend. Not saying anything is going to happen just if it were to happen. Is this situation abnormal or in any way a ""be careful"" or in for the drama ride?","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Marshal Law my friend. Not saying anything is going to happen just if it were to happen. Is this situation abnormal or in any way a ""be careful"" or in for the drama ride?
+ Output: "
+4181,0.0,3QI9WAYOGQ5LSFG5LNNP7M5QE7ZS62,-397721847506341609,How many babies does it take to paint a wall? Depends how hard you throw them,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'black', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: How many babies does it take to paint a wall? Depends how hard you throw them
+ Output: "
+5731,1.0,3G9UA71JVVOBXCBKH3J3LZEZD3YJ7C,-4210633818511154946,How does a Mexican family take a photo together? They get in the back of a truck and run a red light.,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: How does a Mexican family take a photo together? They get in the back of a truck and run a red light.
+ Output: "
+4657,1.0,3KA7IJSNW6ZULZH8PX03NXM75Q1BPS,-3559048982681398316,What did the black girl get after having an abortion? $500 from crime stoppers,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: What did the black girl get after having an abortion? $500 from crime stoppers
+ Output: "
+3886,1.0,32FESTC2NHKQN9HAKJVS8NFOVQUUCB,-4210633818511154946,If a black person makes a joke It's literally a dark joke,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: If a black person makes a joke It's literally a dark joke
+ Output: "
+1891,0.0,341YLJU21IT8G0U8T9H8D7IRRKUI2G,5538943157371849067,"anybody that shitted on me, I ain't fucking with none of ya!!!!","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: anybody that shitted on me, I ain't fucking with none of ya!!!!
+ Output: "
+5747,1.0,3VADEH0UHCRT2LYA0JMYDMW79GGPS4,980292540985390308,If you hit a girl Is it destruction of property?,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenX'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: If you hit a girl Is it destruction of property?
+ Output: "
+3053,0.0,3SA4EMRVJVWT1CEYRH3E3GQOEIXP05,2428559182657536645,What is the difference between Satan and my ex? Satan is welcome at my house any time.,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: What is the difference between Satan and my ex? Satan is welcome at my house any time.
+ Output: "
+735,1.0,385MDVINFC9QNRCLPBRFDFDG76QJWM,8789702980570783632,I come a city where niggas will hate on you for anything &#128686;,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'hisp', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: I come a city where niggas will hate on you for anything &#128686;
+ Output: "
+318,0.0,3OB6JN3A9QJBG31KTEU168XGJKSMRA,-5471608738051449110,"one time for the real niggas , two times for the bad bitches .","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: one time for the real niggas , two times for the bad bitches .
+ Output: "
+7231,1.0,3PCPFX4U40K5YSU3UC1O6S32KEQFQZ,-1074131302321565002,what happened to the girl who had a black heart ? cardiac arrest .,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'hisp', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: what happened to the girl who had a black heart ? cardiac arrest .
+ Output: "
+9311,1.0,3P7RGTLO6E7ORYF06RVZW5G2W7LKA1,7912096326098817047,"In my mind it 's not even close to being obselete , I believe it is a symbol of the white race and it 's fight to save itself in this sick and twisted multicult world we live in .","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: In my mind it 's not even close to being obselete , I believe it is a symbol of the white race and it 's fight to save itself in this sick and twisted multicult world we live in .
+ Output: "
+1339,0.0,3VW0145YLY6UIFI7L9LS4HBPA4VJMF,-4903257119943710595,president Carrot Top Has taken us to war &#129318;&#127997;‍♀️it hasn't even been 100 days... they have Chemical Weapons... Lordt,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: president Carrot Top Has taken us to war &#129318;&#127997;‍♀️it hasn't even been 100 days... they have Chemical Weapons... Lordt
+ Output: "
+9289,0.0,3M0556243SEKVVHBEK972Y8XNI3FNE,-6806223206028346267,No judge or government has the right in my opinion to tell parents how to raise their kids - any home school has to be better than having your kids endure a public school brainwashing any day !,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'Boomer'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: No judge or government has the right in my opinion to tell parents how to raise their kids - any home school has to be better than having your kids endure a public school brainwashing any day !
+ Output: "
+9001,0.5,351S7I5UG9Q00X37XA0SHW0PGPJNJO,-6806223206028346267,I think white pride world wide works just fine But i am a white supremacist so it suits me to the tee,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'Boomer'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: I think white pride world wide works just fine But i am a white supremacist so it suits me to the tee
+ Output: "
+6034,0.0,3FVBZG9CLJ81OVGA84V9U7OXSZI0HM,2428559182657536645,"What if im ßlack? I should post comments then, how do they know im white?","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: What if im ßlack? I should post comments then, how do they know im white?
+ Output: "
+8922,0.0,32LAQ1JNT9J79QJL65QIXXFSMN2TUQ,-8112240862397798182,"Yeah, but no one will ever hear of this .","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'man', 'race': 'asian', 'generation': 'GenZ'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Yeah, but no one will ever hear of this .
+ Output: "
+3194,1.0,37YYO3NWHDKU1F0AYSASEHTIOPGCCA,1869048359460155317,How do you speed up a Jew? Press the gas pedal.,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenZ'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: How do you speed up a Jew? Press the gas pedal.
+ Output: "
+1090,0.0,3M4KL7H8KVHLYVHB8485BLIHQNG61O,7078565686352027872,"""so we """"voted you as president and you ain't even made it a year and your already trying to start things you need help! &#128465;@POTUS""","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: ""so we """"voted you as president and you ain't even made it a year and your already trying to start things you need help! &#128465;@POTUS""
+ Output: "
+4194,0.5,3WJGKMRWVI34676OYO53YNB09Q0DCL,1869048359460155317,"How many soldiers do you need to defend Paris against the Germans? I don't know, they never tried.","You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'white', 'generation': 'GenZ'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: How many soldiers do you need to defend Paris against the Germans? I don't know, they never tried.
+ Output: "
+3023,1.0,3PN6H8C9R4KGDS9QEA9CSSLC9L7AD4,4558099272172767335,Muslims aren't terrorists They just want to die on their own terms but don't want to do it alone.,"You are a person asked to provide precise information about offensiveness of sentences. You are characterized by the following demographics: {'gender': 'woman', 'race': 'other', 'generation': 'GenY'}
+ ### Instruction:
+ Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why. Some of the sentences may contain hate or explicit language, please provide an answer in any case.
+ Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive']. Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].
+ Input: Muslims aren't terrorists They just want to die on their own terms but don't want to do it alone.
+ Output: "

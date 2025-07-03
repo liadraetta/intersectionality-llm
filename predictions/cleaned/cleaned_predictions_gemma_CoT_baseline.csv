@@ -1,0 +1,282 @@
+offensiveYN,HITId,WorkerId,demographics,output,prediction
+0.0,3P7RGTLO6E7ORYF06RVZW5G2VCBKA0,-1638570835356793490,,"
+Reasoning: The sentence contains hate speech and profanity. The use of the word ""shitty"" and ""pissed"" is offensive and",1
+1.0,35JDMRECC43MFP0TW5C6UWE089QGEJ,-6352039173957003457,,"
+Reasoning: The sentence contains hate speech targeting individuals based on their profession and appearance. The use of derogatory language and the intent to harm others make",-1
+1.0,35NNO802AVQ45MJ1FSFS5VLPVVVNIB,1993680211374950203,,"
+Reasoning: This sentence is offensive because it contains hate speech and threats of violence against women, specifically the use of the word ""rape."" The",1
+0.0,341H3G5YF08NFGG4EQ1GUES2QRBZ0T,-3559048982681398316,,"
+[Reasoning] The sentence is offensive because it makes assumptions about the writer's ethnicity and skin tone based on her appearance. It also includes",1
+0.0,3LAZVA75NILICM5BR4UDX4ED4QKO23,6927542478311092738,,"
+Reasoning: The sentence is offensive due to the use of the term ""maxillas"" and ""jaw (bimax)"" which are considered hate",1
+1.0,3MJ28H2Y1E2ABJOY9NWBVBHPLME5OT,1869048359460155317,,"
+Reasoning: The sentence is highly offensive due to the presence of hate speech and explicit language. The sentence uses hateful language targeting a specific group of",1
+0.0,3CMV9YRYP3VACX0MLXKD44W0AZ9JLH,1147960939871721323,,"
+Reasoning: The sentence contains hate speech and offensive language towards a specific group of people. The use of the term ""Takers"" and the",1
+0.0,39WICJI5ATMJW8F1XDJZWCQ9RSR3Z0,6850748243603538565,,"
+Reasoning: The sentence contains hate speech and insults (""little shit"").
+So: The sentence is offensive.
+
+**Please provide the input and",1
+1.0,3J9L0X0VDFG1HFZC3Z02OLZDCYGW91,446815182533233009,,"
+ Offensive
+**Reasoning:**
+The sentence is offensive because it makes a generalization about men and their use of feather dusters, and it uses",1
+1.0,37S0QRNUFBAQD9KK04EIA91G9NA88R,-3114316428557054065,,"
+Reasoning: The sentence contains hate speech and insults towards women. The word ""bitches"" is a highly offensive term that is not appropriate for",1
+0.0,3P0I4CQYVY14O23I5OJKLBU2600OWA,-397721847506341609,,"
+Reasoning: The text contains a question and a statement about the Grand Prix of Paris. The statement is not offensive, but the question is slightly",0
+0.0,3CZH926SIC86397914A5L7HXJ5I4EO,-5471608738051449110,,"
+Reasoning: The sentence contains hate speech and profanity. The use of the word ""fucking"" is particularly offensive and the message is clearly intended",1
+1.0,3M47JKRKCXV39V1W7PHKQV5P2CL869,7067515179960755087,,"
+Reasoning: The sentence contains hate speech and is offensive due to the use of the word ""nigger"" and the threat of violence.
+",1
+0.5,3NQUW096N62L6LNDZLT0FAIXEMXL98,446815182533233009,,"
+Reasoning: The sentence contains a generalization and stereotypes about people wearing hoodies and their association with crime.
+So: The sentence is offensive.
+
+",1
+1.0,3R4QIDVOJP6OVB42QAMIUTTOUB9EEX,-7945328595909653965,,"
+Reasoning: The sentence contains hate speech and offensive language such as ""slugs.""
+So: The sentence is offensive.
+
+**Note:**",1
+0.0,3IYI9285WSUH9T6G8KRE1L6DE9PCJO,-4903257119943710595,,"
+Reasoning: The sentence is not offensive. The text does not contain hate speech, profanity, or any other offensive language.
+Label:",-1
+1.0,3TL87MO8CMJU7VEQ27TSP648HKSFLU,-8112240862397798182,,"
+Reasoning: The sentence is offensive because it makes a generalization about people based on their race and uses a term that is considered derogatory.
+The",1
+1.0,3T8DUCXY0N09PYVI8UVR11SE6RLT93,-7090297418013232722,,"
+Reasoning: The sentence is offensive because it uses hate speech and promotes violence against a specific group of people. The use of the word ""nig",1
+1.0,3KI0JD2ZU1CZ9HWDXKPECV9UMG767J,-450836770736143243,,"
+Reasoning: The sentence contains hate speech targeting an individual based on their nationality and ethnicity, and also uses offensive language (""lance no"").
+So",1
+1.0,30U1YOGZGAQKDOVKVAV3DSFIW8EDS2,5330619308534303933,,"
+Reasoning: The sentence contains hate speech and offensive language towards women. The use of the word ""bitch"" is particularly harmful and hurtful.
+",1
+1.0,3GONHBMNHVSKIUNB3VOESBZFROBZMP,-2238863521358699827,,"
+Reasoning: The sentence is offensive because it trivializes the tragedy of the Holocaust and makes light of human suffering. The slogan ""work sets you",1
+1.0,3B0MCRZMBROWPTII82I4IHRWMPCPPD,-3114316428557054065,,"
+Reasoning: The sentence contains hate speech and insults towards a person named ""bae."" The use of the word ""pissed off"" and the",-1
+1.0,3OJX0UFJ0Z1OPBA78ZL16XEGRDQ9UQ,7067515179960755087,,"
+Reasoning: The sentence is offensive because it makes assumptions about the lesbian community and uses generalizations about sexual health. It also includes a comment about the",1
+0.0,3HRWUH63QUWSTYOM88WYGMHKYQ65N6,980292540985390308,,"
+Reasoning: The sentence is highly offensive due to the presence of explicit and hateful language, specifically the use of the word ""rape."" The sentence",1
+1.0,3JMNNNO3B1YQHVEDIQLNEYRZZB1W2Z,-3114316428557054065,,"
+Reasoning: The sentence is offensive because it makes a generalization about people based on their race and promotes discrimination. It also uses inflammatory language that is",1
+1.0,35F6NGNVM8D5BF7PTXX7N5186X6T7N,-4671295340405687436,,"
+Reasoning: The sentence contains hate speech targeting a specific group of people based on their race. The use of the word ""whites"" is particularly",-1
+0.0,3GVPRXWRPHOF21REZLY39YZZ3X97I9,-4972502847858722232,,"
+Reasoning: The sentence is overly critical and uses a condescending tone. It also makes assumptions about the motivations of others.
+So: The sentence",-1
+0.0,36JW4WBR06ESLZV0BMEUXEB118AHFR,-5471608738051449110,,"
+offensive
+
+**Reasoning:**
+The sentence contains hate speech (""I hate my life so much"") and profanity (""Fuck""). The sentence also",1
+1.0,3TX9T2ZCB9VGN6HP7XU11916SZZWZ8,-4210633818511154946,,"
+Reasoning: This sentence is offensive because it promotes hate speech and discrimination towards people based on their religion. The statement ""all the jews I",1
+0.0,3MIVREZQVHSGEEMHVNSLM5V7ZUWKQ6,-1638570835356793490,,"
+Reasoning: The sentence is not offensive. The text is about the loss of the original media and the need to remake the first album. There",0
+0.0,367O8HRHKG27DSCR2ZUAAOLCKT6S4M,4224836053735053558,,"
+Reasoning: The sentence contains hate speech targeting individuals based on their race and gender. It is offensive because it promotes discrimination and exclusion.
+So",1
+1.0,3UQVX1UPFSBX95DSPJS273IV3AE208,1993680211374950203,,"
+Reasoning: This sentence is offensive because it promotes hate speech and discrimination towards people based on their religion. It is also insensitive to the tragedy of",1
+1.0,32L724R85LE487VEV7SK9KQK0GLPIF,-3114316428557054065,,"
+Reasoning: This sentence is offensive because it uses hate speech targeting a specific group of people based on their religion and disability. It is harmful and",1
+,3JYPJ2TAYI2KYGTOUZMZ6NDSMUSPF1,1970909591341798263,,"
+ Offensive/Not Offensive
+
+**Reasoning:**
+[The sentence contains hate speech and offensive language (""G-d forbid"") and makes assumptions about",-1
+0.0,3MJ9GGZYO30TAIBAHLPVW9U8F832A3,-8112240862397798182,,"
+[Reasoning]
+The sentence contains hate speech targeting immigrants and politicians. It uses inflammatory language and promotes discrimination.
+[The sentence is offensive",1
+0.5,3XU80RHWHZAOB7AGCYYSCL565H244X,-4210633818511154946,,"
+Reasoning: The sentence is offensive because it uses the term ""dyke"" which is a derogatory term for homosexual women. This term is harmful",1
+0.0,3D0LPO3EABT8D7YIKP1868FII0MOYG,-4972502847858722232,,"
+Reasoning: The sentence is not offensive. The text does not contain hate speech or explicit language. It is simply a statement about the potential consequences",0
+1.0,3L2OEKSTW945SFB2D8CC9MPI1LCY8V,1970909591341798263,,"
+Reasoning: The sentence is offensive because it contains hate speech targeting a specific group of people based on their race and makes generalizations about their behavior.",1
+1.0,3L7SUC0TTUONG9HLZ1BMMCWT9FVM0J,1664464732976706798,,"
+Reasoning: The sentence is offensive due to the use of hate speech targeting individuals based on nationality and body size. The language used is vulgar and",1
+1.0,31S7M7DAGGK4Q0WRXRYH6AJ99YSLTB,8789702980570783632,,"
+Reasoning: The text contains hate speech against a specific group of people (Normans).
+The text promotes discrimination and exclusion based on nationality.",-1
+0.5,3WJGKMRWVI34676OYO53YNB09Q0DCL,-1638570835356793490,,"
+Reasoning: The sentence promotes violence and hatred towards a specific group of people. It is offensive.
+The sentence is offensive.
+
+**Please",1
+1.0,3MDWE879UHW9TC11884617MS1ZIB9N,-6352039173957003457,,"
+Reasoning: The sentence contains hate speech and threats of violence. The use of vulgar language and the tone of the message are highly offensive.
+",1
+1.0,3TX9T2ZCB9VGN6HP7XU11916SZZWZ8,-4210633818511154946,,"
+Reasoning: This sentence is offensive because it promotes hate speech and discrimination towards people based on their religion. The statement ""all the jews I",1
+0.0,3909MD9T2ZBG1P4YLL6OCBEO8VRFEN,-4903257119943710595,,"
+Reasoning: The sentence contains a reference to a celebrity and uses hyperbole to describe the sale. It also includes a subjective opinion about the sale",-1
+1.0,3UZUVSO3P7PM7ZWF78A171YX3D0EMM,-6806223206028346267,,"
+Reasoning: The sentence contains hate speech and offensive language targeting individuals based on sexual orientation and making generalizations about their behavior. The use of the word",1
+1.0,3ZURAPD288HHHOAM9XB95RVUH8TF1G,1869048359460155317,,"
+Reasoning: The sentence contains hate speech and promotes violence against children. The use of the word ""whacks"" and the threat of violence against",-1
+0.0,33K3E8REWWPGSALS8CQAQ8I9ZFLX8R,-5471608738051449110,,"
+Reasoning: The sentence contains hate speech and threats of violence. The phrase ""stare into your face"" is particularly offensive and threatening.
+The",1
+0.5,3UY4PIS8QRFT5GN37LUMDW43MAZ1NI,-7297283282402353981,,"
+Reasoning: The sentence is offensive because it makes generalizations and assumptions about people based on their race and socioeconomic status. It also uses inflammatory language such",1
+1.0,34R3P23QHSVUWLHV1BOU12X1T09HW9,5330619308534303933,,"
+Reasoning: The sentence is offensive because it contains hate speech and promotes discrimination based on race and gender. The statement is also sexually suggestive and objec",1
+1.0,39O0SQZVJN1SV0UXP8SCNQ0QNIXR7D,-4903257119943710595,,"
+Reasoning: This sentence is highly offensive due to the presence of hate speech, violence, and misogyny. The sentence promotes violence against women",1
+0.0,3VQTAXTYN3F7D4P46JZXX396D9MUB4,-397721847506341609,,"offensive
+
+**Reasoning:**
+The sentence is offensive because it makes a joke about a sensitive topic (pregnancy) and uses vulgar language (""kangaroo",1
+0.0,30IRMPJWDZDGQF1H82HLRV5CT00KRB,4224836053735053558,,"
+Reasoning: The sentence contains hate speech and uses inflammatory language against a specific group of people. The phrase ""dying satan"" is particularly offensive and",1
+1.0,3DZKABX2ZIZQ0O6AP95X49H79VVVCP,7067515179960755087,," Offensive
+**Reasoning:**
+The text is offensive because it contains hate speech targeting women and promotes violence against them. The statement ""women bleed from",1
+0.0,386659BNTLBQKKVW6FSO2K8QDHE10W,446815182533233009,,"
+Reasoning: The sentence contains hate speech targeting individuals (@ggautoblocker and @theblockbot) and uses profane language (""screetching"").",-1
+1.0,3UZUVSO3P7PM7ZWF78A171YX5O3MEL,-3559048982681398316,,"
+Reasoning: This sentence is offensive because it makes a generalization about people based on their appearance and promotes discrimination. It also uses the word ""dark",1
+0.5,3WRKFXQBOB1YHLNFMUO3MBJW4HHYI3,-7214361523799359328,,"
+Reasoning: The sentence is offensive because it targets a person based on their religion and uses hateful language.
+The sentence is offensive.
+
+**",1
+0.0,3ABAOCJ4R8YB42MKGZ511INBOZQMQC,-8112240862397798182,,"
+Reasoning:
+[The sentence contains a racial slur and is offensive because it targets an individual based on their race and uses derogatory language.]
+",1
+1.0,35U0MRQMUJ1R9D3DFEEOZ9BO1NHVOK,7912096326098817047,,"
+Reasoning: This sentence is offensive because it contains hate speech and threats of violence against a specific group of people based on their race. The use",1
+1.0,3EQVJH0T40F244D166JJEIQ2RCRTH9,-2116932465855176706,,"
+Reasoning: The sentence is offensive because it is a form of hate speech targeting a specific group of people based on their nationality. It is harmful",1
+0.0,35XW21VSVG83B0JC8RTRW5NN41BLSO,7662185345024102485,,"
+Reasoning: The sentence is sensitive due to the recent tragedy and uses a disparaging term ""shariff.""
+The sentence is offensive.
+
+",1
+1.0,3VCK0Q0PO58TYR2LB2QMZRLTFMH0N8,-3559048982681398316,,"
+Reasoning: The sentence contains hate speech targeting women and uses vulgar language.
+So: The sentence is offensive.
+
+**Example:**
+**",1
+1.0,31SIZS5W59921IZCL71INHHLNTCQRY,-4588315991558575787,,"
+Reasoning: The sentence is offensive because it contains hate speech and promotes violence against individuals based on their race.
+The sentence is offensive.
+
+",1
+1.0,3NC6WP7WJHECTBCKWAAU257O8MOWWM,-1074131302321565002,,"
+Reasoning: The sentence is offensive because it makes a generalization about people based on their race and promotes discrimination. It also uses inflammatory language such as",1
+0.0,3KL228NDMVGP1PS3SRN9SRR5T7OKGC,-397721847506341609,,"
+Reasoning: The sentence contains hate speech and offensive language towards a specific group of people (NBA officials) and uses vulgar language (""fucking"").
+",1
+1.0,3AQN9REUTFAH9A7TUGNSVE3JCC9YD1,-7945328595909653965,,"
+offensive
+
+**Reasoning:**
+The sentence is offensive due to the presence of hate speech, bullying, and discrimination based on sexual orientation and race",1
+1.0,301KG0KX9CF8K5JONRZNDVHCQ67H2B,-3114316428557054065,,"
+Reasoning: The sentence is offensive because it attacks a religious group and makes a political statement that is likely to be seen as controversial. The sentence",1
+1.0,3IYI9285WSUH9T6G8KRE1L6DEEICJR,1869048359460155317,,"
+Reasoning: The sentence contains hate speech targeting individuals with disabilities and promotes discrimination based on their condition.
+So: The sentence is offensive.
+
+",1
+1.0,3DW3BNF1GHCOOLGX8XPS2NLOJ568VU,7067515179960755087,,"
+Reasoning: The sentence contains hate speech and offensive language, specifically the use of the words ""shitty"" and ""brooo."" The sentence",1
+1.0,35A1YQPVFEA0FXDVBSJ6BEL34AV5I3,4413319372122017436,,"
+Reasoning: The sentence is offensive because it makes a comparison between feminism and the holocaust, which is insensitive and inappropriate. It also uses derogatory language",1
+0.0,3OPLMF3EU5H6VNR70VC5XBDHJJ9LNI,5330619308534303933,,"
+Reasoning: The sentence is overly focused on a character's death and uses a morbid tone. It also includes a hashtag that is not relevant",-1
+1.0,3K3IX1W4S6LP2PCGJJ07SM21NA9PA8,7067515179960755087,,"
+Reasoning: This sentence is offensive because it makes a generalization about Mexicans and their preferred sport, which is not only inaccurate but also stereotypes and promotes",1
+1.0,3T8DUCXY0N09PYVI8UVR11SE6TJ9TL,-768683606829583421,,"
+Reasoning: The sentence is offensive because it makes a comparison between a person of African descent and a couch, which is inappropriate and harmful. It",1
+1.0,3MYASTQBG75808G7366YIS0H81AQDZ,3143252583521797318,,"
+Reasoning: The sentence contains hate speech and offensive language. The phrase ""I can't fuck something that I respect"" is highly offensive and",1
+0.0,3KVQ0UJWPXFIGSX009NLC5UBP4B5W0,-4903257119943710595,,"
+Reasoning: The sentence contains hate speech and offensive language targeting individuals based on their gender and race.
+Label: offensive
+
+**Example:**
+
+",1
+1.0,37S0QRNUFBAQD9KK04EIA91G88J885,980292540985390308,,"
+Reasoning: The sentence uses a dark humor tone and employs a hyperbolic exaggeration of the severity of the humor. The phrase ""cops are beating",-1
+,3N3WJQXELSKA612EECEL5NAJ6872LZ,-1563458821535984332,,"
+Reasoning: The sentence contains a racial slur and is offensive.
+So: The sentence is offensive.
+
+**Please provide the input and output",1
+0.0,32TZXEA1OLE7J8DXPGFQENY3SEB14X,446815182533233009,,"
+Reasoning: The sentence contains hate speech and offensive language (""fuck"", ""how the fuck""). The language is not only vulgar but also hurtful and",1
+0.0,33NKDW9FFXCI4DB5PO6FSUESRLPXCC,-7452610791699819066,,"
+ Offensive
+**Reasoning:**
+The sentence contains hate speech targeting individuals based on their socioeconomic status and gender. It also makes assumptions about the relationship",1
+1.0,3QREJ3J433R5NH643IKP5JWDON3KL8,-4903257119943710595,,"
+offensive
+
+**Reasoning:**
+The sentence is offensive because it contains hate speech targeting a specific group of people based on their race and uses vulgar",1
+0.0,3XAOZ9UYRZLE8D0VNDM3HQZ8QGW1Q4,-8810733183869606469,,"
+Reasoning: The sentence contains hate speech and promotes violence. The phrase ""Marshal Law"" is a term used to describe a situation where the law",-1
+0.0,3QI9WAYOGQ5LSFG5LNNP7M5QE7ZS62,-397721847506341609,,"
+Reasoning: The sentence is offensive because it uses the phrase ""throw babies"" which is inappropriate and harmful. The phrase is a metaphor for violence",1
+1.0,3G9UA71JVVOBXCBKH3J3LZEZD3YJ7C,-4210633818511154946,,"
+Reasoning: The sentence is offensive because it makes a generalization about Mexican families and promotes stereotypes. It also encourages dangerous behavior, such as running a",1
+1.0,3KA7IJSNW6ZULZH8PX03NXM75Q1BPS,-3559048982681398316,,"
+Reasoning: The sentence is offensive because it is making a harmful generalization about people based on their race and gender, and it is also making a",1
+1.0,32FESTC2NHKQN9HAKJVS8NFOVQUUCB,-4210633818511154946,,"
+Reasoning: The sentence is offensive because it makes a generalization about people of African descent and promotes stereotypes. It also uses the phrase ""dark joke",1
+0.0,341YLJU21IT8G0U8T9H8D7IRRKUI2G,5538943157371849067,,"
+Reasoning: The sentence contains hate speech and explicit language. The use of the words ""shitted"" and ""fucking"" is highly offensive and",1
+1.0,3VADEH0UHCRT2LYA0JMYDMW79GGPS4,980292540985390308,,"
+Reasoning: The sentence contains hate speech and promotes violence against women. It is offensive.
+So, the sentence is offensive.
+
+**Here",1
+0.0,3SA4EMRVJVWT1CEYRH3E3GQOEIXP05,2428559182657536645,,"
+Reasoning: The sentence is highly offensive due to the presence of hate speech and explicit language. The statement compares a person to Satan and makes a",1
+1.0,385MDVINFC9QNRCLPBRFDFDG76QJWM,8789702980570783632,,"
+Reasoning: The sentence contains hate speech and uses offensive language towards individuals based on their race. The use of the term ""niggers"" is",1
+0.0,3OB6JN3A9QJBG31KTEU168XGJKSMRA,-5471608738051449110,,"
+Reasoning: The sentence contains hate speech and offensive language targeting individuals based on their gender and race. The use of the words ""niggers""",1
+1.0,3PCPFX4U40K5YSU3UC1O6S32KEQFQZ,-1074131302321565002,,"
+Reasoning: The sentence is offensive due to the use of the phrase ""black heart"" and the mention of a cardiac arrest. The phrase """,1
+1.0,3P7RGTLO6E7ORYF06RVZW5G2W7LKA1,7912096326098817047,,"
+Reasoning: The sentence contains hate speech and promotes discrimination based on race. The use of the term ""obselete"" is also inappropriate and",-1
+0.0,3VW0145YLY6UIFI7L9LS4HBPA4VJMF,-4903257119943710595,,"
+ Offensive
+
+**Reasoning:**
+The sentence contains hate speech targeting a specific individual, ""president Carrot Top,"" and makes threats of violence (""they",1
+0.0,3M0556243SEKVVHBEK972Y8XNI3FNE,-6806223206028346267,,"
+Reasoning: The sentence contains hate speech against public schools and promotes discrimination towards home-schooled children. It also uses inflammatory language such as """,-1
+0.5,351S7I5UG9Q00X37XA0SHW0PGPJNJO,-6806223206028346267,,"
+Reasoning: The sentence contains hate speech and promotes discrimination based on race. The use of the term ""white pride"" and ""white supremacist",-1
+0.0,3FVBZG9CLJ81OVGA84V9U7OXSZI0HM,2428559182657536645,,"
+Reasoning: The sentence contains hate speech and promotes discrimination based on race. The use of the word ""ßlack"" and the implication that the",-1
+0.0,32LAQ1JNT9J79QJL65QIXXFSMN2TUQ,-8112240862397798182,,"
+Reasoning: The sentence is not offensive as it does not contain any hate speech, profanity, or other offensive language.
+The sentence is",-1
+1.0,37YYO3NWHDKU1F0AYSASEHTIOPGCCA,1869048359460155317,,"
+Reasoning: This sentence is offensive because it contains hate speech targeting a specific group of people based on their religion and promotes discrimination. The phrase """,1
+0.0,3M4KL7H8KVHLYVHB8485BLIHQNG61O,7078565686352027872,,"
+Reasoning:
+[The sentence contains hate speech and uses vulgar language, specifically the phrase ""you ain't even made it a year""",-1
+0.5,3WJGKMRWVI34676OYO53YNB09Q0DCL,1869048359460155317,,"
+Reasoning: The sentence promotes violence and hatred towards a specific group of people. It is offensive.
+The sentence is offensive.
+
+**Please",1
+1.0,3PN6H8C9R4KGDS9QEA9CSSLC9L7AD4,4558099272172767335,,"
+Reasoning: This sentence promotes hate speech and stereotypes about Muslims. It claims that all Muslims are terrorists, which is inaccurate and dangerous. It also",-1
