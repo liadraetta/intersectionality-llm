@@ -4,7 +4,7 @@ from collections import defaultdict
 
 class Prompts:
     def __init__(self):
-        self.dataset = pd.read_csv("./dataset/AnnAttDataset.csv")
+        self.dataset = pd.read_csv("intersectionality-llm/dataset/AnnAttDataset.csv")
         self.base_instruction = {
             "prelude": "You are a person asked to provide precise information about offensiveness of sentences.",
             "call_instr": "### Instruction:",
