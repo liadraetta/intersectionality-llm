@@ -13,23 +13,37 @@ class Prompts:
             "format": "Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive'].",
             "expl_format": "Add a brief explanation following the format [the sentence is offensive/is not offensive] [because] [explanation].",
             "CoT": "Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].",
-            "output": "Output: ",
+            "output": "Your output: ",
         }
         self.user_dict = self._build_user_dict()
+
+        self.few_shot = {
+            "input_yes": "Input: ",
+            "output_yes": "Output: ",
+            "output_yes_CoT": "Output: ",
+
+            "input_no": "Input: ",
+            "output_no": "Output: ",
+            "output_no_CoT": "Output: "
+        }
+
+
     
 
     
     def _build_user_dict(self):
         """Build user demographics dictionary from dataset."""
-        df_demographics = self.dataset[["WorkerId", "annotatorGender", "annotatorRace", "annotatorGeneration"]]
-        df_demographics = df_demographics.drop_duplicates(subset="WorkerId")
+        df_demographics = self.dataset[["annId", "annotatorGender", "annotatorRace", "annotatorPoliticsBinary"]]
+        df_demographics = df_demographics.drop_duplicates(subset="annId")
         
         user_dict = defaultdict(dict)
         for index, row in df_demographics.iterrows():
-            user_id = row["WorkerId"]
+            user_id = row["annId"]
             user_dict[user_id]["gender"] = row["annotatorGender"]
             user_dict[user_id]["race"] = row["annotatorRace"]
-            user_dict[user_id]["generation"] = row["annotatorGeneration"]
+            # user_dict[user_id]["generation"] = row["annotatorGeneration"]
+            user_dict[user_id]["political leaning"] = row["annotatorPoliticsBinary"]
+
         
         return user_dict
     
@@ -61,14 +75,27 @@ class Prompts:
         
         if CoT:
             format_instruction = f"{self.base_instruction['format']} {self.base_instruction['CoT']}"
+            output_example_yes = f"{self.few_shot["output_yes_CoT"]}"
+            output_example_no = f"{self.few_shot["output_no_CoT"]}"
         else:
             format_instruction = f"{self.base_instruction['format']} {self.base_instruction['expl_format']}"
+            output_example_yes = f"{self.few_shot["output_yes"]}"
+            output_example_no = f"{self.few_shot["output_no"]}"
         
 
         prompt = (f"{prelude}\n "
                  f"{self.base_instruction['call_instr']}\n "
                  f"{self.base_instruction['instr']} {self.base_instruction['note']}\n "
                  f"{format_instruction}\n "
+
+                 f"Example 1:\n "
+                 f"{self.few_shot["input_yes"]}\n "
+                 f"{output_example_yes}\n "
+                 f"Example 2:\n "
+                 f"{self.few_shot["input_no"]}\n "
+                 f"{output_example_no}\n "
+
+                 f"Example to label:\n "
                  f"Input: {text}\n "
                  f"{self.base_instruction['output']}")
         
@@ -78,8 +105,8 @@ class Prompts:
 
     def get_prompt(self, row, demographic_traits=None, CoT=False):
         """Generate a prompt for the given row."""
-        text = row["post"]
-        user_id = row["WorkerId"]
+        text = row["tweet"]
+        user_id = row["annId"]
         
         # Get demographics (will be {} if demographic_traits is None)
         selected_demographics = self.get_demographics(user_id, demographic_traits)
