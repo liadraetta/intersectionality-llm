@@ -4,7 +4,7 @@ from collections import defaultdict
 
 class Prompts:
     def __init__(self):
-        self.dataset = pd.read_csv("./dataset/FilteredTestSet.csv")
+        self.dataset = pd.read_csv("./dataset/AnnAttDataset.csv")
         self.base_instruction = {
             "prelude": "You are a person asked to provide precise information about offensiveness of sentences.",
             "call_instr": "### Instruction:",
@@ -18,13 +18,13 @@ class Prompts:
         self.user_dict = self._build_user_dict()
 
         self.few_shot = {
-            "input_yes": "Input: ",
-            "output_yes": "Output: ",
-            "output_yes_CoT": "Output: ",
+            "input_yes": "Input:  A girl that looked like she worth the world to ya is around the corner getting fucked for a perk #Facts",
+            "output_yes": "Output: [The sentence is offensive][because][conveys a stereotypical message that women give their bodies to obtain  benefits and contains vulgar language]",
+            "output_yes_CoT": "Output: [The sentence conveys a stereotypical message that women give their bodies to obtain  benefits and contains vulgar language][so][the sentence is offensive]",
 
-            "input_no": "Input: ",
-            "output_no": "Output: ",
-            "output_no_CoT": "Output: "
+            "input_no": "Input: i read these facts Egypt has like 6 times the population of Syria. It would be a lot more balanced if you included Saudi Arabia (33 million), Yemen (28 million) and Iraq (38 million) for example",
+            "output_no": "Output: [The sentence is not offensive][because][it limits to provide information about the population of some country]",
+            "output_no_CoT": "Output: [The sentence limits to provide information about the population of some country][so][the sentence is not offensive]"
         }
 
 
@@ -75,12 +75,12 @@ class Prompts:
         
         if CoT:
             format_instruction = f"{self.base_instruction['format']} {self.base_instruction['CoT']}"
-            output_example_yes = f"{self.few_shot["output_yes_CoT"]}"
-            output_example_no = f"{self.few_shot["output_no_CoT"]}"
+            output_example_yes = f"{self.few_shot['output_yes_CoT']}"
+            output_example_no = f"{self.few_shot['output_no_CoT']}"
         else:
             format_instruction = f"{self.base_instruction['format']} {self.base_instruction['expl_format']}"
-            output_example_yes = f"{self.few_shot["output_yes"]}"
-            output_example_no = f"{self.few_shot["output_no"]}"
+            output_example_yes = f"{self.few_shot['output_yes']}"
+            output_example_no = f"{self.few_shot['output_no']}"
         
 
         prompt = (f"{prelude}\n "
@@ -89,10 +89,10 @@ class Prompts:
                  f"{format_instruction}\n "
 
                  f"Example 1:\n "
-                 f"{self.few_shot["input_yes"]}\n "
+                 f"{self.few_shot['input_yes']}\n "
                  f"{output_example_yes}\n "
                  f"Example 2:\n "
-                 f"{self.few_shot["input_no"]}\n "
+                 f"{self.few_shot['input_no']}\n "
                  f"{output_example_no}\n "
 
                  f"Example to label:\n "

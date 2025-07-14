@@ -22,7 +22,7 @@ df = df[[
     'intent', 'racist', 'toany', 'toyou', 'off_avg'                                                 # toxicity ratings columns
        ]]
 
-print(df["aae"].value_counts())
+
 # Obtain dataframe with demographic info only
 df_demographics = df[["annId", "annotatorGender", "annotatorPolitics", "annotatorRace", "annotatorAge", "annotatorMinority"]]
 df_demographics = df_demographics.drop_duplicates(subset="annId")
@@ -32,7 +32,7 @@ df_demographics.to_csv("./dataset/AnnAttDemographics.csv", index=False)
 
 
 # Add aggregated columns
-df["OffensiveYN"] = df.apply(binary_offensiveness, axis=1)
+df["offensiveYN"] = df.apply(binary_offensiveness, axis=1)
 df["annotatorPoliticsBinary"] = df.apply(binary_politics, axis=1)
 
 # Remove unwanted annotators and neutral labels 

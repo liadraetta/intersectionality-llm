@@ -34,7 +34,7 @@ df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits='
 df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=['gender', 'race'], CoT=False), axis=1)
 
 # Prompt with all demographics and CoT
-df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=['gender', 'race', 'generation'], CoT=True), axis=1)
+df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=['gender', 'race', 'political leaning'], CoT=True), axis=1)
 """
 
 
@@ -45,10 +45,9 @@ df_subset = pd.read_csv("./dataset/subset_100.csv")
 #  process subset
 df = df_subset.copy()
 demographic_traits=None
-CoT=True
+CoT=False
 
 df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=demographic_traits, CoT=CoT), axis=1)
-
 
 # obtain variables for the file name and the processed dataset
 model_id = "meta-llama/Llama-3.1-8B"
@@ -65,7 +64,7 @@ prediction_filename = f'predictions_{model_name}_{cot_str}_{demogr_str}.csv'
 print(f"Creating file: {prediction_filename}")
 
 file = open(f"{dir_predictions_original}/{prediction_filename}", mode='w')
-writer = csv.DictWriter(file,fieldnames=["offensiveYN","HITId", "WorkerId","demographics","output"])
+writer = csv.DictWriter(file,fieldnames=["offensiveYN","postId", "annId","demographics","output"])
 writer.writeheader()
 
 
@@ -106,10 +105,8 @@ for _,item in tqdm(df.iterrows(),total=len(df)):
 
   writer.writerow({
     'offensiveYN':item.offensiveYN,
-    'HITId':item.HITId, 
-    'WorkerId': item.WorkerId, 
+    'postId':item.postId, 
+    'annId': item.annId, 
     'demographics':demographics, 
     'output':gen_output
     })
-
-

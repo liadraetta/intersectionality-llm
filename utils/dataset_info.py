@@ -38,7 +38,7 @@ def binary_politics(row):
         return "neutral"
     
 def clean_dataset(df): 
-    df = df[df["OffensiveYN"] != "neutral"] #remove off_avg = 3.0
+    df = df[df["offensiveYN"] != "neutral"] #remove off_avg = 3.0
     races_to_remove = ["middleEastern", "na", "other", "hisp", "native"]
 
     df = df[~df["annotatorRace"].isin(races_to_remove)]
@@ -52,7 +52,7 @@ def print_info(df):
     print()
 
     print("Label distribution")
-    print(df["OffensiveYN"].value_counts())
+    print(df["offensiveYN"].value_counts())
     print()
 
     print("Annotator level")
