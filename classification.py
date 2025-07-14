@@ -8,8 +8,8 @@ from utils.prompts import Prompts
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from utils.clean_output import extract_demographics
 
-dir_processed_dataset = "./processed_dataset"
-dir_predictions_original = "./predictions/original"
+dir_processed_dataset = "intersectionality-llm/processed_dataset"
+dir_predictions_original = "intersectionality-llm/predictions/original"
 
 Path(dir_processed_dataset).mkdir(exist_ok=True)
 Path(dir_predictions_original).mkdir(parents=True, exist_ok=True)
@@ -39,7 +39,7 @@ df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=[
 
 
 # obtain subset
-df_subset = pd.read_csv("./dataset/subset_100.csv")
+df_subset = pd.read_csv("intersectionality-llm/dataset/subset_100.csv")
 
 
 #  process subset
@@ -50,7 +50,7 @@ CoT=False
 df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=demographic_traits, CoT=CoT), axis=1)
 
 # obtain variables for the file name and the processed dataset
-model_id = "meta-llama/Llama-3.1-8B"
+model_id = "mistralai/Ministral-8B-Instruct-2410"
 model_name = model_id.split("/")[1].split("-")[0]
 
 demogr_str = "_".join(demographic_traits) if demographic_traits else "baseline"
@@ -92,7 +92,7 @@ for _,item in tqdm(df.iterrows(),total=len(df)):
       input_ids,
       attention_mask = attention_mask,
       do_sample=False,
-      max_new_tokens=30,
+      max_new_tokens=100,
       pad_token_id=tokenizer.eos_token_id
     )
 

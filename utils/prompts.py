@@ -19,12 +19,12 @@ class Prompts:
 
         self.few_shot = {
             "input_yes": "Input:  A girl that looked like she worth the world to ya is around the corner getting fucked for a perk #Facts",
-            "output_yes": "Output: [The sentence is offensive][because][conveys a stereotypical message that women give their bodies to obtain  benefits and contains vulgar language]",
-            "output_yes_CoT": "Output: [The sentence conveys a stereotypical message that women give their bodies to obtain  benefits and contains vulgar language][so][the sentence is offensive]",
+            "output_yes": "Output: [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]",
+            "output_yes_CoT": "Output: [The sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language][so][the sentence is offensive]",
 
             "input_no": "Input: i read these facts Egypt has like 6 times the population of Syria. It would be a lot more balanced if you included Saudi Arabia (33 million), Yemen (28 million) and Iraq (38 million) for example",
-            "output_no": "Output: [The sentence is not offensive][because][it limits to provide information about the population of some country]",
-            "output_no_CoT": "Output: [The sentence limits to provide information about the population of some country][so][the sentence is not offensive]"
+            "output_no": "Output: [The sentence is not offensive][because][it merely provides information on the population of certain countries]",
+            "output_no_CoT": "Output: [The sentence merely provides information on the population of certain countries][so][the sentence is not offensive]"
         }
 
 
