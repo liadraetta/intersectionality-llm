@@ -43,19 +43,13 @@ def generate_classification_reports(predictions_dir,
                 print(f"Warning: 'prediction' column not found in {filename}")
                 continue
             
-            df_pred.loc[(df_pred['offensiveYN'] == 0.5) | (df_pred['offensiveYN'].isna()), 'offensiveYN'] = -1
-            filtered_df_pred = df_pred[df_pred["offensiveYN"]>=0]
-            y_true = filtered_df_pred["offensiveYN"].astype(int).tolist()
-            y_pred = filtered_df_pred["prediction"].astype(int).tolist()
+            y_true = df_pred["offensiveYN"].astype(int).tolist()
+            y_pred = df_pred["prediction"].astype(int).tolist()
             
 
             if len(y_true) != len(y_pred):
                 print(f"Warning: Length mismatch in {filename}")
-                # Align lengths by taking minimum
-                min_len = min(len(y_true), len(y_pred))
-                y_true = y_true[:min_len]
-                y_pred = y_pred[:min_len]
-            
+                
 
             output_file = os.path.join(results_dir, f"{filename}.txt")
             with open(output_file, "w") as f:

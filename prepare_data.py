@@ -37,6 +37,7 @@ df["annotatorPoliticsBinary"] = df.apply(binary_politics, axis=1)
 
 # Remove unwanted annotators and neutral labels 
 df_cleaned = clean_dataset(df)
+
 print("original dataframe: ", df.shape)
 print("cleaned dataframe: ", df_cleaned.shape)
 print()
@@ -48,5 +49,5 @@ print_info(df_cleaned)
 df_cleaned.to_csv("./dataset/AnnAttDataset.csv", index=False)
 
 
-subset_100 = df_cleaned.sample(100, random_state=42)
-subset_100.to_csv("./dataset/subset_100.csv", index=False)
+# subset_100 = df_cleaned.sample(100, random_state=42)
+# subset_100.to_csv("./dataset/subset_100.csv", index=False)

@@ -35,4 +35,5 @@ def extract_prediction(parsed_output):
     elif '[the sentence is not offensive]' in text:
         return 0
     else:
-        return "unknown"
+        return -1
+

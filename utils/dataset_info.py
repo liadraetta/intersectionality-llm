@@ -43,6 +43,8 @@ def clean_dataset(df):
 
     df = df[~df["annotatorRace"].isin(races_to_remove)]
 
+    df = df.drop_duplicates(subset=["annId", "postId", "offensiveYN"])
+
     return df 
 
 
