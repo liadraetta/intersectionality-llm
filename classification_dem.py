@@ -40,7 +40,7 @@ df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=[
 
 
 # obtain subset
-df_subset = pd.read_csv("intersectionality-llm/dataset/subset_100.csv")
+df = pd.read_csv("intersectionality-llm/dataset/AnnAttDataset.csv")
 
 model_id = "Qwen/Qwen2-7B-Instruct"
 model_name = model_id.split("/")[1].split("-")[0]
@@ -71,7 +71,7 @@ for r in range(1,len(list_traits)+1):
         print(list_dem)
 
         #  process subset
-        df = df_subset.copy()
+        df = df.copy()
         
         demographic_traits=list_dem
         CoT=False
@@ -128,12 +128,12 @@ for r in range(1,len(list_traits)+1):
                 demographics = extract_demographics(item.prompt)
                 writer.writerow({
                     'offensiveYN': item.offensiveYN,
-                    'HITId': item.HITId,
-                    'WorkerId': item.WorkerId,
+                    'postId': item.postId,
+                    'annId': item.annId,
                     'demographics': demographics,
                     'output': gen_output
                 })
-
+                
         """for _,item in tqdm(df.iterrows(),total=len(df)):
             encoded = tokenizer(item.prompt, return_tensors="pt")
             input_ids = encoded.input_ids.to(device)
