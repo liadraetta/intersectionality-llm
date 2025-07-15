@@ -46,13 +46,19 @@ model_id = "Qwen/Qwen2-7B-Instruct"
 model_name = model_id.split("/")[1].split("-")[0]
 
 transformers.set_seed(42)
-tokenizer = AutoTokenizer.from_pretrained(model_id, token="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")
+tokenizer = AutoTokenizer.from_pretrained(model_id, 
+                                          token="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",
+                                          padding_side='left')
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token
+
 model = AutoModelForCausalLM.from_pretrained(
     model_id, 
     token="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",
     torch_dtype=torch.bfloat16,
     device_map="auto"
    )
+
 device=next(model.parameters()).device
 
 list_traits = ["gender", "race", "generation"]
@@ -66,8 +72,10 @@ for r in range(1,len(list_traits)+1):
 
         #  process subset
         df = df_subset.copy()
+        
         demographic_traits=list_dem
         CoT=False
+        batch_size=16
 
         df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=demographic_traits, CoT=CoT), axis=1)
 
@@ -80,15 +88,53 @@ for r in range(1,len(list_traits)+1):
         prediction_filename = f'predictions_{model_name}_{cot_str}_{demogr_str}.csv'
 
 
-        # create the file 
+        # prediction_filenamecreate the file 
         print(f"Creating file: {prediction_filename}")
 
         file = open(f"{dir_predictions_original}/{prediction_filename}", mode='w')
         writer = csv.DictWriter(file,fieldnames=["offensiveYN","HITId", "WorkerId","demographics","output"])
         writer.writeheader()
 
+        num_batches = len(df) // batch_size + (1 if len(df) % batch_size > 0 else 0)
+        for batch_idx in tqdm(range(num_batches), desc="Processing batches"):
+            start_idx = batch_idx * batch_size
+            end_idx = min((batch_idx + 1) * batch_size, len(df))
+            df_batch = df.iloc[start_idx:end_idx]
+            
+            encoded = tokenizer(
+                df_batch['prompt'].tolist(),
+                return_tensors="pt",
+                padding = True,
+                truncation=True
+            )
+            input_ids = encoded.input_ids.to(device)
+            attention_mask = encoded.attention_mask.to(device)
 
-        for _,item in tqdm(df.iterrows(),total=len(df)):
+            with torch.no_grad():
+                outputs = model.generate(
+                input_ids,
+                attention_mask = attention_mask,
+                do_sample=False,
+                max_new_tokens=30,
+                pad_token_id=tokenizer.eos_token_id
+                )
+            
+            for i, (_, item) in enumerate(df_batch.iterrows()):
+                input_length = input_ids[i].shape[0]
+                new_tokens = outputs[i][input_length:]
+                gen_output = tokenizer.decode(new_tokens, skip_special_tokens=True)
+                
+                # Extract demographics and write row
+                demographics = extract_demographics(item.prompt)
+                writer.writerow({
+                    'offensiveYN': item.offensiveYN,
+                    'HITId': item.HITId,
+                    'WorkerId': item.WorkerId,
+                    'demographics': demographics,
+                    'output': gen_output
+                })
+
+        """for _,item in tqdm(df.iterrows(),total=len(df)):
             encoded = tokenizer(item.prompt, return_tensors="pt")
             input_ids = encoded.input_ids.to(device)
             attention_mask = encoded.attention_mask.to(device)
@@ -115,6 +161,6 @@ for r in range(1,len(list_traits)+1):
                 'WorkerId': item.WorkerId, 
                 'demographics':demographics, 
                 'output':gen_output
-                })
+                })"""
 
 

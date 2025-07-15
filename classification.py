@@ -46,6 +46,7 @@ df_subset = pd.read_csv("./dataset/subset_100.csv")
 df = df_subset.copy()
 demographic_traits=None
 CoT=True
+batch_size=16
 
 df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=demographic_traits, CoT=CoT), axis=1)
 
@@ -72,7 +73,13 @@ writer.writeheader()
 # classify
 transformers.set_seed(42)
 
-tokenizer = AutoTokenizer.from_pretrained(model_id, token="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")
+tokenizer = AutoTokenizer.from_pretrained(model_id,
+    token="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",
+    padding_side='left')
+# Set pad token if not already set
+if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+
 model = AutoModelForCausalLM.from_pretrained(
   model_id, 
   token="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",
@@ -80,9 +87,48 @@ model = AutoModelForCausalLM.from_pretrained(
   device_map="auto"
   )
 
-# extract the output and write it
 device=next(model.parameters()).device
+num_batches = len(df) // batch_size + (1 if len(df) % batch_size > 0 else 0)
 
+for batch_idx in tqdm(range(num_batches), desc="Processing batches"):
+  start_idx = batch_idx * batch_size
+  end_idx = min((batch_idx + 1) * batch_size, len(df))
+  df_batch = df.iloc[start_idx:end_idx]
+  
+  encoded = tokenizer(
+    df_batch['prompt'].tolist(),
+    return_tensors="pt",
+    padding = True,
+    truncation=True
+  )
+  input_ids = encoded.input_ids.to(device)
+  attention_mask = encoded.attention_mask.to(device)
+
+  with torch.no_grad():
+    outputs = model.generate(
+      input_ids,
+      attention_mask = attention_mask,
+      do_sample=False,
+      max_new_tokens=30,
+      pad_token_id=tokenizer.eos_token_id
+    )
+  
+  for i, (_, item) in enumerate(df_batch.iterrows()):
+    input_length = input_ids[i].shape[0]
+    new_tokens = outputs[i][input_length:]
+    gen_output = tokenizer.decode(new_tokens, skip_special_tokens=True)
+    
+    # Extract demographics and write row
+    demographics = extract_demographics(item.prompt)
+    writer.writerow({
+        'offensiveYN': item.offensiveYN,
+        'HITId': item.HITId,
+        'WorkerId': item.WorkerId,
+        'demographics': demographics,
+        'output': gen_output
+    })
+
+"""
 for _,item in tqdm(df.iterrows(),total=len(df)):
   encoded = tokenizer(item.prompt, return_tensors="pt")
   input_ids = encoded.input_ids.to(device)
@@ -111,5 +157,5 @@ for _,item in tqdm(df.iterrows(),total=len(df)):
     'demographics':demographics, 
     'output':gen_output
     })
-
+"""
 
