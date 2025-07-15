@@ -1,0 +1,14 @@
+Classification Report for cleaned_predictions_Qwen2_noCoT_baseline
+==================================================
+Total samples: 3094
+
+              precision    recall  f1-score   support
+
+          -1      0.000     0.000     0.000         0
+           0      0.911     0.225     0.361      1502
+           1      0.579     0.975     0.726      1592
+
+    accuracy                          0.611      3094
+   macro avg      0.497     0.400     0.362      3094
+weighted avg      0.740     0.611     0.549      3094
+
