@@ -17,11 +17,40 @@ def statistics_annotations(df, column_name):
 
   return d
 
+def binary_offensiveness(row):
+    off_avg = row["off_avg"]
+
+    if off_avg > 3.0:
+        return 1
+    elif off_avg < 3.0: 
+        return 0
+    else:
+        return "neutral"
+    
+def binary_politics(row):
+    politics = row["annotatorPolitics"]
+
+    if politics > 0:
+        return "conservative"
+    elif politics < 0:
+        return "liberal"
+    else:
+        return "neutral"
+    
+def clean_dataset(df): 
+    df = df[df["offensiveYN"] != "neutral"] #remove off_avg = 3.0
+    races_to_remove = ["middleEastern", "na", "other", "hisp", "native"]
+
+    df = df[~df["annotatorRace"].isin(races_to_remove)]
+
+    df = df.drop_duplicates(subset=["annId", "postId", "offensiveYN"])
+
+    return df 
 
 
 def print_info(df):
-    print("number of texts: ", len(df["HITId"].unique()))
-    print("number of annotators: ", len(df["WorkerId"].unique()))
+    print("number of texts: ", len(df["postId"].unique()))
+    print("number of annotators: ", len(df["annId"].unique()))
     print()
 
     print("Label distribution")
@@ -29,17 +58,24 @@ def print_info(df):
     print()
 
     print("Annotator level")
-    d_annotator = statistics_annotations(df, "WorkerId")
+    d_annotator = statistics_annotations(df, "annId")
     print()
 
     print("Annotation level")
-    d_annotation = statistics_annotations(df, "HITId")
+    d_annotation = statistics_annotations(df, "postId")
     print()
 
 
 
-def age_range(row):
-    """https://www.pewresearch.org/short-reads/2019/01/17/where-millennials-end-and-generation-z-begins/"""
+
+
+
+
+#######################################   Functions for the SBIC dataset   ############################################
+"""
+
+def age_range(row): 
+    # https://www.pewresearch.org/short-reads/2019/01/17/where-millennials-end-and-generation-z-begins/
 
     age = row["annotatorAge"]
     
@@ -56,7 +92,7 @@ def age_range(row):
     
 
 
-def white_male(row):
+def white_male(row): 
     race = row["annotatorRace"]
     gender = row["annotatorGender"]
 
@@ -64,3 +100,4 @@ def white_male(row):
         return "NoMinority"
     else:
         return "YesMinority"
+"""

@@ -25,29 +25,15 @@ def extract_demographics(prompt):
         return "None"
 
 
-def parse_output(text):
-    output_match = re.search(r'Output:\s*(.*?)(?=\n\n|$)', text, re.DOTALL)
-    if output_match:
-        return output_match.group(1).strip()
-    return -1
-
 
 def extract_prediction(parsed_output):
     text = parsed_output.lower()
     
     # Check if repeats the prompt
-    if 'the sentence is offensive/is not offensive' in text:
-        return -1
-    
-    offensive_count = text.count('offensive')
-    not_offensive_count = text.count('not offensive')
-    
-    # Actual offensive count (subtract "not offensive" instances)
-    actual_offensive_count = offensive_count - not_offensive_count
-    
-    if not_offensive_count > 0 and actual_offensive_count == 0:
-        return 0  # Only "not offensive" found
-    elif actual_offensive_count > 0 and not_offensive_count == 0:
-        return 1  # Only "offensive" found
+    if '[the sentence is offensive]' in text: 
+        return 1
+    elif '[the sentence is not offensive]' in text:
+        return 0
     else:
-        return -1  # Both found, neither found, or ambiguous
+        return -1
+

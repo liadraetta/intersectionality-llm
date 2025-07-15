@@ -35,7 +35,7 @@ df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits='
 df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=['gender', 'race'], CoT=False), axis=1)
 
 # Prompt with all demographics and CoT
-df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=['gender', 'race', 'generation'], CoT=True), axis=1)
+df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=['gender', 'race', 'political leaning'], CoT=True), axis=1)
 """
 
 
@@ -61,7 +61,7 @@ model = AutoModelForCausalLM.from_pretrained(
 
 device=next(model.parameters()).device
 
-list_traits = ["gender", "race", "generation"]
+list_traits = ["gender", "race", "political leaning"]
 
 for r in range(1,len(list_traits)+1):
     print("subset lenght: ", r)
@@ -92,7 +92,7 @@ for r in range(1,len(list_traits)+1):
         print(f"Creating file: {prediction_filename}")
 
         file = open(f"{dir_predictions_original}/{prediction_filename}", mode='w')
-        writer = csv.DictWriter(file,fieldnames=["offensiveYN","HITId", "WorkerId","demographics","output"])
+        writer = csv.DictWriter(file,fieldnames=["offensiveYN","postId", "annId","demographics","output"])
         writer.writeheader()
 
         num_batches = len(df) // batch_size + (1 if len(df) % batch_size > 0 else 0)
@@ -144,7 +144,7 @@ for r in range(1,len(list_traits)+1):
                 input_ids,
                 attention_mask = attention_mask,
                 do_sample=False,
-                max_new_tokens=30,
+                max_new_tokens=100,
                 pad_token_id=tokenizer.eos_token_id
                 )
 
@@ -157,8 +157,8 @@ for r in range(1,len(list_traits)+1):
 
             writer.writerow({
                 'offensiveYN':item.offensiveYN,
-                'HITId':item.HITId, 
-                'WorkerId': item.WorkerId, 
+                'postId':item.postId, 
+                'annId': item.annId, 
                 'demographics':demographics, 
                 'output':gen_output
                 })"""

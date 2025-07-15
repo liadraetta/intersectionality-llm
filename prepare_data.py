@@ -2,48 +2,52 @@ import pandas as pd
 import numpy as np
 from utils.dataset_info import *
 
-train = pd.read_csv("data/SBIC.v2/SBIC.v2.trn.csv")
-train.insert(1, "set", "train")
-dev = pd.read_csv("data/SBIC.v2/SBIC.v2.dev.csv")
-dev.insert(1, "set", "dev")
-test = pd.read_csv("data/SBIC.v2/SBIC.v2.tst.csv")
-test.insert(1, "set", "test")
+df = pd.read_csv("data/annWithAttitudes/largeScale.csv")
+"""original columns
+['Unnamed: 0', 'postId', 'tweet', 'ogId', 'ogLabel', 'source',
+       'ogLabelToxic', 'aae', 'hispanic', 'other', 'white', 'dialAm', 'noi',
+       'oi', 'oni', 'vulgar', 'targetsBlackPeople', 'isAAE', 'postCategory',
+       'altruism', 'annotatorAge', 'annotatorGender', 'annotatorMinority',
+       'annotatorPolitics', 'annotatorRace', 'dontUnderstand', 'empathy',
+       'freeSpeech', 'harmHateSpeech', 'intent', 'lingPurism', 'racism',
+       'racist', 'toany', 'toyou', 'traditionalism', 'off_avg', 'annId']
+"""
 
+df = df[[
+    'annId', 
+    'postId', 'tweet', 
+    'dialAm',                                                                                       # which dialect has the highest score
+    'vulgar', 'targetsBlackPeople', 'isAAE',                                                        # wheter a post belongs to a certain category
+    'annotatorAge', 'annotatorGender', 'annotatorMinority','annotatorPolitics', 'annotatorRace',    # demographics 
+    'intent', 'racist', 'toany', 'toyou', 'off_avg'                                                 # toxicity ratings columns
+       ]]
 
-print(train.shape, dev.shape, test.shape)
-df = pd.concat([train,dev,test], axis=0)
 
 # Obtain dataframe with demographic info only
-df_demographics = df[["set","WorkerId", "annotatorGender", "annotatorMinority", 
-                      "annotatorPolitics", "annotatorRace", "annotatorAge"]]
-df_demographics = df_demographics.drop_duplicates(subset="WorkerId")
-df_demographics["annotatorGeneration"] = df_demographics.apply(age_range, axis=1)
-df_demographics["IntersectionMinority"] = df_demographics.apply(white_male, axis=1)
+df_demographics = df[["annId", "annotatorGender", "annotatorPolitics", "annotatorRace", "annotatorAge", "annotatorMinority"]]
+df_demographics = df_demographics.drop_duplicates(subset="annId")
 
-df_demographics.to_csv("./dataset/SBICdemographics.csv")
+df_demographics.to_csv("./dataset/AnnAttDemographics.csv", index=False)
 
 
-"""We will work on the test set only"""
-# Add column ["annotatorGeneration"] to main df, excluding the unknown values
-df_test = test.copy()
-df_test = df_test.merge(df_demographics[["WorkerId", "annotatorGeneration", "IntersectionMinority"]], on="WorkerId", how="left")
 
-# Remove unwanted annotators 
-df_test = df_test[df_test["annotatorGeneration"] != "Unknown"] 
-df_test = df_test[df_test["IntersectionMinority"] != "NoMinority"] 
-df_test = df_test[['whoTarget','intentYN', 'sexYN', 'offensiveYN',
-       'annotatorGender', 'speakerMinorityYN', 'WorkerId', 'HITId',
-       'annotatorRace', 'post', 'targetMinority','dataSource',
-       'annotatorGeneration']]
+# Add aggregated columns
+df["offensiveYN"] = df.apply(binary_offensiveness, axis=1)
+df["annotatorPoliticsBinary"] = df.apply(binary_politics, axis=1)
+
+# Remove unwanted annotators and neutral labels 
+df_cleaned = clean_dataset(df)
+
+print("original dataframe: ", df.shape)
+print("cleaned dataframe: ", df_cleaned.shape)
+print()
 
 # Dataset information and statistics
-print("\n","Filtered dataset shape: ", df_test.shape)
-print_info(df_test)
-
-df_test.to_csv("./dataset/FilteredTestSet.csv", index=False)
+print_info(df_cleaned)
 
 
+df_cleaned.to_csv("./dataset/AnnAttDataset.csv", index=False)
 
-# traits = ["annotatorGender", "annotatorRace", "annotatorGeneration"]
 
-
+# subset_100 = df_cleaned.sample(100, random_state=42)
+# subset_100.to_csv("./dataset/subset_100.csv", index=False)
