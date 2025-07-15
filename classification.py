@@ -108,7 +108,7 @@ for batch_idx in tqdm(range(num_batches), desc="Processing batches"):
       input_ids,
       attention_mask = attention_mask,
       do_sample=False,
-      max_new_tokens=30,
+      max_new_tokens=100,
       pad_token_id=tokenizer.eos_token_id
     )
   

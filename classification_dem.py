@@ -115,7 +115,7 @@ for r in range(1,len(list_traits)+1):
                 input_ids,
                 attention_mask = attention_mask,
                 do_sample=False,
-                max_new_tokens=30,
+                max_new_tokens=100,
                 pad_token_id=tokenizer.eos_token_id
                 )
             
