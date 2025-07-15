@@ -37,3 +37,34 @@ def extract_prediction(parsed_output):
     else:
         return -1
 
+
+
+def extract_bracket_content(text):
+    # Split text into lines
+    lines = text.strip().split('\n')
+    
+    # Find the line that starts with brackets and contains multiple bracket pairs
+    for line in lines:
+        line = line.strip()
+        # Check if line starts with [ and has multiple bracket pairs
+        if line.startswith('[') and line.count('[') >= 2:
+            # Pattern to match text within square brackets
+            pattern = r'\[([^\]]+)\]'
+            # Find all matches in this specific line
+            matches = re.findall(pattern, line)
+            return ' '.join(matches)
+    
+    return []
+
+
+def extract_output(df, output_col):
+    df['prediction'] = df[output_col].apply(extract_prediction)
+    
+    texts = df[output_col].tolist()
+    results = []
+    for text in texts: 
+        result = extract_bracket_content(text)
+        results.append(result)
+    df['parsed_output'] = results
+
+    return df 

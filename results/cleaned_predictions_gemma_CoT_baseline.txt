@@ -1,0 +1,14 @@
+Classification Report for cleaned_predictions_gemma_CoT_baseline
+==================================================
+Total samples: 3094
+
+              precision    recall  f1-score   support
+
+          -1      0.000     0.000     0.000         0
+           0      0.960     0.048     0.091      1502
+           1      0.539     0.351     0.425      1592
+
+    accuracy                          0.204      3094
+   macro avg      0.500     0.133     0.172      3094
+weighted avg      0.743     0.204     0.263      3094
+

@@ -1,0 +1,13 @@
+Classification Report for cleaned_predictions_Ministral_CoT_baseline
+==================================================
+Total samples: 3094
+
+              precision    recall  f1-score   support
+
+           0      0.946     0.188     0.313      1502
+           1      0.564     0.990     0.718      1592
+
+    accuracy                          0.601      3094
+   macro avg      0.755     0.589     0.516      3094
+weighted avg      0.749     0.601     0.522      3094
+
