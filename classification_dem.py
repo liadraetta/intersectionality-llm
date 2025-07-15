@@ -84,7 +84,7 @@ for r in range(1,len(list_traits)+1):
         demogr_str = "_".join(demographic_traits) if demographic_traits else "baseline"
         cot_str = "CoT" if CoT else "noCoT"
 
-        df.to_csv(f'{dir_processed_dataset}/processed_subset_{model_name}_{cot_str}_{demogr_str}.csv',index=False)
+        df.to_csv(f'{dir_processed_dataset}/processed_{model_name}_{cot_str}_{demogr_str}.csv',index=False)
         prediction_filename = f'predictions_{model_name}_{cot_str}_{demogr_str}.csv'
 
 
@@ -133,7 +133,7 @@ for r in range(1,len(list_traits)+1):
                     'demographics': demographics,
                     'output': gen_output
                 })
-                
+
         """for _,item in tqdm(df.iterrows(),total=len(df)):
             encoded = tokenizer(item.prompt, return_tensors="pt")
             input_ids = encoded.input_ids.to(device)

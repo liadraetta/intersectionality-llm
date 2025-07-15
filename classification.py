@@ -57,7 +57,7 @@ model_name = model_id.split("/")[1].split("-")[0]
 demogr_str = "_".join(demographic_traits) if demographic_traits else "baseline"
 cot_str = "CoT" if CoT else "noCoT"
 
-df.to_csv(f'{dir_processed_dataset}/processed_subset_{model_name}_{cot_str}_{demogr_str}.csv',index=False)
+df.to_csv(f'{dir_processed_dataset}/processed_{model_name}_{cot_str}_{demogr_str}.csv',index=False)
 prediction_filename = f'predictions_{model_name}_{cot_str}_{demogr_str}.csv'
 
 
