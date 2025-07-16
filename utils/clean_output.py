@@ -25,7 +25,6 @@ def extract_demographics(prompt):
         return "None"
 
 
-
 def extract_prediction(output):
     text = output.lower()
     
