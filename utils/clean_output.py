@@ -45,6 +45,11 @@ def extract_prediction(output):
                 return 0
             else:
                 return -1
+        elif '[the sentence is offensive]' in text: #c'è "output" ma non fa match con la regex
+            return 1
+        elif '[the sentence is not offensive]' in text:
+            return 0
+        else: return -1
     else:
         if '[the sentence is offensive]' in text:
             return 1

@@ -503,14 +503,14 @@ Find your spirit, and no challenge will keep you from achieving your goals. - Ch
 plums are one of the reasons why the world sucks
 ### Output:
 
-The sentence is offensive because uses a derogatory term to describe the world.",-1,The sentence is offensive because uses a derogatory term to describe the world
+The sentence is offensive because uses a derogatory term to describe the world.",1,The sentence is offensive because uses a derogatory term to describe the world
 1,500,10166032,," [The sentence is offensive][because][uses a derogatory term to describe the world]
  
 ### Input:
 plums are one of the reasons why the world sucks
 ### Output:
 
-The sentence is offensive because uses a derogatory term to describe the world.",-1,The sentence is offensive because uses a derogatory term to describe the world
+The sentence is offensive because uses a derogatory term to describe the world.",1,The sentence is offensive because uses a derogatory term to describe the world
 1,3237,74158862,," [the sentence is offensive][because][contains a derogatory term ""Badonkadonk"" which is often used to refer to someone's buttocks in a disrespectful manner]
 ### Input:
 ""Yo, that broad over there is fire, I'm gonna hit her up later.""
@@ -570,14 +570,14 @@ I'm so tired of people who think they're better than everyone else because they 
 ""Yo, that broad is so hot, I'd do her even if she was my sister.""
 ### Output:
 
-[The sentence is offensive][because][it promotes non-consensual sexual behavior and objectifies a person based on their appearance]",-1,The sentence is offensive because it defends or justifies the actions of a known genocidal figure
+[The sentence is offensive][because][it promotes non-consensual sexual behavior and objectifies a person based on their appearance]",1,The sentence is offensive because it defends or justifies the actions of a known genocidal figure
 1,810,10166032,," [The sentence is offensive][because][it defends or justifies the actions of a known genocidal figure]
  
 ### Input:
 ""Yo, that broad is so hot, I'd do her even if she was my sister.""
 ### Output:
 
-[The sentence is offensive][because][it promotes non-consensual sexual behavior and objectifies a person based on their appearance]",-1,The sentence is offensive because it defends or justifies the actions of a known genocidal figure
+[The sentence is offensive][because][it promotes non-consensual sexual behavior and objectifies a person based on their appearance]",1,The sentence is offensive because it defends or justifies the actions of a known genocidal figure
 0,3699,8526465,," [the sentence is offensive][because][contains explicit language and insults directed at someone]
 
 ### Input: ""I can't believe how many people still believe in global warming, it's just a scam made up by scientists to get funding.""
@@ -836,13 +836,13 @@ What a narcissistic cunt. She openly admits that she is scared to tell people sh
 this muslim friend of mine is one of the reasons why my life fucking sucks
 ### Output:
 
-[the sentence is offensive][because][contains racist language directed towards a religious group and implies that the speaker's friend is responsible for their personal problems]",-1,the sentence is offensive because contains racist language and implies that the speaker's colleague is responsible for their personal problems
+[the sentence is offensive][because][contains racist language directed towards a religious group and implies that the speaker's friend is responsible for their personal problems]",1,the sentence is offensive because contains racist language and implies that the speaker's colleague is responsible for their personal problems
 1,2016,10166032,," [the sentence is offensive][because][contains racist language and implies that the speaker's colleague is responsible for their personal problems]
 ### Input:
 this muslim friend of mine is one of the reasons why my life fucking sucks
 ### Output:
 
-[the sentence is offensive][because][contains racist language directed towards a religious group and implies that the speaker's friend is responsible for their personal problems]",-1,the sentence is offensive because contains racist language and implies that the speaker's colleague is responsible for their personal problems
+[the sentence is offensive][because][contains racist language directed towards a religious group and implies that the speaker's friend is responsible for their personal problems]",1,the sentence is offensive because contains racist language and implies that the speaker's colleague is responsible for their personal problems
 1,2799,10638687,," [the sentence is offensive][because][contains religious and violent language]
 ### Input:
 ""I'm so sick of people who think they're better than everyone else because they have a fancy car or a big house. It's not fair.""
@@ -1316,14 +1316,14 @@ Cheaper to buy 2 hockey sticks from the US and have them shipped over than buyin
 Ragyo is deadass so ugly. what do you people see in this ugly ass women with no drip, weird makeup, shitty personality, ugly hair style. Yall mfs must be down bad for milfs #ragyo
 
 ### Output: 
-[the sentence is offensive][because][contains derogatory language and insults directed",-1,"the sentence is offensive because contains derogatory language and insults directed towards a specific individual based on physical appearance, personality traits, and age"
+[the sentence is offensive][because][contains derogatory language and insults directed",1,"the sentence is offensive because contains derogatory language and insults directed towards a specific individual based on physical appearance, personality traits, and age"
 1,724,74158862,," [the sentence is offensive][because][contains derogatory language and insults directed towards a specific individual based on physical appearance, personality traits, and age]
 
 ### Input: 
 Ragyo is deadass so ugly. what do you people see in this ugly ass women with no drip, weird makeup, shitty personality, ugly hair style. Yall mfs must be down bad for milfs #ragyo
 
 ### Output: 
-[the sentence is offensive][because][contains derogatory language and insults directed",-1,"the sentence is offensive because contains derogatory language and insults directed towards a specific individual based on physical appearance, personality traits, and age"
+[the sentence is offensive][because][contains derogatory language and insults directed",1,"the sentence is offensive because contains derogatory language and insults directed towards a specific individual based on physical appearance, personality traits, and age"
 1,2214,54904271,," [The sentence is offensive][because][contains racial slur and insults]
 ### Input:
 You're so dumb, you can't even spell your own name correctly. How do you expect to succeed in life?
@@ -1568,14 +1568,14 @@ If I wasn't a LeBron damn I'd hate him he gotta annoying tendencies
 S/O to the Brodie @PornStar_Mookie killing it in Cali getting that money, weed, and weather :flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone:
 
 ### Output:
-[The sentence is not",-1,The sentence is not offensive because it is a congratulatory message directed at a person with no offensive content
+[The sentence is not",0,The sentence is not offensive because it is a congratulatory message directed at a person with no offensive content
 0,3525,42663050,," [The sentence is not offensive][because][it is a congratulatory message directed at a person with no offensive content]
 
 ### Input:
 S/O to the Brodie @PornStar_Mookie killing it in Cali getting that money, weed, and weather :flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone:
 
 ### Output:
-[The sentence is not",-1,The sentence is not offensive because it is a congratulatory message directed at a person with no offensive content
+[The sentence is not",0,The sentence is not offensive because it is a congratulatory message directed at a person with no offensive content
 0,2668,54904271,," [The sentence is not offensive][because][it expresses a personal opinion about a situation without containing offensive language or content]
 
 ### Input:
@@ -2279,14 +2279,14 @@ I'm so tired of people always talking about their problems and never doing anyth
 There's no denying that some people are just naturally better at certain things than others. For instance, I'm terrible at math, but my friend is a whiz at it. It's not fair, but it's true.
 
 ### Output: 
-[The sentence is not offensive][because][it simply states an observation about individual differences without making any derogatory statements or promoting discrimination]",-1,The sentence is offensive because contains racist stereotypes and arguments
+[The sentence is not offensive][because][it simply states an observation about individual differences without making any derogatory statements or promoting discrimination]",0,The sentence is offensive because contains racist stereotypes and arguments
 0,1531,3088028,," [The sentence is offensive][because][contains racist stereotypes and arguments]
 
 ### Input: 
 There's no denying that some people are just naturally better at certain things than others. For instance, I'm terrible at math, but my friend is a whiz at it. It's not fair, but it's true.
 
 ### Output: 
-[The sentence is not offensive][because][it simply states an observation about individual differences without making any derogatory statements or promoting discrimination]",-1,The sentence is offensive because contains racist stereotypes and arguments
+[The sentence is not offensive][because][it simply states an observation about individual differences without making any derogatory statements or promoting discrimination]",0,The sentence is offensive because contains racist stereotypes and arguments
 1,1702,40401566,," [the sentence is offensive][because][it promotes racism by suggesting that most Asians have a negative view of black people]
 
 ### Input:
@@ -4462,7 +4462,7 @@ A guy who's always late for everything is probably a bad boyfriend material. He 
 1,2142,42267923,," [The sentence is offensive][because][contains racist language and derogatory terms]
 ### Input:
 But it was all phoney. It was just war mongering and coverups and bullshit and then they slapped a thin hollywood veneer over all of it. Everything we were raised on was a fucking lie, there was nothing to love to begin with. The USA we loved didn't even exist in the past, it was all bullshit. there have always been niggers roaming the streets
-### Output",-1,The sentence is offensive because contains racist language and derogatory terms
+### Output",1,The sentence is offensive because contains racist language and derogatory terms
 0,4069,67558416,," [The sentence is offensive][because][contains racial slurs and promotes violence]
 ### Input:
 All my niggas wear crowns, all my niggas bossed up, all my niggas got bad bitches don't none of us give a fuck.
@@ -4544,7 +4544,7 @@ what a fucking low ass nigger move
 Sperm donors are actually for people who actually need one, people with infertility, same sex couples etc. Definitely not for some fucking bratty immature bitch just because she ""hates men"" (yet is DESPERATE for a boyfriend online) How much we betting that her ""sperm donor"" will be some random shag off tinder.
 
 ### Output:
-[The sentence is",-1,The sentence is offensive because uses derogatory language and makes negative assumptions about women's motivations
+[The sentence is",1,The sentence is offensive because uses derogatory language and makes negative assumptions about women's motivations
 1,2159,67558416,," [The sentence is offensive][because][contains racial slurs and derogatory language directed towards a specific group of people]
 
 ### Input: ""I can't believe how many people still believe in global warming conspiracy theories. It's just ridiculous.""
@@ -4762,13 +4762,13 @@ When I'm doing good niggas wanna hate. That's why I only got myself. The rest do
 this is a stupid thing to say, keep being ignorant
 ### Output:
 
-The sentence is offensive because it uses derogatory language (""stupid"") and encourages someone to maintain an ignorant attitude, which can be seen as disrespectful and demeaning.",-1,The sentence is offensive because contains racial slurs and promotes derogatory behavior towards a specific race
+The sentence is offensive because it uses derogatory language (""stupid"") and encourages someone to maintain an ignorant attitude, which can be seen as disrespectful and demeaning.",1,The sentence is offensive because contains racial slurs and promotes derogatory behavior towards a specific race
 1,2212,42267923,," [The sentence is offensive][because][contains racial slurs and promotes derogatory behavior towards a specific race]
 ### Input:
 this is a stupid thing to say, keep being ignorant
 ### Output:
 
-The sentence is offensive because it uses derogatory language (""stupid"") and encourages someone to maintain an ignorant attitude, which can be seen as disrespectful and demeaning.",-1,The sentence is offensive because contains racial slurs and promotes derogatory behavior towards a specific race
+The sentence is offensive because it uses derogatory language (""stupid"") and encourages someone to maintain an ignorant attitude, which can be seen as disrespectful and demeaning.",1,The sentence is offensive because contains racial slurs and promotes derogatory behavior towards a specific race
 1,4133,42267923,," [The sentence is offensive][because][contains racial slur and explicit language]
 ### Input:
 You're so stupid, I can't even believe you exist.
@@ -6382,14 +6382,14 @@ Find your spirit, and no challenge will keep you from achieving your goals. - Ch
 plums are one of the reasons why the world sucks
 ### Output:
 
-The sentence is offensive because uses a derogatory term to describe the world.",-1,The sentence is offensive because uses a derogatory term to describe the world
+The sentence is offensive because uses a derogatory term to describe the world.",1,The sentence is offensive because uses a derogatory term to describe the world
 0,500,40321857,," [The sentence is offensive][because][uses a derogatory term to describe the world]
  
 ### Input:
 plums are one of the reasons why the world sucks
 ### Output:
 
-The sentence is offensive because uses a derogatory term to describe the world.",-1,The sentence is offensive because uses a derogatory term to describe the world
+The sentence is offensive because uses a derogatory term to describe the world.",1,The sentence is offensive because uses a derogatory term to describe the world
 0,3237,66593239,," [the sentence is offensive][because][contains a derogatory term ""Badonkadonk"" which is often used to refer to someone's buttocks in a disrespectful manner]
 ### Input:
 ""Yo, that broad over there is fire, I'm gonna hit her up later.""
@@ -6456,14 +6456,14 @@ I'm so tired of people who think they're better than everyone else because they 
 ""Yo, that broad is so hot, I'd do her even if she was my sister.""
 ### Output:
 
-[The sentence is offensive][because][it promotes non-consensual sexual behavior and objectifies a person based on their appearance]",-1,The sentence is offensive because it defends or justifies the actions of a known genocidal figure
+[The sentence is offensive][because][it promotes non-consensual sexual behavior and objectifies a person based on their appearance]",1,The sentence is offensive because it defends or justifies the actions of a known genocidal figure
 1,810,45870433,," [The sentence is offensive][because][it defends or justifies the actions of a known genocidal figure]
  
 ### Input:
 ""Yo, that broad is so hot, I'd do her even if she was my sister.""
 ### Output:
 
-[The sentence is offensive][because][it promotes non-consensual sexual behavior and objectifies a person based on their appearance]",-1,The sentence is offensive because it defends or justifies the actions of a known genocidal figure
+[The sentence is offensive][because][it promotes non-consensual sexual behavior and objectifies a person based on their appearance]",1,The sentence is offensive because it defends or justifies the actions of a known genocidal figure
 0,3699,40321857,," [the sentence is offensive][because][contains explicit language and insults directed at someone]
 
 ### Input: ""I can't believe how many people still believe in global warming, it's just a scam made up by scientists to get funding.""
@@ -6696,13 +6696,13 @@ What a narcissistic cunt. She openly admits that she is scared to tell people sh
 this muslim friend of mine is one of the reasons why my life fucking sucks
 ### Output:
 
-[the sentence is offensive][because][contains racist language directed towards a religious group and implies that the speaker's friend is responsible for their personal problems]",-1,the sentence is offensive because contains racist language and implies that the speaker's colleague is responsible for their personal problems
+[the sentence is offensive][because][contains racist language directed towards a religious group and implies that the speaker's friend is responsible for their personal problems]",1,the sentence is offensive because contains racist language and implies that the speaker's colleague is responsible for their personal problems
 1,2016,45870433,," [the sentence is offensive][because][contains racist language and implies that the speaker's colleague is responsible for their personal problems]
 ### Input:
 this muslim friend of mine is one of the reasons why my life fucking sucks
 ### Output:
 
-[the sentence is offensive][because][contains racist language directed towards a religious group and implies that the speaker's friend is responsible for their personal problems]",-1,the sentence is offensive because contains racist language and implies that the speaker's colleague is responsible for their personal problems
+[the sentence is offensive][because][contains racist language directed towards a religious group and implies that the speaker's friend is responsible for their personal problems]",1,the sentence is offensive because contains racist language and implies that the speaker's colleague is responsible for their personal problems
 0,2799,98987708,," [the sentence is offensive][because][contains religious and violent language]
 ### Input:
 ""I'm so sick of people who think they're better than everyone else because they have a fancy car or a big house. It's not fair.""
@@ -7142,14 +7142,14 @@ Cheaper to buy 2 hockey sticks from the US and have them shipped over than buyin
 Ragyo is deadass so ugly. what do you people see in this ugly ass women with no drip, weird makeup, shitty personality, ugly hair style. Yall mfs must be down bad for milfs #ragyo
 
 ### Output: 
-[the sentence is offensive][because][contains derogatory language and insults directed",-1,"the sentence is offensive because contains derogatory language and insults directed towards a specific individual based on physical appearance, personality traits, and age"
+[the sentence is offensive][because][contains derogatory language and insults directed",1,"the sentence is offensive because contains derogatory language and insults directed towards a specific individual based on physical appearance, personality traits, and age"
 0,724,93788928,," [the sentence is offensive][because][contains derogatory language and insults directed towards a specific individual based on physical appearance, personality traits, and age]
 
 ### Input: 
 Ragyo is deadass so ugly. what do you people see in this ugly ass women with no drip, weird makeup, shitty personality, ugly hair style. Yall mfs must be down bad for milfs #ragyo
 
 ### Output: 
-[the sentence is offensive][because][contains derogatory language and insults directed",-1,"the sentence is offensive because contains derogatory language and insults directed towards a specific individual based on physical appearance, personality traits, and age"
+[the sentence is offensive][because][contains derogatory language and insults directed",1,"the sentence is offensive because contains derogatory language and insults directed towards a specific individual based on physical appearance, personality traits, and age"
 1,2214,69198055,," [The sentence is offensive][because][contains racial slur and insults]
 ### Input:
 You're so dumb, you can't even spell your own name correctly. How do you expect to succeed in life?
@@ -7438,14 +7438,14 @@ If I wasn't a LeBron damn I'd hate him he gotta annoying tendencies
 S/O to the Brodie @PornStar_Mookie killing it in Cali getting that money, weed, and weather :flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone:
 
 ### Output:
-[The sentence is not",-1,The sentence is not offensive because it is a congratulatory message directed at a person with no offensive content
+[The sentence is not",0,The sentence is not offensive because it is a congratulatory message directed at a person with no offensive content
 0,3525,69198055,," [The sentence is not offensive][because][it is a congratulatory message directed at a person with no offensive content]
 
 ### Input:
 S/O to the Brodie @PornStar_Mookie killing it in Cali getting that money, weed, and weather :flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone:
 
 ### Output:
-[The sentence is not",-1,The sentence is not offensive because it is a congratulatory message directed at a person with no offensive content
+[The sentence is not",0,The sentence is not offensive because it is a congratulatory message directed at a person with no offensive content
 0,2668,5428237,," [The sentence is not offensive][because][it expresses a personal opinion about a situation without containing offensive language or content]
 
 ### Input:
@@ -8161,14 +8161,14 @@ I'm so tired of people always talking about their problems and never doing anyth
 There's no denying that some people are just naturally better at certain things than others. For instance, I'm terrible at math, but my friend is a whiz at it. It's not fair, but it's true.
 
 ### Output: 
-[The sentence is not offensive][because][it simply states an observation about individual differences without making any derogatory statements or promoting discrimination]",-1,The sentence is offensive because contains racist stereotypes and arguments
+[The sentence is not offensive][because][it simply states an observation about individual differences without making any derogatory statements or promoting discrimination]",0,The sentence is offensive because contains racist stereotypes and arguments
 0,1531,14105244,," [The sentence is offensive][because][contains racist stereotypes and arguments]
 
 ### Input: 
 There's no denying that some people are just naturally better at certain things than others. For instance, I'm terrible at math, but my friend is a whiz at it. It's not fair, but it's true.
 
 ### Output: 
-[The sentence is not offensive][because][it simply states an observation about individual differences without making any derogatory statements or promoting discrimination]",-1,The sentence is offensive because contains racist stereotypes and arguments
+[The sentence is not offensive][because][it simply states an observation about individual differences without making any derogatory statements or promoting discrimination]",0,The sentence is offensive because contains racist stereotypes and arguments
 1,1702,45678981,," [the sentence is offensive][because][it promotes racism by suggesting that most Asians have a negative view of black people]
 
 ### Input:
@@ -9728,14 +9728,14 @@ I saw that fucking shitbag standing in the dark, the coward ran away, surprised 
 There's a big difference between being a bitch and being a woman
 ### Output:
 
-[the sentence is offensive][because][it implies that all women are bitches and uses a derogatory term]",-1,the sentence is offensive because it implies that all women are bitches and uses a derogatory term
+[the sentence is offensive][because][it implies that all women are bitches and uses a derogatory term]",1,the sentence is offensive because it implies that all women are bitches and uses a derogatory term
 0,230,90385194,," [the sentence is offensive][because][it implies that all women are bitches and uses a derogatory term]
  
 ### Input:
 There's a big difference between being a bitch and being a woman
 ### Output:
 
-[the sentence is offensive][because][it implies that all women are bitches and uses a derogatory term]",-1,the sentence is offensive because it implies that all women are bitches and uses a derogatory term
+[the sentence is offensive][because][it implies that all women are bitches and uses a derogatory term]",1,the sentence is offensive because it implies that all women are bitches and uses a derogatory term
 1,304,36400600,," [The sentence is offensive][because][contains racial slur and expresses a negative sentiment towards the user]
 ### Input:
 My friend is a fag and he's so gay, I can't stand him.
@@ -9787,11 +9787,11 @@ This kid called me a nigger today, so I corrected him saying ""that's African Am
 1,2142,2385721,," [The sentence is offensive][because][contains racist language and derogatory terms]
 ### Input:
 But it was all phoney. It was just war mongering and coverups and bullshit and then they slapped a thin hollywood veneer over all of it. Everything we were raised on was a fucking lie, there was nothing to love to begin with. The USA we loved didn't even exist in the past, it was all bullshit. there have always been niggers roaming the streets
-### Output",-1,The sentence is offensive because contains racist language and derogatory terms
+### Output",1,The sentence is offensive because contains racist language and derogatory terms
 1,2142,90385194,," [The sentence is offensive][because][contains racist language and derogatory terms]
 ### Input:
 But it was all phoney. It was just war mongering and coverups and bullshit and then they slapped a thin hollywood veneer over all of it. Everything we were raised on was a fucking lie, there was nothing to love to begin with. The USA we loved didn't even exist in the past, it was all bullshit. there have always been niggers roaming the streets
-### Output",-1,The sentence is offensive because contains racist language and derogatory terms
+### Output",1,The sentence is offensive because contains racist language and derogatory terms
 1,2180,94108971,," [The sentence is offensive][because][contains racial slur and uses vulgar language]
 ### Input:
 My friend is so stupid, he can't even tie his shoes without help.
@@ -10038,13 +10038,13 @@ Seeing niggas getting sent back home to the damn hellholes they came from is my 
 this is a stupid thing to say, keep being ignorant
 ### Output:
 
-The sentence is offensive because it uses derogatory language (""stupid"") and encourages someone to maintain an ignorant attitude, which can be seen as disrespectful and demeaning.",-1,The sentence is offensive because contains racial slurs and promotes derogatory behavior towards a specific race
+The sentence is offensive because it uses derogatory language (""stupid"") and encourages someone to maintain an ignorant attitude, which can be seen as disrespectful and demeaning.",1,The sentence is offensive because contains racial slurs and promotes derogatory behavior towards a specific race
 1,2212,42458224,," [The sentence is offensive][because][contains racial slurs and promotes derogatory behavior towards a specific race]
 ### Input:
 this is a stupid thing to say, keep being ignorant
 ### Output:
 
-The sentence is offensive because it uses derogatory language (""stupid"") and encourages someone to maintain an ignorant attitude, which can be seen as disrespectful and demeaning.",-1,The sentence is offensive because contains racial slurs and promotes derogatory behavior towards a specific race
+The sentence is offensive because it uses derogatory language (""stupid"") and encourages someone to maintain an ignorant attitude, which can be seen as disrespectful and demeaning.",1,The sentence is offensive because contains racial slurs and promotes derogatory behavior towards a specific race
 0,3409,45678981,," [the sentence is not offensive][because][it expresses a personal opinion about the art style of a game without using offensive language]
 ### Input:
 me: i just got a new phone
@@ -10521,14 +10521,14 @@ Can we just ship all these niggas back to Africa, and call it lovely?
 Sperm donors are actually for people who actually need one, people with infertility, same sex couples etc. Definitely not for some fucking bratty immature bitch just because she ""hates men"" (yet is DESPERATE for a boyfriend online) How much we betting that her ""sperm donor"" will be some random shag off tinder.
 
 ### Output:
-[The sentence is",-1,The sentence is offensive because uses derogatory language and makes negative assumptions about women's motivations
+[The sentence is",1,The sentence is offensive because uses derogatory language and makes negative assumptions about women's motivations
 0,698,94108971,," [The sentence is offensive][because][uses derogatory language and makes negative assumptions about women's motivations]
 
 ### Input:
 Sperm donors are actually for people who actually need one, people with infertility, same sex couples etc. Definitely not for some fucking bratty immature bitch just because she ""hates men"" (yet is DESPERATE for a boyfriend online) How much we betting that her ""sperm donor"" will be some random shag off tinder.
 
 ### Output:
-[The sentence is",-1,The sentence is offensive because uses derogatory language and makes negative assumptions about women's motivations
+[The sentence is",1,The sentence is offensive because uses derogatory language and makes negative assumptions about women's motivations
 0,1802,2385721,," [the sentence is offensive][because][contains racial slurs and promotes negative stereotypes about minorities of color]
 ### Input:
 I think that people who wear hijabs should be banned from public spaces because they are a threat to society.
@@ -11874,13 +11874,13 @@ im so laid back & Understanding , i Don't know why i get lied to :woman_shruggin
 this muslim friend of mine is one of the reasons why my life fucking sucks
 ### Output:
 
-[the sentence is offensive][because][contains racist language directed towards a religious group and implies that the speaker's friend is responsible for their personal problems]",-1,the sentence is offensive because contains racist language and implies that the speaker's colleague is responsible for their personal problems
+[the sentence is offensive][because][contains racist language directed towards a religious group and implies that the speaker's friend is responsible for their personal problems]",1,the sentence is offensive because contains racist language and implies that the speaker's colleague is responsible for their personal problems
 1,2016,13486996,," [the sentence is offensive][because][contains racist language and implies that the speaker's colleague is responsible for their personal problems]
 ### Input:
 this muslim friend of mine is one of the reasons why my life fucking sucks
 ### Output:
 
-[the sentence is offensive][because][contains racist language directed towards a religious group and implies that the speaker's friend is responsible for their personal problems]",-1,the sentence is offensive because contains racist language and implies that the speaker's colleague is responsible for their personal problems
+[the sentence is offensive][because][contains racist language directed towards a religious group and implies that the speaker's friend is responsible for their personal problems]",1,the sentence is offensive because contains racist language and implies that the speaker's colleague is responsible for their personal problems
 1,722,55799101,," [The sentence is offensive][because][contains racist language and describes a violent act]
  
 ### Input:
@@ -11968,14 +11968,14 @@ I'm not finna buy no mf twitter account!! Stop asking me that stupid ass:peach: 
 plums are one of the reasons why the world sucks
 ### Output:
 
-The sentence is offensive because uses a derogatory term to describe the world.",-1,The sentence is offensive because uses a derogatory term to describe the world
+The sentence is offensive because uses a derogatory term to describe the world.",1,The sentence is offensive because uses a derogatory term to describe the world
 0,500,85439177,," [The sentence is offensive][because][uses a derogatory term to describe the world]
  
 ### Input:
 plums are one of the reasons why the world sucks
 ### Output:
 
-The sentence is offensive because uses a derogatory term to describe the world.",-1,The sentence is offensive because uses a derogatory term to describe the world
+The sentence is offensive because uses a derogatory term to describe the world.",1,The sentence is offensive because uses a derogatory term to describe the world
 1,1823,35280071,," [the sentence is offensive][because][it uses racial slurs and stereotypes people based on race]
 
 ### Input:
@@ -12834,14 +12834,14 @@ I'm so tired of people who think they're better than everyone else because they 
 ""Yo, that broad is so hot, I'd do her even if she was my sister.""
 ### Output:
 
-[The sentence is offensive][because][it promotes non-consensual sexual behavior and objectifies a person based on their appearance]",-1,The sentence is offensive because it defends or justifies the actions of a known genocidal figure
+[The sentence is offensive][because][it promotes non-consensual sexual behavior and objectifies a person based on their appearance]",1,The sentence is offensive because it defends or justifies the actions of a known genocidal figure
 1,810,71913780,," [The sentence is offensive][because][it defends or justifies the actions of a known genocidal figure]
  
 ### Input:
 ""Yo, that broad is so hot, I'd do her even if she was my sister.""
 ### Output:
 
-[The sentence is offensive][because][it promotes non-consensual sexual behavior and objectifies a person based on their appearance]",-1,The sentence is offensive because it defends or justifies the actions of a known genocidal figure
+[The sentence is offensive][because][it promotes non-consensual sexual behavior and objectifies a person based on their appearance]",1,The sentence is offensive because it defends or justifies the actions of a known genocidal figure
 0,545,11496683,," [the sentence is offensive][because][it uses a derogatory term to refer to women]
 ### Input:
 Women are not fucking inferior to men
@@ -13154,14 +13154,14 @@ Cheaper to buy 2 hockey sticks from the US and have them shipped over than buyin
 Ragyo is deadass so ugly. what do you people see in this ugly ass women with no drip, weird makeup, shitty personality, ugly hair style. Yall mfs must be down bad for milfs #ragyo
 
 ### Output: 
-[the sentence is offensive][because][contains derogatory language and insults directed",-1,"the sentence is offensive because contains derogatory language and insults directed towards a specific individual based on physical appearance, personality traits, and age"
+[the sentence is offensive][because][contains derogatory language and insults directed",1,"the sentence is offensive because contains derogatory language and insults directed towards a specific individual based on physical appearance, personality traits, and age"
 1,724,9108933,," [the sentence is offensive][because][contains derogatory language and insults directed towards a specific individual based on physical appearance, personality traits, and age]
 
 ### Input: 
 Ragyo is deadass so ugly. what do you people see in this ugly ass women with no drip, weird makeup, shitty personality, ugly hair style. Yall mfs must be down bad for milfs #ragyo
 
 ### Output: 
-[the sentence is offensive][because][contains derogatory language and insults directed",-1,"the sentence is offensive because contains derogatory language and insults directed towards a specific individual based on physical appearance, personality traits, and age"
+[the sentence is offensive][because][contains derogatory language and insults directed",1,"the sentence is offensive because contains derogatory language and insults directed towards a specific individual based on physical appearance, personality traits, and age"
 0,2214,9108933,," [The sentence is offensive][because][contains racial slur and insults]
 ### Input:
 You're so dumb, you can't even spell your own name correctly. How do you expect to succeed in life?
@@ -13416,14 +13416,14 @@ Where we come from, they don't give a thing, so we don't have shit, they leave u
 S/O to the Brodie @PornStar_Mookie killing it in Cali getting that money, weed, and weather :flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone:
 
 ### Output:
-[The sentence is not",-1,The sentence is not offensive because it is a congratulatory message directed at a person with no offensive content
+[The sentence is not",0,The sentence is not offensive because it is a congratulatory message directed at a person with no offensive content
 0,3525,95971160,," [The sentence is not offensive][because][it is a congratulatory message directed at a person with no offensive content]
 
 ### Input:
 S/O to the Brodie @PornStar_Mookie killing it in Cali getting that money, weed, and weather :flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone::flexed_biceps_medium-dark_skin_tone:
 
 ### Output:
-[The sentence is not",-1,The sentence is not offensive because it is a congratulatory message directed at a person with no offensive content
+[The sentence is not",0,The sentence is not offensive because it is a congratulatory message directed at a person with no offensive content
 0,2668,95971160,," [The sentence is not offensive][because][it expresses a personal opinion about a situation without containing offensive language or content]
 
 ### Input:
@@ -14436,14 +14436,14 @@ Literally can't believe I bought a ticket to minus zero and booked a place today
 There's no denying that some people are just naturally better at certain things than others. For instance, I'm terrible at math, but my friend is a whiz at it. It's not fair, but it's true.
 
 ### Output: 
-[The sentence is not offensive][because][it simply states an observation about individual differences without making any derogatory statements or promoting discrimination]",-1,The sentence is offensive because contains racist stereotypes and arguments
+[The sentence is not offensive][because][it simply states an observation about individual differences without making any derogatory statements or promoting discrimination]",0,The sentence is offensive because contains racist stereotypes and arguments
 0,1531,93178090,," [The sentence is offensive][because][contains racist stereotypes and arguments]
 
 ### Input: 
 There's no denying that some people are just naturally better at certain things than others. For instance, I'm terrible at math, but my friend is a whiz at it. It's not fair, but it's true.
 
 ### Output: 
-[The sentence is not offensive][because][it simply states an observation about individual differences without making any derogatory statements or promoting discrimination]",-1,The sentence is offensive because contains racist stereotypes and arguments
+[The sentence is not offensive][because][it simply states an observation about individual differences without making any derogatory statements or promoting discrimination]",0,The sentence is offensive because contains racist stereotypes and arguments
 1,3535,36389940,," [The sentence is offensive][because][contains derogatory language and insults directed at someone's sexual orientation]
 
 ### Input:

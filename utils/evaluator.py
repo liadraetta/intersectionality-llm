@@ -35,6 +35,8 @@ def generate_classification_reports(predictions_dir,
             filename = Path(file_path).stem
             
             df_pred = pd.read_csv(file_path)
+            df_pred = df_pred.fillna(-1,)
+
             
             if "offensiveYN" not in df_pred.columns:
                 print(f"Warning: 'offensiveYN' column not found in {filename}")
