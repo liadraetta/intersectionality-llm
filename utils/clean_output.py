@@ -26,16 +26,42 @@ def extract_demographics(prompt):
 
 
 
-def extract_prediction(parsed_output):
-    text = parsed_output.lower()
+def extract_prediction(output):
+    text = output.lower()
     
     # Check if repeats the prompt
-    if '[the sentence is offensive]' in text: 
-        return 1
-    elif '[the sentence is not offensive]' in text:
-        return 0
+    if "output" in text:
+        pattern = r"(?<=output:\s).*?(?=\n|$)"  # Fixed regex
+        match = re.search(pattern, text)
+        
+        if match:  # Check if match exists
+            match_text = match.group()
+            if "the sentence is offensive" in match_text:
+                print(match_text)
+                print(1)
+                return 1
+            elif "the sentence is not offensive" in match_text:
+                print(match_text)
+                print(0)
+                return 0
+            else:
+                print(match_text)
+                print(-1)
+                return -1
+        else:
+            print("No match found")
+            print(-1)
+            return -1
     else:
-        return -1
+        if '[the sentence is offensive]' in text:
+            print(1)
+            return 1
+        elif '[the sentence is not offensive]' in text:
+            print(0)
+            return 0  # Added missing return
+        else:
+            print(-1)
+            return -1
 
 
 
