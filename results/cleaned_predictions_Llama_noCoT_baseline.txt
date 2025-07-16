@@ -4,10 +4,10 @@ Total samples: 3094
 
               precision    recall  f1-score   support
 
-           0      0.899     0.466     0.614      1502
-           1      0.654     0.950     0.775      1592
+           0      0.892     0.466     0.612      1502
+           1      0.653     0.947     0.773      1592
 
-    accuracy                          0.715      3094
-   macro avg      0.776     0.708     0.694      3094
-weighted avg      0.773     0.715     0.696      3094
+    accuracy                          0.713      3094
+   macro avg      0.772     0.706     0.692      3094
+weighted avg      0.769     0.713     0.695      3094
 

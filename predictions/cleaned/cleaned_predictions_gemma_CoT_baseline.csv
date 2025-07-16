@@ -221,7 +221,7 @@ You ain't shit, but I've been on my own since I was 18, have my own home, own my
 Where we come from, they don't give a thing, so we don't have shit, they leave us young niggas with no options
 
 **Output:**
-[The sentence is offensive because it uses hate",1,[]
+[The sentence is offensive because it uses hate",-1,[]
 0,668,3770894,,"
 **Reasoning:**
 [The sentence is offensive because it uses hate speech and makes generalizations about people based on their nationality and age.]
@@ -234,7 +234,7 @@ Where we come from, they don't give a thing, so we don't have shit, they leave u
 Where we come from, they don't give a thing, so we don't have shit, they leave us young niggas with no options
 
 **Output:**
-[The sentence is offensive because it uses hate",1,[]
+[The sentence is offensive because it uses hate",-1,[]
 0,2815,3770894,,"
 
 **Please provide the input sentence and your output label:**
@@ -1661,7 +1661,7 @@ The best way to learn a new language is to immerse yourself in the culture of th
 
 **Input:**
 
-**Output",1,[]
+**Output",-1,[]
 1,1736,10166032,,"
 **Label:** [Offensive]
 **Reasoning:** [The sentence is a clear example of hate speech and uses offensive language against a specific group of people][so][the sentence is offensive]
@@ -1672,7 +1672,7 @@ The best way to learn a new language is to immerse yourself in the culture of th
 
 **Input:**
 
-**Output",1,[]
+**Output",-1,[]
 1,1138,10638687,,"
 **[Reasoning explanation]**
 **[Label]**
@@ -1800,7 +1800,7 @@ The best way to learn a new language is to immerse yourself in the culture of th
 **[So]**
 **[The sentence is offensive]**
 
-**Please provide the input sentence and I will provide the output label.**",1,[]
+**Please provide the input sentence and I will provide the output label.**",-1,[]
 1,1656,3088028,,"
 **Label:** [Offensive]
 **Reasoning:** [The sentence promotes hate speech and discrimination towards individuals based on their race and political beliefs][so][the sentence is offensive]
@@ -2446,7 +2446,7 @@ Output:
 
 **Label:**
 
-**Please note:**",1,[]
+**Please note:**",-1,[]
 1,913,10166032,,"
 **[Reasoning:** The sentence promotes hate speech and discrimination towards people of different races, specifically targeting Christians and foreigners. It also uses inflammatory language and makes generalizations about people based on their religion and nationality. **] [So] [The sentence is offensive]**
 
@@ -2460,7 +2460,7 @@ Output:
 
 **Label:**
 
-**Please note:**",1,[]
+**Please note:**",-1,[]
 1,1682,49021087,,"
 
 **Please provide the input sentence:**
@@ -3467,7 +3467,7 @@ Not Offensive
 
 **Label:**
 
-**Please provide a detailed explanation of your reasoning",1,[]
+**Please provide a detailed explanation of your reasoning",-1,[]
 1,2214,74158862,,"
 **Reasoning:** [The sentence contains hate speech and uses derogatory language towards individuals based on their race and gender][so]
 **Label:** [The sentence is offensive]
@@ -3482,7 +3482,7 @@ Not Offensive
 
 **Label:**
 
-**Please provide a detailed explanation of your reasoning",1,[]
+**Please provide a detailed explanation of your reasoning",-1,[]
 1,1742,54904271,,"
 **Reasoning:**
 **The sentence is offensive because it promotes hate speech and discrimination against individuals based on their race.**
@@ -3525,7 +3525,7 @@ I Kan put a hit on you homie you know I'm good for it!!! But I'll do you in myse
 **Output:**
 [The sentence is a threat and contains hate speech and bullying][so][the sentence is offensive]
 
-**Please explain",1,The sentence is a threat and contains hate speech and bullying so the sentence is offensive
+**Please explain",-1,The sentence is a threat and contains hate speech and bullying so the sentence is offensive
 1,3530,18991638,,"
 **Reasoning:**
 [Reasoning explanation]
@@ -3540,7 +3540,7 @@ I Kan put a hit on you homie you know I'm good for it!!! But I'll do you in myse
 **Output:**
 [The sentence is a threat and contains hate speech and bullying][so][the sentence is offensive]
 
-**Please explain",1,The sentence is a threat and contains hate speech and bullying so the sentence is offensive
+**Please explain",-1,The sentence is a threat and contains hate speech and bullying so the sentence is offensive
 1,476,18991638,,"
  Output: [The sentence contains vulgar language and expresses anger][so][the sentence is offensive]
 
@@ -3740,7 +3740,7 @@ You are a loser if you don't have a good sense of humor.
 **Label:**
 [The sentence is offensive]
 
-**Please explain your reasoning for the label:**",1,The sentence promotes discrimination towards a specific group of people and uses slang that is not appropriate for this platform so
+**Please explain your reasoning for the label:**",-1,The sentence promotes discrimination towards a specific group of people and uses slang that is not appropriate for this platform so
 1,760,54904271,,"
  Output: [The sentence promotes hate speech and incites hatred towards a specific group of people][so][the sentence is offensive]
 
@@ -3931,7 +3931,7 @@ You are a loser if you don't have a good sense of humor.
 
 **So:**
 
-**The sentence is [",1,[]
+**The sentence is [",-1,[]
 1,1683,18991638,,"
 **Label:** [Offensive]
 **Reasoning:** [The sentence promotes discrimination and hatred towards people based on their race and claims that racism is inevitable][so][the sentence is offensive]
@@ -3950,7 +3950,7 @@ You are a loser if you don't have a good sense of humor.
 
 **So:**
 
-**The sentence is [",1,[]
+**The sentence is [",-1,[]
 1,3356,74158862,,"
 
 **Please provide the input sentence:**
@@ -4585,7 +4585,7 @@ The text may contain offensive language, hate speech, or other inappropriate con
 
 **Output:**
 
-**Reasoning:**",1,The sentence contains hate speech and uses vulgar language so
+**Reasoning:**",-1,The sentence contains hate speech and uses vulgar language so
 1,1760,74158862,,"
 **Reasoning:**
 [The sentence contains hate speech and uses vulgar language][so]
@@ -4602,7 +4602,7 @@ The text may contain offensive language, hate speech, or other inappropriate con
 
 **Output:**
 
-**Reasoning:**",1,The sentence contains hate speech and uses vulgar language so
+**Reasoning:**",-1,The sentence contains hate speech and uses vulgar language so
 0,1672,54904271,,"
 **Reasoning:**
 **So:**
@@ -5609,7 +5609,7 @@ It always be those salty ass J.Cole fans trying to feel as if Kendrick is not th
 
 **Reasoning:**
 
-**Label:**",0,[]
+**Label:**",-1,[]
 0,437,3088028,,"
 **Reasoning:** [The sentence promotes equality and challenges stereotypes about race based on personal preferences][so]
 **Label:** [The sentence is not offensive]
@@ -5624,7 +5624,7 @@ It always be those salty ass J.Cole fans trying to feel as if Kendrick is not th
 
 **Reasoning:**
 
-**Label:**",0,[]
+**Label:**",-1,[]
 0,3229,40401566,,"
 
 **Please provide the input sentence:**
@@ -5719,7 +5719,7 @@ It always be those salty ass J.Cole fans trying to feel as if Kendrick is not th
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,196,3088028,,"
 **Reasoning:** [The sentence promotes hate speech and discrimination towards Jews and misappropriates the fight for women's suffrage][so]
 **Label:** [The sentence is offensive]
@@ -5734,7 +5734,7 @@ It always be those salty ass J.Cole fans trying to feel as if Kendrick is not th
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,1869,20527740,,"
 **Reasoning:**
 **So:**
@@ -7031,7 +7031,7 @@ The sentence is offensive because it uses hate speech and makes generalizations 
 
 **Label:**
 
-**Please explain your reasoning:**",1,[]
+**Please explain your reasoning:**",-1,[]
 1,3963,40401566,,"
 
 **Please provide the input sentence and your output label:**
@@ -7655,7 +7655,7 @@ The word ""n*gga"" should be used with no taboos. It's a perfect term!
 
 **Label:**
 
-**Note:** You are not required to provide a detailed analysis of the sentence structure or grammar. The focus is on the offensiveness of the text.",1,[]
+**Note:** You are not required to provide a detailed analysis of the sentence structure or grammar. The focus is on the offensiveness of the text.",-1,[]
 0,2417,40401566,,"
 **Reasoning:**
 [Reasoning explanation]
@@ -7852,7 +7852,7 @@ The word ""n*gga"" should be used with no taboos. It's a perfect term!
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,1652,3088028,,"
 **Reasoning:** [The sentence promotes discrimination and stereotypes against people of African descent][so]
 **Label:** [The sentence is offensive]
@@ -7867,7 +7867,7 @@ The word ""n*gga"" should be used with no taboos. It's a perfect term!
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 0,60,40401566,,"
 [Reasoning explanation]
 [Label]
@@ -8507,13 +8507,13 @@ The",0,[]
 **[So]**
 **[The sentence is not offensive]**
 
-**Please provide the input sentence and I will provide the output label.**",0,[]
+**Please provide the input sentence and I will provide the output label.**",-1,[]
 0,85,8526465,,"
 **[Reasoning:** The sentence promotes inclusivity and understanding between different communities. It emphasizes the shared humanity and the potential for peaceful coexistence.]**
 **[So]**
 **[The sentence is not offensive]**
 
-**Please provide the input sentence and I will provide the output label.**",0,[]
+**Please provide the input sentence and I will provide the output label.**",-1,[]
 1,2853,10638687,,"
 **Reasoning:**
 [Reasoning explanation]
@@ -9534,7 +9534,7 @@ offensive
 - You are not required to provide a detailed breakdown of the offensive language or hate speech.
 - The output label should be a single label from the provided array.
 
-**Please provide the input sentence and the label you have chosen",1,[]
+**Please provide the input sentence and the label you have chosen",-1,[]
 1,719,10166032,,"
 **Reasoning:** [The sentence is a personal attack and uses vulgar language to insult the recipient][so]
 **Label:** [The sentence is offensive]
@@ -9806,7 +9806,7 @@ The quick brown fox jumps over the lazy dog.
 
 **Label:**
 
-**Please explain your reasoning clearly",1,[]
+**Please explain your reasoning clearly",-1,[]
 1,2777,8526465,,"
 **Reasoning:** [The sentence promotes discrimination and hatred towards people based on their race and religion][so]
 **Label:** [The sentence is offensive]
@@ -9821,7 +9821,7 @@ The quick brown fox jumps over the lazy dog.
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 0,63,10638687,,"
 
 **Please provide the input sentence:**
@@ -10022,7 +10022,7 @@ You are not",1,The sentence is highly offensive and uses hate speech and vulgar 
 Please provide a detailed explanation of the reasoning behind your label, and include the exact sentence in both the input and output sections.
 
 **Additional Information:**
-The text provided in the input section is a sample of text that is commonly found on social media platforms. The task is to determine whether the text",1,"The sentence is highly offensive and contains hate speech, bullying, and vulgar language so the sentence is offensive"
+The text provided in the input section is a sample of text that is commonly found on social media platforms. The task is to determine whether the text",-1,"The sentence is highly offensive and contains hate speech, bullying, and vulgar language so the sentence is offensive"
 1,4051,27672101,,"
 **Reasoning:**
 [The sentence is highly offensive and contains hate speech, bullying, and vulgar language][so][the sentence is offensive]
@@ -10033,7 +10033,7 @@ The text provided in the input section is a sample of text that is commonly foun
 Please provide a detailed explanation of the reasoning behind your label, and include the exact sentence in both the input and output sections.
 
 **Additional Information:**
-The text provided in the input section is a sample of text that is commonly found on social media platforms. The task is to determine whether the text",1,"The sentence is highly offensive and contains hate speech, bullying, and vulgar language so the sentence is offensive"
+The text provided in the input section is a sample of text that is commonly found on social media platforms. The task is to determine whether the text",-1,"The sentence is highly offensive and contains hate speech, bullying, and vulgar language so the sentence is offensive"
 1,3526,27672101,,"
 **Reasoning:**
 [The sentence contains hate speech and promotes discrimination based on behavior and appearance][so]
@@ -10456,7 +10456,7 @@ The sentence contains vulgar language, hate speech, and promotes discrimination"
 
 **So:**
 
-**The text is [offensive/not offensive].**",1,The sentence contains hate speech and promotes discrimination based on race and uses vulgar language so
+**The text is [offensive/not offensive].**",-1,The sentence contains hate speech and promotes discrimination based on race and uses vulgar language so
 1,1972,10638687,,"
  Output: [The sentence is hateful and offensive as it promotes discrimination and uses vulgar language][so][the sentence is offensive]
 
@@ -11494,7 +11494,7 @@ The world is a fucked up place. It's a mess.
 
 **Label:**
 
-**Please explain your reasoning in detail and return a single label.**",1,The sentence uses derogatory language and promotes discrimination against people based on their race and socioeconomic status so
+**Please explain your reasoning in detail and return a single label.**",-1,The sentence uses derogatory language and promotes discrimination against people based on their race and socioeconomic status so
 0,366,32992109,,"
  Output: [The sentence expresses anger and resentment due to being called a derogatory term][so][the sentence is offensive]
 
@@ -11749,7 +11749,7 @@ Input: You are a loser, I bet you have a small penis and a low self-esteem.
 **Output:**
 
 **[Reasoning:****
-**[So",1,[]
+**[So",-1,[]
 1,967,42267923,,"
 **[Reasoning:** The sentence is offensive because it contains hate speech and promotes discrimination based on race and nationality. It also makes generalizations and stereotypes about people of different backgrounds.]**
 **[So]**
@@ -11762,7 +11762,7 @@ Input: You are a loser, I bet you have a small penis and a low self-esteem.
 **Output:**
 
 **[Reasoning:****
-**[So",1,[]
+**[So",-1,[]
 0,1797,32992109,,"
 **Reasoning:**
 **So:**
@@ -12381,7 +12381,7 @@ Input: You should not have said that. It was a mistake. Please apologize.
 **Label:**
 
 **Please provide a detailed explanation of your reasoning.**
-",1,[]
+",-1,[]
 1,78,49021087,,"
  Output: [The sentence is offensive and promotes discrimination against homosexual people][so][the sentence is offensive]
 
@@ -12415,7 +12415,7 @@ Input: You should not have said that. It was a mistake. Please apologize.
 
 **Output:**
 
-**Reason",1,[]
+**Reason",-1,[]
 1,4145,42267923,,"
 **Label:** [The sentence contains hate speech and threats of violence][so][the sentence is offensive]
 
@@ -12429,7 +12429,7 @@ Input: You should not have said that. It was a mistake. Please apologize.
 
 **Output:**
 
-**Reason",1,[]
+**Reason",-1,[]
 1,2132,92024956,,"
  Output: [The sentence contains vulgar language and promotes hate speech against individuals based on their race][so][the sentence is offensive]
 
@@ -14148,7 +14148,7 @@ print",-1,[]
 
 **Please provide the text you want me to analyze below:**
 
-",1,[]
+",-1,[]
 0,3239,24252197,,"
 **Reasoning:** [The sentence is offensive because it contains hate speech and bullying towards a specific individual.]
 **Label:** [The sentence is offensive]
@@ -14167,7 +14167,7 @@ print",-1,[]
 
 **Please provide the text you want me to analyze below:**
 
-",1,[]
+",-1,[]
 0,3765,24252197,,"
 **Reasoning:**
 [The sentence is sexually suggestive and objectifies women, and contains vulgar language][so]
@@ -15753,7 +15753,7 @@ read a post that said: 'If you are convinced that you're a decent woman, really 
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,1555,34083197,,"
 **Reasoning:** [The sentence makes a generalization about people based on their heritage and is insensitive to others][so]
 **Label:** [The sentence is offensive]
@@ -15768,7 +15768,7 @@ read a post that said: 'If you are convinced that you're a decent woman, really 
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,1612,43606178,,"
 **Reasoning:** [The sentence promotes hate speech and discrimination based on race and makes generalizations and assumptions about people of different races][so]
 **Label:** [The sentence is offensive]
@@ -15783,7 +15783,7 @@ read a post that said: 'If you are convinced that you're a decent woman, really 
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,1612,24252197,,"
 **Reasoning:** [The sentence promotes hate speech and discrimination against people based on their race][so]
 **Label:** [The sentence is offensive]
@@ -18596,7 +18596,7 @@ Output:
 
 **Label:**
 
-**Please note:**",1,[]
+**Please note:**",-1,[]
 0,913,44250250,,"
 **[Reasoning:** The sentence promotes hate speech and discrimination towards people of different races, specifically targeting Christians and foreigners. It also uses inflammatory language and makes generalizations about people based on their religion and nationality. **] [So] [The sentence is offensive]**
 
@@ -18610,7 +18610,7 @@ Output:
 
 **Label:**
 
-**Please note:**",1,[]
+**Please note:**",-1,[]
 1,1682,44250250,,"
 
 **Please provide the input sentence:**
@@ -19524,7 +19524,7 @@ Please use your own discretion and judgment when determining the offensiveness o
 
 **Output:**
 
-**Reason",1,The sentence contains vulgar language and expresses frustration so
+**Reason",-1,The sentence contains vulgar language and expresses frustration so
 0,535,93788928,,"
  [Reasoning]
  [Label]
@@ -20231,7 +20231,7 @@ The best way to learn is by doing. Stop whining and get to work.
 
 **So:**
 
-**The sentence is [",1,[]
+**The sentence is [",-1,[]
 1,1683,69198055,,"
 **Label:** [Offensive]
 **Reasoning:** [The sentence promotes discrimination and hatred towards people based on their race and claims that racism is inevitable][so][the sentence is offensive]
@@ -20250,7 +20250,7 @@ The best way to learn is by doing. Stop whining and get to work.
 
 **So:**
 
-**The sentence is [",1,[]
+**The sentence is [",-1,[]
 0,3356,5428237,,"
 
 **Please provide the input sentence:**
@@ -20964,7 +20964,7 @@ The best way to deal with a problem is to address the root cause.
 **Reasoning:**
 [The sentence promotes problem-solving and does not contain any offensive language][so]
 **Label:**
-",1,The sentence contains hate speech and promotes violence against a specific group of people so
+",-1,The sentence contains hate speech and promotes violence against a specific group of people so
 1,367,86257299,,"
 **Reasoning:**
 [The sentence contains hate speech and promotes violence against a specific group of people][so]
@@ -20980,7 +20980,7 @@ The best way to deal with a problem is to address the root cause.
 **Reasoning:**
 [The sentence promotes problem-solving and does not contain any offensive language][so]
 **Label:**
-",1,The sentence contains hate speech and promotes violence against a specific group of people so
+",-1,The sentence contains hate speech and promotes violence against a specific group of people so
 0,3450,38894167,,"
 **Reasoning:**
 [Reasoning explanation]
@@ -21991,7 +21991,7 @@ Reasoning:
 
 **Reasoning:**
 
-**Label:**",0,[]
+**Label:**",-1,[]
 0,437,14105244,,"
 **Reasoning:** [The sentence promotes equality and challenges stereotypes about race based on personal preferences][so]
 **Label:** [The sentence is not offensive]
@@ -22006,7 +22006,7 @@ Reasoning:
 
 **Reasoning:**
 
-**Label:**",0,[]
+**Label:**",-1,[]
 0,3229,35508468,,"
 
 **Please provide the input sentence:**
@@ -22092,7 +22092,7 @@ Reasoning:
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 0,196,35508468,,"
 **Reasoning:** [The sentence promotes hate speech and discrimination towards Jews and misappropriates the fight for women's suffrage][so]
 **Label:** [The sentence is offensive]
@@ -22107,7 +22107,7 @@ Reasoning:
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,1869,45678981,,"
 **Reasoning:**
 **So:**
@@ -22474,7 +22474,7 @@ The sentence threatens violence and uses religious extremism to intimidate other
 **Note:**
 
 - The input sentences are not necessarily offensive, but they may contain language or ideas that some people may find offensive.
-- You are not required to provide a detailed analysis of the sentence, but you should be",1,[]
+- You are not required to provide a detailed analysis of the sentence, but you should be",-1,[]
 0,3234,15918959,,"
 **Reasoning:** [The sentence threatens violence and bullying towards others based on their online behavior][so]
 **Label:** [The sentence is offensive]
@@ -22490,7 +22490,7 @@ The sentence threatens violence and uses religious extremism to intimidate other
 **Note:**
 
 - The input sentences are not necessarily offensive, but they may contain language or ideas that some people may find offensive.
-- You are not required to provide a detailed analysis of the sentence, but you should be",1,[]
+- You are not required to provide a detailed analysis of the sentence, but you should be",-1,[]
 1,1863,15918959,,"
 
 **Please provide the input sentence and your output label:**
@@ -22581,7 +22581,7 @@ The sentence threatens violence and uses religious extremism to intimidate other
 
 **Additional information:**
 
-**Note:** I am not able to provide any",1,[]
+**Note:** I am not able to provide any",-1,[]
 0,1531,14105244,,"
 **Reasoning:** [The sentence promotes discrimination and stereotypes based on race and makes assumptions about intelligence and civilization][so]
 **Label:** [The sentence is offensive]
@@ -22596,7 +22596,7 @@ The sentence threatens violence and uses religious extremism to intimidate other
 
 **Additional information:**
 
-**Note:** I am not able to provide any",1,[]
+**Note:** I am not able to provide any",-1,[]
 1,1702,45678981,,"
 **Label:** [Reasoning] [So] [The sentence is offensive/is not offensive]
 
@@ -23328,7 +23328,7 @@ Running after some pussy that cheated on and left you for another nigga , now sh
 **Reasoning:**
 [Reasoning explanation]
 
-",1,[]
+",-1,[]
 1,4088,35508468,,"
 **Reasoning:**
 [Reasoning explanation]
@@ -23348,7 +23348,7 @@ Running after some pussy that cheated on and left you for another nigga , now sh
 **Reasoning:**
 [Reasoning explanation]
 
-",1,[]
+",-1,[]
 1,3873,15918959,,"
 **Reasoning:**
 **So:**
@@ -23602,7 +23602,7 @@ A bunch of people are sitting",1,The sentence promotes hate speech and discrimin
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,770,35508468,,"
  Output: [The sentence promotes discrimination against people of Romani descent][so][the sentence is offensive]
 
@@ -24232,7 +24232,7 @@ The word ""n*gga"" should be used with no taboos. It's a perfect term!
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 0,1652,14105244,,"
 **Reasoning:** [The sentence promotes discrimination and stereotypes against people of African descent][so]
 **Label:** [The sentence is offensive]
@@ -24247,7 +24247,7 @@ The word ""n*gga"" should be used with no taboos. It's a perfect term!
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 0,60,7288661,,"
 [Reasoning explanation]
 [Label]
@@ -24821,13 +24821,13 @@ The best way to deal with the homeless is to put them in jail.
 **[So]**
 **[The sentence is not offensive]**
 
-**Please provide the input sentence and I will provide the output label.**",0,[]
+**Please provide the input sentence and I will provide the output label.**",-1,[]
 0,85,45870433,,"
 **[Reasoning:** The sentence promotes inclusivity and understanding between different communities. It emphasizes the shared humanity and the potential for peaceful coexistence.]**
 **[So]**
 **[The sentence is not offensive]**
 
-**Please provide the input sentence and I will provide the output label.**",0,[]
+**Please provide the input sentence and I will provide the output label.**",-1,[]
 0,2853,40321857,,"
 **Reasoning:**
 [Reasoning explanation]
@@ -25831,7 +25831,7 @@ offensive
 - You are not required to provide a detailed breakdown of the offensive language or hate speech.
 - The output label should be a single label from the provided array.
 
-**Please provide the input sentence and the label you have chosen",1,[]
+**Please provide the input sentence and the label you have chosen",-1,[]
 0,3424,40321857,,"
 **Reasoning:** [The sentence contains vulgar language and makes a subjective judgment about a person's writing][so]
 **Label:** [The sentence is offensive]
@@ -25891,7 +25891,7 @@ offensive
 
 **Please include the following information in your answer:**
 
-* The specific words or phrases that you find offensive",-1,[]
+* The specific words or phrases that you find offensive",1,[]
 1,279,45870433,,"
  Output: [The sentence is offensive and racist]
 
@@ -25911,7 +25911,7 @@ offensive
 
 **Please include the following information in your answer:**
 
-* The specific words or phrases that you find offensive",-1,[]
+* The specific words or phrases that you find offensive",1,[]
 0,3516,40321857,,"
 **Reasoning:** [The sentence is grammatically incorrect and uses slang terminology that is not widely understood][so]
 **Label:** [The sentence is not offensive]
@@ -26030,7 +26030,7 @@ offensive
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 0,63,61283819,,"
 
 **Please provide the input sentence:**
@@ -26222,7 +26222,7 @@ Please provide a detailed explanation of your reasoning for each sentence. The m
 
 **Label:**
 
-**Please include a detailed explanation of your reasoning for each",1,"The sentence is highly offensive and contains hate speech, bullying, and vulgar language so the sentence is offensive"
+**Please include a detailed explanation of your reasoning for each",-1,"The sentence is highly offensive and contains hate speech, bullying, and vulgar language so the sentence is offensive"
 0,3526,61283819,,"
 **Reasoning:**
 [The sentence contains hate speech and promotes discrimination based on behavior and appearance][so]
@@ -26486,7 +26486,7 @@ Please provide a detailed explanation of your reasoning for each sentence, inclu
 
 **Output:**
 
-**Reasoning:**",1,[]
+**Reasoning:**",-1,[]
 0,2984,40321857,,"
 **Reasoning:** [The sentence contains hate speech and uses vulgar language][so]
 **Label:** [The sentence is offensive]
@@ -26550,7 +26550,7 @@ The best way to deal with the problem is to address the root cause.
 **Reasoning:**
 **Label:**
 
-**Please explain your reasoning and provide the label.**",1,The sentence contains hate speech and promotes discrimination based on race and uses vulgar language so
+**Please explain your reasoning and provide the label.**",-1,The sentence contains hate speech and promotes discrimination based on race and uses vulgar language so
 0,1972,61283819,,"
  Output: [The sentence is offensive and promotes hate speech against a specific group of people][so][the sentence is offensive]
 
@@ -26688,7 +26688,7 @@ The world is a fucked up place. People are constantly fighting and killing each 
 
 **Please explain your reasoning in detail:**
 
-**Note:** The input and output are examples and do not represent the actual data.",1,[]
+**Note:** The input and output are examples and do not represent the actual data.",-1,[]
 1,881,66593239,,"
 **Reasoning:**
 [The sentence promotes discrimination and hatred towards foreigners][so]
@@ -26957,7 +26957,7 @@ Please be as precise as possible in your reasoning and label.
 **Additional Information:**
 The sentences are taken from actual social media posts and may contain a variety of language and styles.
 
-**Please provide the input sentence and I will provide the output label.**",1,The sentence uses a racial slur and promotes discrimination based on race so
+**Please provide the input sentence and I will provide the output label.**",-1,The sentence uses a racial slur and promotes discrimination based on race so
 1,304,36344670,,"
 **Reasoning:**
 [The sentence uses a racial slur and promotes discrimination based on race][so]
@@ -26970,7 +26970,7 @@ Please be as precise as possible in your reasoning and label.
 **Additional Information:**
 The sentences are taken from actual social media posts and may contain a variety of language and styles.
 
-**Please provide the input sentence and I will provide the output label.**",1,The sentence uses a racial slur and promotes discrimination based on race so
+**Please provide the input sentence and I will provide the output label.**",-1,The sentence uses a racial slur and promotes discrimination based on race so
 0,2145,36344670,,"
 **Reasoning:**
 **So:**
@@ -27027,7 +27027,7 @@ The sentences are taken from actual social media posts and may contain a variety
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,3437,36344670,,"
 **Reasoning:** [The sentence is highly offensive due to its use of vulgar language, hate speech, and bullying]
 **Label:** [The sentence is offensive]
@@ -27042,7 +27042,7 @@ The sentences are taken from actual social media posts and may contain a variety
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,355,36400600,,"
 **Reasoning:**
 [The sentence is offensive as it uses a racial slur and makes a generalization about African Americans.]
@@ -27052,7 +27052,7 @@ The sentences are taken from actual social media posts and may contain a variety
 **Note:**
 - The input text may contain various forms of hate speech, profanity, and offensive language.
 - You are not required to provide a detailed breakdown of the offensive language or hate speech in the input text.
-- The output should be a single label, either 'offensive' or 'not",1,[]
+- The output should be a single label, either 'offensive' or 'not",-1,[]
 0,355,2385721,,"
 **Reasoning:**
 [The sentence is offensive as it uses a racial slur and makes a generalization about African Americans.]
@@ -27062,7 +27062,7 @@ The sentences are taken from actual social media posts and may contain a variety
 **Note:**
 - The input text may contain various forms of hate speech, profanity, and offensive language.
 - You are not required to provide a detailed breakdown of the offensive language or hate speech in the input text.
-- The output should be a single label, either 'offensive' or 'not",1,[]
+- The output should be a single label, either 'offensive' or 'not",-1,[]
 1,2142,2385721,,"
 
 **Please provide the input sentence:**
@@ -27149,7 +27149,7 @@ The sentences are taken from actual social media posts and may contain a variety
 
 **Label:**
 
-**Please explain your reasoning in detail:**",1,[]
+**Please explain your reasoning in detail:**",-1,[]
 1,1842,90385194,,"
 **Reasoning:**
 [The sentence is offensive because it uses a derogatory term and makes a generalization about people who sing along to music.]
@@ -27623,7 +27623,7 @@ Input: You are a loser, I bet you have a small penis and a low self-esteem.
 **Output:**
 
 **[Reasoning:****
-**[So",1,[]
+**[So",-1,[]
 1,967,36344670,,"
 **[Reasoning:** The sentence is offensive because it contains hate speech and promotes discrimination based on race and nationality. It also makes generalizations and stereotypes about people of different backgrounds.]**
 **[So]**
@@ -27636,7 +27636,7 @@ Input: You are a loser, I bet you have a small penis and a low self-esteem.
 **Output:**
 
 **[Reasoning:****
-**[So",1,[]
+**[So",-1,[]
 1,1295,94108971,,"
 **[Reasoning explanation]**
 **[Label]**
@@ -27971,7 +27971,7 @@ Input: ""You are a loser. Go away and cry about it.""
 **Output:**
 
 **[Reasoning:****
-",1,[]
+",-1,[]
 1,3633,9175691,,"
 **[Reasoning:** The sentence is offensive due to the use of vulgar language, hateful language targeting women, and the overall tone of the message. The sentence is designed to be hurtful and to make others feel bad.]**
 **[So]**
@@ -27984,7 +27984,7 @@ Input: ""You are a loser. Go away and cry about it.""
 **Output:**
 
 **[Reasoning:****
-",1,[]
+",-1,[]
 1,2207,36400600,,"
 **Reasoning:**
 **So:**
@@ -28142,7 +28142,7 @@ Please provide a detailed explanation of your reasoning for each label. The reas
 
 **Output:**
 
-**Reasoning",1,[]
+**Reasoning",-1,[]
 1,2151,36344670,,"
 **Reasoning:** [The sentence is highly offensive and promotes hate speech and discrimination against individuals based on their race and nationality][so]
 **Label:** [The sentence is offensive]
@@ -28156,7 +28156,7 @@ Please provide a detailed explanation of your reasoning for each label. The reas
 
 **Output:**
 
-**Reasoning",1,[]
+**Reasoning",-1,[]
 1,3747,9175691,,"
 **Reasoning:**
 **So:**
@@ -30741,13 +30741,13 @@ input_sentence = ""Dnt yhu hate it wen youz babe go to sleep on yhu without lett
 **[So]**
 **[The sentence is offensive]**
 
-**Please provide the input sentence and I will provide the output label.**",1,[]
+**Please provide the input sentence and I will provide the output label.**",-1,[]
 0,3300,69198055,,"
 **[Reasoning:** The sentence is highly offensive due to its use of hate speech and religious extremism. The language used is hateful and discriminatory, and the message conveyed is one of hatred and intolerance.**]
 **[So]**
 **[The sentence is offensive]**
 
-**Please provide the input sentence and I will provide the output label.**",1,[]
+**Please provide the input sentence and I will provide the output label.**",-1,[]
 1,3693,7288661,,"
 **Reasoning:**
 **So:**
@@ -32413,7 +32413,7 @@ Input: I am not a racist, but I think that some people are naturally more inclin
 **Label:**
 
 **Please note:**
-- The input sentences",1,[]
+- The input sentences",-1,[]
 1,1435,7288661,,"
 **[Reasoning explanation]**
 **[Label]**
@@ -32546,7 +32546,7 @@ read a post that said: 'If you are convinced that you're a decent woman, really 
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,1612,44471637,,"
 **Reasoning:** [The sentence promotes hate speech and discrimination based on race and makes generalizations and assumptions about people of different races][so]
 **Label:** [The sentence is offensive]
@@ -32561,7 +32561,7 @@ read a post that said: 'If you are convinced that you're a decent woman, really 
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,1612,63428654,,"
 **Reasoning:** [The sentence promotes hate speech and discrimination based on race and makes generalizations and assumptions about people of different races][so]
 **Label:** [The sentence is offensive]
@@ -32576,7 +32576,7 @@ read a post that said: 'If you are convinced that you're a decent woman, really 
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,756,7288661,,"
  Output: [The sentence is hateful and promotes discrimination against a group of people][so][the sentence is offensive]
 
@@ -32860,14 +32860,14 @@ read a post that said: 'If you are convinced that you're a decent woman, really 
 
 **Note:** The input text may contain various forms of offensive language and hate speech. Please be cautious and use your best judgment when determining the offensiveness of a sentence.
 
-**Please provide the input sentence and I will provide the output label.**",1,[]
+**Please provide the input sentence and I will provide the output label.**",-1,[]
 1,806,69198055,,"
 **Reasoning:** [The sentence promotes misogynistic views and makes generalizations about women][so]
 **Label:** [The sentence is offensive]
 
 **Note:** The input text may contain various forms of offensive language and hate speech. Please be cautious and use your best judgment when determining the offensiveness of a sentence.
 
-**Please provide the input sentence and I will provide the output label.**",1,[]
+**Please provide the input sentence and I will provide the output label.**",-1,[]
 1,479,40102629,,"
 **[Reasoning explanation]**
 **[Label]**
@@ -33345,7 +33345,7 @@ read a post that said: 'If you are convinced that you're a decent woman, really 
 Where we come from, they don't give a thing, so we don't have shit, they leave us young niggas with no options
 
 **Output:**
-[The sentence is offensive because it uses hate",1,[]
+[The sentence is offensive because it uses hate",-1,[]
 0,2349,56533629,,"
 **Reasoning:**
 [The sentence promotes hate speech and encourages silencing of others][so]
@@ -33820,7 +33820,7 @@ The text may contain profanity, hate speech, or other inappropriate content. Ple
 **[So]**
 **[The sentence is offensive]**
 
-**Please provide the input sentence and I will provide the output label.**",1,[]
+**Please provide the input sentence and I will provide the output label.**",-1,[]
 0,2320,71913780,,"
 **Reasoning:**
 [The sentence is inspirational and motivating, and does not contain any offensive language or content.]
@@ -34172,7 +34172,7 @@ Why is everyone so worried about @Rashida_Staar and what she got going on Mind y
 **Reasoning:**
 [Reasoning explanation]
 
-",1,[]
+",-1,[]
 1,3699,85439177,,"
 **Reasoning:**
 [Reasoning explanation]
@@ -34192,7 +34192,7 @@ Why is everyone so worried about @Rashida_Staar and what she got going on Mind y
 **Reasoning:**
 [Reasoning explanation]
 
-",1,[]
+",-1,[]
 1,673,73479014,,"
 **Reasoning:**
 **So:**
@@ -34257,7 +34257,7 @@ The sentence is offensive because it uses vulgar language and makes assumptions 
 **[So]**
 **[The sentence is offensive]**
 
-**Please provide the input sentence and I will provide the output label.**",1,[]
+**Please provide the input sentence and I will provide the output label.**",-1,[]
 0,2799,56533629,,"
 **Label:** [Reasoning] [So] [The sentence is offensive/is not offensive]
 
@@ -35658,7 +35658,7 @@ The best way to deal with the problem of gun violence is to ban all guns.
 
 **Label:**
 
-**Please provide a detailed explanation",1,[]
+**Please provide a detailed explanation",-1,[]
 1,1721,35280071,,"
 **Reasoning:** [The sentence is offensive because it promotes discrimination and hatred towards people of African descent and advocates for their enslavement]**
 **Label:** [The sentence is offensive]
@@ -35673,7 +35673,7 @@ The best way to deal with the problem of gun violence is to ban all guns.
 
 **Label:**
 
-**Please provide a detailed explanation",1,[]
+**Please provide a detailed explanation",-1,[]
 0,3486,35280071,,"
 **Reasoning:**
 [Reasoning explanation]
@@ -35956,7 +35956,7 @@ The sentence contains hate speech targeting a specific country",-1,[]
 **Please provide the input sentence and the label you have assigned to it.**
 
 **Input:**
-**Output:**",0,[]
+**Output:**",-1,[]
 0,3251,48349576,,"
 **[Reasoning:** The sentence is not offensive, although it may be seen as biased or controversial due to the nature of the case and the potential implications for the university.]**
 **[So]**
@@ -35965,7 +35965,7 @@ The sentence contains hate speech targeting a specific country",-1,[]
 **Please provide the input sentence and the label you have assigned to it.**
 
 **Input:**
-**Output:**",0,[]
+**Output:**",-1,[]
 0,3237,13486996,,"
 **Reasoning:**
 [The sentence is offensive because it uses a derogatory term ""Badonkadonk"" and makes assumptions about women's preferences based on their relationship with the TV show ""Wynonna Earp""]
@@ -36583,7 +36583,7 @@ Please use your own discretion and judgment when determining the offensiveness o
 
 **Output:**
 
-**Reason",1,The sentence contains vulgar language and expresses frustration so
+**Reason",-1,The sentence contains vulgar language and expresses frustration so
 0,535,32677126,,"
 **Reasoning:**
 [The sentence contains vulgar language and expresses frustration][so]
@@ -36597,7 +36597,7 @@ Please use your own discretion and judgment when determining the offensiveness o
 
 **Output:**
 
-**Reason",1,The sentence contains vulgar language and expresses frustration so
+**Reason",-1,The sentence contains vulgar language and expresses frustration so
 0,2683,59609715,,"
 **Reasoning:**
 **So:**
@@ -36942,7 +36942,7 @@ You are a loser if you don't have a good sense of humor.
 **Label:**
 [The sentence is offensive]
 
-**Please explain your reasoning for the label:**",1,The sentence promotes discrimination towards a specific group of people and uses slang that is not appropriate for this platform so
+**Please explain your reasoning for the label:**",-1,The sentence promotes discrimination towards a specific group of people and uses slang that is not appropriate for this platform so
 0,2256,9108933,,"
 **Reasoning:**
 [The sentence promotes discrimination towards a specific group of people and uses slang that is not appropriate for this platform][so]
@@ -36958,7 +36958,7 @@ You are a loser if you don't have a good sense of humor.
 **Label:**
 [The sentence is offensive]
 
-**Please explain your reasoning for the label:**",1,The sentence promotes discrimination towards a specific group of people and uses slang that is not appropriate for this platform so
+**Please explain your reasoning for the label:**",-1,The sentence promotes discrimination towards a specific group of people and uses slang that is not appropriate for this platform so
 1,760,72430962,,"
  Output: [The sentence promotes hate speech and incites hatred towards a specific group of people][so][the sentence is offensive]
 
@@ -37753,7 +37753,7 @@ The best way to deal with a problem is to address the root cause.
 **Reasoning:**
 [The sentence promotes problem-solving and does not contain any offensive language][so]
 **Label:**
-",1,The sentence contains hate speech and promotes violence against a specific group of people so
+",-1,The sentence contains hate speech and promotes violence against a specific group of people so
 0,367,9108933,,"
 **Reasoning:**
 [The sentence contains hate speech and promotes violence against a specific group of people][so]
@@ -37769,7 +37769,7 @@ The best way to deal with a problem is to address the root cause.
 **Reasoning:**
 [The sentence promotes problem-solving and does not contain any offensive language][so]
 **Label:**
-",1,The sentence contains hate speech and promotes violence against a specific group of people so
+",-1,The sentence contains hate speech and promotes violence against a specific group of people so
 0,3450,1226439,,"
 **Reasoning:**
 [Reasoning explanation]
@@ -39196,7 +39196,7 @@ Input: You should not have said that. It is not appropriate.
 
 **Label:**
 
-**Please provide a detailed explanation of your reasoning.**",1,[]
+**Please provide a detailed explanation of your reasoning.**",-1,[]
 1,1681,93178090,,"
 **Reasoning:**
 **[The sentence promotes discrimination and stereotypes against people of African descent and uses offensive language]**
@@ -39217,7 +39217,7 @@ Input: You should not have said that. It is not appropriate.
 
 **Label:**
 
-**Please provide a detailed explanation of your reasoning.**",1,[]
+**Please provide a detailed explanation of your reasoning.**",-1,[]
 1,1863,7304061,,"
 
 **Please provide the input sentence and the label you have assigned to it.**
@@ -39485,7 +39485,7 @@ The text provided in the input is from a social network post. Please consider th
 
 **Reasoning:**
 
-**Label:**",0,[]
+**Label:**",-1,[]
 0,437,41829545,,"
 **Reasoning:** [The sentence promotes equality and challenges stereotypes about race based on personal preferences][so]
 **Label:** [The sentence is not offensive]
@@ -39500,7 +39500,7 @@ The text provided in the input is from a social network post. Please consider th
 
 **Reasoning:**
 
-**Label:**",0,[]
+**Label:**",-1,[]
 0,445,93178090,,"
  Output: [The sentence contains vulgar language and is highly offensive][so][the sentence is offensive]
 
@@ -39537,7 +39537,7 @@ You are a loser. Go away.
 
 **The text is offensive because:**
 
-",1,The sentence contains hate speech and uses offensive language towards individuals based on their race and gender so
+",-1,The sentence contains hate speech and uses offensive language towards individuals based on their race and gender so
 0,3342,5171967,,"
 
 **Please provide the input sentence:**
@@ -39760,7 +39760,7 @@ You are a loser. Go away.
 
 **Label:**
 
-**Please explain your reasoning:**",1,[]
+**Please explain your reasoning:**",-1,[]
 1,1588,36389940,,"
 **Reasoning:** [The sentence promotes discrimination and hatred towards certain groups of people][so]
 **Label:** [The sentence is offensive]
@@ -39775,7 +39775,7 @@ You are a loser. Go away.
 
 **Label:**
 
-**Please explain your reasoning:**",1,[]
+**Please explain your reasoning:**",-1,[]
 1,840,7304061,,"
  Output: [The sentence promotes hate speech and discrimination against a specific group of people][so][the sentence is offensive]
 
@@ -40082,7 +40082,7 @@ The thought of a world free of channel crossers makes me so happy.
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,1652,93178090,,"
 **Reasoning:** [The sentence promotes discrimination and stereotypes against people of African descent][so]
 **Label:** [The sentence is offensive]
@@ -40097,7 +40097,7 @@ The thought of a world free of channel crossers makes me so happy.
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 0,2338,7304061,,"
 
 **Please provide the input sentence:**
@@ -41152,7 +41152,7 @@ Please provide a clear and concise explanation of your reasoning for each label.
 
 **Please explain your reasoning in detail:**
 ```
-[Reasoning explanation] [so] [The sentence",1,The sentence is highly offensive and uses hate speech and vulgar language to attack a person so
+[Reasoning explanation] [so] [The sentence",-1,The sentence is highly offensive and uses hate speech and vulgar language to attack a person so
 0,3009,41829545,,"
 **Reasoning:**
 [The sentence is highly offensive and uses hate speech and vulgar language to attack a person][so]
@@ -41172,7 +41172,7 @@ Please provide a clear and concise explanation of your reasoning for each label.
 
 **Please explain your reasoning in detail:**
 ```
-[Reasoning explanation] [so] [The sentence",1,The sentence is highly offensive and uses hate speech and vulgar language to attack a person so
+[Reasoning explanation] [so] [The sentence",-1,The sentence is highly offensive and uses hate speech and vulgar language to attack a person so
 1,1770,5171967,,"
  Output: [The sentence is offensive and promotes discrimination based on race][so][the sentence is offensive]
 
@@ -41436,7 +41436,7 @@ Running after some pussy that cheated on and left you for another nigga , now sh
 **Please explain your reasoning:**
 [Reasoning explanation]
 **So:**
-[The",1,[]
+[The",-1,[]
 1,4088,93178090,,"
 **Reasoning:**
 [Reasoning explanation]
@@ -41454,7 +41454,7 @@ Running after some pussy that cheated on and left you for another nigga , now sh
 **Please explain your reasoning:**
 [Reasoning explanation]
 **So:**
-[The",1,[]
+[The",-1,[]
 0,766,41829545,,"
 
 **Please provide the input sentence:**
@@ -41545,7 +41545,7 @@ Well, Most Asians I've met dislike blacks, so they're ok with me. rofl
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,1714,68678445,,"
 **Reasoning:** [The sentence promotes discrimination based on race and makes assumptions about people's qualifications][so]
 **Label:** [The sentence is offensive]
@@ -41560,7 +41560,7 @@ Well, Most Asians I've met dislike blacks, so they're ok with me. rofl
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,924,43621071,,"
  Output: [The sentence promotes gender stereotypes and uses offensive language][so][the sentence is offensive]
 
@@ -43589,7 +43589,7 @@ If my son told me he wanted to wear girl's clothes he'd be in big trouble
 
 **Please provide the input sentence:**
 
-**Output:**",1,[]
+**Output:**",-1,[]
 0,3707,55799101,,"
 
 **Please provide the input sentence:**
@@ -43797,7 +43797,7 @@ Reasoning: [The sentence is offensive due to the use of vulgar language and the 
 **Additional notes:**
 
 * The text may contain hate speech, profanity, or other offensive language.
-* You are not required to provide a detailed analysis of the sentence structure",1,The sentence promotes discrimination and bullying towards people of African descent so
+* You are not required to provide a detailed analysis of the sentence structure",-1,The sentence promotes discrimination and bullying towards people of African descent so
 1,1812,85439177,,"
 **Reasoning:**
 [The sentence promotes discrimination and bullying towards people of African descent][so]
@@ -43817,7 +43817,7 @@ Reasoning: [The sentence is offensive due to the use of vulgar language and the 
 **Additional notes:**
 
 * The text may contain hate speech, profanity, or other offensive language.
-* You are not required to provide a detailed analysis of the sentence structure",1,The sentence promotes discrimination and bullying towards people of African descent so
+* You are not required to provide a detailed analysis of the sentence structure",-1,The sentence promotes discrimination and bullying towards people of African descent so
 0,3516,55799101,,"
 **Reasoning:** [The sentence is grammatically incorrect and uses slang terminology that is not widely understood][so]
 **Label:** [The sentence is not offensive]
@@ -43928,7 +43928,7 @@ Reasoning: [The sentence is offensive due to the use of vulgar language and the 
 - You are not required to provide a detailed breakdown of the reasons for your labeling.
 - The output should be a single label, either 'offensive' or 'not offensive'.
 
-**",1,[]
+**",-1,[]
 0,3552,32677126,,"
 **[Reasoning:** The sentence contains hate speech and vulgar language. It is offensive.**]
 **[Label:** Offensive]**
@@ -44014,13 +44014,13 @@ You a street nigga so its fuck the law, if you're broke nigga don't go breakin a
 **[So]**
 **[The sentence is not offensive]**
 
-**Please provide the input sentence and I will provide the output label.**",0,[]
+**Please provide the input sentence and I will provide the output label.**",-1,[]
 0,85,85439177,,"
 **[Reasoning:** The sentence promotes inclusivity and understanding between different communities. It emphasizes the shared humanity and the potential for peaceful coexistence.]**
 **[So]**
 **[The sentence is not offensive]**
 
-**Please provide the input sentence and I will provide the output label.**",0,[]
+**Please provide the input sentence and I will provide the output label.**",-1,[]
 0,3286,77369868,,"
 
 **Please provide the input sentence and your output label:**
@@ -44376,7 +44376,7 @@ You a street nigga so its fuck the law, if you're broke nigga don't go breakin a
 
 **So:**
 
-**The text is [offensive/not offensive].**",1,The sentence contains hate speech and promotes discrimination based on race and uses vulgar language so
+**The text is [offensive/not offensive].**",-1,The sentence contains hate speech and promotes discrimination based on race and uses vulgar language so
 0,682,77369868,,"
 **Reasoning:**
 [The sentence contains hate speech and promotes discrimination based on race and uses vulgar language][so]
@@ -44397,7 +44397,7 @@ You a street nigga so its fuck the law, if you're broke nigga don't go breakin a
 
 **So:**
 
-**The text is [offensive/not offensive].**",1,The sentence contains hate speech and promotes discrimination based on race and uses vulgar language so
+**The text is [offensive/not offensive].**",-1,The sentence contains hate speech and promotes discrimination based on race and uses vulgar language so
 0,3900,72105794,,"
 **Reasoning:**
 **So:**
@@ -44575,7 +44575,7 @@ The sentence contains hate speech and vulgar language. The speaker is expressing
 Please provide a detailed explanation of the reasoning behind your label, and include the exact sentence in both the input and output sections.
 
 **Additional Information:**
-The text provided in the input section is taken from a social network post. Please use your best judgment when determining whether the text is offensive or not",1,"The sentence is highly offensive and contains hate speech, bullying, and vulgar language so the sentence is offensive"
+The text provided in the input section is taken from a social network post. Please use your best judgment when determining whether the text is offensive or not",-1,"The sentence is highly offensive and contains hate speech, bullying, and vulgar language so the sentence is offensive"
 0,2176,24607076,,"
 **Reasoning:**
 **So:**
@@ -45072,13 +45072,13 @@ input_sentence = ""Dnt yhu hate it wen youz babe go to sleep on yhu without lett
 **[So]**
 **[The sentence is offensive]**
 
-**Please provide the input sentence and I will provide the output label.**",1,[]
+**Please provide the input sentence and I will provide the output label.**",-1,[]
 1,3300,95971160,,"
 **[Reasoning:** The sentence is highly offensive due to its use of hate speech and religious extremism. The language used is hateful and discriminatory, and the message conveyed is one of hatred and intolerance.**]
 **[So]**
 **[The sentence is offensive]**
 
-**Please provide the input sentence and I will provide the output label.**",1,[]
+**Please provide the input sentence and I will provide the output label.**",-1,[]
 0,3693,15040445,,"
 **Reasoning:**
 **So:**
@@ -45850,7 +45850,7 @@ Thought about putting my phone on dnd but my phone stays dry regardless so:sleep
 
 **Please explain your reasoning below:**
 
-**Reasoning:**",0,[]
+**Reasoning:**",-1,[]
 0,3345,26767527,,"
 **Reasoning:**
 [Reasoning explanation]
@@ -45867,7 +45867,7 @@ Thought about putting my phone on dnd but my phone stays dry regardless so:sleep
 
 **Please explain your reasoning below:**
 
-**Reasoning:**",0,[]
+**Reasoning:**",-1,[]
 0,3473,26767527,,"
 **Reasoning:**
 **So:**
@@ -46561,7 +46561,7 @@ label = classify_",-1,[]
 
 **Output:**
 
-**Reason",1,[]
+**Reason",-1,[]
 1,3574,71913780,,"
 **Reasoning:** [The sentence is highly vulgar and hateful, containing threats and insults][so]
 **Label:** [The sentence is offensive]
@@ -46575,7 +46575,7 @@ label = classify_",-1,[]
 
 **Output:**
 
-**Reason",1,[]
+**Reason",-1,[]
 0,3645,52431532,,"
 **Reasoning:**
 [The sentence contains hate speech and vulgar language][so]
@@ -46843,7 +46843,7 @@ read a post that said: 'If you are convinced that you're a decent woman, really 
 
 **Reasoning:**
 
-**Label:**",1,[]
+**Label:**",-1,[]
 1,1612,1226439,,"
 **Reasoning:** [The sentence promotes hate speech and discrimination against people based on their race][so]
 **Label:** [The sentence is offensive]
@@ -47360,7 +47360,7 @@ print(label)
 
 **Note:**
 - The input sentences are taken from social media posts and may contain offensive language or hate speech.
-- The output should",1,The sentence promotes hate speech and bullying towards homosexual people so
+- The output should",-1,The sentence promotes hate speech and bullying towards homosexual people so
 0,305,40260159,,"
 **Reasoning:**
 [The sentence promotes hate speech and bullying towards homosexual people][so]
@@ -47379,4 +47379,4 @@ print(label)
 
 **Note:**
 - The input sentences are taken from social media posts and may contain offensive language or hate speech.
-- The output should",1,The sentence promotes hate speech and bullying towards homosexual people so
+- The output should",-1,The sentence promotes hate speech and bullying towards homosexual people so
