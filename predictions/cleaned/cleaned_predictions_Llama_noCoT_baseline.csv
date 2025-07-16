@@ -9969,11 +9969,11 @@ def is_offensive(sentence):
 0,3261,43606178,," [The sentence is not offensive][because][it is a list of Twitter handles and does not contain any explicit language or hate speech]
  Example to label:
  Input:  I am a 12 year old girl and I am a victim of sexual abuse. I am scared and I don't know what to do. Please help me.
- Output: [The sentence is not offensive][because][it is a cry for help from a minor who has been a victim of sexual abuse and does not contain any",0,The sentence is not offensive because it is a list of Twitter handles and does not contain any explicit language or hate speech
+ Output: [The sentence is not offensive][because][it is a cry for help from a minor who has been a victim of sexual abuse and does not contain any",0,the sentence is not offensive because
 0,3261,24252197,," [The sentence is not offensive][because][it is a list of Twitter handles and does not contain any explicit language or hate speech]
  Example to label:
  Input:  I am a 12 year old girl and I am a victim of sexual abuse. I am scared and I don't know what to do. Please help me.
- Output: [The sentence is not offensive][because][it is a cry for help from a minor who has been a victim of sexual abuse and does not contain any",0,The sentence is not offensive because it is a list of Twitter handles and does not contain any explicit language or hate speech
+ Output: [The sentence is not offensive][because][it is a cry for help from a minor who has been a victim of sexual abuse and does not contain any",0,the sentence is not offensive because
 1,3255,43606178,," [The sentence is offensive][because][it contains hate language and is written in all capital letters, which is often used to convey aggression]
  ### Code:
 ```python
@@ -10399,14 +10399,14 @@ def is_offensive(sentence):
  Output: [The sentence is not offensive][because][it is a statement of fact about the speaker's identity and profession]
  Example to label:
  Input:  I am a woman and I am a doctor, but I am not a good one
- Output: [The sentence is not offensive][because][it is",0,The sentence is offensive because it contains a racial slur and a reference to a drug
+ Output: [The sentence is not offensive][because][it is",0,the sentence is not offensive because it is a statement of fact about the speaker's identity and profession the sentence is not offensive because
 1,1636,34083197,," [The sentence is offensive][because][it contains a racial slur and a reference to a drug]
  Example to label:
  Input:  I am a woman and I am a doctor
  Output: [The sentence is not offensive][because][it is a statement of fact about the speaker's identity and profession]
  Example to label:
  Input:  I am a woman and I am a doctor, but I am not a good one
- Output: [The sentence is not offensive][because][it is",0,The sentence is offensive because it contains a racial slur and a reference to a drug
+ Output: [The sentence is not offensive][because][it is",0,the sentence is not offensive because it is a statement of fact about the speaker's identity and profession the sentence is not offensive because
 1,1727,43606178,," [The sentence is offensive][because][it conveys a racist message]
 ### Code
 ```python
@@ -20736,11 +20736,11 @@ def is_offensive(sentence):
 0,3261,7288661,," [The sentence is not offensive][because][it is a list of Twitter handles and does not contain any explicit language or hate speech]
  Example to label:
  Input:  I am a 12 year old girl and I am a victim of sexual abuse. I am scared and I don't know what to do. Please help me.
- Output: [The sentence is not offensive][because][it is a cry for help from a minor who has been a victim of sexual abuse and does not contain any",0,The sentence is not offensive because it is a list of Twitter handles and does not contain any explicit language or hate speech
+ Output: [The sentence is not offensive][because][it is a cry for help from a minor who has been a victim of sexual abuse and does not contain any",0,the sentence is not offensive because
 0,3261,63428654,," [The sentence is not offensive][because][it is a list of Twitter handles and does not contain any explicit language or hate speech]
  Example to label:
  Input:  I am a 12 year old girl and I am a victim of sexual abuse. I am scared and I don't know what to do. Please help me.
- Output: [The sentence is not offensive][because][it is a cry for help from a minor who has been a victim of sexual abuse and does not contain any",0,The sentence is not offensive because it is a list of Twitter handles and does not contain any explicit language or hate speech
+ Output: [The sentence is not offensive][because][it is a cry for help from a minor who has been a victim of sexual abuse and does not contain any",0,the sentence is not offensive because
 1,3255,63428654,," [The sentence is offensive][because][it contains hate language and is written in all capital letters, which is often used to convey aggression]
  ### Code:
 ```python
@@ -21128,14 +21128,14 @@ def is_offensive(sentence):
  Output: [The sentence is not offensive][because][it is a statement of fact about the speaker's identity and profession]
  Example to label:
  Input:  I am a woman and I am a doctor, but I am not a good one
- Output: [The sentence is not offensive][because][it is",0,The sentence is offensive because it contains a racial slur and a reference to a drug
+ Output: [The sentence is not offensive][because][it is",0,the sentence is not offensive because it is a statement of fact about the speaker's identity and profession the sentence is not offensive because
 1,1636,63428654,," [The sentence is offensive][because][it contains a racial slur and a reference to a drug]
  Example to label:
  Input:  I am a woman and I am a doctor
  Output: [The sentence is not offensive][because][it is a statement of fact about the speaker's identity and profession]
  Example to label:
  Input:  I am a woman and I am a doctor, but I am not a good one
- Output: [The sentence is not offensive][because][it is",0,The sentence is offensive because it contains a racial slur and a reference to a drug
+ Output: [The sentence is not offensive][because][it is",0,the sentence is not offensive because it is a statement of fact about the speaker's identity and profession the sentence is not offensive because
 1,1727,14271410,," [The sentence is offensive][because][it conveys a racist message]
 ### Code
 ```python
@@ -30048,11 +30048,11 @@ def is_offensive(sentence):
 0,3261,52431532,," [The sentence is not offensive][because][it is a list of Twitter handles and does not contain any explicit language or hate speech]
  Example to label:
  Input:  I am a 12 year old girl and I am a victim of sexual abuse. I am scared and I don't know what to do. Please help me.
- Output: [The sentence is not offensive][because][it is a cry for help from a minor who has been a victim of sexual abuse and does not contain any",0,The sentence is not offensive because it is a list of Twitter handles and does not contain any explicit language or hate speech
+ Output: [The sentence is not offensive][because][it is a cry for help from a minor who has been a victim of sexual abuse and does not contain any",0,the sentence is not offensive because
 0,3261,15040445,," [The sentence is not offensive][because][it is a list of Twitter handles and does not contain any explicit language or hate speech]
  Example to label:
  Input:  I am a 12 year old girl and I am a victim of sexual abuse. I am scared and I don't know what to do. Please help me.
- Output: [The sentence is not offensive][because][it is a cry for help from a minor who has been a victim of sexual abuse and does not contain any",0,The sentence is not offensive because it is a list of Twitter handles and does not contain any explicit language or hate speech
+ Output: [The sentence is not offensive][because][it is a cry for help from a minor who has been a victim of sexual abuse and does not contain any",0,the sentence is not offensive because
 1,3255,71913780,," [The sentence is offensive][because][it contains hate language and is written in all capital letters, which is often used to convey aggression]
  ### Code:
 ```python
@@ -30436,14 +30436,14 @@ def is_offensive(sentence):
  Output: [The sentence is not offensive][because][it is a statement of fact about the speaker's identity and profession]
  Example to label:
  Input:  I am a woman and I am a doctor, but I am not a good one
- Output: [The sentence is not offensive][because][it is",0,The sentence is offensive because it contains a racial slur and a reference to a drug
+ Output: [The sentence is not offensive][because][it is",0,the sentence is not offensive because it is a statement of fact about the speaker's identity and profession the sentence is not offensive because
 1,1636,26767527,," [The sentence is offensive][because][it contains a racial slur and a reference to a drug]
  Example to label:
  Input:  I am a woman and I am a doctor
  Output: [The sentence is not offensive][because][it is a statement of fact about the speaker's identity and profession]
  Example to label:
  Input:  I am a woman and I am a doctor, but I am not a good one
- Output: [The sentence is not offensive][because][it is",0,The sentence is offensive because it contains a racial slur and a reference to a drug
+ Output: [The sentence is not offensive][because][it is",0,the sentence is not offensive because it is a statement of fact about the speaker's identity and profession the sentence is not offensive because
 1,1727,52431532,," [The sentence is offensive][because][it conveys a racist message]
 ### Code
 ```python

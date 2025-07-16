@@ -1118,7 +1118,7 @@ from nltk import Regexp",1,The sentence contains a racial slur and a stereotype 
 import re
 from nltk.sentiment import SentimentIntensityAnalyzer
 from nltk.corpus import stopwords
-from",0,The sentence contains a derogatory tone and a condescending message so the sentence is offensive
+from",0,the sentence is a positive and supportive message so the sentence is not offensive
 0,3319,3770894,," [The sentence contains a derogatory tone and a condescending message][so][the sentence is offensive]
  Example to label:
  Input: ""I love my job and I love my colleagues. We are a team and we work together to achieve our goals.""
@@ -1128,7 +1128,7 @@ from",0,The sentence contains a derogatory tone and a condescending message so t
 import re
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-from nltk.stem import",0,The sentence contains a derogatory tone and a condescending message so the sentence is offensive
+from nltk.stem import",0,the sentence is a positive and supportive message so the sentence is not offensive
 1,1736,10638687,," [The sentence contains hate speech and uses derogatory language][so][the sentence is offensive]
 ### Code
 ```python
@@ -3536,7 +3536,7 @@ def is_offensive(sentence):
  Example to label:
  Input:  I'm a 16-year-old girl and I'm a victim of sexual assault. I'm not sure if I should report it to the police.
  Output: [The sentence contains a description of a sensitive topic, but it's not explicit or aggressive][so][the sentence is not offensive]
- Example to label",0,"The sentence uses a racial slur, but the context is not aggressive, it's more of a nostalgic tone so the sentence is not offensive"
+ Example to label",0,"the sentence contains a description of a sensitive topic, but it's not explicit or aggressive so the sentence is not offensive"
 0,1501,54904271,," [The sentence is a response to a previous message and contains a counterargument to a stereotype][so][the sentence is not offensive]
 
 ### Code
@@ -5140,14 +5140,14 @@ def is_offensive(sentence):
  Your output:  [The sentence expresses patriotism and does not contain any hate speech or explicit language][so][the sentence is not offensive]
  Example to label:
  Input: I love my country, but I hate my government
- Your output:  [The sentence expresses a nuanced political opinion",0,"The sentence makes a generalization about a group of people based on their religion, which is a form of hate speech so the sentence is offensive"
+ Your output:  [The sentence expresses a nuanced political opinion",0,the sentence expresses patriotism and does not contain any hate speech or explicit language so the sentence is not offensive
 1,840,3088028,," [The sentence makes a generalization about a group of people based on their religion, which is a form of hate speech][so][the sentence is offensive]
  Example to label:
  Input: I love my country
  Your output:  [The sentence expresses patriotism and does not contain any hate speech or explicit language][so][the sentence is not offensive]
  Example to label:
  Input: I love my country, but I hate my government
- Your output:  [The sentence expresses a nuanced political opinion",0,"The sentence makes a generalization about a group of people based on their religion, which is a form of hate speech so the sentence is offensive"
+ Your output:  [The sentence expresses a nuanced political opinion",0,the sentence expresses patriotism and does not contain any hate speech or explicit language so the sentence is not offensive
 1,1717,40401566,," [The sentence contains hate speech and racist language][so][the sentence is offensive]
 ### Code
 ```python
@@ -5246,14 +5246,14 @@ def is_offensive(sentence):
  Your output:  [The sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language][so][the sentence is offensive]
  Example to label:
  Input:  i love you
- Your output:",1,The sentence merely provides information on the population of certain countries so the sentence is not offensive
+ Your output:",1,the sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language so the sentence is offensive
 0,60,3088028,," [The sentence merely provides information on the population of certain countries][so][the sentence is not offensive]
  Example to label:
  Input:  A girl that looked like she worth the world to ya is around the corner getting fucked for a perk #Facts
  Your output:  [The sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language][so][the sentence is offensive]
  Example to label:
  Input:  i love you
- Your output:",1,The sentence merely provides information on the population of certain countries so the sentence is not offensive
+ Your output:",1,the sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language so the sentence is offensive
 1,2157,40401566,," [The sentence contains hate speech and explicit language][so][the sentence is offensive]
 ### Code
 ```python
@@ -10643,12 +10643,12 @@ def is_offensive(sentence):
  Example to label:
  Input:  I'm a 16-year-old girl and I'm a lesbian. I'm not sure if I should tell my parents. I'm scared of their reaction.
  Output: [The sentence expresses a personal concern and does not contain hate speech or explicit language][so][the sentence is not offensive]
- Example to",0,"The sentence uses derogatory language to refer to a person who smokes, but the context is not hate speech so the sentence is not offensive"
+ Example to",0,the sentence expresses a personal concern and does not contain hate speech or explicit language so the sentence is not offensive
 0,305,74938710,," [The sentence uses derogatory language to refer to a person who smokes, but the context is not hate speech][so][the sentence is not offensive]
  Example to label:
  Input:  I'm a 16-year-old girl and I'm a lesbian. I'm not sure if I should tell my parents. I'm scared of their reaction.
  Output: [The sentence expresses a personal concern and does not contain hate speech or explicit language][so][the sentence is not offensive]
- Example to",0,"The sentence uses derogatory language to refer to a person who smokes, but the context is not hate speech so the sentence is not offensive"
+ Example to",0,the sentence expresses a personal concern and does not contain hate speech or explicit language so the sentence is not offensive
 1,545,61283819,," [The sentence conveys a message of sexism and contains explicit language][so][the sentence is offensive]
 ### Code
 ```python
@@ -11729,7 +11729,7 @@ from nltk import Regexp",1,The sentence contains a racial slur and a stereotype 
 import re
 from nltk.sentiment import SentimentIntensityAnalyzer
 from nltk.corpus import stopwords
-from",0,The sentence contains a derogatory tone and a condescending message so the sentence is offensive
+from",0,the sentence is a positive and supportive message so the sentence is not offensive
 0,3319,17414298,," [The sentence contains a derogatory tone and a condescending message][so][the sentence is offensive]
  Example to label:
  Input: ""I love my job and I love my colleagues. We are a team and we work together to achieve our goals.""
@@ -11739,7 +11739,7 @@ from",0,The sentence contains a derogatory tone and a condescending message so t
 import re
 from nltk.sentiment import SentimentIntensityAnalyzer
 from nltk.corpus import stopwords
-from",0,The sentence contains a derogatory tone and a condescending message so the sentence is offensive
+from",0,the sentence is a positive and supportive message so the sentence is not offensive
 1,1736,98987708,," [The sentence contains hate speech and uses derogatory language][so][the sentence is offensive]
 ### Code
 ```python
@@ -14165,12 +14165,12 @@ def is_offensive(sentence):
  Example to label:
  Input:  I'm a 16-year-old girl and I'm a victim of sexual assault. I'm not sure if I should report it to the police.
  Output: [The sentence contains a description of a sensitive topic, but it's not explicit or aggressive][so][the sentence is not offensive]
- Example to label",0,"The sentence uses a racial slur, but the context is not aggressive, it's more of a nostalgic tone so the sentence is not offensive"
+ Example to label",0,"the sentence contains a description of a sensitive topic, but it's not explicit or aggressive so the sentence is not offensive"
 0,3543,86257299,," [The sentence uses a racial slur, but the context is not aggressive, it's more of a nostalgic tone][so][the sentence is not offensive]
  Example to label:
  Input:  I'm a 16-year-old girl and I'm a victim of sexual assault. I'm not sure if I should report it to the police.
  Output: [The sentence contains a description of a sensitive topic, but it's not explicit or aggressive][so][the sentence is not offensive]
- Example to label",0,"The sentence uses a racial slur, but the context is not aggressive, it's more of a nostalgic tone so the sentence is not offensive"
+ Example to label",0,"the sentence contains a description of a sensitive topic, but it's not explicit or aggressive so the sentence is not offensive"
 1,1501,5428237,," [The sentence is a response to a previous message and contains a counterargument to a stereotype][so][the sentence is not offensive]
 
 ### Code
@@ -15861,14 +15861,14 @@ def is_offensive(sentence):
  Your output:  [The sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language][so][the sentence is offensive]
  Example to label:
  Input:  i love you
- Your output:",1,The sentence merely provides information on the population of certain countries so the sentence is not offensive
+ Your output:",1,the sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language so the sentence is offensive
 0,60,14105244,," [The sentence merely provides information on the population of certain countries][so][the sentence is not offensive]
  Example to label:
  Input:  A girl that looked like she worth the world to ya is around the corner getting fucked for a perk #Facts
  Your output:  [The sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language][so][the sentence is offensive]
  Example to label:
  Input:  i love you
- Your output:",1,The sentence merely provides information on the population of certain countries so the sentence is not offensive
+ Your output:",1,the sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language so the sentence is offensive
 1,2157,15918959,," [The sentence contains hate speech and explicit language][so][the sentence is offensive]
 ### Code
 ```python
@@ -17615,13 +17615,13 @@ def is_offensive(sentence):
  Input:  I am a proud member of the KKK and I am going to kill all the blacks.
  Your output:  [The sentence contains a hate speech and a threat to a specific group of people][so][the sentence is offensive]
  Example to label:
- Input:  I am a proud member of the LGBTQ+",1,"The sentence contains a racial slur and a response to it, but the response is not a hate speech so the sentence is not offensive"
+ Input:  I am a proud member of the LGBTQ+",1,the sentence contains a hate speech and a threat to a specific group of people so the sentence is offensive
 0,355,2385721,," [The sentence contains a racial slur and a response to it, but the response is not a hate speech][so][the sentence is not offensive]
  Example to label:
  Input:  I am a proud member of the KKK and I am going to kill all the blacks.
  Your output:  [The sentence contains a hate speech and a threat to a specific group of people][so][the sentence is offensive]
  Example to label:
- Input:  I am a proud member of the LGBTQ+",1,"The sentence contains a racial slur and a response to it, but the response is not a hate speech so the sentence is not offensive"
+ Input:  I am a proud member of the LGBTQ+",1,the sentence contains a hate speech and a threat to a specific group of people so the sentence is offensive
 1,2142,2385721,," [The sentence contains hate speech and explicit language][so][the sentence is offensive]
 ### Step 1: Define the function to check for offensiveness
 ```python
@@ -21317,12 +21317,12 @@ def is_offensive(sentence):
  Example to label:
  Input:  I'm a 16-year-old girl and I'm a lesbian. I'm not sure if I should tell my parents. I'm scared of their reaction.
  Output: [The sentence expresses a personal concern and does not contain hate speech or explicit language][so][the sentence is not offensive]
- Example to",0,"The sentence uses derogatory language to refer to a person who smokes, but the context is not hate speech so the sentence is not offensive"
+ Example to",0,the sentence expresses a personal concern and does not contain hate speech or explicit language so the sentence is not offensive
 1,305,40102629,," [The sentence uses derogatory language to refer to a person who smokes, but the context is not hate speech][so][the sentence is not offensive]
  Example to label:
  Input:  I'm a 16-year-old girl and I'm a lesbian. I'm not sure if I should tell my parents. I'm scared of their reaction.
  Output: [The sentence expresses a personal concern and does not contain hate speech or explicit language][so][the sentence is not offensive]
- Example to",0,"The sentence uses derogatory language to refer to a person who smokes, but the context is not hate speech so the sentence is not offensive"
+ Example to",0,the sentence expresses a personal concern and does not contain hate speech or explicit language so the sentence is not offensive
 0,2317,56533629,," [The sentence conveys a message that personal attacks are not acceptable and uses a slang word][so][the sentence is not offensive]
 ### Code
 ```python
@@ -21585,13 +21585,13 @@ def is_offensive(sentence):
  Input:  I am a 25-year-old woman who has been living in the United States for 5 years. I am a software engineer and I am very happy with my life.
  Output: [The sentence is a personal and neutral statement with no explicit language or hate speech][so][the sentence is not offensive]
  Example to label:
- Input:",0,"The sentence contains hate speech and stereotypes, but also a message of solidarity and resistance so the sentence is offensive"
+ Input:",0,the sentence is a personal and neutral statement with no explicit language or hate speech so the sentence is not offensive
 0,2722,48349576,," [The sentence contains hate speech and stereotypes, but also a message of solidarity and resistance][so][the sentence is offensive]
  Example to label:
  Input:  I am a 25-year-old woman who has been living in the United States for 5 years. I am a software engineer and I am very happy with my life.
  Output: [The sentence is a personal and neutral statement with no explicit language or hate speech][so][the sentence is not offensive]
  Example to label:
- Input:",0,"The sentence contains hate speech and stereotypes, but also a message of solidarity and resistance so the sentence is offensive"
+ Input:",0,the sentence is a personal and neutral statement with no explicit language or hate speech so the sentence is not offensive
 1,660,13486996,," [The sentence contains hate speech and explicit language][so][the sentence is offensive]
 ### Code
 ```python
@@ -21994,7 +21994,7 @@ def is_offensive(sentence):
 import re
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
-from nltk.corpus import",0,The sentence contains a derogatory tone and a condescending message so the sentence is offensive
+from nltk.corpus import",0,the sentence is a positive and professional message so the sentence is not offensive
 0,3319,85439177,," [The sentence contains a derogatory tone and a condescending message][so][the sentence is offensive]
  Example to label:
  Input: ""I love my job and I love my colleagues. We are a team and we work together to achieve our goals.""
@@ -22004,7 +22004,7 @@ from nltk.corpus import",0,The sentence contains a derogatory tone and a condesc
 import re
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
-from nltk.corpus import",0,The sentence contains a derogatory tone and a condescending message so the sentence is offensive
+from nltk.corpus import",0,the sentence is a positive and professional message so the sentence is not offensive
 1,913,6690712,," [The sentence contains a hate speech and a derogatory term for a mixed marriage][so][the sentence is offensive]
 ### Code
 ```python
@@ -24870,12 +24870,12 @@ def is_offensive(sentence):
  Example to label:
  Input:  I'm a 16-year-old girl and I'm a victim of sexual assault. I'm not sure if I should report it to the police.
  Output: [The sentence contains a description of a sensitive topic, but it's not explicit or aggressive][so][the sentence is not offensive]
- Example to label",0,"The sentence uses a racial slur, but the context is not aggressive, it's more of a nostalgic tone so the sentence is not offensive"
+ Example to label",0,"the sentence contains a description of a sensitive topic, but it's not explicit or aggressive so the sentence is not offensive"
 0,3543,1226439,," [The sentence uses a racial slur, but the context is not aggressive, it's more of a nostalgic tone][so][the sentence is not offensive]
  Example to label:
  Input:  I'm a 16-year-old girl and I'm a victim of sexual assault. I'm not sure if I should report it to the police.
  Output: [The sentence contains a description of a sensitive topic, but it's not explicit or aggressive][so][the sentence is not offensive]
- Example to label",0,"The sentence uses a racial slur, but the context is not aggressive, it's more of a nostalgic tone so the sentence is not offensive"
+ Example to label",0,"the sentence contains a description of a sensitive topic, but it's not explicit or aggressive so the sentence is not offensive"
 1,1501,35638915,," [The sentence is a response to a previous message and contains a counterargument to a stereotype][so][the sentence is not offensive]
 
 ### Code
@@ -26448,14 +26448,14 @@ def is_offensive(sentence):
  Your output:  [The sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language][so][the sentence is offensive]
  Example to label:
  Input:  i love you
- Your output:",1,The sentence merely provides information on the population of certain countries so the sentence is not offensive
+ Your output:",1,the sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language so the sentence is offensive
 0,60,93178090,," [The sentence merely provides information on the population of certain countries][so][the sentence is not offensive]
  Example to label:
  Input:  A girl that looked like she worth the world to ya is around the corner getting fucked for a perk #Facts
  Your output:  [The sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language][so][the sentence is offensive]
  Example to label:
  Input:  i love you
- Your output:",1,The sentence merely provides information on the population of certain countries so the sentence is not offensive
+ Your output:",1,the sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language so the sentence is offensive
 1,1355,7304061,," [The sentence contains hate speech, explicit language, and derogatory terms for sexual orientation and gender identity][so][the sentence is offensive]
 
 ### Code

@@ -2097,7 +2097,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1710,10166032,,"1 = Biden wins and R's rebel, truckers protest, supply line disruptions, or 2 = Trump wins and it'll be a category 5: liberals rioting/ murdering and monkeys looting and stealing sail foams'
 
 
@@ -2147,7 +2147,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,2317,3088028,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -3089,7 +3089,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,2282,3770894,," [The sentence is not offensive]
 
 
@@ -3183,7 +3183,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,3486,10166032,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -5183,7 +5183,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,3251,10166032,," [The sentence is not offensive]
 
 
@@ -5277,7 +5277,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,15,3088028,," [The sentence is offensive because it is a stereotype that women should stay in the kitchen][so][the sentence is offensive]
 
 
@@ -6189,7 +6189,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,2240,10166032,," [The sentence is not offensive]
 
 
@@ -6283,7 +6283,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,1632,10638687,," [The sentence is offensive because it is racist][so][the sentence is offensive]
 
 
@@ -7235,7 +7235,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,2320,10166032,," [The sentence is not offensive]
 
 
@@ -7329,7 +7329,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,3558,10638687,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -17321,7 +17321,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3436,54904271,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -17589,7 +17589,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,377,54904271,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -32471,7 +32471,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,2896,3088028,," [The sentence contains a lot of emojis and is not offensive]
 
 
@@ -32557,7 +32557,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,1599,40401566,," [The sentence is offensive because it contains a stereotype about Black people][so][the sentence is offensive]
 
 
@@ -35020,7 +35020,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3444,3088028,,"
  [The sentence contains vulgar language and is offensive.]
 
@@ -35111,7 +35111,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1911,40401566,," [The sentence contains hate speech and is offensive][so][the sentence is offensive]
 
 
@@ -36468,7 +36468,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,2338,3088028,," [The sentence contains a sexual reference to feet and is not offensive]
 
 
@@ -36555,7 +36555,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1586,40401566,," [The sentence is offensive because it is racist and contains hate language][so][the sentence is offensive]
 
 
@@ -37303,7 +37303,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,3677,3088028,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -44477,7 +44477,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,2147,3088028,,"
 
 
@@ -44578,7 +44578,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,2173,40401566,," [The sentence contains a racial slur][so][the sentence is offensive]
 
 
@@ -46038,7 +46038,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,77,24252197,," [The sentence is not offensive]
 
 
@@ -46132,7 +46132,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,3556,10638687,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -50510,7 +50510,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,95,8526465,," [The sentence is not offensive]
 
 
@@ -50604,7 +50604,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,311,10638687,," [The word 'niggas' is a racial slur and should not be used by anyone][so][the sentence is offensive]
 
 
@@ -51777,7 +51777,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,2280,8526465,," [The sentence is not offensive]
 
 
@@ -51871,7 +51871,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,1777,10638687,," [The sentence uses offensive language to describe a person][so][the sentence is offensive]
 
 
@@ -65177,7 +65177,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,310,42267923,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -66926,7 +66926,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,717,32992109,," [The sentence contains the word nigger, which is considered offensive in the United States][so][the sentence is offensive]
 
 
@@ -81267,7 +81267,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3345,34083197,," [The sentence contains a lot of emojis and is not offensive]
 
 
@@ -81353,7 +81353,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,3473,43606178,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -92311,7 +92311,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,1710,17414298,,"1 = Biden wins and R's rebel, truckers protest, supply line disruptions, or 2 = Trump wins and it'll be a category 5: liberals rioting/ murdering and monkeys looting and stealing sail foams'
 
 
@@ -92361,7 +92361,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,2317,98987708,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -93303,7 +93303,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,2282,44250250,," [The sentence is not offensive]
 
 
@@ -93397,7 +93397,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,3486,45870433,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -95332,7 +95332,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,3251,94108971,," [The sentence is not offensive]
 
 
@@ -95426,7 +95426,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,15,98987708,," [The sentence is offensive because it is a stereotype that women should stay in the kitchen][so][the sentence is offensive]
 
 
@@ -96169,7 +96169,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,2240,66593239,," [The sentence is not offensive]
 
 
@@ -96263,7 +96263,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,1632,98987708,," [The sentence is offensive because it is racist][so][the sentence is offensive]
 
 
@@ -97215,7 +97215,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,2320,44250250,," [The sentence is not offensive]
 
 
@@ -97309,7 +97309,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,3558,66593239,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -105982,7 +105982,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3349,86257299,," [The sentence contains a hashtag and is not offensive]
 
 
@@ -106072,7 +106072,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,3436,83062091,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -106253,7 +106253,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,2356,93788928,," [The sentence is not offensive]
 
 
@@ -106347,7 +106347,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,1799,83062091,," [The sentence contains a racial slur][so][the sentence is offensive]
 
 
@@ -107971,7 +107971,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,132,93788928,," [The sentence is not offensive]
 
 
@@ -108065,7 +108065,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,2096,5428237,," [The sentence contains offensive language and conveys a stereotypical message that black people are violent and get free benefits][so][the sentence is offensive]
 
 
@@ -122280,7 +122280,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,2896,14105244,," [The sentence contains a lot of emojis and is not offensive]
 
 
@@ -122366,7 +122366,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1599,15918959,," [The sentence is offensive because it contains a stereotype about Black people][so][the sentence is offensive]
 
 
@@ -123232,7 +123232,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,2694,42458224,,"
 
 
@@ -123333,7 +123333,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1754,35508468,," [The sentence contains hate speech and is offensive][so][the sentence is offensive]
 
 
@@ -124947,7 +124947,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1911,35508468,," [The sentence contains hate speech and is offensive][so][the sentence is offensive]
 
 
@@ -127209,7 +127209,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,3677,35508468,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -133076,7 +133076,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,766,14105244,," [The sentence is not offensive]
 
 
@@ -133170,7 +133170,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,3796,45678981,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -134855,7 +134855,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,2147,35508468,,"
 
 
@@ -134956,7 +134956,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,2173,14105244,," [The sentence contains offensive language][so][the sentence is offensive]
 
 
@@ -136077,7 +136077,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,3340,40321857,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -140055,7 +140055,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,95,45870433,," [The sentence is not offensive]
 
 
@@ -140149,7 +140149,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,311,40321857,," [The word 'niggas' is a racial slur and should not be used by anyone][so][the sentence is offensive]
 
 
@@ -141238,7 +141238,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,2280,66593239,," [The sentence is not offensive]
 
 
@@ -141332,7 +141332,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,1777,40321857,," [The sentence uses offensive language to describe a person][so][the sentence is offensive]
 
 
@@ -147437,7 +147437,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,978,40321857,," [The sentence is offensive because it contains a stereotype about the behavior of a specific group of people][so][the sentence is offensive]
 
 
@@ -149817,7 +149817,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,1562,94108971,," [The sentence is offensive because it contains vulgar language][so][the sentence is offensive]
 
 
@@ -163366,7 +163366,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,2586,94108971,," [The sentence is not offensive]
 
 
@@ -163460,7 +163460,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,4017,44471637,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -172363,7 +172363,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3345,9175691,," [The sentence contains a lot of emojis and is not offensive]
 
 
@@ -172449,7 +172449,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3473,7288661,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -184034,7 +184034,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,2240,35280071,," [The sentence is not offensive]
 
 
@@ -184128,7 +184128,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,3245,13486996,," [The sentence is offensive because it contains hate speech and is a direct threat to the person being talked about][so][the sentence is offensive]
 
 
@@ -184862,7 +184862,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,2320,85439177,," [The sentence is not offensive]
 
 
@@ -184956,7 +184956,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,1710,56533629,,"1 = Biden wins and R's rebel, truckers protest, supply line disruptions, or 2 = Trump wins and it'll be a category 5: liberals rioting/ murdering and monkeys looting and stealing sail foams'
 
 
@@ -185006,7 +185006,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1710,71913780,,"1 = Biden wins and R's rebel, truckers protest, supply line disruptions, or 2 = Trump wins and it'll be a category 5: liberals rioting/ murdering and monkeys looting and stealing sail foams'
 
 
@@ -185056,7 +185056,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1546,56533629,," [The sentence contains a stereotype about slavery and the history of Yale University][so][the sentence is offensive]
 
 
@@ -192701,7 +192701,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,2282,11496683,," [The sentence is not offensive]
 
 
@@ -192795,7 +192795,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,1641,55799101,," [The sentence contains a stereotype that black people are tough and cannot understand others][so][the sentence is offensive]
 
 
@@ -196522,7 +196522,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,3251,48349576,," [The sentence is not offensive]
 
 
@@ -196616,7 +196616,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,3237,13486996,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -196970,7 +196970,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,377,9108933,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -197151,7 +197151,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,1545,96368768,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -198323,7 +198323,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3349,32677126,," [The sentence contains a hashtag and is not offensive]
 
 
@@ -198413,7 +198413,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,3436,62060153,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -218436,7 +218436,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,823,43621071,," [The sentence is not offensive]
 
 
@@ -218530,7 +218530,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,365,36389940,," [The sentence contains vulgar language and is offensive][so][the sentence is offensive]
 
 
@@ -220559,7 +220559,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,2896,65218045,," [The sentence contains a lot of emojis and is not offensive]
 
 
@@ -220645,7 +220645,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3544,7304061,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -223496,7 +223496,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,2694,7304061,,"
 
 
@@ -223597,7 +223597,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1911,5171967,," [The sentence contains hate speech and is offensive][so][the sentence is offensive]
 
 
@@ -225932,7 +225932,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3444,36389940,,"
  [The sentence contains vulgar language and is offensive.]
 
@@ -226023,7 +226023,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,690,7304061,," [The sentence contains vulgar language and is offensive][so][the sentence is offensive]
 
 
@@ -226629,7 +226629,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,766,93178090,," [The sentence is not offensive]
 
 
@@ -226723,7 +226723,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,3301,5171967,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -231167,7 +231167,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,2280,85439177,," [The sentence is not offensive]
 
 
@@ -231261,7 +231261,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,3501,11496683,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -231529,7 +231529,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,95,85439177,," [The sentence is not offensive]
 
 
@@ -231623,7 +231623,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,189,48349576,," [The sentence is offensive because it contains a stereotype about people with disabilities][so][the sentence is offensive]
 
 
@@ -234512,7 +234512,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,116,48349576,," [The sentence is not offensive]
 
 
@@ -234606,7 +234606,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,3291,13486996,," [The sentence is offensive because it contains explicit language][so][the sentence is offensive]
 
 
@@ -241195,7 +241195,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 0,77,59819662,," [The sentence is not offensive]
 
 
@@ -241289,7 +241289,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",0,[]
+",0,
 1,3556,95971160,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 
@@ -250421,7 +250421,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3345,26767527,," [The sentence contains a lot of emojis and is not offensive]
 
 
@@ -250507,7 +250507,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3473,26767527,," [The sentence contains vulgar language][so][the sentence is offensive]
 
 

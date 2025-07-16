@@ -265,7 +265,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3368,10166032,,"
 
 
@@ -366,7 +366,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1043,10638687,," [The sentence is offensive][because][it contains hate speech]
 
 
@@ -1307,7 +1307,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1850,3770894,,"
 
 
@@ -1408,7 +1408,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,668,64721988,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -2250,7 +2250,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1710,10166032,,"1 = Biden wins and R's rebel, truckers protest, supply line disruptions, or 2 = Trump wins and it'll be a category 5: liberals rioting/ murdering and monkeys looting and stealing sail foams'
 
 
@@ -2300,7 +2300,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,2317,3088028,," [The sentence is offensive][because][it contains personal attacks on the actors]
 
 
@@ -3069,7 +3069,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1833,3770894,,"
 
 
@@ -3170,7 +3170,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,2282,10638687,," [The sentence is not offensive][because][it is not offensive]
 
 
@@ -3445,7 +3445,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,722,10638687,," [The sentence is offensive][because][it contains hate speech]
 
 
@@ -7932,7 +7932,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,2656,10166032,,"
 
 
@@ -8033,7 +8033,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3431,10638687,,"
  [The sentence is offensive][because][it contains vulgar language]
 
@@ -8739,7 +8739,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,3699,10166032,,"
 
 
@@ -8840,7 +8840,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1381,10638687,,"
  [The sentence is offensive][because][it contains vulgar language]
  [The sentence is offensive][because][it contains vulgar language]
@@ -10271,7 +10271,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1656,10166032,,"
 
 
@@ -10372,7 +10372,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1522,10638687,,"
 
 
@@ -10473,7 +10473,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1522,3770894,,"
 
 
@@ -10574,7 +10574,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1705,8526465,,"
  Output: [The sentence is offensive][because][it contains a stereotype about black people]
 
@@ -10656,7 +10656,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains a stereotype about black people
 0,1705,10166032,,"
  Output: [The sentence is offensive][because][it contains a stereotype about black people]
 
@@ -10738,7 +10738,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains a stereotype about black people
 0,3620,10638687,," [The sentence is not offensive][because][it does not contain vulgar language]
 
 
@@ -12271,7 +12271,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,609,74158862,,"
 
 
@@ -12372,7 +12372,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,2016,8526465,," [The sentence is offensive][because][it contains a racial slur]
 
 
@@ -12645,7 +12645,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,2799,3088028,,"
 
 
@@ -12746,7 +12746,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,4056,10638687,,"
  [The sentence is not offensive][because][it does not contain hate or explicit language]
 
@@ -13993,7 +13993,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1682,10638687,,"
 
 
@@ -14094,7 +14094,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1592,10638687,," [The sentence is offensive][because][it contains racist language]
 
 
@@ -16182,7 +16182,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,142,74158862,,"
  [The sentence is offensive][because][it contains hate speech]
 
@@ -17140,7 +17140,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3436,54904271,,"
  [The sentence is offensive][because][it contains vulgar language]
  [The sentence is offensive][because][it contains vulgar language]
@@ -18539,7 +18539,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,132,18991638,,"
 
 
@@ -18640,7 +18640,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,2096,54904271,," [The sentence is offensive][because][it contains hate speech and explicit language]
 
 
@@ -20456,7 +20456,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1347,74158862,,"
 
 
@@ -20557,7 +20557,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1624,74158862,," [The sentence is offensive][because][it conveys a stereotypical message that black people are violent and contains vulgar language]
 
 
@@ -21750,7 +21750,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,1345,54904271,,"
  [The sentence is offensive][because][it contains vulgar language]
 
@@ -22329,7 +22329,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,2314,18991638,,"
 
 
@@ -22430,7 +22430,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3639,54904271,,"
  [The sentence is not offensive][because][it does not contain offensive language]
 
@@ -23830,7 +23830,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,618,74158862,,"
 
 
@@ -23931,7 +23931,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,83,74158862,," [The sentence is offensive][because][it contains hate speech]
 
 
@@ -24867,7 +24867,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3450,18991638,,"
  [The sentence is offensive][because][it contains vulgar language]
 
@@ -29117,7 +29117,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,2315,18991638,,"
 
 
@@ -29218,7 +29218,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,4104,3088028,," [The sentence is not offensive][because][it does not contain offensive language]
 
 
@@ -32480,7 +32480,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1754,40401566,," [The sentence is offensive][because][it contains hate speech]
 
 
@@ -33604,7 +33604,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3378,3088028,,"
 
 
@@ -33705,7 +33705,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,1531,40401566,," [The sentence is not offensive][because][it does not contain offensive language]
 
 
@@ -35184,7 +35184,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3301,3088028,,"
 
 
@@ -35285,7 +35285,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3544,40401566,,"
  [The sentence is offensive][because][it contains vulgar language]
 
@@ -35943,7 +35943,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains a racial slur
 1,1853,3088028,,"
  Output: [The sentence is offensive][because][it contains a racial slur]
 
@@ -36027,7 +36027,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains a racial slur
 0,31,40401566,," [The sentence is offensive][because][it conveys a stereotypical message that traditionalism is only beneficial to some people]
 
 
@@ -37147,7 +37147,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,2188,3088028,,"
 
 
@@ -37248,7 +37248,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1098,40401566,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -37851,7 +37851,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1476,3088028,,"
 
 
@@ -37952,7 +37952,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,3873,40401566,," [The sentence is offensive][because][it contains a racial slur]
 
 
@@ -38484,7 +38484,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,2829,3088028,,"
 
 
@@ -38585,7 +38585,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3313,40401566,," [The sentence is not offensive][because][it does not contain offensive language]
 
 
@@ -39355,7 +39355,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,770,40401566,," [The sentence is not offensive][because][it is not offensive]
 
 
@@ -40370,7 +40370,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,690,3088028,,"
 
 
@@ -40471,7 +40471,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,924,40401566,," [The sentence is offensive][because][it conveys a stereotypical message that women are the ones who trap men into having babies]
 
 
@@ -43822,7 +43822,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,2147,3088028,,"
 
 
@@ -43923,7 +43923,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,2173,40401566,," [The sentence is offensive][because][it contains a racial slur]
 
 
@@ -44894,7 +44894,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3338,8526465,,"
 
 
@@ -44995,7 +44995,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1642,24252197,," [The sentence is offensive][because][it contains offensive language]
 
 
@@ -45436,7 +45436,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3556,8526465,,"
 
 
@@ -45537,7 +45537,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3340,10638687,,"
  [The sentence is offensive][because][it contains vulgar language]
 
@@ -48949,7 +48949,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3291,8526465,,"
 
 
@@ -49050,7 +49050,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,664,27672101,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -49239,7 +49239,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,932,8526465,,"
 
 
@@ -49340,7 +49340,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,95,10638687,," [The sentence is not offensive][because][it does not contain hate or explicit language]
 
 
@@ -51864,7 +51864,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains hate speech
 1,2118,8526465,,"
  Output: [The sentence is offensive][because][it contains hate speech]
 
@@ -51950,7 +51950,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains hate speech
 0,335,10638687,,"
  [The sentence is offensive][because][it contains racial slurs]
 
@@ -53379,7 +53379,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1812,17960561,," [The sentence is offensive][because][it contains racial slur]
 
 
@@ -55334,7 +55334,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,525,27672101,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -55611,7 +55611,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,3500,27672101,,"
 
 
@@ -55712,7 +55712,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1874,10638687,," [The sentence is offensive][because][it contains a racial slur]
 
 
@@ -57725,7 +57725,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,4043,27672101,,"
 
 
@@ -57826,7 +57826,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3475,10638687,,"
  [The sentence is offensive][because][it contains vulgar language]
 
@@ -59505,7 +59505,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,3402,42267923,,"
 
 
@@ -59606,7 +59606,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,3633,42267923,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -59795,7 +59795,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1865,92024956,," [The sentence is offensive][because][it contains hate speech]
 
 
@@ -60064,7 +60064,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3747,92024956,,"
  [The sentence is offensive][because][it contains vulgar language]
 
@@ -61889,7 +61889,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1842,92024956,," [The sentence is offensive][because][it contains the word nigger]
 
 
@@ -63843,7 +63843,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,1562,32992109,," [The sentence is not offensive][because][it does not contain hate or explicit language]
 
 
@@ -65522,7 +65522,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains vulgar language
 1,3443,42267923,,"
  Output: [The sentence is offensive][because][it contains vulgar language]
 
@@ -65608,7 +65608,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains vulgar language
 0,2586,92024956,," [The sentence is not offensive][because][it does not contain offensive language]
 
 
@@ -65767,7 +65767,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",1,[]
+",1,the sentence is offensive because it conveys a stereotypical message that black people are always getting stereotyped in porn
 1,717,42267923,,"
  Output: [The sentence is offensive][because][it conveys a stereotypical message that black people are always getting stereotyped in porn]
 
@@ -65841,7 +65841,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",1,[]
+",1,the sentence is offensive because it conveys a stereotypical message that black people are always getting stereotyped in porn
 1,969,92024956,," [The sentence is offensive][because][it conveys a stereotype that gay people are bad]
 
 
@@ -68394,7 +68394,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,218,42267923,," [The sentence is not offensive][because][it is a sentence of love]
 
 
@@ -70342,7 +70342,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,2185,42267923,,"
 
 
@@ -70443,7 +70443,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,1854,35379134,," [The sentence is offensive][because][it contains a racial slur]
 
 
@@ -70871,7 +70871,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains vulgar language
 1,3062,67558416,,"
  Output: [The sentence is offensive][because][it contains vulgar language]
 
@@ -70957,7 +70957,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains vulgar language
 1,2212,92024956,," [The sentence is offensive][because][it contains racial slurs]
 
 
@@ -72540,7 +72540,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 1,4077,42267923,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -73108,7 +73108,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3276,5701760,,"
 
 
@@ -73209,7 +73209,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3380,24252197,,"
 
 
@@ -73310,7 +73310,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3380,34083197,,"
 
 
@@ -73411,7 +73411,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3295,24252197,," [The sentence is not offensive][because][it does not contain offensive language]
 
 
@@ -74436,7 +74436,7 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 
-",-1,[]
+",-1,
 0,3300,43606178,," [The sentence is offensive][because][it contains hate and explicit language]
 
 
@@ -78533,7 +78533,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains vulgar language
 0,4066,34083197,,"
  Output: [The sentence is offensive][because][it contains vulgar language]
 
@@ -78619,7 +78619,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains vulgar language
 1,3625,43606178,," [The sentence is not offensive][because][it does not contain hate or explicit language]
 
 
@@ -79912,7 +79912,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3205,34083197,,"
 
 
@@ -80013,7 +80013,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3563,24252197,,"
  [The sentence is offensive][because][it contains a stereotype about black women]
 
@@ -81555,7 +81555,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3296,43606178,,"
 
 
@@ -81656,7 +81656,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,4005,43606178,," [The sentence is offensive][because][contains vulgar language]
 
 
@@ -84477,7 +84477,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1001,34083197,,"
 
 
@@ -84578,7 +84578,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1195,24252197,,"
 
 
@@ -84679,7 +84679,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1195,34083197,,"
 
 
@@ -84780,7 +84780,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,665,43606178,,"
 
 
@@ -84881,7 +84881,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,665,24252197,,"
 
 
@@ -84982,7 +84982,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1636,24252197,," [The sentence is offensive][because][it contains a stereotype about the black community]
 
 
@@ -87401,7 +87401,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3368,66593239,,"
 
 
@@ -87502,7 +87502,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1043,61283819,," [The sentence is offensive][because][it contains hate speech]
 
 
@@ -88355,7 +88355,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1850,66593239,,"
 
 
@@ -88456,7 +88456,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,668,94108971,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -89300,7 +89300,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,1710,17414298,,"1 = Biden wins and R's rebel, truckers protest, supply line disruptions, or 2 = Trump wins and it'll be a category 5: liberals rioting/ murdering and monkeys looting and stealing sail foams'
 
 
@@ -89350,7 +89350,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2317,98987708,," [The sentence is offensive][because][it contains personal attacks on the actors]
 
 
@@ -90127,7 +90127,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1833,44250250,,"
 
 
@@ -90228,7 +90228,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2282,98987708,," [The sentence is not offensive][because][it is not offensive]
 
 
@@ -90503,7 +90503,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,722,94108971,," [The sentence is offensive][because][it contains offensive language]
 
 
@@ -94822,7 +94822,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2656,17414298,,"
 
 
@@ -94923,7 +94923,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3431,94108971,,"
  [The sentence is offensive][because][it contains vulgar language]
 
@@ -97224,7 +97224,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1522,98987708,,"
 
 
@@ -97325,7 +97325,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1522,44250250,,"
 
 
@@ -97426,7 +97426,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,1705,17414298,,"
  Output: [The sentence is offensive][because][it contains a stereotype about black people]
 
@@ -97508,7 +97508,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains a stereotype about black people
 0,3620,61283819,," [The sentence is not offensive][because][it does not contain vulgar language]
 
 
@@ -98789,7 +98789,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,609,44250250,,"
 
 
@@ -98890,7 +98890,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,2016,61283819,," [The sentence is offensive][because][it contains a racial slur]
 
 
@@ -99163,7 +99163,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2799,44250250,,"
 
 
@@ -99264,7 +99264,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,4056,66593239,,"
  [The sentence is not offensive][because][it does not contain hate or explicit language]
 
@@ -100243,7 +100243,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1592,45870433,," [The sentence is offensive][because][it contains racist language]
 
 
@@ -102663,7 +102663,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3349,86257299,,"
 
 
@@ -102764,7 +102764,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,3436,83062091,,"
 
 
@@ -102865,7 +102865,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2356,86257299,," [The sentence is not offensive][because][it does not contain offensive language]
 
 
@@ -104633,7 +104633,7 @@ def is_offensive(sentence):
 
 
 
-",0,[]
+",0,the sentence is not offensive because it is a quote from a person
 0,132,93788928,,"
  Output: [The sentence is not offensive][because][it is a quote from a person]
 
@@ -104715,7 +104715,7 @@ def is_offensive(sentence):
 
 
 
-",0,[]
+",0,the sentence is not offensive because it is a quote from a person
 1,2096,5428237,," [The sentence is offensive][because][it contains hate speech and explicit language]
 
 
@@ -106895,7 +106895,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2256,93788928,,"
 
 
@@ -106996,7 +106996,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,760,5428237,," [The sentence is offensive][because][it is a conspiracy theory]
 
 
@@ -107863,7 +107863,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2327,86257299,,"
 
 
@@ -107964,7 +107964,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,1345,5428237,,"
  [The sentence is offensive][because][it contains vulgar language]
 
@@ -108895,7 +108895,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,2314,64847403,,"
 
 
@@ -108996,7 +108996,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3561,83062091,,"
  [The sentence is offensive][because][it conveys a stereotypical message that Muslim women are miserable and contains vulgar language]
 
@@ -110723,7 +110723,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,618,58008422,,"
 
 
@@ -110824,7 +110824,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,83,5428237,," [The sentence is offensive][because][it contains hate speech]
 
 
@@ -115413,7 +115413,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1375,86257299,,"
 
 
@@ -115514,7 +115514,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3204,5428237,,"
  [The sentence is offensive][because][it contains vulgar language]
  [The sentence is not offensive][because][it does not contain vulgar language]
@@ -116379,7 +116379,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,4104,15918959,," [The sentence is not offensive][because][it does not contain offensive language]
 
 
@@ -119197,7 +119197,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2694,42458224,,"
 
 
@@ -119298,7 +119298,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1754,35508468,," [The sentence is offensive][because][it contains hate speech]
 
 
@@ -120410,7 +120410,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3378,35508468,,"
 
 
@@ -120511,7 +120511,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,1531,15918959,," [The sentence is not offensive][because][it does not contain offensive language]
 
 
@@ -121971,7 +121971,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3301,14105244,,"
 
 
@@ -122072,7 +122072,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3544,35508468,,"
  [The sentence is offensive][because][it contains vulgar language]
 
@@ -122730,7 +122730,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains a racial slur
 1,1853,42458224,,"
  Output: [The sentence is offensive][because][it contains a racial slur]
 
@@ -122814,7 +122814,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains a racial slur
 1,31,15918959,," [The sentence is offensive][because][it conveys a stereotypical message that traditionalism is only beneficial to some people]
 
 
@@ -123936,7 +123936,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,2188,9175691,,"
 
 
@@ -124037,7 +124037,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,1098,35508468,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -124565,7 +124565,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,4088,45678981,,"
  [The sentence is offensive][because][it contains vulgar language]
  [The sentence is offensive][because][it contains vulgar language]
@@ -124667,7 +124667,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains a racial slur
 1,1588,15918959,," [The sentence is not offensive][because][it does not contain hate or explicit language]
 
 
@@ -125110,7 +125110,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2829,14105244,,"
 
 
@@ -125211,7 +125211,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3313,7288661,,"
  [The sentence is not offensive][because][it does not contain offensive language]
 
@@ -125910,7 +125910,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,770,35508468,," [The sentence is not offensive][because][it is not offensive]
 
 
@@ -126847,7 +126847,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,690,14105244,,"
 
 
@@ -126948,7 +126948,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,924,15918959,," [The sentence is offensive][because][it conveys a stereotypical message that women are the ones who trap men into having babies]
 
 
@@ -128249,7 +128249,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,3009,35508468,,"
 
 
@@ -128350,7 +128350,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2417,35508468,," [The sentence is not offensive][because][it is a joke]
 
 
@@ -130677,7 +130677,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,2147,35508468,,"
 
 
@@ -130778,7 +130778,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,2173,14105244,," [The sentence is offensive][because][it contains a racial slur]
 
 
@@ -131642,7 +131642,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1642,40321857,," [The sentence is offensive][because][it contains offensive language]
 
 
@@ -134889,7 +134889,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3291,45870433,,"
 
 
@@ -134990,7 +134990,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,664,17414298,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -135179,7 +135179,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,932,45870433,,"
 
 
@@ -135280,7 +135280,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,95,40321857,," [The sentence is not offensive][because][it does not contain hate or explicit language]
 
 
@@ -137472,7 +137472,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains hate speech
 0,335,61283819,,"
  [The sentence is offensive][because][it contains racial slurs]
 
@@ -138550,7 +138550,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1812,40321857,," [The sentence is offensive][because][it contains racial slur]
 
 
@@ -140154,7 +140154,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,525,66593239,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -140343,7 +140343,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1874,40321857,," [The sentence is offensive][because][it contains a racial slur]
 
 
@@ -141541,7 +141541,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,682,45870433,," [The sentence is offensive][because][it contains hate speech and stereotypes]
 
 
@@ -141992,7 +141992,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3475,66593239,,"
  [The sentence is offensive][because][it contains vulgar language]
 
@@ -143342,7 +143342,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1821,94108971,," [The sentence is offensive][because][it contains the word ""nigger"" which is considered offensive]
 
 
@@ -143588,7 +143588,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains hate speech
 1,2220,73745450,," [The sentence is offensive][because][it contains hate speech]
 
 
@@ -145537,7 +145537,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,729,94108971,,"
 
 
@@ -145638,7 +145638,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3443,45678981,,"
  Output: [The sentence is offensive][because][it contains vulgar language]
 
@@ -145724,7 +145724,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains vulgar language
 0,3443,36344670,,"
  Output: [The sentence is offensive][because][it contains vulgar language]
 
@@ -145810,7 +145810,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains vulgar language
 1,2185,36400600,,"
 
 
@@ -145911,7 +145911,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,2185,36344670,,"
 
 
@@ -146012,7 +146012,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,393,36344670,," [The sentence is offensive][because][it conveys a stereotypical message that women are dumb]
 
 
@@ -146641,7 +146641,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3402,36344670,,"
 
 
@@ -146742,7 +146742,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,206,36344670,," [The sentence is offensive][because][it contains hate speech]
 
 
@@ -149934,7 +149934,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains vulgar language
 1,3062,9175691,,"
  Output: [The sentence is offensive][because][it contains vulgar language]
 
@@ -150020,7 +150020,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains vulgar language
 1,2151,36400600,,"
  [The sentence is offensive][because][it contains offensive language]
 
@@ -150729,7 +150729,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1899,94108971,,"
 
 
@@ -150830,7 +150830,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,631,45678981,,"
  [The sentence is offensive][because][it contains vulgar language]
 
@@ -151195,7 +151195,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,2152,45678981,," [The sentence is offensive][because][it contains a racial slur]
 
 
@@ -151816,7 +151816,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,371,9175691,,"
 
 
@@ -151917,7 +151917,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,3453,36344670,," [The sentence is offensive][because][it conveys a stereotypical message that women are not able to take care of themselves]
 
 
@@ -158652,7 +158652,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1503,9175691,,"
 
 
@@ -158753,7 +158753,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,2221,36400600,,"
 
 
@@ -158854,7 +158854,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,2221,36344670,,"
 
 
@@ -158955,7 +158955,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,4133,47189637,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -160997,7 +160997,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3276,69198055,,"
 
 
@@ -161098,7 +161098,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3380,7288661,,"
 
 
@@ -161199,7 +161199,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3380,63428654,,"
 
 
@@ -161300,7 +161300,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3295,7288661,," [The sentence is not offensive][because][it does not contain offensive language]
 
 
@@ -166274,7 +166274,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains vulgar language
 1,4066,40102629,,"
  Output: [The sentence is offensive][because][it contains vulgar language]
 
@@ -166360,7 +166360,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains vulgar language
 1,3625,44471637,," [The sentence is not offensive][because][it does not contain hate or explicit language]
 
 
@@ -167565,7 +167565,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3205,69198055,,"
 
 
@@ -167666,7 +167666,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3563,7288661,,"
  [The sentence is offensive][because][it contains a stereotype about black women]
 
@@ -169035,7 +169035,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3296,14271410,,"
 
 
@@ -169136,7 +169136,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,4005,7288661,," [The sentence is offensive][because][contains vulgar language]
 
 
@@ -171872,7 +171872,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1001,69198055,,"
 
 
@@ -171973,7 +171973,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1195,7288661,,"
 
 
@@ -172074,7 +172074,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,665,7288661,,"
 
 
@@ -172175,7 +172175,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,665,40102629,,"
 
 
@@ -172276,7 +172276,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1636,40102629,," [The sentence is offensive][because][it contains a stereotype about the black community]
 
 
@@ -178345,7 +178345,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1710,71913780,,"1 = Biden wins and R's rebel, truckers protest, supply line disruptions, or 2 = Trump wins and it'll be a category 5: liberals rioting/ murdering and monkeys looting and stealing sail foams'
 
 
@@ -178395,7 +178395,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1546,56533629,,"
  [The sentence is offensive][because][it contains hate speech]
 
@@ -179645,7 +179645,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,3699,85439177,,"
 
 
@@ -179746,7 +179746,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,673,73479014,,"
  [The sentence is offensive][because][contains hate speech]
 
@@ -180374,7 +180374,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2799,85439177,,"
 
 
@@ -180475,7 +180475,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3290,13486996,,"
  [The sentence is offensive][because][it contains vulgar language]
  [The sentence is offensive][because][it contains vulgar language]
@@ -181612,7 +181612,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1850,71913780,,"
 
 
@@ -181713,7 +181713,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,644,71913780,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -181990,7 +181990,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1833,48349576,,"
 
 
@@ -182091,7 +182091,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1381,56533629,,"
  [The sentence is offensive][because][it contains vulgar language]
  [The sentence is offensive][because][it contains vulgar language]
@@ -182808,7 +182808,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,609,48349576,,"
 
 
@@ -182909,7 +182909,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,2162,55799101,," [The sentence is offensive][because][it contains hate speech]
 
 
@@ -184326,7 +184326,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1522,13486996,,"
 
 
@@ -184427,7 +184427,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1725,13486996,,"
  [The sentence is offensive][because][it contains offensive language]
 
@@ -184704,7 +184704,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1682,35280071,,"
 
 
@@ -184805,7 +184805,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2394,13486996,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -185391,7 +185391,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains hate speech
 1,1705,48349576,,"
  Output: [The sentence is offensive][because][it contains hate speech]
 
@@ -185477,7 +185477,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains hate speech
 1,2155,11496683,,"
 
 
@@ -185578,7 +185578,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,2155,48349576,,"
 
 
@@ -185679,7 +185679,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2282,13486996,," [The sentence is not offensive][because][it is not offensive]
 
 
@@ -186952,7 +186952,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1656,72430962,,"
 
 
@@ -187053,7 +187053,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2545,35280071,," [The sentence is not offensive][because][it does not contain offensive language]
 
 
@@ -187832,7 +187832,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3368,35280071,,"
 
 
@@ -187933,7 +187933,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1721,13041518,,"
  [The sentence is offensive][because][it contains hate speech]
 
@@ -188210,7 +188210,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3486,48349576,,"
 
 
@@ -188311,7 +188311,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,67,35280071,," [The sentence is not offensive][because][it does not contain offensive language]
 
 
@@ -189620,7 +189620,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2656,85439177,,"
 
 
@@ -189721,7 +189721,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3251,13486996,," [The sentence is not offensive][because][it is a legal sentence]
 
 
@@ -190427,7 +190427,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,1545,96368768,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -191633,7 +191633,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3349,32677126,,"
 
 
@@ -191734,7 +191734,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,3436,62060153,,"
  [The sentence is offensive][because][it contains vulgar language]
  [The sentence is offensive][because][it contains vulgar language]
@@ -196147,7 +196147,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2327,72430962,,"
 
 
@@ -196248,7 +196248,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1345,15040445,,"
  [The sentence is offensive][because][it contains vulgar language]
 
@@ -203208,7 +203208,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1375,26767527,,"
 
 
@@ -203309,7 +203309,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3204,15040445,,"
  [The sentence is offensive][because][it contains vulgar language]
  [The sentence is not offensive][because][it does not contain vulgar language]
@@ -204262,7 +204262,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2315,9108933,,"
 
 
@@ -204363,7 +204363,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,3048,36389940,,"
 
 
@@ -204464,7 +204464,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3048,19622816,,"
 
 
@@ -204565,7 +204565,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,3469,36389940,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -206437,7 +206437,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3491,93178090,," [The sentence is offensive][because][it contains vulgar language]
 
 
@@ -208190,7 +208190,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,2147,36389940,,"
 
 
@@ -208291,7 +208291,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,437,22197427,,"
  [The sentence is not offensive][because][it does not contain hate or explicit language]
 
@@ -208904,7 +208904,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3391,93178090,,"
 
 
@@ -209005,7 +209005,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1984,5171967,,"
  [The sentence is offensive][because][it contains hate speech and stereotypes]
 
@@ -210650,7 +210650,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2188,93178090,,"
 
 
@@ -210751,7 +210751,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1422,5171967,," [The sentence is offensive][because][it conveys a stereotypical message that women give their bodies to obtain benefits and contains vulgar language]
 
 
@@ -211518,7 +211518,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3378,93178090,,"
 
 
@@ -211619,7 +211619,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1652,5171967,," [The sentence is offensive][because][it contains a stereotype about black people]
 
 
@@ -212485,7 +212485,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2829,13041518,,"
 
 
@@ -212586,7 +212586,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,3873,7304061,," [The sentence is offensive][because][it contains a racial slur]
 
 
@@ -213615,7 +213615,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1476,93178090,,"
 
 
@@ -213716,7 +213716,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,1531,7304061,," [The sentence is not offensive][because][it does not contain offensive language]
 
 
@@ -214311,7 +214311,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1597,41829545,,"
 
 
@@ -214412,7 +214412,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3234,65218045,,"
  [The sentence is offensive][because][it conveys a stereotypical message that women give their bodies to obtain  benefits and contains vulgar language]
 
@@ -216291,7 +216291,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2694,7304061,,"
 
 
@@ -216392,7 +216392,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1911,5171967,," [The sentence is offensive][because][it contains hate speech]
 
 
@@ -218680,7 +218680,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,690,93178090,,"
 
 
@@ -218781,7 +218781,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,2173,91232148,," [The sentence is offensive][because][it contains a racial slur]
 
 
@@ -219242,7 +219242,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3301,51869641,,"
 
 
@@ -219343,7 +219343,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1702,7304061,," [The sentence is offensive][because][it conveys a stereotype that Asians dislike blacks]
 
 
@@ -221961,7 +221961,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3500,48349576,,"
 
 
@@ -222062,7 +222062,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,45,77369868,," [The sentence is not offensive][because][it is a general statement]
 
 
@@ -222500,7 +222500,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,24,48349576,,"
 
 
@@ -222601,7 +222601,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3338,13486996,,"
  Output: [The sentence is offensive][because][it contains vulgar language]
 
@@ -222687,7 +222687,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains vulgar language
 0,3338,35280071,,"
  Output: [The sentence is offensive][because][it contains vulgar language]
 
@@ -222773,7 +222773,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains vulgar language
 1,1030,32677126,," [The sentence is offensive][because][it conveys a stereotype that gay people are not suitable to adopt children]
 
 
@@ -224424,7 +224424,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,4043,48349576,,"
 
 
@@ -224525,7 +224525,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,335,6690712,,"
  [The sentence is offensive][because][it contains a racial slur]
 
@@ -226722,7 +226722,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3291,11496683,,"
 
 
@@ -226823,7 +226823,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,870,55799101,," [The sentence is offensive][because][it conveys a stereotypical message that women should dress a certain way]
 
 
@@ -227591,7 +227591,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains hate speech
 1,2118,11496683,,"
  Output: [The sentence is offensive][because][it contains hate speech]
 
@@ -227677,7 +227677,7 @@ def is_offensive(sentence):
 
 
 
-",1,[]
+",1,the sentence is offensive because it contains hate speech
 1,1332,47777228,,"
 
 
@@ -227778,7 +227778,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1332,48349576,,"
 
 
@@ -227879,7 +227879,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3215,11496683,," [The sentence is offensive][because][it conveys a stereotypical message that people who are not wealthy are not successful]
 
 
@@ -230122,7 +230122,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3707,55799101,,"
  [The sentence is offensive][because][it contains vulgar language]
  [The sentence is offensive][because][it contains vulgar language]
@@ -233209,7 +233209,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3556,32677126,,"
 
 
@@ -233310,7 +233310,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,2568,77369868,," [The sentence is not offensive][because][it is not offensive]
 
 
@@ -235877,7 +235877,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3396,1226439,,"
  [The sentence is offensive][because][it contains vulgar language]
  [The sentence is offensive][because][it contains vulgar language]
@@ -241926,7 +241926,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,3243,31138333,,"
 
 
@@ -242027,7 +242027,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3559,1226439,," [The sentence is not offensive][because][it does not contain hate or explicit language]
 
 
@@ -242640,7 +242640,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3205,95971160,,"
 
 
@@ -242741,7 +242741,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3563,52431532,,"
  [The sentence is offensive][because][it contains a stereotype about black women]
 
@@ -244204,7 +244204,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,3296,95971160,,"
 
 
@@ -244305,7 +244305,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,4005,71913780,,"
  [The sentence is offensive][because][contains vulgar language]
 
@@ -246872,7 +246872,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1001,26767527,,"
 
 
@@ -246973,7 +246973,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1195,95971160,,"
 
 
@@ -247074,7 +247074,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,665,52431532,,"
 
 
@@ -247175,7 +247175,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 0,665,1226439,,"
 
 
@@ -247276,7 +247276,7 @@ def is_offensive(sentence):
 
 
 
-",-1,[]
+",-1,
 1,1636,15040445,," [The sentence is offensive][because][it contains a stereotype about the black community]
 
 

@@ -9,13 +9,6 @@ from utils.prompts import Prompts
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from utils.clean_output import extract_demographics
 
-dir_processed_dataset = "intersectionality-llm/processed_dataset"
-dir_predictions_original = "intersectionality-llm/predictions/original_dem"
-
-Path(dir_processed_dataset).mkdir(exist_ok=True)
-Path(dir_predictions_original).mkdir(parents=True, exist_ok=True)
-
-
 
 prompts = Prompts()
 
@@ -39,11 +32,15 @@ df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=[
 """
 
 
-# obtain subset
 df = pd.read_csv("intersectionality-llm/dataset/AnnAttDataset.csv")
 
 model_id = "Qwen/Qwen2-7B-Instruct"
 model_name = model_id.split("/")[1].split("-")[0]
+
+dir_predictions_dem_model = f"intersectionality-llm/predictions_dem/{model_name}"
+dir_processed_dem_model = f"intersectionality-llm/predictions_dem/{model_name}/original"
+Path(dir_predictions_dem_model).mkdir(parents=True, exist_ok=True)
+Path(dir_processed_dem_model).mkdir(parents=True, exist_ok=True)
 
 transformers.set_seed(42)
 tokenizer = AutoTokenizer.from_pretrained(model_id, 
@@ -84,14 +81,14 @@ for r in range(1,len(list_traits)+1):
         demogr_str = "_".join(demographic_traits) if demographic_traits else "baseline"
         cot_str = "CoT" if CoT else "noCoT"
 
-        df.to_csv(f'{dir_processed_dataset}/processed_{model_name}_{cot_str}_{demogr_str}.csv',index=False)
+        df.to_csv(f'{dir_processed_dem_model}/processed_{model_name}_{cot_str}_{demogr_str}.csv',index=False)
         prediction_filename = f'predictions_{model_name}_{cot_str}_{demogr_str}.csv'
 
 
         # prediction_filenamecreate the file 
         print(f"Creating file: {prediction_filename}")
 
-        file = open(f"{dir_predictions_original}/{prediction_filename}", mode='w')
+        file = open(f"{dir_predictions_dem_model}/{prediction_filename}", mode='w')
         writer = csv.DictWriter(file,fieldnames=["offensiveYN","postId", "annId","demographics","output"])
         writer.writeheader()
 

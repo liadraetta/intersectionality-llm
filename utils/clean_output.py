@@ -60,22 +60,32 @@ def extract_prediction(output):
 
 
 
-def extract_bracket_content(text):
-    # Split text into lines
-    lines = text.strip().split('\n')
+def extract_bracket_content(output):
+    """Extract content from square brackets in text output."""
+    if not output:
+        return ""
     
-    # Find the line that starts with brackets and contains multiple bracket pairs
+    text = re.sub(r'\s+', ' ', output.strip()).lower()
+    
+    # Check if it contains "output" and extract from that pattern
+    if "output" in text:
+        pattern = r"output:\s*(.+?)(?:\n|$)"
+        match = re.search(pattern, text)
+        if match:
+            match_text = match.group(1)
+            brackets = re.findall(r'\[([^\]]+)\]', match_text)
+            if brackets:
+                return ' '.join(brackets)
+    
+    # Fallback: find lines with multiple bracket pairs
+    lines = output.strip().split('\n')
     for line in lines:
         line = line.strip()
-        # Check if line starts with [ and has multiple bracket pairs
         if line.startswith('[') and line.count('[') >= 2:
-            # Pattern to match text within square brackets
-            pattern = r'\[([^\]]+)\]'
-            # Find all matches in this specific line
-            matches = re.findall(pattern, line)
-            return ' '.join(matches)
+            brackets = re.findall(r'\[([^\]]+)\]', line)
+            return ' '.join(brackets)
     
-    return []
+    return ""
 
 
 def extract_output(df, output_col):
