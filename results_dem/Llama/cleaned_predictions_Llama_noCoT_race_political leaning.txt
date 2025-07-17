@@ -1,0 +1,13 @@
+Classification Report for cleaned_predictions_Llama_noCoT_race_political leaning
+==================================================
+Total samples: 3094
+
+              precision    recall  f1-score   support
+
+           0      0.906     0.451     0.602      1502
+           1      0.648     0.956     0.773      1592
+
+    accuracy                          0.711      3094
+   macro avg      0.777     0.703     0.687      3094
+weighted avg      0.774     0.711     0.690      3094
+
