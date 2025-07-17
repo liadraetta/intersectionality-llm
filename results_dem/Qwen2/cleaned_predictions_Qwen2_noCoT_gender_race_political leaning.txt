@@ -1,0 +1,14 @@
+Classification Report for cleaned_predictions_Qwen2_noCoT_gender_race_political leaning
+==================================================
+Total samples: 3094
+
+              precision    recall  f1-score   support
+
+          -1      0.000     0.000     0.000         0
+           0      0.565     0.273     0.368      1502
+           1      0.539     0.802     0.645      1592
+
+    accuracy                          0.545      3094
+   macro avg      0.368     0.358     0.338      3094
+weighted avg      0.552     0.545     0.510      3094
+
