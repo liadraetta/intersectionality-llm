@@ -1,0 +1,14 @@
+Classification Report for cleaned_predictions_gemma_noCoT_race
+==================================================
+Total samples: 3094
+
+              precision    recall  f1-score   support
+
+          -1      0.000     0.000     0.000         0
+           0      0.781     0.017     0.033      1502
+           1      0.652     0.164     0.262      1592
+
+    accuracy                          0.092      3094
+   macro avg      0.478     0.060     0.098      3094
+weighted avg      0.715     0.092     0.151      3094
+

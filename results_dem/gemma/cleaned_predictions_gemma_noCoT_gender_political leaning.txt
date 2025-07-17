@@ -1,0 +1,14 @@
+Classification Report for cleaned_predictions_gemma_noCoT_gender_political leaning
+==================================================
+Total samples: 3094
+
+              precision    recall  f1-score   support
+
+          -1      0.000     0.000     0.000         0
+           0      0.815     0.015     0.029      1502
+           1      0.645     0.208     0.314      1592
+
+    accuracy                          0.114      3094
+   macro avg      0.487     0.074     0.114      3094
+weighted avg      0.728     0.114     0.176      3094
+
