@@ -71,19 +71,6 @@ def generate_classification_reports(predictions_dir,
 
 
 
-def obtain_cleaned_output(dir_predictions_original, dir_predictions_cleaned):
-    pattern = "predictions_*_*_*.csv"
-
-    for file in glob(os.path.join(dir_predictions_original, pattern)):
-        print(file)
-        filename = file.split("/")[-1]
-        df = pd.read_csv(file)
-        df = extract_output(df=df, output_col="output")
-        df.to_csv(f"{dir_predictions_cleaned}/cleaned_{filename}", index=False)
-
-        return (f"Cleaned files saved in {dir_predictions_cleaned}")
-
-
 
 
 

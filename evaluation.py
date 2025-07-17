@@ -16,7 +16,14 @@ if not demographics:
     results_dir="./results/"
     pattern="predictions_*_*_*.csv"
     pattern_cleaned = "cleaned_predictions_*_*_*.csv"
-    obtain_cleaned_output(dir_predictions_original, dir_predictions_cleaned)
+
+
+    for file in glob(os.path.join(dir_predictions_original, pattern)):
+        print(file)
+        filename = file.split("/")[-1]
+        df = pd.read_csv(file)
+        df = extract_output(df=df, output_col="output")
+        df.to_csv(f"{dir_predictions_cleaned}/cleaned_{filename}", index=False)
 
     generate_classification_reports(dir_predictions_cleaned, results_dir, pattern_cleaned)
 
@@ -26,13 +33,21 @@ else:
         dir_predictions_original = f"./predictions_dem/{model_name}/original"
         dir_predictions_cleaned = f"./predictions_dem/{model_name}/cleaned"
 
+        Path(dir_predictions_cleaned).mkdir(parents=True, exist_ok=True)
         results_dir=f"./results_dem/{model_name}/"
         Path(results_dir).mkdir(parents=True, exist_ok=True)
         
-        pattern="predictions_*_*_*_*.csv"
-        pattern_cleaned = "cleaned_predictions_*_*_*_*.csv"
+        pattern = f"predictions_{model_name}*.csv"
+        pattern_cleaned = f"cleaned_predictions_{model_name}*.csv"
 
-        obtain_cleaned_output(dir_predictions_original, dir_predictions_cleaned)
+        for file in glob(os.path.join(dir_predictions_original, pattern)):
+            print(file)
+            filename = file.split("/")[-1]
+            df = pd.read_csv(file)
+            df = extract_output(df=df, output_col="output")
+            df.to_csv(f"{dir_predictions_cleaned}/cleaned_{filename}", index=False)
+
+    
         generate_classification_reports(dir_predictions_cleaned, results_dir, pattern_cleaned)
 
 
