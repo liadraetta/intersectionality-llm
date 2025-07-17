@@ -37,8 +37,8 @@ df = pd.read_csv("intersectionality-llm/dataset/AnnAttDataset.csv")
 model_id = "Qwen/Qwen2-7B-Instruct"
 model_name = model_id.split("/")[1].split("-")[0]
 
-dir_predictions_dem_model = f"intersectionality-llm/predictions_dem/{model_name}"
-dir_processed_dem_model = f"intersectionality-llm/predictions_dem/{model_name}/original"
+dir_predictions_dem_model = f"intersectionality-llm/predictions_dem/{model_name}/original"
+dir_processed_dem_model = f"intersectionality-llm/processed_dataset_dem/{model_name}"
 Path(dir_predictions_dem_model).mkdir(parents=True, exist_ok=True)
 Path(dir_processed_dem_model).mkdir(parents=True, exist_ok=True)
 
