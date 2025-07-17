@@ -1,0 +1,13 @@
+Classification Report for cleaned_predictions_Ministral_noCoT_race_political leaning
+==================================================
+Total samples: 3094
+
+              precision    recall  f1-score   support
+
+           0      0.547     0.146     0.230      1502
+           1      0.524     0.886     0.658      1592
+
+    accuracy                          0.527      3094
+   macro avg      0.536     0.516     0.444      3094
+weighted avg      0.535     0.527     0.451      3094
+

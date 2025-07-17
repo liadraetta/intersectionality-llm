@@ -1,4 +1,4 @@
-Classification Report for cleaned_predictions_Llama_noCoT_gender_race_political leaning
+Classification Report for cleaned_predictions_Llama_noCoT_gender_race_political
 ==================================================
 Total samples: 3094
 
