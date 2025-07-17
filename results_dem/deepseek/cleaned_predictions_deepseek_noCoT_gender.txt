@@ -1,0 +1,14 @@
+Classification Report for cleaned_predictions_deepseek_noCoT_gender
+==================================================
+Total samples: 3094
+
+              precision    recall  f1-score   support
+
+          -1      0.000     0.000     0.000         0
+           0      0.839     0.340     0.483      1502
+           1      0.606     0.908     0.727      1592
+
+    accuracy                          0.632      3094
+   macro avg      0.482     0.416     0.403      3094
+weighted avg      0.719     0.632     0.609      3094
+
