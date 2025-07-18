@@ -62,7 +62,7 @@ def generate_classification_reports(predictions_dir,
                     print("=" * 50)
                     print(f"Total samples: {len(y_true)}")
                     print()
-                    print(classification_report(y_true, y_pred, digits=3))
+                    print(classification_report(y_true, y_pred, digits=3, labels=[0, 1], target_names=["Not Offensive", "Offensive"]))
             
             print(f"✓ Processed {filename}")
             
