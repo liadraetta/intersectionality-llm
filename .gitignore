@@ -7,6 +7,6 @@ data/.DS_Store
 data/.DS_Store
 __pycache__
 
-
 # Old files
 stat_analysis_label_distribution.ipynb
+trial_model_performance.ipynb
