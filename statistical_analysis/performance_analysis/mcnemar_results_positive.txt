@@ -1,0 +1,54 @@
+McNemar's Test Results for Positive Labels
+==================================================
+
+Model: Qwen2, noCoT
+Contingency Table:
+Baseline          0     1
+Intersectional           
+0               137   179
+1               239  1037
+McNemar's Test Result:
+Statistic: 179.0, p-value (greater): 0.0019260255880364403
+--------------------------------------------------
+
+Model: gemma, noCoT
+Contingency Table:
+Baseline          0     1
+Intersectional           
+0               153  1035
+1                 7   397
+McNemar's Test Result:
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
+--------------------------------------------------
+
+Model: Llama, noCoT
+Contingency Table:
+Baseline         0     1
+Intersectional          
+0               69     0
+1               16  1507
+McNemar's Test Result:
+Statistic: 0.0, p-value (greater): 1.52587890625e-05
+--------------------------------------------------
+
+Model: Ministral, noCoT
+Contingency Table:
+Baseline          0     1
+Intersectional           
+0                71   100
+1               177  1244
+McNemar's Test Result:
+Statistic: 100.0, p-value (greater): 2.169556473692628e-06
+--------------------------------------------------
+
+Model: deepseek, noCoT
+Contingency Table:
+Baseline          0     1
+Intersectional           
+0                90    11
+1               166  1325
+McNemar's Test Result:
+Statistic: 11.0, p-value (greater): 5.44411584101904e-37
+--------------------------------------------------
+

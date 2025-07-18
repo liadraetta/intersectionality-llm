@@ -1,0 +1,58 @@
+McNemar's Test Results for Negative Labels
+==================================================
+
+Model: Qwen2, noCoT
+Contingency Table:
+Baseline          0    1
+Intersectional          
+0               779  313
+1               163  247
+McNemar's Test Result:
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
+--------------------------------------------------
+
+Model: gemma, noCoT
+Contingency Table:
+Baseline           0    1
+Intersectional           
+0               1344  127
+1                  2   29
+McNemar's Test Result:
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
+--------------------------------------------------
+
+Model: Llama, noCoT
+Contingency Table:
+Baseline          0    1
+Intersectional          
+0               791   42
+1                11  658
+McNemar's Test Result:
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
+--------------------------------------------------
+
+Model: Ministral, noCoT
+Contingency Table:
+Baseline           0    1
+Intersectional           
+0               1019  229
+1                117  137
+McNemar's Test Result:
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
+--------------------------------------------------
+
+Model: deepseek, noCoT
+Contingency Table:
+Baseline          0    1
+Intersectional          
+0               971  114
+1                18  399
+McNemar's Test Result:
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
+--------------------------------------------------
+
