@@ -1,7 +1,6 @@
 import pandas as pd
 import os
 
-# Paths
 input_data_path = "dataset/AnnAttDataset.csv"
 predictions_folder = "predictions_dem/Llama/cleaned"
 output_folder = "error_analysis"
@@ -23,7 +22,6 @@ for pred_file in os.listdir(predictions_folder):
         if 'output' in errors_df.columns:
             errors_df = errors_df.drop(columns=['output'])
 
-        # Merge with one-row-per-postId text data
         merged_df = errors_df.merge(input_df, on='postId', how='left')
 
 
