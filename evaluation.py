@@ -4,7 +4,7 @@ import pandas as pd
 import os 
 from glob import glob
 
-demographics = True
+demographics = False
 list_models = ["deepseek", "gemma", "Llama", "Ministral", "Qwen2"]
 
 

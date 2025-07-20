@@ -2,12 +2,12 @@ Classification Report for cleaned_predictions_Llama_noCoT_baseline
 ==================================================
 Total samples: 3094
 
-              precision    recall  f1-score   support
+               precision    recall  f1-score   support
 
-           0      0.892     0.466     0.612      1502
-           1      0.653     0.947     0.773      1592
+Not Offensive      0.892     0.466     0.612      1502
+    Offensive      0.653     0.947     0.773      1592
 
-    accuracy                          0.713      3094
-   macro avg      0.772     0.706     0.692      3094
-weighted avg      0.769     0.713     0.695      3094
+     accuracy                          0.713      3094
+    macro avg      0.772     0.706     0.692      3094
+ weighted avg      0.769     0.713     0.695      3094
 
