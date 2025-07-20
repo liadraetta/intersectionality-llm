@@ -5,8 +5,8 @@ Model: Qwen2, noCoT
 Contingency Table:
 Baseline          0    1
 Intersectional          
-0               779  313
-1               163  247
+0               723  300
+1               219  260
 McNemar's Test Result:
 The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
@@ -49,8 +49,8 @@ Model: deepseek, noCoT
 Contingency Table:
 Baseline          0    1
 Intersectional          
-0               971  114
-1                18  399
+0               971  119
+1                18  394
 McNemar's Test Result:
 The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.

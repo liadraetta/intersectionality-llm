@@ -27,8 +27,7 @@ def main():
     initialize_file(output_path_negative, "McNemar's Test Results for Negative Labels")
     
     socio_demographic_variables = 'gender_race_political'
-    #model_names = ['Qwen2', 'gemma', 'Llama', 'Ministral', 'deepseek']
-    model_names = ['deepseek']
+    model_names = ['Qwen2', 'gemma', 'Llama', 'Ministral', 'deepseek']
     cot_names = ['noCoT']
 
     for model_name in model_names:
