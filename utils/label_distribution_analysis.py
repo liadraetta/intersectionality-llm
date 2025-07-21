@@ -186,16 +186,22 @@ def create_visualization_table(data, metric='kappa'):
     
     df = pd.DataFrame(rows)
     df = df.set_index('Trait Set')
+    # Change row names in df
+    df.index = [trait_set.replace('_', ' ').title() for trait_set in df.index]
+    df.index = [trait_set.replace('Political', 'Politics') for trait_set in df.index]
+    # Change the order of the rows to be Baseline, Race, Gender, Politics
+    desired_order = ['Baseline', 'Gender', 'Race', 'Politics', 'Gender Race', 'Gender Politics', 'Race Politics']
+    df = df.reindex(desired_order)
+
+    # Order df columns based on total counts
+    ordered_columns = sorted(df.columns, key=lambda x: total_counts.get(x, 0), reverse=True)
+    df = df[ordered_columns]
     
     return df, filter_mapping, total_counts
 
-def visualize_heatmap(data, vmin=0.0, vmax=1.0, save_path=None):
+def visualize_heatmap(data, vmin=-0.1, vmax=1.0, save_path=None, model_name=None):
     kappa_df, filter_mapping, exact_counts = create_visualization_table(data, 'kappa')
     
-    # Reorganize columns to put "Overall" first
-    if 'Overall' in kappa_df.columns:
-        cols = ['Overall'] + [col for col in kappa_df.columns if col != 'Overall']
-        kappa_df = kappa_df[cols]
     
     # Create a proper heatmap visualization
     plt.figure(figsize=(16, 10))  # Increased height to accommodate two-line labels
@@ -228,14 +234,13 @@ def visualize_heatmap(data, vmin=0.0, vmax=1.0, save_path=None):
         else:
             label = col
         x_labels.append(label)
-    
     # Set the custom labels
     ax.set_xticklabels(x_labels, rotation=45, ha='right')
     
-    plt.title('Labelling Agreement between model with intersectional traits and reduced trait sets\n(Kappa Score)',
-              fontsize=16, pad=20)
-    plt.xlabel('Demographic Filter\n(Exact Match Count)', fontsize=12)
-    plt.ylabel('Reduced Trait Set', fontsize=12)
+    plt.title(f'{model_name}', fontsize=16, pad=20)
+
+    plt.xlabel('Input values in intersection', fontsize=12)
+    plt.ylabel('Trait variables', fontsize=12)
     
     plt.yticks(rotation=0)
     plt.tight_layout()
