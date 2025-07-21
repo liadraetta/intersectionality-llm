@@ -2,29 +2,35 @@ import pandas as pd
 import os
 
 input_data_path = "dataset/AnnAttDataset.csv"
-predictions_folder = "predictions_dem/Llama/cleaned"
-output_folder = "error_analysis"
+#predictions_folder = "predictions_dem/Llama/cleaned"
+predictions_path = "predictions/cleaned/cleaned_predictions_Ministral_noCoT_baseline.csv"
+output_folder = "qualitative_analysis"
+path_ministral_intersection = "predictions_dem/Ministral/cleaned/cleaned_predictions_Ministral_noCoT_gender_race_political.csv"
 os.makedirs(output_folder, exist_ok=True)
 
 input_df = pd.read_csv(input_data_path)
 
 input_df = input_df[['postId', 'tweet', 'isAAE', 'vulgar', 'targetsBlackPeople']].drop_duplicates(subset='postId')
 
-for pred_file in os.listdir(predictions_folder):
-    if pred_file.endswith(".csv"):
-        pred_path = os.path.join(predictions_folder, pred_file)
+df_intersections = pd.read_csv(path_ministral_intersection).drop_duplicates(subset='postId')
+df_intersections = df_intersections[['prediction', 'postId', 'demographics']]
+df_intersections = df_intersections.rename(columns={'prediction': 'prediction_ministral_intersection'})
 
-        pred_df = pd.read_csv(pred_path, sep=",")
-        pred_df.columns = pred_df.columns.str.strip()
+df = pd.read_csv(predictions_path, sep=",")
+df.columns = df.columns.str.strip()
 
-        errors_df = pred_df[pred_df['offensiveYN'] != pred_df['prediction']]
+errors_df = df[df['offensiveYN'] != df['prediction']]
 
-        if 'output' in errors_df.columns:
-            errors_df = errors_df.drop(columns=['output'])
+if 'output' in errors_df.columns:
+    errors_df = errors_df.drop(columns=['output'])
 
-        merged_df = errors_df.merge(input_df, on='postId', how='left')
+false_positive_df = errors_df[errors_df['offensiveYN'] == 1]
 
+merged_df = false_positive_df.merge(input_df, on='postId', how='left')
 
-        base_name = os.path.splitext(pred_file)[0]
-        output_path = os.path.join(output_folder, f"errorAnalysis_{base_name}.csv")
-        merged_df.to_csv(output_path, index=False)
+merged_df_ministral = merged_df.merge(df_intersections, on='postId', how='left')
+#merged_df_ministral.drop_duplicates(subset='annId')
+merged_df_ministral = merged_df_ministral[merged_df_ministral['prediction_ministral_intersection'] == 1]
+
+output_path = os.path.join(output_folder, f"merged_false_negative_Ministral.csv")
+merged_df_ministral.to_csv(output_path, index=False)
