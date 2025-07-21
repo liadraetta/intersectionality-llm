@@ -237,10 +237,10 @@ def visualize_heatmap(data, vmin=-0.1, vmax=1.0, save_path=None, model_name=None
     # Set the custom labels
     ax.set_xticklabels(x_labels, rotation=45, ha='right')
     
-    plt.title(f'{model_name}', fontsize=16, pad=20)
+    plt.title(f'{model_name}', fontsize=20, pad=20)
 
-    plt.xlabel('Input values in intersection', fontsize=12)
-    plt.ylabel('Trait variables', fontsize=12)
+    plt.xlabel('Input values in intersection', fontsize=16)
+    plt.ylabel('Trait variables', fontsize=16)
     
     plt.yticks(rotation=0)
     plt.tight_layout()
@@ -249,5 +249,95 @@ def visualize_heatmap(data, vmin=-0.1, vmax=1.0, save_path=None, model_name=None
     if save_path:
         plt.savefig(save_path, dpi=300, bbox_inches='tight')
         plt.close()  # Close the figure to free memory
+    else:
+        plt.show()
+
+def visualize_combined_heatmap(all_models_data, vmin=-0.1, vmax=1.0, save_path=None):
+    """
+    Create a combined heatmap with all 4 models in subplots with shared color axis
+    """
+    model_names = list(all_models_data.keys())
+    # Create subplots - 2x2 grid for 4 models
+    fig, axes = plt.subplots(2, 2, figsize=(22, 18), dpi=150)
+    axes = axes.flatten()
+    
+    # Common colormap and normalization
+    cmap = 'RdYlGn'
+    
+    # Create visualization tables for each model
+    model_dfs = {}
+    all_exact_counts = {}
+    for model_name, data in all_models_data.items():
+        kappa_df, filter_mapping, exact_counts = create_visualization_table(data, 'kappa')
+        model_dfs[model_name] = kappa_df
+        all_exact_counts[model_name] = exact_counts
+    
+    # Create heatmaps for each model
+    for i, model_name in enumerate(model_names):
+        ax = axes[i]
+        kappa_df = model_dfs[model_name]
+        exact_counts = all_exact_counts[model_name]
+        
+        # Create mask for missing values
+        mask = kappa_df.isnull()
+        
+        # Create heatmap (without individual colorbars)
+        sns.heatmap(kappa_df,
+                   annot=True,
+                   fmt='.3f',
+                   cmap=cmap,
+                   vmin=vmin,
+                   vmax=vmax,
+                   mask=mask,
+                   cbar=False,  # No individual colorbar
+                   square=False,
+                   ax=ax)
+        
+        # Add vertical line to separate "Overall" from other columns
+        if 'Overall' in kappa_df.columns:
+            ax.axvline(x=1, color='black', linewidth=2)
+        
+        # Create custom x-axis labels with exact match counts
+        x_labels = []
+        for col in kappa_df.columns:
+            if col in exact_counts:
+                label = f"{col}\n({exact_counts[col]})"
+            else:
+                label = col
+            x_labels.append(label)
+        
+        # Set labels and title
+        ax.set_xticklabels(x_labels, rotation=45, ha='right')
+        ax.set_title(f'{model_name}', fontsize=20, pad=10)
+        ax.set_xlabel('Input values in intersection', fontsize=16)
+        ax.set_ylabel('Trait variables', fontsize=16)
+        ax.tick_params(axis='y', rotation=0)
+    
+    # Add a shared colorbar
+    import matplotlib.cm as cm
+    import matplotlib.colors as mcolors
+    
+    # Create normalization and scalar mappable for colorbar
+    norm = mcolors.Normalize(vmin=vmin, vmax=vmax)
+    sm = cm.ScalarMappable(cmap=cmap, norm=norm)
+    sm.set_array([])
+    
+    # Adjust layout to make room for colorbar and title
+    plt.subplots_adjust(left=0.08, bottom=0.1, right=0.82, top=0.92, 
+                       wspace=0.3, hspace=0.4)
+    
+    # Add colorbar - positioned to the right of the plots
+    cbar_ax = fig.add_axes([0.85, 0.15, 0.03, 0.7])  # [left, bottom, width, height]
+    cbar = fig.colorbar(sm, cax=cbar_ax)
+    cbar.set_label('Kappa Score', fontsize=20)
+    
+    # Overall title
+    # fig.suptitle('Cohen\'s Kappa Scores Across All Models', fontsize=18, y=0.96)
+    
+    # Save the figure if save_path is provided, otherwise display it
+    if save_path:
+        plt.savefig(save_path, dpi=500, bbox_inches='tight')
+        plt.close()
+        print(f"Combined plot saved to: {save_path}")
     else:
         plt.show()

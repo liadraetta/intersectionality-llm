@@ -1,15 +1,16 @@
 import pathlib
 import pandas as pd
 from collections import Counter
-from utils.label_distribution_analysis import read_all_model_datasets, filter_out_missing_rows, compute_intersectionality_cohen_kappa, visualize_heatmap
+from utils.label_distribution_analysis import read_all_model_datasets, filter_out_missing_rows, compute_intersectionality_cohen_kappa
+from utils.label_distribution_analysis import visualize_heatmap, visualize_combined_heatmap
 
 def main():
-    model_names = ['Qwen2', 'deepseek', 'Llama', 'gemma', 'Ministral']
+    model_names = ['Llama', 'deepseek', 'Qwen2', 'gemma', 'Ministral']
     cot_names = ['noCoT']
     socio_demographic_variables = ['gender', 'race', 'political']
     # Input paths
     results_base_path = pathlib.Path('predictions/cleaned')
-    
+    all_models_data = {}
     for model_name in model_names:
         results_socdem_base_path = pathlib.Path(f"predictions_dem/{model_name}/cleaned")
         for cot_name in cot_names:
@@ -18,8 +19,15 @@ def main():
             all_model_datasets = read_all_model_datasets(model_name, cot_name, results_base_path, results_socdem_base_path)
             all_model_datasets_filtered = filter_out_missing_rows(all_model_datasets)
             all_model_results_cohen = compute_intersectionality_cohen_kappa(all_model_datasets_filtered, socio_demographic_variables)
+            
+            # Store data for combined plot
+            if model_name != 'gemma':
+                all_models_data[model_name] = all_model_results_cohen
             visualize_heatmap(all_model_results_cohen, save_path=output_plot_path, model_name=model_name)
 
+    # Create combined plot with all models
+    combined_output_path = pathlib.Path('statistical_analysis/ablation_label_distribution/all_models_combined_noCoT.png')
+    visualize_combined_heatmap(all_models_data, save_path=combined_output_path)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,80 @@
+McNemar's Test Results for Negative LabelsModel: gemma, CoT: noCoT
+==================================================
+
+Trait: gender
+Contingency Table:
+Baseline           0    1
+Intersectional           
+0               1342  141
+1                  4   15
+McNemar's Test Result:
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
+--------------------------------------------------
+
+Trait: race
+Contingency Table:
+Baseline           0    1
+Intersectional           
+0               1338  139
+1                  8   17
+McNemar's Test Result:
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
+--------------------------------------------------
+
+Trait: political
+Contingency Table:
+Baseline           0    1
+Intersectional           
+0               1339  139
+1                  7   17
+McNemar's Test Result:
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
+--------------------------------------------------
+
+Trait: gender_race
+Contingency Table:
+Baseline           0    1
+Intersectional           
+0               1344  137
+1                  2   19
+McNemar's Test Result:
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
+--------------------------------------------------
+
+Trait: gender_political
+Contingency Table:
+Baseline           0    1
+Intersectional           
+0               1344  136
+1                  2   20
+McNemar's Test Result:
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
+--------------------------------------------------
+
+Trait: race_political
+Contingency Table:
+Baseline           0    1
+Intersectional           
+0               1345  135
+1                  1   21
+McNemar's Test Result:
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
+--------------------------------------------------
+
+Trait: gender_race_political
+Contingency Table:
+Baseline           0    1
+Intersectional           
+0               1344  127
+1                  2   29
+McNemar's Test Result:
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
+--------------------------------------------------
+

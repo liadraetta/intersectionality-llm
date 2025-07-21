@@ -37,10 +37,52 @@ def get_mcnemar_results(correct_intersectional, correct_baseline, option='greate
                     return
                 print(f"Statistic: {result.statistic}, p-value (greater): {result.pvalue / 2}")
 
-def initialize_file(file_path, header):
+def initialize_file(file_path, header, model_name=None, cot_name=None):
     """
     Initializes the file by creating it if it doesn't exist and writing the header.
     """
     with open(file_path, 'w') as f:
-        f.write(header + "\n")
+        f.write(header)
+        f.write(f"Model: {model_name}, CoT: {cot_name}\n")
         f.write("="*50 + "\n\n")
+
+
+def run_mcnemar_tests(all_model_datasets, 
+                      output_path, 
+                      output_path_positive, 
+                      output_path_negative,):
+    # extract baseline data
+    baseline_df = all_model_datasets['baseline']
+
+    # Iterate through each reduced set of socio-demographic variables.
+    # Sort the keys to ensure consistent order: baseline, gender, race, political, gender_race, gender_political, race_political, gender_race_political
+    sorted_keys_order = ['baseline', 'gender', 'race', 'political', 'gender_race', 'gender_political', 'race_political', 'gender_race_political']
+    for key in sorted_keys_order:
+        df = all_model_datasets[key]
+        if key == 'baseline':
+            continue
+        # Merge on postID, annID, offensiveYN
+        merged_df = df.merge(baseline_df, on=['postId', 'annId', 'offensiveYN'], suffixes=('', '_baseline'))
+        correct_intersectional, correct_baseline = extract_correct(merged_df)
+        get_mcnemar_results(correct_intersectional, correct_baseline, option='greater', file_path=output_path)
+        with open(output_path, 'a') as f:
+            f.write(f"{'-'*50}\n\n")
+
+        # Run McNemar's test for positive and negative labels only
+        merged_df_positive = merged_df[merged_df['offensiveYN'] == 1]
+        merged_df_negative = merged_df[merged_df['offensiveYN'] == 0]
+        correct_intersectional_positive, correct_baseline_positive = extract_correct(merged_df_positive)
+        correct_intersectional_negative, correct_baseline_negative = extract_correct(merged_df_negative)
+        with open(output_path_positive, 'a') as f:
+            f.write(f"Trait: {key}\n")
+        get_mcnemar_results(correct_intersectional_positive, correct_baseline_positive, option='greater', file_path=output_path_positive)
+        with open(output_path_positive, 'a') as f:
+            f.write(f"{'-'*50}\n\n")
+        
+        with open(output_path_negative, 'a') as f:
+            f.write(f"Trait: {key}\n")
+        get_mcnemar_results(correct_intersectional_negative, correct_baseline_negative, option='greater', file_path=output_path_negative)
+        with open(output_path_negative, 'a') as f:
+            f.write(f"{'-'*50}\n\n")
+
+
