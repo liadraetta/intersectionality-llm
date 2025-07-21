@@ -8,7 +8,7 @@ os.makedirs(output_folder, exist_ok=True)
 
 input_df = pd.read_csv(input_data_path)
 
-input_df = input_df[['postId', 'tweet']].drop_duplicates(subset='postId')
+input_df = input_df[['postId', 'tweet', 'isAAE', 'vulgar', 'targetsBlackPeople']].drop_duplicates(subset='postId')
 
 for pred_file in os.listdir(predictions_folder):
     if pred_file.endswith(".csv"):
