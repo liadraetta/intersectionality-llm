@@ -6,7 +6,7 @@ from glob import glob
 
 demographics = False
 list_models = ["deepseek", "gemma", "Llama", "Ministral", "Qwen2"]
-
+ids_to_remove = [3768, 60]
 
 
 if not demographics:
@@ -23,6 +23,7 @@ if not demographics:
         filename = file.split("/")[-1]
         df = pd.read_csv(file)
         df = extract_output(df=df, output_col="output")
+        df = df[~df['postId'].isin(ids_to_remove)]
         df.to_csv(f"{dir_predictions_cleaned}/cleaned_{filename}", index=False)
 
     generate_classification_reports(dir_predictions_cleaned, results_dir, pattern_cleaned)
@@ -45,6 +46,7 @@ else:
             filename = file.split("/")[-1]
             df = pd.read_csv(file)
             df = extract_output(df=df, output_col="output")
+            df = df[~df['postId'].isin(ids_to_remove)]
             df.to_csv(f"{dir_predictions_cleaned}/cleaned_{filename}", index=False)
 
     

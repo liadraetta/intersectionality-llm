@@ -74,15 +74,11 @@ counts = df["off_avg"].value_counts().sort_index()
 plot_data = counts.reset_index()
 plot_data.columns = ["off_avg", "count"]
 
-# Plot using Seaborn
 plt.figure(figsize=(8, 5))
 sns.barplot(data=plot_data, x="off_avg", y="count", palette="Blues")
-
-# Add labels and title
 plt.xlabel("Offensive Average")
 plt.ylabel("Frequency")
 
-# Add values on top
 for i in range(len(plot_data)):
     plt.text(i, plot_data["count"][i] + 10, plot_data["count"][i], ha='center', fontsize=9)
 

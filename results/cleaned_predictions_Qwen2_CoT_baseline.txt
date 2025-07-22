@@ -1,13 +1,13 @@
 Classification Report for cleaned_predictions_Qwen2_CoT_baseline
 ==================================================
-Total samples: 3094
+Total samples: 3082
 
                precision    recall  f1-score   support
 
-Not Offensive      0.636     0.531     0.579      1502
-    Offensive      0.617     0.714     0.662      1592
+Not Offensive      0.637     0.529     0.578      1496
+    Offensive      0.617     0.716     0.663      1586
 
-     accuracy                          0.625      3094
-    macro avg      0.627     0.622     0.620      3094
- weighted avg      0.626     0.625     0.621      3094
+     accuracy                          0.625      3082
+    macro avg      0.627     0.623     0.620      3082
+ weighted avg      0.627     0.625     0.622      3082
 

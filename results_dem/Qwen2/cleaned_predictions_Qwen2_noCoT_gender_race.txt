@@ -1,13 +1,13 @@
 Classification Report for cleaned_predictions_Qwen2_noCoT_gender_race
 ==================================================
-Total samples: 3094
+Total samples: 3082
 
                precision    recall  f1-score   support
 
-Not Offensive      0.542     0.281     0.370      1502
-    Offensive      0.534     0.776     0.633      1592
+Not Offensive      0.542     0.281     0.370      1496
+    Offensive      0.534     0.776     0.632      1586
 
-     accuracy                          0.536      3094
-    macro avg      0.538     0.529     0.501      3094
- weighted avg      0.538     0.536     0.505      3094
+     accuracy                          0.536      3082
+    macro avg      0.538     0.528     0.501      3082
+ weighted avg      0.538     0.536     0.505      3082
 

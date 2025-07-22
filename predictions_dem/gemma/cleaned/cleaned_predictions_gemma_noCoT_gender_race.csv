@@ -6412,34 +6412,6 @@ The quick brown fox jumps over the lazy dog. The early bird gets the worm.
 **Explanation:**
 
 **Please note:** This is a text classification task, and the provided text may contain sensitive or offensive content. Please proceed with caution.",-1,
-0,60,40401566,"{'gender': 'man', 'race': 'black'}","
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the following information:**
-
-1. **The sentence you are analyzing:**
-2. **Your label:**
-3. **Your explanation:**
-
-**Additional Information:**
-
-* You are not able to access any information about the user who wrote the sentence or their personal information.
-* You are not able to provide any suggestions for how to make the sentence less offensive.
-",0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,3088028,"{'gender': 'woman', 'race': 'black'}","
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the following information:**
-
-1. **The sentence you are analyzing:**
-2. **Your label:**
-3. **Your explanation:**
-
-**Additional notes:**
-
-- Please be as precise as possible in your labeling and explanation.
-- You are not required to provide a detailed analysis of the sentence structure or grammar.
-- The focus of your response should be on",0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,2157,40401566,"{'gender': 'man', 'race': 'black'}","
 
 **Please provide the label and explanation for the given sentence:**
@@ -12133,34 +12105,6 @@ Output:
 **Please explain why the sentence is labeled as offensive or not offensive:**
 
 **Note:** The provided text may contain offensive language and hate speech. Please be mindful of your language and avoid making any discriminatory or hateful comments.",-1,
-1,3768,43606178,"{'gender': 'man', 'race': 'black'}","
-[The sentence is offensive][because] [explanation]
-
-**Please provide the input and output for the above scenario:**
-
-**Input:**
-A girl that looked like she worth the world to ya is around the corner getting fucked for a perk #Facts
-
-**Output:**
-[The sentence is offensive][because] [explanation]
-
-**Please explain why the sentence is offensive:**
-```
-The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits",1,the sentence is offensive because explanation
-1,3768,24252197,"{'gender': 'man', 'race': 'black'}","
-[The sentence is offensive][because] [explanation]
-
-**Please provide the input and output for the above scenario:**
-
-**Input:**
-A girl that looked like she worth the world to ya is around the corner getting fucked for a perk #Facts
-
-**Output:**
-[The sentence is offensive][because] [explanation]
-
-**Please explain why the sentence is offensive:**
-```
-The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits",1,the sentence is offensive because explanation
 1,4127,43606178,"{'gender': 'man', 'race': 'black'}","
 
 **Please provide the label and explanation for the sentence:**
@@ -19737,34 +19681,6 @@ The user uploaded a picture of a cat and wrote the caption ""Look at this majest
 **Explanation:**
 
 **Please note:** This is a text classification task, and the provided text may contain sensitive or offensive content. Please exercise caution when reading or engaging with the text.",-1,
-0,60,7288661,"{'gender': 'man', 'race': 'white'}","
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the following information:**
-
-1. **The sentence you are analyzing:**
-2. **Your label:**
-3. **Your explanation:**
-
-**Additional notes:**
-
-* You are not required to provide a detailed analysis of the sentence structure or grammar.
-* The focus of your response should be on the offensiveness of the text.
-* You are not responsible for",0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,14105244,"{'gender': 'woman', 'race': 'white'}","
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the following information:**
-
-1. **The sentence you are analyzing:**
-2. **Your label:**
-3. **Your explanation:**
-
-**Additional notes:**
-
-* You are not required to provide a detailed analysis of the sentence structure or grammar.
-* The focus of your response should be on the offensiveness of the text.
-* Please be respectful and avoid",0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,2157,15918959,"{'gender': 'man', 'race': 'white'}","
 **Label:** [Offensive]
 **Explanation:** [The sentence is offensive] [because] [it uses hate speech and contains vulgar language]
@@ -25538,38 +25454,6 @@ Output: [The sentence is offensive][because][it uses vulgar language and contain
 **Please explain why the sentence is offensive or not:**
 
 **Note:** This is a text classification task, and the provided text may contain offensive language or hate speech. Please be mindful of your language and avoid making any discriminatory or hateful comments.",-1,
-1,3768,7288661,"{'gender': 'man', 'race': 'white'}","
-**Label:** Offensive
-**Explanation:** The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language.
-
-**Please provide the label and explanation for the sentence below:**
-
-**Input:** You are a loser if you don't have a college degree.
-
-**Output:**
-
-**Label:**
-
-**Explanation:**
-
-**Please note:** This is a text classification task, and the provided text may contain offensive language. Please proceed with",-1,
-1,3768,69198055,"{'gender': 'woman', 'race': 'white'}","
-[The sentence is offensive][because] [explanation]
-
-**Please provide the input and output for the above scenario:**
-
-**Input:**
-A girl that looked like she worth the world to ya is around the corner getting fucked for a perk #Facts
-
-**Output:**
-[The sentence is offensive][because] [explanation]
-
-**Please also provide a brief explanation for your answer:**
-
-**Explanation:**
-[The reason why the sentence is offensive]
-**Additional notes:**
-",1,the sentence is offensive because explanation the reason why the sentence is offensive
 1,4127,7288661,"{'gender': 'man', 'race': 'white'}","
 
 **Please provide the input sentence and your output:**
@@ -33172,34 +33056,6 @@ She has text Rob and said she's not coming into the shop because she's too tired
 **Output:**
 
 **Explanation:**",1,the sentence is offensive because it contains hate speech and promotes violence
-0,60,5171967,"{'gender': 'man', 'race': 'white'}","
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the following information:**
-
-1. **The sentence you are analyzing:**
-2. **Your label:**
-3. **Your explanation:**
-
-**Additional notes:**
-
-- Please be as precise as possible in your explanations.
-- You are not required to provide a detailed analysis of the sentence structure or grammar.
-- The focus of your analysis should be on the offensi",0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,93178090,"{'gender': 'woman', 'race': 'white'}","
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the following information:**
-
-1. **The sentence you are analyzing:**
-2. **Your label:**
-3. **Your explanation:**
-
-**Additional notes:**
-
-* Please be as precise as possible in your labeling and explanation.
-* You may use your own judgment to determine what constitutes offensive language and content.
-* If you are unable to provide a label or",0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,1355,7304061,"{'gender': 'man', 'race': 'white'}","
 
 **Input:**
@@ -36923,32 +36779,6 @@ That's on my whole life with you) Lil mama bust a sexual thing Can u know our ti
 **Explanation:**
 
 **Note:** This is a text classification task, and the provided text may contain offensive language or hate speech. Please be mindful of your language and avoid making any comments that could be hurtful or harmful to others.",-1,
-1,3768,27189963,"{'gender': 'woman', 'race': 'white'}","
-[The sentence is offensive][because] [Explanation]
-
-**Please provide the input and output for the above request:**
-
-**Input:**
-
-**Output:**
-
-**Explanation:**",1,The sentence is offensive because Explanation
-1,3768,31138333,"{'gender': 'man', 'race': 'white'}","
-[The sentence is offensive][because] [explanation]
-
-**Please provide the input and output for the above text:**
-
-**Input:**
-A girl that looked like she worth the world to ya is around the corner getting fucked for a perk #Facts
-
-**Output:**
-[The sentence is offensive][because] [explanation]
-
-**Please also provide a brief explanation:**
-
-**Explanation:**
-[The reason why the sentence is offensive]
-**Please note:** This is a text",1,the sentence is offensive because explanation the reason why the sentence is offensive
 0,4127,1226439,"{'gender': 'nonBinary', 'race': 'white'}","
 
 **Please provide the label and explanation for the sentence below:**

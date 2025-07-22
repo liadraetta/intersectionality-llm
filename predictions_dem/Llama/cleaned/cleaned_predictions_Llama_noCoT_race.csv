@@ -6478,36 +6478,6 @@ from nltk import download
 import string
 import nltk
 ",1,The sentence is offensive because it contains a racial slur and makes a generalization about a racial group
-0,60,40401566,{'race': 'black'}," [The sentence is not offensive][because][it merely provides information on the population of certain countries]
-### Code
-```python
-import re
-import nltk
-from nltk.sentiment import SentimentIntensityAnalyzer
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import word_tokenize
-from nltk import pos_tag
-from nltk import ne_chunk
-from nltk import RegexpParser
-from nltk import word_tokenize
-from nltk import pos_tag
-from nltk",0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,3088028,{'race': 'black'}," [The sentence is not offensive][because][it merely provides information on the population of certain countries]
-### Code
-```python
-import re
-import nltk
-from nltk.sentiment import SentimentIntensityAnalyzer
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import word_tokenize
-from nltk import pos_tag
-from nltk import ne_chunk
-from nltk import RegexpParser
-from nltk import word_tokenize
-from nltk import pos_tag
-from nltk",0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,2157,40401566,{'race': 'black'}," [The sentence is offensive][because][it contains hate speech and racial slur]
 ### Code:
 ```python
@@ -12616,18 +12586,6 @@ def check_offensiveness(sentence):
 def check_offensiveness(sentence):
     # Define a list of keywords that are commonly associated with offensiveness
     offensiveness_keywords = ['fuck','shit', 'nigga', 'bitch', 'asshole', 'cunt','motherfucker', 'fucker',",1,The sentence is offensive because it contains vulgar language and implies a negative attitude towards a relationship
-1,3768,43606178,{'race': 'black'}," [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]
-### Step 1: Define the function to check for offensiveness
-```python
-def check_offensiveness(sentence):
-    # Define a list of hate speech keywords
-    hate_speech_keywords = ['hate', 'hates', 'hated', 'hating', 'racist', 'racism','sexist','sex",1,The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
-1,3768,24252197,{'race': 'black'}," [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]
-### Step 1: Define the function to check for offensiveness
-```python
-def check_offensiveness(sentence):
-    # Define a list of hate speech keywords
-    hate_speech_keywords = ['hate', 'hates', 'hated', 'hating', 'racist', 'racism','sexist','sex",1,The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
 1,4127,43606178,{'race': 'black'}," [The sentence is offensive][because][it contains explicit language and hate speech]
 ### Code:
 ```python
@@ -20240,36 +20198,6 @@ from nltk.corpus import wordnet
 from nltk import download
 from nltk import pos_tag
 ",1,The sentence is offensive because it contains a racial slur and makes a generalization about a racial group
-0,60,7288661,{'race': 'white'}," [The sentence is not offensive][because][it merely provides information on the population of certain countries]
-### Code
-```python
-import re
-import nltk
-from nltk.sentiment import SentimentIntensityAnalyzer
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import word_tokenize
-from nltk import pos_tag
-from nltk import ne_chunk
-from nltk import RegexpParser
-from nltk import word_tokenize
-from nltk import pos_tag
-from nltk",0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,14105244,{'race': 'white'}," [The sentence is not offensive][because][it merely provides information on the population of certain countries]
-### Code
-```python
-import re
-import nltk
-from nltk.sentiment import SentimentIntensityAnalyzer
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import word_tokenize
-from nltk import pos_tag
-from nltk import ne_chunk
-from nltk import RegexpParser
-from nltk import word_tokenize
-from nltk import pos_tag
-from nltk",0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,2157,15918959,{'race': 'white'}," [The sentence is offensive][because][it contains hate speech and racial slur]
 ### Step 1: Define the function to check for offensiveness
 ```python
@@ -26044,18 +25972,6 @@ def check_offensiveness(sentence):
 def check_offensiveness(sentence):
     # Define a list of offensive words
     offensive_words = ['fuck','shit', 'bitch', 'nigga', 'nigger', 'fag', 'faggot', 'cunt', 'asshole', 'asshole', 'whore",1,The sentence is offensive because it contains vulgar language and uses a derogatory tone
-1,3768,7288661,{'race': 'white'}," [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]
-### Step 1: Define the function to check for offensiveness
-```python
-def check_offensiveness(sentence):
-    # Define a list of hate speech keywords
-    hate_speech_keywords = ['hate', 'hates', 'hated', 'hating', 'racist', 'racism','sexist','sex",1,The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
-1,3768,69198055,{'race': 'white'}," [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]
-### Step 1: Define the function to check for offensiveness
-```python
-def check_offensiveness(sentence):
-    # Define a list of hate speech keywords
-    hate_speech_keywords = ['hate', 'hates', 'hated', 'hating', 'racist', 'racism','sexist','sex",1,The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
 1,4127,7288661,{'race': 'white'}," [The sentence is offensive][because][it contains explicit language and hate speech]
 ### Code
 ```python
@@ -33751,36 +33667,6 @@ from nltk import RegexpParser
 from nltk import word_tokenize
 from nltk import pos_tag
 from nltk import ne_chunk",1,The sentence is offensive because it contains hate speech and derogatory language
-0,60,5171967,{'race': 'white'}," [The sentence is not offensive][because][it merely provides information on the population of certain countries]
-### Code
-```python
-import re
-import nltk
-from nltk.sentiment import SentimentIntensityAnalyzer
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import word_tokenize
-from nltk import pos_tag
-from nltk import ne_chunk
-from nltk import RegexpParser
-from nltk import word_tokenize
-from nltk import pos_tag
-from nltk",0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,93178090,{'race': 'white'}," [The sentence is not offensive][because][it merely provides information on the population of certain countries]
-### Code
-```python
-import re
-import nltk
-from nltk.sentiment import SentimentIntensityAnalyzer
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import word_tokenize
-from nltk import pos_tag
-from nltk import ne_chunk
-from nltk import RegexpParser
-from nltk import word_tokenize
-from nltk import pos_tag
-from nltk",0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,1355,7304061,{'race': 'white'}," [The sentence is offensive][because][it contains hate speech, derogatory language, and threats of violence]
 ### Step 1: Define the function to check for offensiveness
 ```python
@@ -37637,32 +37523,6 @@ def check_offensiveness(sentence):
 def check_offensiveness(sentence):
     # Define a list of offensive words
     offensive_words = ['fuck','shit', 'bitch', 'nigga', 'nigger', 'fag', 'faggot', 'cunt', 'asshole', 'asshole', 'whore",1,The sentence is offensive because it contains vulgar language and uses a derogatory tone
-1,3768,27189963,{'race': 'white'}," [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]
-### Code
-```python
-import re
-import nltk
-from nltk.sentiment import SentimentIntensityAnalyzer
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import word_tokenize
-from nltk import pos_tag
-from nltk import ne_chunk
-from nltk import RegexpParser
-from nltk import word_tokenize",1,The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
-1,3768,31138333,{'race': 'white'}," [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]
-### Code
-```python
-import re
-import nltk
-from nltk.sentiment import SentimentIntensityAnalyzer
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import word_tokenize
-from nltk import pos_tag
-from nltk import ne_chunk
-from nltk import RegexpParser
-from nltk import word_tokenize",1,The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
 0,4127,1226439,{'race': 'white'}," [The sentence is offensive][because][it contains explicit language and hate speech]
 ### Code:
 ```python

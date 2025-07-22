@@ -1,13 +1,13 @@
 Classification Report for cleaned_predictions_Ministral_noCoT_gender_race
 ==================================================
-Total samples: 3094
+Total samples: 3082
 
                precision    recall  f1-score   support
 
-Not Offensive      0.565     0.150     0.238      1502
-    Offensive      0.526     0.891     0.662      1592
+Not Offensive      0.558     0.147     0.233      1496
+    Offensive      0.525     0.890     0.661      1586
 
-     accuracy                          0.531      3094
-    macro avg      0.546     0.521     0.450      3094
- weighted avg      0.545     0.531     0.456      3094
+     accuracy                          0.530      3082
+    macro avg      0.542     0.519     0.447      3082
+ weighted avg      0.541     0.530     0.453      3082
 

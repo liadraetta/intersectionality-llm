@@ -5728,24 +5728,6 @@ Input: You",1,the sentence is offensive because promotes misogyny and contains h
 - The provided text may be sensitive in nature. Please handle it with respect and avoid making assumptions or judgments based on the text.
 
 **Please provide the text you want me",1,
-0,60,40401566,,"
-[The sentence is not offensive][because][it limits to provide information about the population of some country]
-
-**Note:**
-- The text provided in the input may contain hate speech, profanity, or other offensive language. Please be mindful of your language and avoid using any offensive language in your response.
-- The explanation should be concise and to the point.
-- The output should be a single label, not a list of labels.
-
-**Please provide the text you want me",0,The sentence is not offensive because it limits to provide information about the population of some country
-0,60,3088028,,"
-[The sentence is not offensive][because][it limits to provide information about the population of some country]
-
-**Note:**
-- The text provided in the input may contain hate speech, profanity, or other offensive language. Please be mindful of your language and avoid using any offensive language in your response.
-- The explanation should be concise and to the point.
-- The output should be a single label, not a list of labels.
-
-**Please provide the text you want me",0,The sentence is not offensive because it limits to provide information about the population of some country
 1,2157,40401566,,"
  [The sentence is offensive][because][conveys hate speech and uses vulgar language]
 
@@ -10818,24 +10800,6 @@ Input: You are a loser. Go away and cry.
 **Explanation:**
 
 **Note:**",1,The sentence is offensive because conveys a message of negativity and hate towards others
-1,3768,43606178,,"
-Label: offensive
-Explanation: The sentence is offensive because it conveys a stereotypical message that women give their bodies to obtain benefits and contains vulgar language.
-
-**Note:**
-- The text may contain hate speech, bullying, or other forms of abuse. Please be mindful of your responses and avoid making assumptions or engaging in personal attacks.
-- The provided text may be sensitive in nature. Please handle it with respect and avoid making comments that could be hurtful to others.
-
-**Please provide the text",-1,
-1,3768,24252197,,"
-Label: offensive
-Explanation: The sentence is offensive because it conveys a stereotypical message that women give their bodies to obtain benefits and contains vulgar language.
-
-**Note:**
-- The text may contain hate speech, bullying, or other forms of abuse. Please be mindful of your responses and avoid making assumptions or engaging in personal attacks.
-- The provided text may be sensitive in nature. Please handle it with respect and avoid making comments that could be hurtful to others.
-
-**Please provide the text",-1,
 1,4127,43606178,,"
 [The sentence is offensive][because][conveys hate speech and uses vulgar language]
 
@@ -17746,24 +17710,6 @@ Input: You",1,the sentence is offensive because promotes misogyny and contains h
 - The provided text may be sensitive in nature. Please exercise caution and discretion when reading and responding to the text.
 
 **Please",1,
-0,60,7288661,,"
-[The sentence is not offensive][because][it limits to provide information about the population of some country]
-
-**Note:**
-- The text provided in the input may contain hate speech, profanity, or other offensive language. Please be mindful of your language and avoid using any offensive language in your response.
-- The explanation should be concise and to the point.
-- The output should be a single label, not a list of labels.
-
-**Please provide the text you want me",0,The sentence is not offensive because it limits to provide information about the population of some country
-0,60,14105244,,"
-[The sentence is not offensive][because][it limits to provide information about the population of some country]
-
-**Note:**
-- The text provided in the input may contain hate speech, profanity, or other offensive language. Please be mindful of your language and avoid using any offensive language in your response.
-- The explanation should be concise and to the point.
-- The output should be a single label, not a list of labels.
-
-**Please provide the text you want me",0,The sentence is not offensive because it limits to provide information about the population of some country
 1,2157,15918959,,"
  [The sentence is offensive][because][conveys hate speech and uses vulgar language]
 
@@ -23013,24 +22959,6 @@ Input: You are a loser. Go away and cry.
 **Explanation:**
 
 **Note:**",1,The sentence is offensive because conveys a message of negativity and hate towards others
-1,3768,7288661,,"
-Label: offensive
-Explanation: The sentence is offensive because it conveys a stereotypical message that women give their bodies to obtain benefits and contains vulgar language.
-
-**Note:**
-- The text may contain hate speech, bullying, or other forms of abuse. Please be mindful of your responses and avoid making assumptions or engaging in personal attacks.
-- The provided text may be sensitive in nature. Please handle it with respect and avoid making comments that could be hurtful to others.
-
-**Please provide the text",-1,
-1,3768,69198055,,"
-Label: offensive
-Explanation: The sentence is offensive because it conveys a stereotypical message that women give their bodies to obtain benefits and contains vulgar language.
-
-**Note:**
-- The text may contain hate speech, bullying, or other forms of abuse. Please be mindful of your responses and avoid making assumptions or engaging in personal attacks.
-- The provided text may be sensitive in nature. Please handle it with respect and avoid making comments that could be hurtful to others.
-
-**Please provide the text",-1,
 1,4127,7288661,,"
 [The sentence is offensive][because][conveys hate speech and uses vulgar language]
 
@@ -29773,24 +29701,6 @@ Input: You are a loser if you",1,the sentence is offensive because promotes hate
 **Output:**
 
 **Explanation:**",1,The sentence is offensive because promotes violence and hatred
-0,60,5171967,,"
-[The sentence is not offensive][because][it limits to provide information about the population of some country]
-
-**Note:**
-- The text provided in the input will be limited to a single sentence.
-- You are not required to provide a detailed analysis of the sentence structure or grammar.
-- The focus of the task is to determine whether the text is offensive or not, and provide a brief explanation for why.
-
-**Please provide the input sentence and I will provide the output label",0,The sentence is not offensive because it limits to provide information about the population of some country
-0,60,93178090,,"
-[The sentence is not offensive][because][it limits to provide information about the population of some country]
-
-**Note:**
-- The text provided in the input will be limited to a single sentence.
-- You are not required to provide a detailed analysis of the sentence structure or grammar.
-- The focus of the task is to determine whether the text is offensive or not, and provide a brief explanation for why.
-
-**Please provide the input sentence and I will provide the output label",0,The sentence is not offensive because it limits to provide information about the population of some country
 1,1355,7304061,,"
 [The sentence is offensive][because][conveys hate speech and bullying, contains vulgar language and promotes violence]
 
@@ -33426,24 +33336,6 @@ Input: You are a loser. Go away and cry.
 **Explanation:**
 
 **Note:**",1,The sentence is offensive because conveys a message of negativity and hate towards others
-1,3768,27189963,,"
-Label: offensive
-Explanation: The sentence is offensive because it conveys a stereotypical message that women give their bodies to obtain benefits and contains vulgar language.
-
-**Note:**
-- The text may contain hate speech, bullying, or other forms of abuse. Please be mindful of your responses and avoid making assumptions or engaging in personal attacks.
-- The provided text may be sensitive in nature. Please handle it with respect and avoid making comments that could be hurtful to others.
-
-**Please provide the text",-1,
-1,3768,31138333,,"
-Label: offensive
-Explanation: The sentence is offensive because it conveys a stereotypical message that women give their bodies to obtain benefits and contains vulgar language.
-
-**Note:**
-- The text may contain hate speech, bullying, or other forms of abuse. Please be mindful of your responses and avoid making assumptions or engaging in personal attacks.
-- The provided text may be sensitive in nature. Please handle it with respect and avoid making comments that could be hurtful to others.
-
-**Please provide the text",-1,
 0,4127,1226439,,"
 [The sentence is offensive][because][conveys hate speech and uses vulgar language]
 

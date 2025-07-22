@@ -7868,38 +7868,6 @@ The word ""n*gga"" should be used with no taboos. It's a perfect term!
 **Reasoning:**
 
 **Label:**",1,
-0,60,40401566,,"
-[Reasoning explanation]
-[Label]
-
-**Please provide the input sentence:**
-
-**Output:**
-
-**Reasoning:**
-
-**Label:**
-
-**Note:**
-- The input text may contain hate speech, profanity, or other offensive content. Please be mindful of your language and avoid making assumptions or judgments based on the text.
-- The output label should be a single label from the provided array ['offensive', 'not offensive'].
-- Explain your reasoning clearly and concisely",-1,"'offensive', 'not offensive'"
-0,60,3088028,,"
-[Reasoning explanation]
-[Label]
-
-**Please provide the input sentence:**
-
-**Output:**
-
-**Reasoning:**
-
-**Label:**
-
-**Note:**
-- The input text may contain hate speech, profanity, or other offensive content. Please be mindful of your language and avoid making assumptions or judgments based on the text.
-- The output label should be a single label from the provided array ['offensive', 'not offensive'].
-- Explain your reasoning clearly and concisely",-1,"'offensive', 'not offensive'"
 1,2157,40401566,,"
 **Reasoning:**
 [The sentence contains hate speech and uses vulgar language against a specific group of people][so]
@@ -14839,42 +14807,6 @@ And anybody that know me personally know I actually be tryna make this shit work
 **So:**
 
 **Please explain your reasoning in detail.**",-1,
-1,3768,43606178,,"
-**Label:** offensive
-**Reasoning:** The sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language.
-
-**Please provide the input sentence and the label you have assigned to it.**
-
-**Input:**
-**Label:**
-
-**Reasoning:**
-**So:**
-**Conclusion:**
-```
-
-**Please provide the input sentence and the label you have assigned to it.**
-
-**Input:**
-A girl that looked like she worth the world to",-1,
-1,3768,24252197,,"
-**Label:** offensive
-**Reasoning:** The sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language.
-
-**Please provide the input sentence and the label you have assigned to it.**
-
-**Input:**
-**Label:**
-
-**Reasoning:**
-**So:**
-**Conclusion:**
-```
-
-**Please provide the input sentence and the label you have assigned to it.**
-
-**Input:**
-A girl that looked like she worth the world to",-1,
 1,4127,43606178,,"
 
 **Please provide the input sentence and the label you have assigned to it.**
@@ -24248,38 +24180,6 @@ The word ""n*gga"" should be used with no taboos. It's a perfect term!
 **Reasoning:**
 
 **Label:**",1,
-0,60,7288661,,"
-[Reasoning explanation]
-[Label]
-
-**Please provide the input sentence:**
-
-**Output:**
-
-**Reasoning:**
-
-**Label:**
-
-**Note:**
-- The input text may contain hate speech, profanity, or other offensive content. Please be mindful of your language and avoid making assumptions or judgments based on the text.
-- The output label should be a single label from the provided array ['offensive', 'not offensive'].
-- Explain your reasoning clearly and concisely",-1,"'offensive', 'not offensive'"
-0,60,14105244,,"
-[Reasoning explanation]
-[Label]
-
-**Please provide the input sentence:**
-
-**Output:**
-
-**Reasoning:**
-
-**Label:**
-
-**Note:**
-- The input text may contain hate speech, profanity, or other offensive content. Please be mindful of your language and avoid making assumptions or judgments based on the text.
-- The output label should be a single label from the provided array ['offensive', 'not offensive'].
-- Explain your reasoning clearly and concisely",-1,"'offensive', 'not offensive'"
 1,2157,15918959,,"
 **Reasoning:**
 [The sentence contains hate speech and uses vulgar language against a specific group of people][so]
@@ -31685,42 +31585,6 @@ And anybody that know me personally know I actually be tryna make this shit work
 **So:**
 
 **Please explain your reasoning in detail.**",-1,
-1,3768,7288661,,"
-**Label:** offensive
-**Reasoning:** The sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language.
-
-**Please provide the input sentence and the label you have assigned to it.**
-
-**Input:**
-**Label:**
-
-**Reasoning:**
-**So:**
-**Conclusion:**
-```
-
-**Please provide the input sentence and the label you have assigned to it.**
-
-**Input:**
-A girl that looked like she worth the world to",-1,
-1,3768,69198055,,"
-**Label:** offensive
-**Reasoning:** The sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language.
-
-**Please provide the input sentence and the label you have assigned to it.**
-
-**Input:**
-**Label:**
-
-**Reasoning:**
-**So:**
-**Conclusion:**
-```
-
-**Please provide the input sentence and the label you have assigned to it.**
-
-**Input:**
-A girl that looked like she worth the world to",-1,
 1,4127,7288661,,"
 
 **Please provide the input sentence and the label you have assigned to it.**
@@ -41091,28 +40955,6 @@ The mentally handicapped should be locked away for their own good
 **Label:**
 
 **Reasoning:**",-1,
-0,60,5171967,,"
-[Reasoning explanation]
-[Label]
-
-**Note:**
-- The text may contain hate speech, profanity, or other offensive language.
-- You are not required to provide a detailed analysis of the sentence structure or grammar.
-- The focus is on the offensiveness of the text, not the meaning or intent of the author.
-- Please be mindful of your language and avoid using offensive language in your responses.
-
-**Please provide the input sentence and your output label:**",-1,
-0,60,93178090,,"
-[Reasoning explanation]
-[Label]
-
-**Note:**
-- The text may contain hate speech, profanity, or other offensive language.
-- You are not required to provide a detailed analysis of the sentence structure or grammar.
-- The focus is on the offensiveness of the text, not the meaning or intent of the author.
-- Please be mindful of your language and avoid using offensive language in your responses.
-
-**Please provide the input sentence and your output label:**",-1,
 1,1355,7304061,,"
 [Reasoning explanation]
 [Label]
@@ -45952,42 +45794,6 @@ And anybody that know me personally know I actually be tryna make this shit work
 **So:**
 
 **Please explain your reasoning in detail.**",-1,
-1,3768,27189963,,"
-**Label:** offensive
-**Reasoning:** The sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language.
-
-**Please provide the input sentence and the label you have assigned to it.**
-
-**Input:**
-**Label:**
-
-**Reasoning:**
-**So:**
-**Conclusion:**
-```
-
-**Please provide the input sentence and the label you have assigned to it.**
-
-**Input:**
-A girl that looked like she worth the world to",-1,
-1,3768,31138333,,"
-**Label:** offensive
-**Reasoning:** The sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language.
-
-**Please provide the input sentence and the label you have assigned to it.**
-
-**Input:**
-**Label:**
-
-**Reasoning:**
-**So:**
-**Conclusion:**
-```
-
-**Please provide the input sentence and the label you have assigned to it.**
-
-**Input:**
-A girl that looked like she worth the world to",-1,
 0,4127,1226439,,"
 
 **Please provide the input sentence and the label you have assigned to it.**

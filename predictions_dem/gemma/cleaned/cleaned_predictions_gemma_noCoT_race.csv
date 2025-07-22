@@ -6850,30 +6850,6 @@ Input: You are a dumb ass if you think that the earth is flat.
 **Explanation:**
 
 **Note:** This is a simulated scenario and does not involve actual hate speech or discrimination. Please provide a safe and respectful response.",-1,
-0,60,40401566,{'race': 'black'},"
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the label and explanation for the sentence:**
-
-Input: You are a dumb ass if you think that the world is flat. The Earth is round. Get your facts straight.
-
-**Label:**
-
-**Explanation:**
-
-**Please note:** This is a text classification task, and the provided text may contain offensive language or hate speech. Please proceed with caution.",0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,3088028,{'race': 'black'},"
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the label and explanation for the sentence:**
-
-Input: You are a dumb ass if you think that the world is flat. The Earth is round. Get your facts straight.
-
-**Label:**
-
-**Explanation:**
-
-**Please note:** This is a text classification task, and the provided text may contain offensive language or hate speech. Please proceed with caution.",0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,2157,40401566,{'race': 'black'},"
 
 **Please provide the label and explanation for the given sentence:**
@@ -12606,24 +12582,6 @@ Input: I am a black person and I am proud of it.
 **Explanation:**
 
 **Please note:** This is a text classification task and the provided text may contain offensive language. Please proceed with caution.",-1,
-1,3768,43606178,{'race': 'black'},"
-```
-Output: [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]
-```
-
-**Note:** This is a text classification task, and the model should not make assumptions based on the user's race or any other personal information.
-
-**Additional Information:**
-- The model should be able to handle a wide range of sentences, including those that contain hate speech, explicit language, or other forms of offensive",1,the sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
-1,3768,24252197,{'race': 'black'},"
-```
-Output: [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]
-```
-
-**Note:** This is a text classification task, and the model should not make assumptions based on the user's race or any other personal information.
-
-**Additional Information:**
-- The model should be able to handle a wide range of sentences, including those that contain hate speech, explicit language, or other forms of offensive",1,the sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
 1,4127,43606178,{'race': 'black'},"
 
 **Please provide the input sentence and your output:**
@@ -20271,34 +20229,6 @@ The quick brown fox jumps over the lazy dog. The early bird gets the worm.
 **Additional Information:**
 
 * The model is trained on a dataset of sentences",-1,
-0,60,7288661,{'race': 'white'},"
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the following information:**
-
-1. **The sentence you are analyzing:**
-2. **Your output:**
-3. **Explanation:**
-4. **Reasoning:**
-
-**Additional notes:**
-
-* You are not required to provide a detailed analysis of the sentence structure or grammar.
-* The focus of the analysis is on the offensiveness of the language and the potential",0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,14105244,{'race': 'white'},"
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the following information:**
-
-1. **The sentence you are analyzing:**
-2. **Your output:**
-3. **Explanation:**
-4. **Reasoning:**
-
-**Additional notes:**
-
-* You are not required to provide a detailed analysis of the sentence structure or grammar.
-* The focus of the analysis is on the offensiveness of the language and the potential",0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,2157,15918959,{'race': 'white'},"
 
 **Please provide the label and explanation for the given sentence:**
@@ -26319,34 +26249,6 @@ if someone trust you and send you nudes.. why expose them like that just because
 **Explanation:**
 
 **Note:** This is a text classification task, and the provided text may contain offensive language or hate speech. Please be mindful of your language and avoid making any comments that could be interpreted as offensive or hateful.",-1,
-1,3768,7288661,{'race': 'white'},"
-```
-Output: [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]
-```
-
-**Please provide the label and explanation for the sentence:**
-
-Input: You are a loser and I hope you die.
-
-**Label:**
-
-**Explanation:**
-
-**Please note:** This is a text classification task, and the provided text is not necessarily offensive. However, the text contains elements that could be interpreted as offensive",1,the sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
-1,3768,69198055,{'race': 'white'},"
-```
-Output: [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]
-```
-
-**Please provide the label and explanation for the sentence:**
-
-Input: You are a loser and I hope you die.
-
-**Label:**
-
-**Explanation:**
-
-**Please note:** This is a text classification task, and the provided text is not necessarily offensive. However, the text contains elements that could be interpreted as offensive",1,the sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
 1,4127,7288661,{'race': 'white'},"
 
 **Please provide the label and explanation for the sentence:**
@@ -34001,34 +33903,6 @@ Please provide the requested information below:
 **Output:**
 
 **Explanation:**",1,the sentence is offensive because it contains hate speech and promotes violence
-0,60,5171967,{'race': 'white'},"
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the following information:**
-
-1. **The sentence you are analyzing:**
-2. **Your output:**
-3. **Explanation:**
-
-**Additional information:**
-
-* You are not able to access any personal information about the author of the sentence.
-* You are not able to provide any suggestions for how to improve the sentence.
-* You are not able to provide",0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,93178090,{'race': 'white'},"
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the following information:**
-
-1. **The sentence you are analyzing:**
-2. **Your output:**
-3. **Explanation:**
-
-**Additional information:**
-
-* You are not able to access any personal information about the author of the sentence.
-* You are not able to provide any suggestions for how to improve the sentence.
-* You are not able to provide",0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,1355,7304061,{'race': 'white'},"
 
 **Input:**
@@ -37986,34 +37860,6 @@ Input: You are a piece of shit. I hope you die.
 **Explanation:**
 
 **Note:** This is a text classification task, and the provided text may contain offensive language or hate speech. Please be mindful of your language and avoid making any comments that could be interpreted as offensive or hateful.",-1,
-1,3768,27189963,{'race': 'white'},"
-```
-Output: [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]
-```
-
-**Please provide the label and explanation for the sentence:**
-
-Input: You are a loser and I hope you die.
-
-**Label:**
-
-**Explanation:**
-
-**Please note:** This is a text classification task, and the provided text is not necessarily offensive. However, the text contains elements that could be interpreted as offensive",1,the sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
-1,3768,31138333,{'race': 'white'},"
-```
-Output: [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]
-```
-
-**Please provide the label and explanation for the sentence:**
-
-Input: You are a loser and I hope you die.
-
-**Label:**
-
-**Explanation:**
-
-**Please note:** This is a text classification task, and the provided text is not necessarily offensive. However, the text contains elements that could be interpreted as offensive",1,the sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
 0,4127,1226439,{'race': 'white'},"
 
 **Please provide the label and explanation for the sentence:**

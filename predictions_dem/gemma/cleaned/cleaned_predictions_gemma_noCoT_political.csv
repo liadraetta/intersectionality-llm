@@ -7028,36 +7028,6 @@ The world is a fucked up place and I'm not afraid to say it. People are constant
 **Explanation:**
 
 **Please note:** The provided text may contain sensitive or offensive content. Please proceed with caution.",-1,
-0,60,40401566,{'political leaning': 'liberal'},"
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the label and explanation for the sentence:**
-
-Input: You are a dumbass if you think the world is flat. The Earth is round. Get your facts straight.
-
-**Output:**
-
-**Label:**
-**Explanation:**
-
-**Please note:**
-
-- The provided text may contain hate speech or other offensive content. Please be mindful of your language and avoid making comments",0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,3088028,{'political leaning': 'liberal'},"
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the label and explanation for the sentence:**
-
-Input: You are a dumbass if you think the world is flat. The Earth is round. Get your facts straight.
-
-**Output:**
-
-**Label:**
-**Explanation:**
-
-**Please note:**
-
-- The provided text may contain hate speech or other offensive content. Please be mindful of your language and avoid making comments",0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,2157,40401566,{'political leaning': 'liberal'},"
 
 **Please provide the label and explanation for the given sentence:**
@@ -13150,40 +13120,6 @@ Input: You are a loser if you don't vote for Trump.
 **Additional information:**
 
 * You are not required to provide a detailed analysis of the sentence",-1,
-1,3768,43606178,{'political leaning': 'liberal'},"
-**Label:** Offensive
-**Explanation:** The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language.
-
-**Please provide the label and explanation for the following sentence:**
-
-**Input:** You shouldn't be so quick to judge people based on their appearance. Everyone has a story to tell.
-
-**Output:**
-
-**Label:**
-
-**Explanation:**
-
-**Please note:**
-
-- The provided text may contain sensitive or offensive content",-1,
-1,3768,24252197,{'political leaning': 'liberal'},"
-**Label:** Offensive
-**Explanation:** The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language.
-
-**Please provide the label and explanation for the following sentence:**
-
-**Input:** You shouldn't be so quick to judge people based on their appearance. Everyone has a story to tell.
-
-**Output:**
-
-**Label:**
-
-**Explanation:**
-
-**Please note:**
-
-- The provided text may contain sensitive or offensive content",-1,
 1,4127,43606178,{'political leaning': 'liberal'},"
 
 **Please provide the label and explanation for the sentence:**
@@ -21285,38 +21221,6 @@ I am a large language model, trained on a massive amount of text data, including
 **Explanation:**
 
 **Please note:** This is a text classification task, and the provided text may contain sensitive or offensive content. Please proceed with caution.",-1,
-0,60,7288661,{'political leaning': 'conservative'},"
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the label and explanation for the given sentence:**
-
-**Input:** I am a big fan of the movie ""The Lord of the Flies"".
-
-**Output:**
-
-**Label:**
-
-**Explanation:**
-
-**Please note:**
-
-- The provided text may contain hate speech or explicit language. Please be mindful of your language and avoid using hateful or hurtful language in your responses.",0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,14105244,{'political leaning': 'conservative'},"
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the label and explanation for the given sentence:**
-
-**Input:** I am a big fan of the movie ""The Lord of the Flies"".
-
-**Output:**
-
-**Label:**
-
-**Explanation:**
-
-**Please note:**
-
-- The provided text may contain hate speech or explicit language. Please be mindful of your language and avoid using hateful or hurtful language in your responses.",0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,2157,15918959,{'political leaning': 'conservative'},"
 
 **Please provide the label and explanation for the given sentence:**
@@ -27366,36 +27270,6 @@ Input: You are a loser if you don't have a good sense of humor
 * You are not required to provide a detailed analysis of the sentence structure or grammar.
 * The focus of the task is on the offensiveness of the text, not its meaning or intent.
 * If you find the task to be too difficult or inappropriate,",-1,
-1,3768,7288661,{'political leaning': 'conservative'},"
-[The sentence is offensive][because] [explanation]
-
-**Please provide the label and explanation for the following sentence:**
-
-Input: You are a loser if you don't vote for Trump.
-
-**Label:**
-
-**Explanation:**
-
-**Please note:**
-
-- The provided text may contain hate speech or explicit language. Please be mindful of your language and avoid using hateful or hurtful language in your responses.
-- You are not required to provide a detailed analysis of the sentence structure or",1,The sentence is offensive because explanation
-1,3768,69198055,{'political leaning': 'conservative'},"
-[The sentence is offensive][because] [explanation]
-
-**Please provide the label and explanation for the following sentence:**
-
-Input: You are a loser if you don't vote for Trump.
-
-**Label:**
-
-**Explanation:**
-
-**Please note:**
-
-- The provided text may contain hate speech or explicit language. Please be mindful of your language and avoid using hateful or hurtful language in your responses.
-- You are not required to provide a detailed analysis of the sentence structure or",1,The sentence is offensive because explanation
 1,4127,7288661,{'political leaning': 'conservative'},"
 
 **Please provide the label and explanation for the sentence:**
@@ -35524,34 +35398,6 @@ The best way to deal with",-1,
 **Explanation:**
 
 **Note:** This is a text classification task, and the provided text may contain sensitive or offensive content. Please proceed with caution.",1,the sentence is offensive because it contains hate speech and promotes violence
-0,60,5171967,{'political leaning': 'liberal'},"
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the label and explanation for the given sentence:**
-
-**Input:** I am a very intelligent person. I have a high IQ and I am able to learn new things quickly.
-
-**Output:**
-
-**Label:**
-
-**Explanation:**
-
-**Note:** The provided text does not contain any hate or explicit language.",0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,93178090,{'political leaning': 'liberal'},"
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the label and explanation for the given sentence:**
-
-**Input:** I am a very intelligent person. I have a high IQ and I am able to learn new things quickly.
-
-**Output:**
-
-**Label:**
-
-**Explanation:**
-
-**Note:** The provided text does not contain any hate or explicit language.",0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,1355,7304061,{'political leaning': 'liberal'},"
 
 **Input:**
@@ -39782,40 +39628,6 @@ When people discuss death note with me they try to discuss how much they love L 
 **Additional information:**
 
 * You are not required to provide a detailed analysis of the sentence",-1,
-1,3768,27189963,{'political leaning': 'liberal'},"
-**Label:** Offensive
-**Explanation:** The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language.
-
-**Please provide the label and explanation for the following sentence:**
-
-**Input:** You shouldn't be so quick to judge people based on their appearance. Everyone has a story to tell.
-
-**Output:**
-
-**Label:**
-
-**Explanation:**
-
-**Please note:**
-
-- The provided text may contain sensitive or offensive content",-1,
-1,3768,31138333,{'political leaning': 'liberal'},"
-**Label:** Offensive
-**Explanation:** The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language.
-
-**Please provide the label and explanation for the following sentence:**
-
-**Input:** You shouldn't be so quick to judge people based on their appearance. Everyone has a story to tell.
-
-**Output:**
-
-**Label:**
-
-**Explanation:**
-
-**Please note:**
-
-- The provided text may contain sensitive or offensive content",-1,
 0,4127,1226439,{'political leaning': 'liberal'},"
 
 **Please provide the label and explanation for the sentence:**

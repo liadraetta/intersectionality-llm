@@ -1836,8 +1836,6 @@ Output: [The sentence is offensive][because][it contains racial slurs and deroga
 1,1611,3088028,"{'gender': 'woman', 'race': 'black'}", [The sentence is offensive][because][it contains racial slurs and sexual assault language],1,The sentence is offensive because it contains racial slurs and sexual assault language
 1,1652,40401566,"{'gender': 'man', 'race': 'black'}"," [The sentence is offensive][because][it implies that black people deserve certain treatment from the police, which is a racist statement]",1,"The sentence is offensive because it implies that black people deserve certain treatment from the police, which is a racist statement"
 1,1652,3088028,"{'gender': 'woman', 'race': 'black'}"," [The sentence is offensive][because][it implies that black people deserve certain treatment from the police, which is a racist statement]",1,"The sentence is offensive because it implies that black people deserve certain treatment from the police, which is a racist statement"
-0,60,40401566,"{'gender': 'man', 'race': 'black'}", [The sentence is not offensive][because][it merely provides information on the population of certain countries],0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,3088028,"{'gender': 'woman', 'race': 'black'}", [The sentence is not offensive][because][it merely provides information on the population of certain countries],0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,2157,40401566,"{'gender': 'man', 'race': 'black'}"," [The sentence is offensive][because][it contains racial slurs and expresses hatred towards a specific group of people]
 ```",1,The sentence is offensive because it contains racial slurs and expresses hatred towards a specific group of people
 0,804,40401566,"{'gender': 'man', 'race': 'black'}"," [The sentence is offensive][because][it uses derogatory language to refer to people with disabilities and promotes harmful policies]
@@ -3587,8 +3585,6 @@ Output: [The sentence is offensive][because][it uses a racial slur]",1,the sente
 ###
 Input: I hate niggers
 Output: [The sentence is offensive][because][it uses a racial slur]",1,the sentence is offensive because it uses a racial slur
-1,3768,43606178,"{'gender': 'man', 'race': 'black'}", [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language],1,The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
-1,3768,24252197,"{'gender': 'man', 'race': 'black'}", [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language],1,The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
 1,4127,43606178,"{'gender': 'man', 'race': 'black'}"," [The sentence is offensive][because][it contains explicit language and derogatory terms directed towards a person]
 ###
 Input: I'm so tired of these fucking n*****s ruining my life
@@ -5720,8 +5716,6 @@ Output: [The sentence is offensive][because][it uses derogatory language to refe
 1,1611,15918959,"{'gender': 'man', 'race': 'white'}", [The sentence is offensive][because][it contains a racial slur and a sexual assault threat],1,The sentence is offensive because it contains a racial slur and a sexual assault threat
 1,1652,15918959,"{'gender': 'man', 'race': 'white'}"," [The sentence is offensive][because][it implies that black people deserve certain treatment from the police, which is a racist statement]",1,"The sentence is offensive because it implies that black people deserve certain treatment from the police, which is a racist statement"
 0,1652,14105244,"{'gender': 'woman', 'race': 'white'}"," [The sentence is offensive][because][it implies that black people are less deserving of fair treatment from the police, which is a racist statement]",1,"The sentence is offensive because it implies that black people are less deserving of fair treatment from the police, which is a racist statement"
-0,60,7288661,"{'gender': 'man', 'race': 'white'}", [The sentence is not offensive][because][it merely provides information on the population of certain countries],0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,14105244,"{'gender': 'woman', 'race': 'white'}", [The sentence is not offensive][because][it merely provides information on the population of certain countries],0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,2157,15918959,"{'gender': 'man', 'race': 'white'}"," [The sentence is offensive][because][it contains racial slurs and expresses hatred towards a specific racial group]
 ###
 Input: fuck you guys, I hate any nigga and I hate everything that came with em too
@@ -7551,8 +7545,6 @@ Output: [The sentence is offensive][because][it expresses a clear and direct hat
 ###
 Input: I hate black people
 Output: [The sentence is offensive][because][it expresses a clear and direct hatred towards a racial group]",1,the sentence is offensive because it expresses a clear and direct hatred towards a racial group
-1,3768,7288661,"{'gender': 'man', 'race': 'white'}", [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language],1,The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
-1,3768,69198055,"{'gender': 'woman', 'race': 'white'}", [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language],1,The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
 1,4127,7288661,"{'gender': 'man', 'race': 'white'}"," [The sentence is offensive][because][it contains explicit language and derogatory terms directed towards a person]
 ###
 Input: I'm so tired of these fucking immigrants taking our jobs
@@ -9674,8 +9666,6 @@ Output: [The sentence is offensive][because][it perpetuates a harmful stereotype
  Output: [The sentence is not offensive][because][it is a general observation about a common phenomenon and does not target any specific individual or group]
  Example to label:
  Input: I'm so sick of these fucking immigrants taking",0,the sentence is not offensive because it is a general observation about a common phenomenon and does not target any specific individual or group
-0,60,5171967,"{'gender': 'man', 'race': 'white'}", [The sentence is not offensive][because][it merely provides information on the population of certain countries],0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,93178090,"{'gender': 'woman', 'race': 'white'}", [The sentence is not offensive][because][it merely provides information on the population of certain countries],0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,1355,7304061,"{'gender': 'man', 'race': 'white'}"," [The sentence is offensive][because][it contains multiple derogatory terms and hate speech directed towards a specific individual, including references to their gender and appearance]",1,"The sentence is offensive because it contains multiple derogatory terms and hate speech directed towards a specific individual, including references to their gender and appearance"
 1,1355,41829545,"{'gender': 'woman', 'race': 'white'}"," [The sentence is offensive][because][it contains multiple derogatory terms and hate speech directed towards a specific individual, including references to their gender and appearance]",1,"The sentence is offensive because it contains multiple derogatory terms and hate speech directed towards a specific individual, including references to their gender and appearance"
 0,3009,36389940,"{'gender': 'man', 'race': 'white'}"," [The sentence is offensive][because][it contains profanity and makes a derogatory statement about a person]
@@ -10844,8 +10834,6 @@ I'm so tired of these fucking n*****s ruining my life
 I'm so tired of these fucking n*****s ruining my life
 ### Output:
 [The sentence is offensive][because][it contains a racial slur and expresses hostility towards a racial group]",1,the sentence is offensive because it contains a racial slur and expresses hostility towards a racial group
-1,3768,27189963,"{'gender': 'woman', 'race': 'white'}", [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language],1,The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
-1,3768,31138333,"{'gender': 'man', 'race': 'white'}", [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language],1,The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
 0,4127,1226439,"{'gender': 'nonBinary', 'race': 'white'}"," [The sentence is offensive][because][it contains explicit language and derogatory terms directed towards a person]
 ###
 Input: I'm so tired of seeing people of color being treated like shit

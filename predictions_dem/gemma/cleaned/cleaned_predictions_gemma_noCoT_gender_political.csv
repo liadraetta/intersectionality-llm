@@ -6461,35 +6461,6 @@ Input: You are a privileged white male, and I'm not going to waste my time expla
 **Explanation:**
 
 **Please note:** This is a text classification task, and the provided text may contain sensitive or offensive content. Please exercise caution when reading or engaging with the text.",-1,
-0,60,40401566,"{'gender': 'man', 'political leaning': 'liberal'}","
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the label and explanation for the given sentence:**
-
-Input: I am a big fan of the movie ""The Lord of the Flies"". It is a classic film and I highly recommend it to everyone.
-
-**Output:**
-
-**Label:**
-**Explanation:**
-
-**Please note:**
-- The provided text may contain sensitive content, please proceed with caution.
-- The",0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,3088028,"{'gender': 'woman', 'political leaning': 'liberal'}","
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the following information:**
-
-1. **The sentence you are analyzing:**
-2. **Your label:**
-3. **Your explanation:**
-
-**Additional notes:**
-
-* You are not required to provide a detailed analysis of the sentence structure or grammar.
-* The focus of your response should be on the offensiveness of the text and the reason for your labeling.
-",0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,2157,40401566,"{'gender': 'man', 'political leaning': 'liberal'}","
 
 **Please provide the label and explanation for the given sentence:**
@@ -12110,26 +12081,6 @@ Input: You are a loser if you don't have a job.
 * The provided text may contain offensive language and hate speech. Please be cautious and do not engage with the content.
 * You are not required to provide a detailed analysis of the sentence structure or grammar.
 * The focus of the task is on the offensiveness of the text, not its meaning or intent.",-1,
-1,3768,43606178,"{'gender': 'man', 'political leaning': 'liberal'}","
-[The sentence is offensive][because] [explanation]
-
-**Please provide the input sentence and your output:**
-
-**Input:**
-
-**Output:**
-
-**Explanation:**",1,The sentence is offensive because explanation
-1,3768,24252197,"{'gender': 'man', 'political leaning': 'liberal'}","
-[The sentence is offensive][because] [explanation]
-
-**Please provide the input sentence and your output:**
-
-**Input:**
-
-**Output:**
-
-**Explanation:**",1,The sentence is offensive because explanation
 1,4127,43606178,"{'gender': 'man', 'political leaning': 'liberal'}","
 
 **Please provide the input sentence and your output:**
@@ -19705,32 +19656,6 @@ The quick brown fox jumps over the lazy dog. The early bird gets the worm.
 **Explanation:**
 
 **Please note:** The provided text does not contain any hate speech or explicit language. However, it does contain a subtle form of bias and discrimination.",-1,
-0,60,7288661,"{'gender': 'man', 'political leaning': 'conservative'}","
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the following information:**
-
-1. **The sentence you are analyzing:**
-2. **Your label:**
-3. **Your explanation:**
-
-**Additional information:**
-
-* You are not required to provide a detailed analysis of the sentence structure or grammar.
-* The focus of your analysis should be on the offensiveness of the language and the message conveyed by the sentence.",0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,14105244,"{'gender': 'woman', 'political leaning': 'conservative'}","
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the label and explanation for the sentence:**
-
-Input: You are a loser if you don't vote for Trump.
-
-**Output:**
-
-**Label:**
-**Explanation:**
-
-**Note:** Please be as precise and clear as possible in your explanations.",0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,2157,15918959,"{'gender': 'man', 'political leaning': 'conservative'}","
 **Label:** [Offensive]
 **Explanation:** [The sentence is offensive] [because] [it contains hate speech and uses vulgar language]
@@ -25391,25 +25316,6 @@ Input: You are a loser and I hope you die.
 * The focus of the task is on the offensiveness of the text, not its meaning or intent.
 
 **Additional",-1,
-1,3768,7288661,"{'gender': 'man', 'political leaning': 'conservative'}","
-```
-[The sentence is offensive][because] [it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]
-```
-
-**Note:** This task is designed to simulate real-world scenarios where people may encounter offensive content online. Please be mindful of the content you generate and ensure that it is appropriate for the context of the task.
-
-**Additional Information:**
-- The model should be able to handle a wide range of sentences, including those that are",1,The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language
-1,3768,69198055,"{'gender': 'woman', 'political leaning': 'conservative'}","
-[The sentence is offensive][because] [explanation]
-
-**Please provide the input and output for the above request:**
-
-**Input:**
-
-**Output:**
-
-**Explanation:**",1,The sentence is offensive because explanation
 1,4127,7288661,"{'gender': 'man', 'political leaning': 'conservative'}","
 
 **Please provide the label and explanation for the sentence:**
@@ -33160,34 +33066,6 @@ She has text Rob and said she's not coming into the shop because she's too tired
 **Output:**
 
 **Explanation:**",1,the sentence is offensive because it contains hate speech and promotes violence
-0,60,5171967,"{'gender': 'man', 'political leaning': 'liberal'}","
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the following information:**
-
-1. **The sentence you want me to analyze:**
-2. **Your output:**
-3. **Explanation:**
-
-**Additional Information:**
-
-* You are not required to provide a detailed analysis of the sentence structure or grammar.
-* The focus of the analysis is on the offensiveness of the text content.
-* If you find the",0,The sentence is not offensive because it merely provides information on the population of certain countries
-0,60,93178090,"{'gender': 'woman', 'political leaning': 'liberal'}","
-[The sentence is not offensive][because][it merely provides information on the population of certain countries]
-
-**Please provide the following information:**
-
-1. **The sentence you are analyzing:**
-2. **Your label:**
-3. **Your explanation:**
-
-**Additional notes:**
-
-* You are not required to provide a detailed analysis of the sentence structure or grammar.
-* The focus of your response should be on the offensiveness of the text and the reason for your label.
-",0,The sentence is not offensive because it merely provides information on the population of certain countries
 1,1355,7304061,"{'gender': 'man', 'political leaning': 'liberal'}","
 
 **Input:**
@@ -36965,38 +36843,6 @@ Input: You are a loser if you don't have a job.
 **Explanation:**
 
 **Please note:** This is a text classification task, and your answer should be based on the text alone. You are not required to provide any personal opinions or beliefs.",-1,
-1,3768,27189963,"{'gender': 'woman', 'political leaning': 'liberal'}","
-**Label:** Offensive
-**Explanation:** The sentence is offensive because it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language.
-
-**Please provide the label and explanation for the given sentence:**
-
-**Input:** I am a feminist and I believe that women should have equal rights to men.
-
-**Output:**
-
-**Label:**
-
-**Explanation:**
-
-**Please note:**
-
-- You are not required to provide a detailed analysis of the sentence structure or grammar",-1,
-1,3768,31138333,"{'gender': 'man', 'political leaning': 'liberal'}","
-[The sentence is offensive][because] [explanation]
-
-**Please provide the input and output for the above text:**
-
-**Input:**
-A girl that looked like she worth the world to ya is around the corner getting fucked for a perk #Facts
-
-**Output:**
-[The sentence is offensive][because] [explanation]
-
-**Please also provide the explanation for your answer:**
-
-**Explanation:**
-[The sentence is offensive/is not offensive] [because] [explanation]",1,the sentence is offensive because explanation the sentence is offensive/is not offensive because explanation
 0,4127,1226439,"{'gender': 'nonBinary', 'political leaning': 'liberal'}","
 
 **Please provide the label and explanation for the given sentence:**
