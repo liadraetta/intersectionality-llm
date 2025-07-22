@@ -6,7 +6,7 @@ Contingency Table:
 Baseline          0    1
 Intersectional          
 0               950   63
-1                39  450
+1                39  444
 McNemar's Test Result:
 The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
@@ -17,7 +17,7 @@ Contingency Table:
 Baseline          0    1
 Intersectional          
 0               966   83
-1                23  430
+1                23  424
 McNemar's Test Result:
 The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
@@ -28,7 +28,7 @@ Contingency Table:
 Baseline          0    1
 Intersectional          
 0               975  140
-1                14  373
+1                14  367
 McNemar's Test Result:
 The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
@@ -39,7 +39,7 @@ Contingency Table:
 Baseline          0    1
 Intersectional          
 0               961   83
-1                28  430
+1                28  424
 McNemar's Test Result:
 The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
@@ -50,7 +50,7 @@ Contingency Table:
 Baseline          0    1
 Intersectional          
 0               970   99
-1                19  414
+1                19  408
 McNemar's Test Result:
 The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
@@ -61,7 +61,7 @@ Contingency Table:
 Baseline          0    1
 Intersectional          
 0               973  132
-1                16  381
+1                16  375
 McNemar's Test Result:
 The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
@@ -72,7 +72,7 @@ Contingency Table:
 Baseline          0    1
 Intersectional          
 0               971  119
-1                18  394
+1                18  388
 McNemar's Test Result:
 The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.

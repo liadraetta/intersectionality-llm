@@ -38,7 +38,7 @@ def main():
             print(f"Running McNemar's test for model: {model_name}, {cot_name}")
             # Read all model datasets
             all_model_datasets = read_all_model_datasets(model_name, cot_name, results_base_path, results_socdem_base_path)
-            run_mcnemar_tests(all_model_datasets, output_path, output_path_positive, output_path_negative, model_name, cot_name)
+            run_mcnemar_tests(all_model_datasets, output_path, output_path_positive, output_path_negative)
 
 if __name__ == '__main__':
     main()

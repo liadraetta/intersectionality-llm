@@ -5,7 +5,7 @@ Contingency Table:
 Baseline           0     1
 Intersectional            
 0               1069    95
-1                176  1754
+1                176  1742
 McNemar's Test Result:
 Statistic: 95.0, p-value (greater): 4.926181398988372e-07
 --------------------------------------------------
@@ -14,7 +14,7 @@ Contingency Table:
 Baseline           0     1
 Intersectional            
 0               1085   111
-1                160  1738
+1                160  1726
 McNemar's Test Result:
 Statistic: 111.0, p-value (greater): 0.0017356431064778168
 --------------------------------------------------
@@ -23,7 +23,7 @@ Contingency Table:
 Baseline           0     1
 Intersectional            
 0               1107   186
-1                138  1663
+1                138  1651
 McNemar's Test Result:
 The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
@@ -33,7 +33,7 @@ Contingency Table:
 Baseline           0     1
 Intersectional            
 0               1062   102
-1                183  1747
+1                183  1735
 McNemar's Test Result:
 Statistic: 102.0, p-value (greater): 9.238642508505e-07
 --------------------------------------------------
@@ -42,7 +42,7 @@ Contingency Table:
 Baseline           0     1
 Intersectional            
 0               1076   122
-1                169  1727
+1                169  1715
 McNemar's Test Result:
 Statistic: 122.0, p-value (greater): 0.0034518601184101235
 --------------------------------------------------
@@ -51,7 +51,7 @@ Contingency Table:
 Baseline           0     1
 Intersectional            
 0               1068   153
-1                177  1696
+1                177  1684
 McNemar's Test Result:
 Statistic: 153.0, p-value (greater): 0.10270279868308964
 --------------------------------------------------
@@ -60,7 +60,7 @@ Contingency Table:
 Baseline           0     1
 Intersectional            
 0               1068   131
-1                177  1718
+1                177  1706
 McNemar's Test Result:
 Statistic: 131.0, p-value (greater): 0.00511422613406377
 --------------------------------------------------

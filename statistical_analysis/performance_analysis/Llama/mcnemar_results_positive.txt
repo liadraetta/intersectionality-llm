@@ -6,7 +6,7 @@ Contingency Table:
 Baseline         0     1
 Intersectional          
 0               78     3
-1                7  1504
+1                7  1498
 McNemar's Test Result:
 Statistic: 3.0, p-value (greater): 0.171875
 --------------------------------------------------
@@ -16,7 +16,7 @@ Contingency Table:
 Baseline         0     1
 Intersectional          
 0               73     1
-1               12  1506
+1               12  1500
 McNemar's Test Result:
 Statistic: 1.0, p-value (greater): 0.001708984375
 --------------------------------------------------
@@ -26,7 +26,7 @@ Contingency Table:
 Baseline         0     1
 Intersectional          
 0               77     5
-1                8  1502
+1                8  1496
 McNemar's Test Result:
 Statistic: 5.0, p-value (greater): 0.29052734375
 --------------------------------------------------
@@ -36,7 +36,7 @@ Contingency Table:
 Baseline         0     1
 Intersectional          
 0               69     2
-1               16  1505
+1               16  1499
 McNemar's Test Result:
 Statistic: 2.0, p-value (greater): 0.0006561279296875
 --------------------------------------------------
@@ -46,7 +46,7 @@ Contingency Table:
 Baseline         0     1
 Intersectional          
 0               76     2
-1                9  1505
+1                9  1499
 McNemar's Test Result:
 Statistic: 2.0, p-value (greater): 0.03271484375
 --------------------------------------------------
@@ -56,7 +56,7 @@ Contingency Table:
 Baseline         0     1
 Intersectional          
 0               70     0
-1               15  1507
+1               15  1501
 McNemar's Test Result:
 Statistic: 0.0, p-value (greater): 3.0517578125e-05
 --------------------------------------------------
@@ -66,7 +66,7 @@ Contingency Table:
 Baseline         0     1
 Intersectional          
 0               69     0
-1               16  1507
+1               16  1501
 McNemar's Test Result:
 Statistic: 0.0, p-value (greater): 1.52587890625e-05
 --------------------------------------------------
