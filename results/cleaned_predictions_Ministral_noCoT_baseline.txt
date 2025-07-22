@@ -4,10 +4,10 @@ Total samples: 3082
 
                precision    recall  f1-score   support
 
-Not Offensive      0.592     0.241     0.342      1496
-    Offensive      0.541     0.844     0.659      1586
+Not Offensive      0.973     0.170     0.289      1496
+    Offensive      0.560     0.996     0.717      1586
 
-     accuracy                          0.551      3082
-    macro avg      0.566     0.542     0.501      3082
- weighted avg      0.566     0.551     0.505      3082
+     accuracy                          0.595      3082
+    macro avg      0.766     0.583     0.503      3082
+ weighted avg      0.760     0.595     0.509      3082
 

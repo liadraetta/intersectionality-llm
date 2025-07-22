@@ -26,6 +26,29 @@ def extract_demographics(prompt):
 
 
 def extract_prediction(output):
+    text = output.lower().strip().splitlines()
+    for i in text:
+        if 'the sentence is offensive' in i:
+            return 1, i
+        elif 'the sentence is not offensive' in i:
+            return 0, i
+    return -1, None
+
+def extract_output(df, output_col):
+    list_preds = []
+    list_parsed_outputs = []
+    for idx,row in df.iterrows():
+        pred, parsed_output = extract_prediction(row[output_col])
+        list_preds.append(pred)
+        list_parsed_outputs.append(parsed_output)
+
+    df['prediction'] = list_preds
+    df['parsed_output'] = list_parsed_outputs
+
+    return df 
+
+"""
+def extract_prediction(output):
     text = re.sub(r'\s+', ' ', output.strip()).lower()
     
     # Check if repeats the prompt
@@ -61,7 +84,6 @@ def extract_prediction(output):
 
 
 def extract_bracket_content(output):
-    """Extract content from square brackets in text output."""
     if not output:
         return ""
     
@@ -99,3 +121,4 @@ def extract_output(df, output_col):
     df['parsed_output'] = results
 
     return df 
+"""

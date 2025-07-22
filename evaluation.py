@@ -4,7 +4,7 @@ import pandas as pd
 import os 
 from glob import glob
 
-demographics = False
+demographics = True
 list_models = ["deepseek", "gemma", "Llama", "Ministral", "Qwen2"]
 ids_to_remove = [3768, 60]
 
