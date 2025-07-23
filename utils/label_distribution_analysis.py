@@ -64,6 +64,14 @@ def filter_out_missing_rows(all_model_datasets, print_all=False):
     
     return all_model_datasets_filtered
 
+def safe_cohen_kappa(y_true, y_pred):
+    """
+    Modify cohen kappa so that if one labeller returns all 1s, then return nan instead of 0.
+    """
+    if len(set(y_true)) == 1 or len(set(y_pred)) == 1:
+        return float('nan')
+    return cohen_kappa_score(y_true, y_pred)
+
 
 def compute_intersectionality_cohen_kappa(all_model_datasets_filtered, socio_demographic_variables):
     """
@@ -98,7 +106,7 @@ def compute_intersectionality_cohen_kappa(all_model_datasets_filtered, socio_dem
         all_results[key] = {}
         all_results[key]['all'] = {'kappa': kappa_value, 
                                    'exact_match': exact_match_count, 
-                                   'exact_match_perc': round(exact_match_count_perc, 2), 
+                                   'exact_match_perc': round(exact_match_count_perc, 1), 
                                    'count': len(intersectionality_predictions)}
         # Now consider all combinations of socio-demographic variables, filter the dataset and compute Cohen Kappa for them as well.
         for socdem_combination in all_combinations:
@@ -116,10 +124,10 @@ def compute_intersectionality_cohen_kappa(all_model_datasets_filtered, socio_dem
                 
                 exact_match_count_filtered = int((intersectionality_predictions_filtered == df_predictions_filtered).sum())
                 exact_match_count_perc_filtered = exact_match_count_filtered / len(intersectionality_predictions_filtered) * 100
-                kappa_value_filtered = cohen_kappa_score(intersectionality_predictions_filtered, df_predictions_filtered)
+                kappa_value_filtered = safe_cohen_kappa(intersectionality_predictions_filtered, df_predictions_filtered)
                 all_results[key][f"{socdem_combination}"] = {'kappa': kappa_value_filtered, 
                                                               'exact_match': exact_match_count_filtered, 
-                                                              'exact_match_perc': round(exact_match_count_perc_filtered, 2), 
+                                                              'exact_match_perc': round(exact_match_count_perc_filtered, 1), 
                                                               'count': len(intersectionality_predictions_filtered)}
                             
     # Now consider filtered versions of the datasets and compute Cohen Kappa for them as well
@@ -199,10 +207,13 @@ def create_visualization_table(data, metric='kappa'):
     
     return df, filter_mapping, total_counts
 
-def visualize_heatmap(data, vmin=-0.1, vmax=1.0, save_path=None, model_name=None):
-    kappa_df, filter_mapping, exact_counts = create_visualization_table(data, 'kappa')
-    
-    
+def visualize_heatmap(data, 
+                      vmin=-0.1, 
+                      vmax=1.0, 
+                      save_path=None, 
+                      model_name=None,
+                      plot_var='kappa'): # exact_match_perc
+    kappa_df, filter_mapping, exact_counts = create_visualization_table(data, plot_var)
     # Create a proper heatmap visualization
     plt.figure(figsize=(16, 10))  # Increased height to accommodate two-line labels
     
@@ -211,6 +222,7 @@ def visualize_heatmap(data, vmin=-0.1, vmax=1.0, save_path=None, model_name=None
     cmap = 'RdYlGn'
     
     # Create the heatmap
+    cbar_kws = {'label': 'Kappa Score'} if plot_var == 'kappa' else {'label': 'Exact Match Percentage'}
     mask = kappa_df.isnull()
     ax = sns.heatmap(kappa_df,
                      annot=True,
@@ -219,7 +231,7 @@ def visualize_heatmap(data, vmin=-0.1, vmax=1.0, save_path=None, model_name=None
                      vmin=vmin,
                      vmax=vmax,
                      mask=mask,
-                     cbar_kws={'label': 'Kappa Score'},
+                     cbar_kws=cbar_kws,
                      square=False)
     
     # Add a vertical line to separate "Overall" from other columns
@@ -252,7 +264,7 @@ def visualize_heatmap(data, vmin=-0.1, vmax=1.0, save_path=None, model_name=None
     else:
         plt.show()
 
-def visualize_combined_heatmap(all_models_data, vmin=-0.1, vmax=1.0, save_path=None):
+def visualize_combined_heatmap(all_models_data, vmin=-0.1, vmax=1.0, save_path=None, plot_var='kappa'):
     """
     Create a combined heatmap with all 4 models in subplots with shared color axis
     """
@@ -268,7 +280,7 @@ def visualize_combined_heatmap(all_models_data, vmin=-0.1, vmax=1.0, save_path=N
     model_dfs = {}
     all_exact_counts = {}
     for model_name, data in all_models_data.items():
-        kappa_df, filter_mapping, exact_counts = create_visualization_table(data, 'kappa')
+        kappa_df, filter_mapping, exact_counts = create_visualization_table(data, plot_var)
         model_dfs[model_name] = kappa_df
         all_exact_counts[model_name] = exact_counts
     
@@ -282,9 +294,10 @@ def visualize_combined_heatmap(all_models_data, vmin=-0.1, vmax=1.0, save_path=N
         mask = kappa_df.isnull()
         
         # Create heatmap (without individual colorbars)
+
         sns.heatmap(kappa_df,
                    annot=True,
-                   fmt='.3f',
+                   fmt='.3f' if plot_var == 'kappa' else '.1f',
                    cmap=cmap,
                    vmin=vmin,
                    vmax=vmax,
@@ -329,7 +342,10 @@ def visualize_combined_heatmap(all_models_data, vmin=-0.1, vmax=1.0, save_path=N
     # Add colorbar - positioned to the right of the plots
     cbar_ax = fig.add_axes([0.85, 0.15, 0.03, 0.7])  # [left, bottom, width, height]
     cbar = fig.colorbar(sm, cax=cbar_ax)
-    cbar.set_label('Kappa Score', fontsize=20)
+    if plot_var == 'kappa':
+        cbar.set_label('Kappa Score', fontsize=20)
+    elif plot_var == 'exact_match_perc':
+        cbar.set_label('Exact Match Percentage', fontsize=20)
     
     # Overall title
     # fig.suptitle('Cohen\'s Kappa Scores Across All Models', fontsize=18, y=0.96)

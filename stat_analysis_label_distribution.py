@@ -14,20 +14,23 @@ def main():
     for model_name in model_names:
         results_socdem_base_path = pathlib.Path(f"predictions_dem/{model_name}/cleaned")
         for cot_name in cot_names:
-            output_plot_path = pathlib.Path(f'statistical_analysis/ablation_label_distribution/{model_name}_{cot_name}.png')
+            output_plot_path_cohen = pathlib.Path(f'statistical_analysis/ablation_label_distribution/cohen/{model_name}_{cot_name}.png')
+            output_plot_path_match_perc = pathlib.Path(f'statistical_analysis/ablation_label_distribution/match_perc/{model_name}_{cot_name}.png')
             print(f"Model: {model_name}, CoT: {cot_name}")
             all_model_datasets = read_all_model_datasets(model_name, cot_name, results_base_path, results_socdem_base_path)
             all_model_datasets_filtered = filter_out_missing_rows(all_model_datasets)
             all_model_results_cohen = compute_intersectionality_cohen_kappa(all_model_datasets_filtered, socio_demographic_variables)
-            
             # Store data for combined plot
             if model_name != 'gemma':
                 all_models_data[model_name] = all_model_results_cohen
-            visualize_heatmap(all_model_results_cohen, save_path=output_plot_path, model_name=model_name)
+            visualize_heatmap(all_model_results_cohen, save_path=output_plot_path_cohen, model_name=model_name, plot_var='kappa')
+            visualize_heatmap(all_model_results_cohen, save_path=output_plot_path_match_perc, model_name=model_name, plot_var='exact_match_perc', vmin=80, vmax=100)
 
     # Create combined plot with all models
-    combined_output_path = pathlib.Path('statistical_analysis/ablation_label_distribution/all_models_combined_noCoT.png')
-    visualize_combined_heatmap(all_models_data, save_path=combined_output_path)
+    combined_output_path_cohen = pathlib.Path('statistical_analysis/ablation_label_distribution/cohen/all_models_combined_noCoT.png')
+    combined_output_path_match_perc = pathlib.Path('statistical_analysis/ablation_label_distribution/match_perc/all_models_combined_noCoT.png')
+    visualize_combined_heatmap(all_models_data, save_path=combined_output_path_cohen, plot_var='kappa')
+    visualize_combined_heatmap(all_models_data, save_path=combined_output_path_match_perc, plot_var='exact_match_perc', vmin=80, vmax=100)
 
 
 if __name__ == "__main__":
