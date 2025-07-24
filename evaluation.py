@@ -6,7 +6,7 @@ from glob import glob
 
 demographics = True
 list_models = ["deepseek", "gemma", "Llama", "Ministral", "Qwen2"]
-ids_to_remove = [3768, 60]
+ids_to_remove = [3768, 213, 4104, 1770]
 
 
 if not demographics:

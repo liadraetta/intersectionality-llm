@@ -1,3 +1,4 @@
+import ast
 import pandas as pd
 from collections import defaultdict
 
@@ -6,33 +7,51 @@ class Prompts:
     def __init__(self):
         self.dataset = pd.read_csv("intersectionality-llm/dataset/AnnAttDataset.csv")
         self.base_instruction = {
-            "prelude": "You are a person asked to provide precise information about offensiveness of sentences.",
+            # "prelude": "You are a person asked to provide precise information about offensiveness of sentences.",
+            "person_info": "You are a {race} {gender} {political_leaning}",
+            "prelude": " asked to provide precise information about offensiveness of a sentence.",
             "call_instr": "### Instruction:",
             "instr": "Given the sentence in input (Input) taken from a social network, your task is to determine if the text is offensive and why.",
             "note": "Some of the sentences may contain hate or explicit language, please provide an answer in any case.",
             "format": "Provide in output (Output) a single label among the following arrays ['offensive', 'not offensive'].",
             "expl_format": "Add a brief explanation following the format [the sentence is offensive/is not offensive] [because] [explanation].",
             "CoT": "Explain your reasoning first, and return a single label. Follow this format [reasoning explanation] [so] [the sentence is offensive/is not offensive].",
-            "output": "Your output: ",
+            "output": "Output: ",
         }
         self.user_dict = self._build_user_dict()
 
         self.few_shot = {
-            "input_yes": "Input:  A girl that looked like she worth the world to ya is around the corner getting fucked for a perk #Facts",
-            "output_yes": "Output: [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]",
-            "output_yes_CoT": "Output: [The sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language][so][the sentence is offensive]",
+            "input_offensive1": "Input: A girl that looked like she worth the world to ya is around the corner getting fucked for a perk #Facts",
+            "output_offensive1": "Output: [The sentence is offensive][because][it conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language]",
+            "output_offensive_CoT1": "Output: [The sentence conveys a stereotypical message suggesting that women use their bodies to obtain benefits and contains vulgar language][so][the sentence is offensive]",
 
-            "input_no": "Input: i read these facts Egypt has like 6 times the population of Syria. It would be a lot more balanced if you included Saudi Arabia (33 million), Yemen (28 million) and Iraq (38 million) for example",
-            "output_no": "Output: [The sentence is not offensive][because][it merely provides information on the population of certain countries]",
-            "output_no_CoT": "Output: [The sentence merely provides information on the population of certain countries][so][the sentence is not offensive]"
+            "input_not1": "Input: as a black person, i disagree with white people saying nigga",
+            "output_not1": "Output: [The sentence is not offensive][because][the person is expressing an opinion about the misuse of the racial slur 'nigga']",
+            "output_not_CoT1": "Output: [The person is expressing an opinion about the misuse of the racial slur 'nigga'][so][the sentence is not offensive]",
+
+            "input_offensive2": "Input: to call black people niggas is just funny",
+            "output_offensive2": "Output: [The sentence is offensive][because][it promotes the use of a racial slur]",
+            "output_offensive_CoT2": "Output: [The sentence promotes the use of a racial slur][so][the sentence is offensive]",
+
+            "input_not2": "Input: bitch it's fucking spring, why is this weather wildin? :triumph:",
+            "output_not2": "Output: [The sentence is not offensive][because][it is just a colloquial way to comment on the weather]",
+            "output_not_CoT2": "Output: [The sentence is just a colloquial way to comment on the weather][so][the sentence is not offensive]"
+
+
         }
-
-
-    
+    def build_person_info(self, user_demographics_selected):
+        """Build person info string based on user demographics."""
+        base_person_info = self.base_instruction['person_info']
+        person_info = base_person_info.format(
+            race=f" {user_demographics_selected.get('race', "")} ",
+            gender=f" {user_demographics_selected.get("gender", "person")} ",
+            political_leaning=f" with {user_demographics_selected.get('political')} political leaning" if user_demographics_selected.get("political") else ""
+        )
+        return person_info.strip()
 
     
     def _build_user_dict(self):
-        """Build user demographics dictionary from dataset."""
+        #Build user demographics dictionary from dataset.
         df_demographics = self.dataset[["annId", "annotatorGender", "annotatorRace", "annotatorPoliticsBinary"]]
         df_demographics = df_demographics.drop_duplicates(subset="annId")
         
@@ -42,11 +61,11 @@ class Prompts:
             user_dict[user_id]["gender"] = row["annotatorGender"]
             user_dict[user_id]["race"] = row["annotatorRace"]
             # user_dict[user_id]["generation"] = row["annotatorGeneration"]
-            user_dict[user_id]["political leaning"] = row["annotatorPoliticsBinary"]
+            user_dict[user_id]["political"] = row["annotatorPoliticsBinary"]
 
         
         return user_dict
-    
+
 
 
     def get_demographics(self, user_id, demographic_traits=None):
@@ -66,34 +85,45 @@ class Prompts:
 
     def build_prompt(self, text, selected_demographics=None, CoT=False):
         """Build the prompt string."""
-        prelude = self.base_instruction['prelude']
-        
-        # Add demographics if provided and not empty 
-        if selected_demographics:
-            demographics_str = f" You are characterized by the following demographics: {selected_demographics}"
-            prelude += demographics_str
-        
+        #person_info_notformatted = self.base_instruction['person_info']
+        prelude_notformatted = self.base_instruction['prelude']
+        person_info_formatted = self.build_person_info(selected_demographics)  
+        prelude = f"{person_info_formatted}{prelude_notformatted}"
+        # Remove all extra spaces
+        prelude = ' '.join(prelude.split())
+
+
         if CoT:
             format_instruction = f"{self.base_instruction['format']} {self.base_instruction['CoT']}"
-            output_example_yes = f"{self.few_shot['output_yes_CoT']}"
-            output_example_no = f"{self.few_shot['output_no_CoT']}"
+            output_example_yes1 = f"{self.few_shot['output_offensive_CoT1']}"
+            output_example_no1 = f"{self.few_shot['output_not_CoT1']}"
+            output_example_yes2 = f"{self.few_shot['output_offensive_CoT2']}"
+            output_example_no2 = f"{self.few_shot['output_not_CoT2']}"
+
         else:
             format_instruction = f"{self.base_instruction['format']} {self.base_instruction['expl_format']}"
-            output_example_yes = f"{self.few_shot['output_yes']}"
-            output_example_no = f"{self.few_shot['output_no']}"
-        
+            output_example_yes1 = f"{self.few_shot['output_offensive1']}"
+            output_example_no1 = f"{self.few_shot['output_not1']}"
+            output_example_yes2 = f"{self.few_shot['output_offensive2']}"
+            output_example_no2 = f"{self.few_shot['output_not2']}"
 
         prompt = (f"{prelude}\n "
                  f"{self.base_instruction['call_instr']}\n "
                  f"{self.base_instruction['instr']} {self.base_instruction['note']}\n "
-                 f"{format_instruction}\n "
+                 f"{format_instruction}\n\n "
 
                  f"Example 1:\n "
-                 f"{self.few_shot['input_yes']}\n "
-                 f"{output_example_yes}\n "
+                 f"{self.few_shot['input_offensive1']}\n "
+                 f"{output_example_yes1}\n "
                  f"Example 2:\n "
-                 f"{self.few_shot['input_no']}\n "
-                 f"{output_example_no}\n "
+                 f"{self.few_shot['input_not1']}\n "
+                 f"{output_example_no1}\n "
+                 f"Exaple 3:\n "
+                 f"{self.few_shot['input_offensive2']}\n "
+                 f"{output_example_yes2}\n "
+                 f"Example 4:\n "
+                 f"{self.few_shot['input_not2']}\n "
+                 f"{output_example_no2}\n\n "
 
                  f"Example to label:\n "
                  f"Input: {text}\n "

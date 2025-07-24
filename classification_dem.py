@@ -1,5 +1,6 @@
 import pandas as pd 
 import csv
+import argparse
 from itertools import combinations
 import transformers
 import torch
@@ -28,14 +29,22 @@ df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits='
 df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=['gender', 'race'], CoT=False), axis=1)
 
 # Prompt with all demographics and CoT
-df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=['gender', 'race', 'political leaning'], CoT=True), axis=1)
+df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=['gender', 'race', 'political'], CoT=True), axis=1)
 """
+def parse_command_line_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--model_id', type=str)
+    parser.add_argument('--batch_size', type=int, default=32)
+    parser.add_argument('--cot', action='store_true', help='Use Chain of Thought (CoT) prompting')
+    return parser.parse_args()
 
-
+args = parse_command_line_args()
 df = pd.read_csv("intersectionality-llm/dataset/AnnAttDataset.csv")
 
-model_id = "Qwen/Qwen2-7B-Instruct"
+model_id = args.model_id
 model_name = model_id.split("/")[1].split("-")[0]
+CoT = args.cot
+batch_size = args.batch_size
 
 dir_predictions_dem_model = f"intersectionality-llm/predictions_dem/{model_name}/original"
 dir_processed_dem_model = f"intersectionality-llm/processed_dataset_dem/{model_name}"
@@ -58,7 +67,7 @@ model = AutoModelForCausalLM.from_pretrained(
 
 device=next(model.parameters()).device
 
-list_traits = ["gender", "race", "political leaning"]
+list_traits = ["gender", "race", "political"]
 
 for r in range(1,len(list_traits)+1):
     print("subset lenght: ", r)
@@ -71,11 +80,12 @@ for r in range(1,len(list_traits)+1):
         df = df.copy()
         
         demographic_traits=list_dem
-        CoT=False
-        batch_size=16
 
         df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=demographic_traits, CoT=CoT), axis=1)
-
+        print(df["prompt"][0])
+        print(f"\n\n\n")
+        continue
+        #raise ValueError("STOP HERE")  # Debugging point
 
         # obtain variables for the file name and the processed dataset
         demogr_str = "_".join(demographic_traits) if demographic_traits else "baseline"
@@ -112,7 +122,7 @@ for r in range(1,len(list_traits)+1):
                 input_ids,
                 attention_mask = attention_mask,
                 do_sample=False,
-                max_new_tokens=100,
+                max_new_tokens=80,
                 pad_token_id=tokenizer.eos_token_id
                 )
             
@@ -130,34 +140,3 @@ for r in range(1,len(list_traits)+1):
                     'demographics': demographics,
                     'output': gen_output
                 })
-
-        """for _,item in tqdm(df.iterrows(),total=len(df)):
-            encoded = tokenizer(item.prompt, return_tensors="pt")
-            input_ids = encoded.input_ids.to(device)
-            attention_mask = encoded.attention_mask.to(device)
-
-            with torch.no_grad():
-                outputs = model.generate(
-                input_ids,
-                attention_mask = attention_mask,
-                do_sample=False,
-                max_new_tokens=100,
-                pad_token_id=tokenizer.eos_token_id
-                )
-
-            # gen_output = tokenizer.batch_decode(outputs, skip_special_tokens=True)[0]
-            input_length = input_ids.shape[1]
-            new_tokens = outputs[0][input_length:]
-            gen_output = tokenizer.decode(new_tokens, skip_special_tokens=True)
-            
-            demographics = extract_demographics(item.prompt)
-
-            writer.writerow({
-                'offensiveYN':item.offensiveYN,
-                'postId':item.postId, 
-                'annId': item.annId, 
-                'demographics':demographics, 
-                'output':gen_output
-                })"""
-
-

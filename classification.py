@@ -1,6 +1,7 @@
 import pandas as pd 
 import csv
 import transformers
+import argparse
 import torch
 from tqdm import tqdm
 from pathlib import Path
@@ -37,22 +38,26 @@ df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=[
 df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=['gender', 'race', 'political leaning'], CoT=True), axis=1)
 """
 
+def parse_command_line_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--model_id', type=str)
+    parser.add_argument('--batch_size', type=int, default=32)
+    parser.add_argument('--cot', action='store_true', help='Use Chain of Thought (CoT) prompting')
+    return parser.parse_args()
 
-# obtain subset
+args = parse_command_line_args()
 df = pd.read_csv("intersectionality-llm/dataset/AnnAttDataset.csv")
 
+model_id = args.model_id
+model_name = model_id.split("/")[1].split("-")[0]
+CoT = args.cot
+batch_size = args.batch_size
 
 #  process subset
 df = df.copy()
 demographic_traits=None
-CoT=True
-batch_size=16
 
 df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=demographic_traits, CoT=CoT), axis=1)
-
-# obtain variables for the file name and the processed dataset
-model_id = "mistralai/Ministral-8B-Instruct-2410"
-model_name = model_id.split("/")[1].split("-")[0]
 
 demogr_str = "_".join(demographic_traits) if demographic_traits else "baseline"
 cot_str = "CoT" if CoT else "noCoT"
@@ -108,7 +113,7 @@ for batch_idx in tqdm(range(num_batches), desc="Processing batches"):
       input_ids,
       attention_mask = attention_mask,
       do_sample=False,
-      max_new_tokens=100,
+      max_new_tokens=80,
       pad_token_id=tokenizer.eos_token_id
     )
   
