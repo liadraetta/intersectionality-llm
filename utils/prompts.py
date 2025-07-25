@@ -43,9 +43,9 @@ class Prompts:
         """Build person info string based on user demographics."""
         base_person_info = self.base_instruction['person_info']
         person_info = base_person_info.format(
-            race=f" {user_demographics_selected.get('race', "")} ",
-            gender=f" {user_demographics_selected.get("gender", "person")} ",
-            political_leaning=f" with {user_demographics_selected.get('political')} political leaning" if user_demographics_selected.get("political") else ""
+            race=f" {user_demographics_selected.get('race', '')} ",
+            gender=f" {user_demographics_selected.get('gender', 'person')} ",
+            political_leaning=f" with {user_demographics_selected.get('political')} political leaning" if user_demographics_selected.get('political') else ""
         )
         return person_info.strip()
 
@@ -118,7 +118,7 @@ class Prompts:
                  f"Example 2:\n "
                  f"{self.few_shot['input_not1']}\n "
                  f"{output_example_no1}\n "
-                 f"Exaple 3:\n "
+                 f"Example 3:\n "
                  f"{self.few_shot['input_offensive2']}\n "
                  f"{output_example_yes2}\n "
                  f"Example 4:\n "
