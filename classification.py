@@ -131,34 +131,3 @@ for batch_idx in tqdm(range(num_batches), desc="Processing batches"):
         'demographics': demographics,
         'output': gen_output
     })
-
-"""
-for _,item in tqdm(df.iterrows(),total=len(df)):
-  encoded = tokenizer(item.prompt, return_tensors="pt")
-  input_ids = encoded.input_ids.to(device)
-  attention_mask = encoded.attention_mask.to(device)
-
-  with torch.no_grad():
-    outputs = model.generate(
-      input_ids,
-      attention_mask = attention_mask,
-      do_sample=False,
-      max_new_tokens=30,
-      pad_token_id=tokenizer.eos_token_id
-    )
-  
-  for i, (_, item) in enumerate(df_batch.iterrows()):
-    input_length = input_ids[i].shape[0]
-    new_tokens = outputs[i][input_length:]
-    gen_output = tokenizer.decode(new_tokens, skip_special_tokens=True)
-    
-    # Extract demographics and write row
-    demographics = extract_demographics(item.prompt)
-    writer.writerow({
-        'offensiveYN': item.offensiveYN,
-        'HITId': item.HITId,
-        'WorkerId': item.WorkerId,
-        'demographics': demographics,
-        'output': gen_output
-    })
-"""

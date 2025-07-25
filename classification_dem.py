@@ -82,10 +82,6 @@ for r in range(1,len(list_traits)+1):
         demographic_traits=list_dem
 
         df["prompt"] = df.apply(lambda row: prompts.get_prompt(row, demographic_traits=demographic_traits, CoT=CoT), axis=1)
-        print(df["prompt"][0])
-        print(f"\n\n\n")
-        continue
-        #raise ValueError("STOP HERE")  # Debugging point
 
         # obtain variables for the file name and the processed dataset
         demogr_str = "_".join(demographic_traits) if demographic_traits else "baseline"
