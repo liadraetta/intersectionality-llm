@@ -1,13 +1,13 @@
 Classification Report for cleaned_predictions_deepseek_noCoT_baseline
 ==================================================
-Total samples: 3082
+Total samples: 3072
 
                precision    recall  f1-score   support
 
-Not Offensive      0.828     0.339     0.481      1496
-    Offensive      0.603     0.839     0.702      1586
+Not Offensive      0.846     0.202     0.326      1492
+    Offensive      0.575     0.772     0.659      1580
 
-    micro avg      0.652     0.596     0.623      3082
-    macro avg      0.716     0.589     0.591      3082
- weighted avg      0.713     0.596     0.595      3082
+    micro avg      0.614     0.495     0.548      3072
+    macro avg      0.710     0.487     0.492      3072
+ weighted avg      0.706     0.495     0.497      3072
 
