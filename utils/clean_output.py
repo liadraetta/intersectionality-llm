@@ -3,12 +3,12 @@ import ast
 
 def extract_demographics(prompt):
     """
+    TODO: TO FIX TO WORK WITH NEW PROMPT ---
     Extract demographics dictionary from prompt text.
     Returns the dictionary if found, otherwise returns "None".
     """
     # Pattern to match "You are characterized by the following demographics:" followed by a dictionary
     pattern = r"You are characterized by the following demographics:\s*(\{[^}]*\})"
-    
     match = re.search(pattern, prompt)
     
     if match:
