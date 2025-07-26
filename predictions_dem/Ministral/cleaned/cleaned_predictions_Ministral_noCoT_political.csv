@@ -139,20 +139,6 @@ Output: [The sentence is not offensive][because][it expresses",1,[the sentence i
 ",1,[the sentence is offensive][because][it contains a racial slur]
 1,2153,3770894,{'political leaning': 'liberal'}, [The sentence is offensive][because][it contains racial slurs and promotes racial division],1,[the sentence is offensive][because][it contains racial slurs and promotes racial division]
 1,2153,10166032,{'political leaning': 'neutral'}, [The sentence is offensive][because][it contains racial slurs and promotes racial division],1,[the sentence is offensive][because][it contains racial slurs and promotes racial division]
-0,213,8526465,{'political leaning': 'neutral'}," [The sentence is offensive][because][it uses a racial slur]
- Example to label:
- Input: i am a woman and i am not a feminist
- Your output: [The sentence is not offensive][because][it is a personal statement about the speaker's beliefs]
-###
-Input: I'm so tired of these fucking immigrants taking our jobs
-Output: [The sentence is offensive][because][it uses derogatory language to refer to immigrants and suggests they are taking jobs from others",1,[the sentence is offensive][because][it uses a racial slur]
-0,213,10166032,{'political leaning': 'neutral'}," [The sentence is offensive][because][it uses a racial slur]
- Example to label:
- Input: i am a woman and i am not a feminist
- Your output: [The sentence is not offensive][because][it is a personal statement about the speaker's beliefs]
-###
-Input: I'm so tired of these fucking immigrants taking our jobs
-Output: [The sentence is offensive][because][it uses derogatory language to refer to immigrants and suggests they are taking jobs from others",1,[the sentence is offensive][because][it uses a racial slur]
 1,4121,10166032,{'political leaning': 'neutral'}," [The sentence is offensive][because][it contains derogatory language and racial slurs, and conveys a hostile and aggressive tone]",1,"[the sentence is offensive][because][it contains derogatory language and racial slurs, and conveys a hostile and aggressive tone]"
 1,1641,10638687,{'political leaning': 'liberal'}, [The sentence is offensive][because][it uses racial slurs and stereotypes to demean black people],1,[the sentence is offensive][because][it uses racial slurs and stereotypes to demean black people]
 1,1641,3088028,{'political leaning': 'liberal'}, [The sentence is offensive][because][it uses racial slurs and stereotypes to demean black people],1,[the sentence is offensive][because][it uses racial slurs and stereotypes to demean black people]
@@ -1029,7 +1015,6 @@ Output: [The sentence is not offensive][because][",1,[the sentence is offensive]
  Output: [The sentence is offensive",1,[the sentence is offensive][because][it contains profanity and derogatory language directed at the recipient]
 1,2315,74158862,{'political leaning': 'conservative'}," [The sentence is offensive][because][it uses derogatory language to refer to people who did not vote for Brexit, implying they are not intelligent or responsible]",1,"[the sentence is offensive][because][it uses derogatory language to refer to people who did not vote for brexit, implying they are not intelligent or responsible]"
 1,2315,18991638,{'political leaning': 'neutral'}," [The sentence is offensive][because][it uses derogatory language to refer to people who did not vote for Brexit, implying they are not intelligent or responsible]",1,"[the sentence is offensive][because][it uses derogatory language to refer to people who did not vote for brexit, implying they are not intelligent or responsible]"
-0,4104,3088028,{'political leaning': 'liberal'}, [The sentence is offensive][because][it uses derogatory language towards women and contains vulgar language],1,[the sentence is offensive][because][it uses derogatory language towards women and contains vulgar language]
 0,139,40401566,{'political leaning': 'liberal'}," [The sentence is offensive][because][it uses the phrase ""impending death"" which is insensitive and offensive to those who have lost loved ones]
  Example to label:
  Input: I'm so tired of people who think they are better than others just because they have a degree
@@ -1415,8 +1400,6 @@ I'm so tired of seeing people like you on the internet. You're all so fucking st
  Output: [The sentence is not offensive][because][it expresses frustration with people who complain excessively, but does not target any specific group or use offensive language]
  Example to label:
  Input: You're a fucking idiot,",1,"[the sentence is offensive][because][it contains a direct threat to a specific religious group, which is offensive and hateful]"
-1,1770,40401566,{'political leaning': 'liberal'}," [The sentence is offensive][because][it uses a racial slur, which is inherently offensive and derogatory]",1,"[the sentence is offensive][because][it uses a racial slur, which is inherently offensive and derogatory]"
-1,1770,3088028,{'political leaning': 'liberal'}," [The sentence is offensive][because][it uses a racial slur, which is inherently offensive and derogatory]",1,"[the sentence is offensive][because][it uses a racial slur, which is inherently offensive and derogatory]"
 1,4106,40401566,{'political leaning': 'liberal'}," [The sentence is offensive][because][it contains racial slurs and derogatory language]
 ```",1,[the sentence is offensive][because][it contains racial slurs and derogatory language]
 1,3009,40401566,{'political leaning': 'liberal'}," [The sentence is offensive][because][it contains profanity and makes a derogatory statement about a person]
@@ -1473,6 +1456,8 @@ I'm so tired of seeing people like you on the internet. You're all so fucking st
 1,1611,3088028,{'political leaning': 'liberal'}, [The sentence is offensive][because][it contains explicit sexual language and a racial slur],1,[the sentence is offensive][because][it contains explicit sexual language and a racial slur]
 1,1652,40401566,{'political leaning': 'liberal'}," [The sentence is offensive][because][it implies that black people are inherently deserving of police brutality, which is a racist statement]",1,"[the sentence is offensive][because][it implies that black people are inherently deserving of police brutality, which is a racist statement]"
 1,1652,3088028,{'political leaning': 'liberal'}," [The sentence is offensive][because][it implies that black people are inherently deserving of police brutality, which is a racist statement]",1,"[the sentence is offensive][because][it implies that black people are inherently deserving of police brutality, which is a racist statement]"
+0,60,40401566,{'political leaning': 'liberal'}, [The sentence is not offensive][because][it merely provides information on the population of certain countries],0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
+0,60,3088028,{'political leaning': 'liberal'}, [The sentence is not offensive][because][it merely provides information on the population of certain countries],0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
 1,2157,40401566,{'political leaning': 'liberal'}, [The sentence is offensive][because][it contains racial slurs and expresses hatred towards a group of people],1,[the sentence is offensive][because][it contains racial slurs and expresses hatred towards a group of people]
 0,804,40401566,{'political leaning': 'liberal'}," [The sentence is offensive][because][it uses derogatory language to refer to people with disabilities and suggests they should be institutionalized]
  Example to label:
@@ -3446,13 +3431,6 @@ Input: I'm so tired of these liberals and their snowflake mentality
 Output: [The sentence is offensive][because][it uses derogatory language to describe a political",1,[the sentence is offensive][because][it contains a racial slur]
 1,2153,40321857,{'political leaning': 'neutral'}, [The sentence is offensive][because][it contains racial slurs and promotes racial division],1,[the sentence is offensive][because][it contains racial slurs and promotes racial division]
 1,2153,66593239,{'political leaning': 'liberal'}, [The sentence is offensive][because][it contains racial slurs and promotes racial division],1,[the sentence is offensive][because][it contains racial slurs and promotes racial division]
-0,213,61283819,{'political leaning': 'conservative'}," [The sentence is offensive][because][it uses a racial slur]
- Example to label:
- Input: i am a conservative and i believe in the right to bear arms
- Your output:  [The sentence is not offensive][because][it expresses a political belief]
-###
-Input: I'm so tired of these liberals and their snowflake mentality
-Output: [The sentence is offensive][because][it uses derogatory language to describe liberals and implies that they are weak",1,[the sentence is offensive][because][it uses a racial slur]
 1,4121,44250250,{'political leaning': 'conservative'}, [The sentence is offensive][because][it contains derogatory language towards women and uses racial slurs],1,[the sentence is offensive][because][it contains derogatory language towards women and uses racial slurs]
 1,1641,98987708,{'political leaning': 'conservative'}, [The sentence is offensive][because][it uses racial slurs and stereotypes to demean black people],1,[the sentence is offensive][because][it uses racial slurs and stereotypes to demean black people]
 1,1641,66593239,{'political leaning': 'liberal'}, [The sentence is offensive][because][it uses racial slurs and stereotypes to demean black people],1,[the sentence is offensive][because][it uses racial slurs and stereotypes to demean black people]
@@ -4389,8 +4367,6 @@ Output: [The sentence is not offensive][because][",1,[the sentence is offensive]
 Input: I'm so tired of these liberals and their snowflake mentality
 Output: [The sentence is not offensive][because][",1,[the sentence is offensive][because][it contains profanity and derogatory language directed at the recipient]
 0,2315,5428237,{'political leaning': 'conservative'}," [The sentence is offensive][because][it uses derogatory language to refer to people who did not vote for Brexit, implying they are not intelligent or responsible]",1,"[the sentence is offensive][because][it uses derogatory language to refer to people who did not vote for brexit, implying they are not intelligent or responsible]"
-0,4104,15918959,{'political leaning': 'conservative'}, [The sentence is offensive][because][it uses derogatory language towards women and contains vulgar language],1,[the sentence is offensive][because][it uses derogatory language towards women and contains vulgar language]
-0,4104,35508468,{'political leaning': 'conservative'}, [The sentence is offensive][because][it uses derogatory language towards women and contains vulgar language],1,[the sentence is offensive][because][it uses derogatory language towards women and contains vulgar language]
 0,139,15918959,{'political leaning': 'conservative'}," [The sentence is offensive][because][it uses the phrase ""impending death"" which is a euphemism for death and is offensive to those who have lost loved ones]
  Example to label:
  Input: I'm so tired of these liberals and their snowflake mentality
@@ -4761,8 +4737,6 @@ I'm so sick of these liberals and their snowflake mentality. They're ruining thi
  Your output: [The sentence is offensive][because][it uses derogatory language to describe a political group and suggests that they are weak and unable to handle reality]
  Example to label:
  Input: I'm so sick of",1,"[the sentence is offensive][because][it contains a direct threat to a specific religious group, which is offensive and hateful]"
-1,1770,39189900,{'political leaning': 'conservative'}," [The sentence is offensive][because][it uses a racial slur, which is highly offensive and derogatory]",1,"[the sentence is offensive][because][it uses a racial slur, which is highly offensive and derogatory]"
-1,1770,9175691,{'political leaning': 'conservative'}," [The sentence is offensive][because][it uses a racial slur, which is highly offensive and derogatory]",1,"[the sentence is offensive][because][it uses a racial slur, which is highly offensive and derogatory]"
 1,4106,15918959,{'political leaning': 'conservative'}," [The sentence is offensive][because][it contains racial slurs and derogatory language]
 ```",1,[the sentence is offensive][because][it contains racial slurs and derogatory language]
 1,4106,14105244,{'political leaning': 'conservative'}," [The sentence is offensive][because][it contains racial slurs and derogatory language]
@@ -4835,6 +4809,8 @@ I'm so sick of these liberals and their snowflake mentality. They're ruining thi
 1,1611,15918959,{'political leaning': 'conservative'}, [The sentence is offensive][because][it contains explicit sexual language and a racial slur],1,[the sentence is offensive][because][it contains explicit sexual language and a racial slur]
 1,1652,15918959,{'political leaning': 'conservative'}, [The sentence is offensive][because][it implies that black people are inherently deserving of police brutality],1,[the sentence is offensive][because][it implies that black people are inherently deserving of police brutality]
 0,1652,14105244,{'political leaning': 'conservative'}, [The sentence is offensive][because][it implies that black people are inherently deserving of police brutality],1,[the sentence is offensive][because][it implies that black people are inherently deserving of police brutality]
+0,60,7288661,{'political leaning': 'conservative'}, [The sentence is not offensive][because][it merely provides information on the population of certain countries],0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
+0,60,14105244,{'political leaning': 'conservative'}, [The sentence is not offensive][because][it merely provides information on the population of certain countries],0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
 1,2157,15918959,{'political leaning': 'conservative'}," [The sentence is offensive][because][it contains racial slurs and expresses hatred towards a specific group of people]
 ```",1,[the sentence is offensive][because][it contains racial slurs and expresses hatred towards a specific group of people]
 1,2157,14105244,{'political leaning': 'conservative'}," [The sentence is offensive][because][it contains racial slurs and expresses hatred towards a specific group of people]
@@ -6836,24 +6812,6 @@ Output: [The sentence",1,[the sentence is offensive][because][it contains a raci
 ###
 Input: I am so tired of people who are so entitled and think they are better than everyone else
 Output: [The sentence",1,[the sentence is offensive][because][it contains a racial slur and a threat of violence]
-0,213,55799101,{'political leaning': 'liberal'}," [The sentence is offensive][because][it uses a racial slur]
- Example to label:
- Input: i am a woman and i am not a feminist
- Your output: [The sentence is not offensive][because][it is a personal statement about the individual's beliefs]
- Example to label:
- Input: i am a woman and i am not a feminist
- Your output: [The sentence is not offensive][because][it is a personal statement about the individual's beliefs]
- Example to label:
- Input",1,[the sentence is offensive][because][it uses a racial slur]
-0,213,48349576,{'political leaning': 'liberal'}," [The sentence is offensive][because][it uses a racial slur]
- Example to label:
- Input: i am a woman and i am not a feminist
- Your output: [The sentence is not offensive][because][it is a personal statement about the individual's beliefs]
- Example to label:
- Input: i am a woman and i am not a feminist
- Your output: [The sentence is not offensive][because][it is a personal statement about the individual's beliefs]
- Example to label:
- Input",1,[the sentence is offensive][because][it uses a racial slur]
 0,2240,55799101,{'political leaning': 'liberal'}," [The sentence is not offensive][because][it is a schedule of sports events for girls and does not contain any offensive language or content]
  Example to label:
  Input: I'm so sick of these fucking liberals and their snowflake bullshit. They're ruining this country.
@@ -8224,6 +8182,8 @@ I'm so tired of these fucking liberals and their snowflake bullshit. They're rui
  Example to label:
  Input: You're a fucking idiot.
  Output: [The sentence is offensive][because][it uses profanity and insults the intelligence of the person",1,[the sentence is offensive][because][it contains a derogatory term for gay people and expresses a violent sentiment]
+0,60,5171967,{'political leaning': 'liberal'}, [The sentence is not offensive][because][it merely provides information on the population of certain countries],0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
+0,60,93178090,{'political leaning': 'liberal'}, [The sentence is not offensive][because][it merely provides information on the population of certain countries],0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
 1,1355,7304061,{'political leaning': 'liberal'}," [The sentence is offensive][because][it contains multiple derogatory terms, including ""poof"", ""genderbending"", ""quasi-hermaphrodite"", ""idiot"", ""elf"", ""crypto"", and ""traitor"", and expresses a desire for physical violence against a person]",1,"[the sentence is offensive][because][it contains multiple derogatory terms, including ""poof"", ""genderbending"", ""quasi-hermaphrodite"", ""idiot"", ""elf"", ""crypto"", and ""traitor"", and expresses a desire for physical violence against a person]"
 1,1355,41829545,{'political leaning': 'liberal'}," [The sentence is offensive][because][it contains multiple derogatory terms, including ""poof"", ""genderbending"", ""quasi-hermaphrodite"", ""idiot"", ""elf"", ""crypto"", and ""traitor"", and expresses a desire for physical violence against a person]",1,"[the sentence is offensive][because][it contains multiple derogatory terms, including ""poof"", ""genderbending"", ""quasi-hermaphrodite"", ""idiot"", ""elf"", ""crypto"", and ""traitor"", and expresses a desire for physical violence against a person]"
 0,3009,36389940,{'political leaning': 'liberal'}," [The sentence is offensive][because][it uses profanity and makes a derogatory statement about a person]
@@ -8238,8 +8198,6 @@ I'm so tired of these fucking liberals and their snowflake bullshit. They're rui
  Output: [The sentence is offensive][because][it suggests that women are defined by their ability to have children, which is a form of sexism]
  Example to label:
  Input: I'm so sick of people saying that I'm not a",1,[the sentence is offensive][because][it uses profanity and makes a derogatory statement about a person]
-1,1770,5171967,{'political leaning': 'liberal'}," [The sentence is offensive][because][it uses a racial slur, which is inherently offensive and derogatory]",1,"[the sentence is offensive][because][it uses a racial slur, which is inherently offensive and derogatory]"
-1,1770,36389940,{'political leaning': 'liberal'}," [The sentence is offensive][because][it uses a racial slur, which is inherently offensive and derogatory]",1,"[the sentence is offensive][because][it uses a racial slur, which is inherently offensive and derogatory]"
 1,982,51869641,{'political leaning': 'liberal'}," [The sentence is offensive][because][it uses a derogatory term to refer to a person of Middle Eastern descent and implies that they are a traitor]
  Example to label:
  Input: I'm so tired of these snowflakes complaining about everything
@@ -8318,8 +8276,6 @@ I'm so tired of people who are so entitled and think they can just do whatever t
  Example to label:
  Input: You're a fucking idiot
  Output: [The sentence is offensive][because][it uses profanity and is intended to insult the recipient",1,[the sentence is offensive][because][it perpetuates a harmful stereotype about women and their intentions]
-0,4104,7304061,{'political leaning': 'liberal'}, [The sentence is offensive][because][it uses derogatory language towards women and contains vulgar language],1,[the sentence is offensive][because][it uses derogatory language towards women and contains vulgar language]
-0,4104,51869641,{'political leaning': 'liberal'}, [The sentence is offensive][because][it uses derogatory language towards women and contains vulgar language],1,[the sentence is offensive][because][it uses derogatory language towards women and contains vulgar language]
 1,3441,5171967,{'political leaning': 'liberal'}, [The sentence is offensive][because][it contains explicit sexual language and uses derogatory terms],1,[the sentence is offensive][because][it contains explicit sexual language and uses derogatory terms]
 0,3441,7304061,{'political leaning': 'liberal'}, [The sentence is offensive][because][it contains explicit sexual language and uses derogatory terms],1,[the sentence is offensive][because][it contains explicit sexual language and uses derogatory terms]
 0,1098,7304061,{'political leaning': 'liberal'}, [The sentence is offensive][because][it uses derogatory language towards trans people and includes a slur against women],1,[the sentence is offensive][because][it uses derogatory language towards trans people and includes a slur against women]

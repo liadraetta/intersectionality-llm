@@ -1,13 +1,13 @@
 Classification Report for cleaned_predictions_Llama_noCoT_gender_race
 ==================================================
-Total samples: 3082
+Total samples: 3072
 
                precision    recall  f1-score   support
 
-Not Offensive      0.904     0.445     0.597      1496
-    Offensive      0.646     0.955     0.771      1586
+Not Offensive      0.817     0.719     0.765      1492
+    Offensive      0.762     0.847     0.802      1580
 
-    micro avg      0.708     0.708     0.708      3082
-    macro avg      0.775     0.700     0.684      3082
- weighted avg      0.771     0.708     0.686      3082
+     accuracy                          0.785      3072
+    macro avg      0.789     0.783     0.784      3072
+ weighted avg      0.788     0.785     0.784      3072
 

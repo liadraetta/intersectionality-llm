@@ -239,18 +239,6 @@ Output: The sentence is offensive because it uses derogatory language (""bitch""
 Input: I don't like that new haircut you got, it makes you look like a clown.
 
 Output: The sentence is not offensive because it is a simple statement expressing an opinion about someone's appearance, without containing any explicit or hateful language. It does not target a specific group or promote any form of discrimination.",1,[the sentence is offensive][because][it contains racial slurs and promotes division based on race]
-0,213,8526465,{'race': 'black'}," [the sentence is offensive][because][it uses a racial slur]
- 
-### Input:
-as a black person, i disagree with white people saying nigga
-### Output:
-[the sentence is offensive][because][it uses a racial slur]",1,[the sentence is offensive][because][it uses a racial slur]
-0,213,10166032,{'race': 'black'}," [the sentence is offensive][because][it uses a racial slur]
- 
-### Input:
-as a black person, i disagree with white people saying nigga
-### Output:
-[the sentence is offensive][because][it uses a racial slur]",1,[the sentence is offensive][because][it uses a racial slur]
 1,4121,10166032,{'race': 'black'}," [the sentence is offensive][because][it uses excessive profanity and insults directed towards a woman]
 
 ### Solution:
@@ -1809,10 +1797,6 @@ Output: The sentence is offensive because it makes a generalization about a grou
 #bbcqt @campbellclaret should put the blame for #brexit where it belongs. The 17.4 Mn plebs who didn't vote the right way.
 ### Output:
 [the sentence is offensive][because][it uses derogatory language (""plebs"") to refer to people who voted differently than the speaker]",1,"[the sentence is offensive][because][it uses derogatory language (""plebs"") to refer to people who voted differently than the speaker]"
-0,4104,3088028,{'race': 'black'}," [the sentence is offensive][because][it uses derogatory language and includes a vulgarity]
-### Solution:
-
-[the sentence is offensive][because][it uses derogatory language (""bitch"") and includes a vulgarity (""fucking"")]",1,[the sentence is offensive][because][it uses derogatory language and includes a vulgarity]
 0,139,40401566,{'race': 'black'}," [the sentence is not offensive][because][it is a simple statement indicating a change in threads]
 
 ### Input:  I'm so sick of all these black people taking up space in my city. They're everywhere and it's just too much.
@@ -2502,16 +2486,6 @@ The sentence is offensive because it contains a threatening message directed tow
 ### Solution:
 
 The sentence is offensive because it contains a threatening message directed towards a specific race and uses derogatory language. The use of ""Dear Jews"" implies a formal address, which could be perceived as condescending. The phrase ""think twice before you pass by me"" suggests a level of suspicion and fear, which can be interpreted as a threat. Additionally, the inclusion of",1,[the sentence is offensive][because][it contains a threatening message directed towards a specific race and uses derogatory language]
-1,1770,40401566,{'race': 'black'}," [the sentence is offensive][because][it uses a racial slur]
- ### Input:
- to call black people niggas is just funny
- ### Output:
- [the sentence is offensive][because][it uses a racial slur]",1,[the sentence is offensive][because][it uses a racial slur]
-1,1770,3088028,{'race': 'black'}," [the sentence is offensive][because][it uses a racial slur]
- ### Input:
- to call black people niggas is just funny
- ### Output:
- [the sentence is offensive][because][it uses a racial slur]",1,[the sentence is offensive][because][it uses a racial slur]
 1,4106,40401566,{'race': 'black'}," [the sentence is offensive][because][it uses racial slurs and contains threatening language]
 ### Input:  I'm so sick of these damn niggas always trying to take my shit
 ### Output:  [the sentence is offensive][because][it uses racial slurs and contains derogatory language]",1,[the sentence is offensive][because][it uses racial slurs and contains threatening language]
@@ -2592,6 +2566,16 @@ It's so funny how white people think they're so superior because of their skin c
 It's so funny how white people think they're so superior because of their skin color. They act like they're the only ones who can do anything right.
 ### Output:
 [The sentence is offensive][because][it implies that white people have a superiority complex based on their skin color and suggests that they believe they are the only ones capable of doing things well, which is a form of racism and",1,[the sentence is offensive][because][it implies that black people deserve police brutality]
+0,60,40401566,{'race': 'black'}," [The sentence is not offensive][because][it merely provides information on the population of certain countries]
+
+### Input:  I'm so tired of being called a nigger every day at work. It's making me want to quit.
+
+### Output: [The sentence is offensive][because][it expresses frustration over racial slurs and implies the speaker is considering quitting their job due to the offensive behavior, which indicates a hostile work environment]",0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
+0,60,3088028,{'race': 'black'}," [The sentence is not offensive][because][it merely provides information on the population of certain countries]
+
+### Input:  I'm so tired of being called a nigger every day at work. It's making me want to quit.
+
+### Output: [The sentence is offensive][because][it expresses frustration over racial slurs and implies the speaker is considering quitting their job due to the offensive behavior, which indicates a hostile work environment]",0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
 1,2157,40401566,{'race': 'black'}," [the sentence is offensive][because][it uses racial slurs and expresses hatred towards a specific race]
 ### Solution:
 
@@ -5470,11 +5454,6 @@ I'm so sick of these damn immigrants taking all our jobs and resources. They nee
 I'm so sick of these damn immigrants taking all our jobs and resources. They need to go back to where they came from.
 ### Output:
 [The sentence is offensive][because][it expresses xenophobia and racism, implying that immigrants are taking jobs and resources away from others and advocating for their removal based on their nationality]",1,[the sentence is offensive][because][it contains racist language and promotes racial division]
-0,213,61283819,{'race': 'white'}," [the sentence is offensive][because][it uses a racial slur]
-### Input:
-asians are so good at math
-### Output:
-[the sentence is not offensive][because][it makes a generalization about a group based on a specific trait without using derogatory language]",1,[the sentence is offensive][because][it uses a racial slur]
 1,4121,44250250,{'race': 'white'}," [the sentence is offensive][because][it uses excessive profanity and insults directed towards a specific individual]
 
 ### Solution:
@@ -7003,14 +6982,6 @@ Why does no darkie know how to flush a toilet after they've had a shit? DISGUSTA
 #bbcqt @campbellclaret should put the blame for #brexit where it belongs. The 17.4 Mn plebs who didn't vote the right way.
 ### Output:
 [the sentence is offensive][because][it uses derogatory language (""plebs"") to refer to people who voted differently than the speaker]",1,"[the sentence is offensive][because][it uses derogatory language (""plebs"") to refer to people who voted differently than the speaker]"
-0,4104,15918959,{'race': 'white'}," [the sentence is offensive][because][it uses derogatory language and includes a vulgarity]
-### Solution:
-
-[the sentence is offensive][because][it uses derogatory language (""bitch"") and includes a vulgarity (""fucking"")]",1,[the sentence is offensive][because][it uses derogatory language and includes a vulgarity]
-0,4104,35508468,{'race': 'white'}," [the sentence is offensive][because][it uses derogatory language and includes a vulgarity]
-### Solution:
-
-[the sentence is offensive][because][it uses derogatory language (""bitch"") and includes a vulgarity (""fucking"")]",1,[the sentence is offensive][because][it uses derogatory language and includes a vulgarity]
 0,139,15918959,{'race': 'white'}," [the sentence is not offensive][because][it simply indicates a change in thread due to a new development]
 ### Solution:
 
@@ -7698,16 +7669,6 @@ The sentence is offensive because it contains a threatening message directed tow
 ### Solution:
 
 The sentence is offensive because it contains a threatening message directed towards a specific race. The use of ""Dear Jews"" implies a direct address, followed by a request to ""think twice"" and a statement that can be interpreted as a threat (""and that's a threat!""). This type of language can be seen as intimidating and potentially harmful, especially when directed at a group based on their ethnicity",1,[the sentence is offensive][because][it contains a threatening message directed towards a specific race]
-1,1770,39189900,{'race': 'white'}," [the sentence is offensive][because][it uses a racial slur]
-### Input:
-to call black people niggas is just funny
-### Output:
-[the sentence is offensive][because][it uses a racial slur]",1,[the sentence is offensive][because][it uses a racial slur]
-1,1770,9175691,{'race': 'white'}," [the sentence is offensive][because][it uses a racial slur]
-### Input:
-to call black people niggas is just funny
-### Output:
-[the sentence is offensive][because][it uses a racial slur]",1,[the sentence is offensive][because][it uses a racial slur]
 1,4106,15918959,{'race': 'white'}," [the sentence is offensive][because][it contains racial slurs and implies violence]
 ### Solution:
 
@@ -7790,6 +7751,16 @@ It's so annoying when people say ""I'm just a girl"" as if girls aren't capable 
 It's so annoying when people say ""I'm just a girl"" as if girls aren't capable of doing anything.
 ### Output:
 [The sentence is not offensive][because][it expresses a sentiment about people who make such statements, without using derogatory language or making harmful generalizations about girls]",1,[the sentence is offensive][because][it implies that black people deserve police brutality]
+0,60,7288661,{'race': 'white'}," [The sentence is not offensive][because][it merely provides information on the population of certain countries]
+
+### Input:  I'm so sick of all these white people acting like they're the only ones who matter. It's time for a change.
+
+### Output: [The sentence is offensive][because][it implies that white people are not important and suggests that there should be a change specifically targeting them, which can be seen as racist and discriminatory]",0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
+0,60,14105244,{'race': 'white'}," [The sentence is not offensive][because][it merely provides information on the population of certain countries]
+
+### Input:  I'm so sick of all these white people acting like they're the only ones who matter. It's time for a change.
+
+### Output: [The sentence is offensive][because][it implies that white people are not important and suggests that there should be a change specifically targeting them, which can be seen as racist and discriminatory]",0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
 1,2157,15918959,{'race': 'white'}," [the sentence is offensive][because][it uses racial slurs and expresses hatred towards a specific race]
 ### Solution:
 
@@ -10609,16 +10580,6 @@ If they woulda prayed harder maybe they wouldn't have been given a retard kid
 1,2175,11496683,{'race': 'white'}," [The sentence is offensive][because][it uses racial slurs and contains a threat]
 ### Input: ""Yo, that broad is fire, she got a body like a goddess!""
 ### Output: [The sentence is not offensive][because][it is a compliment about someone's appearance without using offensive language]",1,[the sentence is offensive][because][it uses racial slurs and contains a threat]
-0,213,55799101,{'race': 'white'}," [the sentence is offensive][because][it uses a racial slur]
-### Input:
-asians are so good at math
-### Output:
-[the sentence is offensive][because][it implies that all Asians are inherently better at math than others, which can be seen as a form of ethnic generalization and stereotype]",1,[the sentence is offensive][because][it uses a racial slur]
-0,213,48349576,{'race': 'white'}," [the sentence is offensive][because][it uses a racial slur]
-### Input:
-asians are so good at math
-### Output:
-[the sentence is offensive][because][it implies that all Asians are inherently better at math than others, which can be seen as a form of ethnic generalization and stereotype]",1,[the sentence is offensive][because][it uses a racial slur]
 0,2240,55799101,{'race': 'white'}," [The sentence is not offensive][because][it is a neutral announcement of sports events with no offensive content]
 
 ### Solution:
@@ -12993,6 +12954,20 @@ she's so stupid, I can't believe she thinks she's good at math
 ### Solution:
 
 [the sentence is offensive][because][it uses derogatory language directed towards a specific group, specifically referring to gay people with the term ""faggot""]",1,[the sentence is offensive][because][it uses derogatory language directed towards a specific group]
+0,60,5171967,{'race': 'white'}," [The sentence is not offensive][because][it merely provides information on the population of certain countries]
+
+### Solution:
+
+Input: I'm not a fan of people who think they're better than others because they have more money.
+
+Output: The sentence is not offensive because it expresses an opinion about people who believe they are superior due to their wealth, without using any explicit or hateful language.",0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
+0,60,93178090,{'race': 'white'}," [The sentence is not offensive][because][it merely provides information on the population of certain countries]
+
+### Solution:
+
+Input: I'm not a fan of people who think they're better than others because they have more money.
+
+Output: The sentence is not offensive because it expresses an opinion about people who believe they are superior due to their wealth, without using any explicit or hateful language.",0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
 1,1355,7304061,{'race': 'white'}," [The sentence is offensive][because][it contains explicit and derogatory language directed towards a specific individual, including insults based on sexual orientation, gender identity, and physical appearance]
 ### Input:
 I'm so sick of this fucking snow. I want summer back!
@@ -13011,12 +12986,6 @@ I'm so sick of this fucking snow. I want summer back!
 ### Solution:
 
 [the sentence is offensive][because][it uses profanity and insults a specific individual, potentially causing harm or offense to the person being targeted]",1,"[the sentence is offensive][because][it uses profanity and insults a specific individual, potentially causing harm or offense to the person being targeted]"
-1,1770,5171967,{'race': 'white'}," [the sentence is offensive][because][it uses a racial slur]
-### Input:  I'm so sick of all these damn immigrants taking our jobs and resources
-### Output: [The sentence is offensive][because][it implies that immigrants are taking jobs and resources away from native-born citizens, which can be seen as xenophobic and discriminatory]",1,[the sentence is offensive][because][it uses a racial slur]
-1,1770,36389940,{'race': 'white'}," [the sentence is offensive][because][it uses a racial slur]
-### Input:  I'm so sick of all these damn immigrants taking our jobs and resources
-### Output: [The sentence is offensive][because][it implies that immigrants are taking jobs and resources away from native-born citizens, which can be seen as xenophobic and discriminatory]",1,[the sentence is offensive][because][it uses a racial slur]
 1,982,51869641,{'race': 'white'}," [the sentence is offensive][because][it uses derogatory language and implies that the colleague is disloyal based on their ethnicity]
 ### Solution:
 
@@ -13140,16 +13109,6 @@ Output: [The sentence is offensive][because][it implies that white people have a
 Women are inferior to men in every way
 ### Output:
 [the sentence is offensive][because][it perpetuates harmful gender stereotypes by implying that one gender is inherently superior to another, which can contribute to discrimination and prejudice]",1,"[the sentence is offensive][because][it implies that women manipulate men for personal gain, specifically in the context of reproduction, which can be considered as a harmful stereotype]"
-0,4104,7304061,{'race': 'white'}," [the sentence is offensive][because][it uses derogatory language and includes a vulgarity]
-### Input:
-bitch it's fucking spring, why is this weather wildin? :triumph:
-
-### Output:
-[the sentence is offensive][because][it uses derogatory language and includes a vulgarity]",1,[the sentence is offensive][because][it uses derogatory language and includes a vulgarity]
-0,4104,51869641,{'race': 'white'}," [the sentence is offensive][because][it uses derogatory language and contains a vulgarity]
-### Solution:
-
-[the sentence is offensive][because][it uses derogatory language (""bitch"") and contains a vulgarity (""fucking"")]",1,[the sentence is offensive][because][it uses derogatory language and contains a vulgarity]
 1,3441,5171967,{'race': 'white'}," [the sentence is offensive][because][it uses sexualized language and derogatory terms]
 ### Solution:
 

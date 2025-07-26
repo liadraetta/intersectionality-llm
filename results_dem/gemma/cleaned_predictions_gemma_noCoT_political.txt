@@ -1,13 +1,13 @@
 Classification Report for cleaned_predictions_gemma_noCoT_political
 ==================================================
-Total samples: 3082
+Total samples: 3072
 
                precision    recall  f1-score   support
 
-Not Offensive      0.667     0.012     0.024      1496
-    Offensive      0.560     0.240     0.336      1586
+Not Offensive      0.894     0.243     0.382      1492
+    Offensive      0.616     0.911     0.735      1580
 
-    micro avg      0.564     0.129     0.210      3082
-    macro avg      0.613     0.126     0.180      3082
- weighted avg      0.612     0.129     0.184      3082
+    micro avg      0.657     0.587     0.620      3072
+    macro avg      0.755     0.577     0.558      3072
+ weighted avg      0.751     0.587     0.563      3072
 

@@ -1,13 +1,13 @@
 Classification Report for cleaned_predictions_deepseek_noCoT_gender_political
 ==================================================
-Total samples: 3082
+Total samples: 3072
 
                precision    recall  f1-score   support
 
-Not Offensive      0.856     0.285     0.428      1496
-    Offensive      0.587     0.919     0.716      1586
+Not Offensive      0.856     0.287     0.430      1492
+    Offensive      0.587     0.918     0.716      1580
 
-    micro avg      0.632     0.611     0.621      3082
-    macro avg      0.721     0.602     0.572      3082
- weighted avg      0.717     0.611     0.576      3082
+    micro avg      0.632     0.612     0.622      3072
+    macro avg      0.721     0.603     0.573      3072
+ weighted avg      0.718     0.612     0.577      3072
 

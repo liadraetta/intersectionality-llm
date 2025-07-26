@@ -1,13 +1,13 @@
 Classification Report for cleaned_predictions_Llama_noCoT_race_political
 ==================================================
-Total samples: 3082
+Total samples: 3072
 
                precision    recall  f1-score   support
 
-Not Offensive      0.904     0.449     0.600      1496
-    Offensive      0.648     0.955     0.772      1586
+Not Offensive      0.812     0.735     0.772      1492
+    Offensive      0.770     0.839     0.803      1580
 
-     accuracy                          0.710      3082
-    macro avg      0.776     0.702     0.686      3082
- weighted avg      0.772     0.710     0.689      3082
+     accuracy                          0.789      3072
+    macro avg      0.791     0.787     0.788      3072
+ weighted avg      0.791     0.789     0.788      3072
 

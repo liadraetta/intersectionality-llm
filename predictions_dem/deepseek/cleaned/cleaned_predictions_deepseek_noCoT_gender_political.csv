@@ -1332,26 +1332,6 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
  - The input will not contain any capital letters.
  - The input will not contain any special characters.
  -",1,[the sentence is offensive][because][it contains explicit language and conveys a racist message]
-0,213,8526465,"{'gender': 'man', 'political leaning': 'neutral'}","
- [The sentence is offensive][because][it contains a racial slur]
- ### Constraints:
- 1. The input will be a string of characters.
- 2. The input will be a string of characters.
- 3. The input will be a string of characters.
- 4. The input will be a string of characters.
- 5. The input will be a string of characters.
- 6. The input will be a string of characters.
-",1,[the sentence is offensive][because][it contains a racial slur]
-0,213,10166032,"{'gender': 'man', 'political leaning': 'neutral'}","
- [The sentence is offensive][because][it contains a racial slur]
- ### Constraints:
- 1. The input will be a string of characters.
- 2. The input will be a string of characters.
- 3. The input will be a string of characters.
- 4. The input will be a string of characters.
- 5. The input will be a string of characters.
- 6. The input will be a string of characters.
-",1,[the sentence is offensive][because][it contains a racial slur]
 1,4121,10166032,"{'gender': 'man', 'political leaning': 'neutral'}","
  [The sentence is offensive][because][it contains vulgar language and conveys a stereotypical message suggesting that women use their bodies to obtain benefits]
  ### Constraints:
@@ -7401,15 +7381,6 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
  2. The input sentence will not contain any special characters.
  3. The input sentence will not contain any numbers.
  4. The input sentence will not contain any punctuation",1,[the sentence is offensive][because][it contains hate speech and is offensive to the 17.4 million people who did not vote the way they wanted]
-0,4104,3088028,"{'gender': 'woman', 'political leaning': 'liberal'}","
- [The sentence is not offensive][because][it is not offensive]
- ### Constraints:
- 1. The input sentence will be a string of length 1000 characters or less.
- 2. The input sentence will not contain any special characters.
- 3. The input sentence will not contain any numbers.
- 4. The input sentence will not contain any punctuation.
- 5. The input sentence will not contain any spaces.
- 6. The",0,[the sentence is not offensive][because][it is not offensive]
 0,139,40401566,"{'gender': 'man', 'political leaning': 'liberal'}","
  [The sentence is not offensive][because][it is a simple statement of fact]
  ### Constraints:
@@ -11568,22 +11539,6 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
  3. The input sentence will not contain any numbers.
  4. The input sentence will not contain any punctuation marks.
  5. The input sentence will not contain any spaces",1,[the sentence is offensive][because][it contains a threat against a specific group of people]
-1,1770,40401566,"{'gender': 'man', 'political leaning': 'liberal'}","
- [The sentence is offensive][because][it is a derogatory term used to refer to black people]
- ### Constraints:
- 1. The input sentence will be a string of length 1000 characters or less.
- 2. The input sentence will not contain any special characters.
- 3. The input sentence will not contain any numbers.
- 4. The input sentence will not contain any punctuation.
- 5. The input sentence will not contain any",1,[the sentence is offensive][because][it is a derogatory term used to refer to black people]
-1,1770,3088028,"{'gender': 'woman', 'political leaning': 'liberal'}","
- [The sentence is offensive][because][it is a derogatory term used to refer to black people]
- ### Constraints:
- 1. The input sentence will be a string of length at most 1000 characters.
- 2. The input sentence will not contain any special characters.
- 3. The input sentence will not contain any numbers.
- 4. The input sentence will not contain any punctuation marks.
- 5. The input sentence will not contain",1,[the sentence is offensive][because][it is a derogatory term used to refer to black people]
 1,4106,40401566,"{'gender': 'man', 'political leaning': 'liberal'}","
  [The sentence is offensive][because][it contains vulgar language and conveys a stereotype of black people]
  ### Constraints:
@@ -11720,6 +11675,24 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
  3. The input sentence will not contain any numbers.
  4. The input sentence will not contain any punctuation.
  5.",1,[the sentence is offensive][because][it contains a stereotype that black people are more likely to be treated unfairly by the police]
+0,60,40401566,"{'gender': 'man', 'political leaning': 'liberal'}","
+ [The sentence is not offensive][because][it merely provides information on the population of certain countries]
+ ### Constraints:
+ 1. The input sentence will be a string of length 1000 characters or less.
+ 2. The input sentence will not contain any special characters.
+ 3. The input sentence will not contain any numbers.
+ 4. The input sentence will not contain any punctuation.
+ 5. The input sentence will not contain any spaces",0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
+0,60,3088028,"{'gender': 'woman', 'political leaning': 'liberal'}","
+ [The sentence is not offensive][because][it merely provides information on the population of certain countries]
+ ### Constraints:
+ - The input will be a string of characters.
+ - The input will not contain any special characters.
+ - The input will not contain any numbers.
+ - The input will not contain any punctuation.
+ - The input will not contain any spaces.
+ - The input will not contain any capital letters.
+ - The input will not contain any special characters.",0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
 1,2157,40401566,"{'gender': 'man', 'political leaning': 'liberal'}","
  [The sentence is offensive][because][it contains hate speech and explicit language]
  ### Constraints:
@@ -25251,92 +25224,6 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
  - The input will not contain any capital letters.
  - The input will not contain any special characters.
 ",1,[the sentence is offensive][because][it contains racial slurs and uses derogatory language]
-0,213,61283819,"{'gender': 'man', 'political leaning': 'conservative'}","
- [The sentence is offensive][because][it contains a racial slur]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-",1,[the sentence is offensive][because][it contains a racial slur]
 1,4121,44250250,"{'gender': 'man', 'political leaning': 'conservative'}","
  [The sentence is offensive][because][it contains vulgar language and conveys a stereotypical message suggesting that women use their bodies to obtain benefits]
  ### Constraints:
@@ -32186,24 +32073,6 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
  2. The input sentence will not contain any special characters.
  3. The input sentence will not contain any numbers.
  4. The input sentence will not contain any",1,[the sentence is offensive][because][it contains hate speech and is offensive to the 17.4 million people who did not vote the way the speaker wanted]
-0,4104,15918959,"{'gender': 'man', 'political leaning': 'conservative'}","
- [The sentence is not offensive][because][it is not offensive]
- ### Constraints:
- 1. The input sentence will be a string of length 1000 characters or less.
- 2. The input sentence will not contain any special characters.
- 3. The input sentence will not contain any numbers.
- 4. The input sentence will not contain any punctuation.
- 5. The input sentence will not contain any spaces.
- 6. The",0,[the sentence is not offensive][because][it is not offensive]
-0,4104,35508468,"{'gender': 'man', 'political leaning': 'conservative'}","
- [The sentence is not offensive][because][it is not offensive]
- ### Constraints:
- 1. The input sentence will be a string of length 1000 characters or less.
- 2. The input sentence will not contain any special characters.
- 3. The input sentence will not contain any numbers.
- 4. The input sentence will not contain any punctuation.
- 5. The input sentence will not contain any spaces.
- 6. The",0,[the sentence is not offensive][because][it is not offensive]
 0,139,15918959,"{'gender': 'man', 'political leaning': 'conservative'}","
  [The sentence is offensive][because][it contains vulgar language]
  [The sentence is not offensive][because][it is a simple statement]
@@ -36317,19 +36186,6 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
  3. The input sentence will not contain any numbers.
  4. The input sentence will not contain any punctuation marks.
  5. The input sentence will not contain any spaces",1,[the sentence is offensive][because][it contains a threat to a specific group of people]
-1,1770,39189900,"{'gender': 'man', 'political leaning': 'conservative'}","
- [The sentence is offensive][because][it is a derogatory term used to refer to black people]
- ### Constraints:
- 1. The input sentence will be a string of length at most 1000 characters.
- 2. The input sentence will contain only lowercase letters, numbers, and the following punctuation marks: '.', ',', '?', '!', '(', ')', '-', '\'', '\'', '\'', '\'', '\'',",1,[the sentence is offensive][because][it is a derogatory term used to refer to black people]
-1,1770,9175691,"{'gender': 'woman', 'political leaning': 'conservative'}","
- [The sentence is offensive][because][it is a derogatory term used to refer to black people]
- ### Constraints:
- 1. The input sentence will be a string of length 1000 characters or less.
- 2. The input sentence will not contain any special characters.
- 3. The input sentence will not contain any numbers.
- 4. The input sentence will not contain any punctuation.
- 5. The input sentence will not contain any",1,[the sentence is offensive][because][it is a derogatory term used to refer to black people]
 1,4106,15918959,"{'gender': 'man', 'political leaning': 'conservative'}","
  [The sentence is offensive][because][it contains vulgar language and conveys a stereotype about African Americans]
  ### Constraints:
@@ -36483,6 +36339,23 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
  - The input will not contain any spaces.
  - The input will not contain any capital letters.
  - The",1,[the sentence is offensive][because][it contains a stereotype that black people are more likely to be treated unfairly by the police]
+0,60,7288661,"{'gender': 'man', 'political leaning': 'conservative'}","
+ [The sentence is not offensive][because][it merely provides information on the population of certain countries]
+ ### Constraints:
+ - The input sentence will be a string of length at most 1000 characters.
+ - The input sentence will not contain any special characters.
+ - The input sentence will not contain any numbers.
+ - The input sentence will not contain any punctuation marks.
+ - The input sentence will not contain any spaces.
+ - The input sentence will not contain",0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
+0,60,14105244,"{'gender': 'woman', 'political leaning': 'conservative'}","
+ [The sentence is not offensive][because][it merely provides information on the population of certain countries]
+ ### Constraints:
+ 1. The input sentence will be a string of length 1000 characters or less.
+ 2. The input sentence will not contain any special characters.
+ 3. The input sentence will not contain any numbers.
+ 4. The input sentence will not contain any punctuation.
+ 5. The input sentence will not contain any spaces",0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
 1,2157,15918959,"{'gender': 'man', 'political leaning': 'conservative'}","
  [The sentence is offensive][because][it contains vulgar language and conveys a negative message towards a group of people]
  ### Constraints:
@@ -48982,28 +48855,6 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 ",1,[the sentence is offensive][because][it contains a racial slur]
-0,213,55799101,"{'gender': 'man', 'political leaning': 'liberal'}","
- [The sentence is offensive][because][it contains a racial slur]
- ### Constraints:
- - The input will be a string of characters.
- - The input will be a string of characters.
- - The input will be a string of characters.
- - The input will be a string of characters.
- - The input will be a string of characters.
- - The input will be a string of characters.
- - The input will be a string of characters.
- -",1,[the sentence is offensive][because][it contains a racial slur]
-0,213,48349576,"{'gender': 'woman', 'political leaning': 'liberal'}","
- [The sentence is offensive][because][it contains a racial slur]
- ### Constraints:
- - The input will be a string of characters.
- - The input will be a string of characters.
- - The input will be a string of characters.
- - The input will be a string of characters.
- - The input will be a string of characters.
- - The input will be a string of characters.
- - The input will be a string of characters.
- -",1,[the sentence is offensive][because][it contains a racial slur]
 0,2240,55799101,"{'gender': 'man', 'political leaning': 'liberal'}","
  [The sentence is not offensive][because][it is a simple announcement of a sporting event]
  ### Constraints:
@@ -60837,6 +60688,22 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
  4. The input sentence will not contain any punctuation.
  5. The input sentence will not contain any spaces.
  6.",1,[the sentence is offensive][because][it contains homophobic language]
+0,60,5171967,"{'gender': 'man', 'political leaning': 'liberal'}","
+ [The sentence is not offensive][because][it merely provides information on the population of certain countries]
+ ### Constraints:
+ 1. The input sentence will be a string of length at most 1000 characters.
+ 2. The input sentence will not contain any special characters.
+ 3. The input sentence will not contain any numbers.
+ 4. The input sentence will not contain any punctuation marks.
+ 5. The input sentence will not contain any",0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
+0,60,93178090,"{'gender': 'woman', 'political leaning': 'liberal'}","
+ [The sentence is not offensive][because][it merely provides information on the population of certain countries]
+ ### Constraints:
+ 1. The input sentence will be a string of length 1000 characters or less.
+ 2. The input sentence will not contain any special characters.
+ 3. The input sentence will not contain any numbers.
+ 4. The input sentence will not contain any punctuation.
+ 5. The input sentence will not contain any spaces",0,[the sentence is not offensive][because][it merely provides information on the population of certain countries]
 1,1355,7304061,"{'gender': 'man', 'political leaning': 'liberal'}","
  [The sentence is offensive][because][it contains hate speech and offensive language]
  ### Constraints:
@@ -60870,24 +60737,6 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
  - The input will not contain any spaces.
  - The input will not contain any capital letters.
  - The input will not contain any special characters",1,[the sentence is offensive][because][it contains vulgar language and conveys a negative message about a person]
-1,1770,5171967,"{'gender': 'man', 'political leaning': 'liberal'}","
- [The sentence is offensive][because][it is a derogatory term used to refer to black people]
- ### Constraints:
- 1. The input will be a string of characters.
- 2. The input will not contain any special characters.
- 3. The input will not contain any numbers.
- 4. The input will not contain any punctuation.
- 5. The input will not contain any spaces.
- 6. The input will not contain any capital",1,[the sentence is offensive][because][it is a derogatory term used to refer to black people]
-1,1770,36389940,"{'gender': 'man', 'political leaning': 'liberal'}","
- [The sentence is offensive][because][it is a derogatory term used to refer to black people]
- ### Constraints:
- 1. The input will be a string of characters.
- 2. The input will not contain any special characters.
- 3. The input will not contain any numbers.
- 4. The input will not contain any punctuation.
- 5. The input will not contain any spaces.
- 6. The input will not contain any capital",1,[the sentence is offensive][because][it is a derogatory term used to refer to black people]
 1,982,51869641,"{'gender': 'woman', 'political leaning': 'liberal'}","
  [The sentence is offensive][because][it contains a derogatory term for a person of Middle Eastern or North African descent]
  ### Constraints:
@@ -61522,24 +61371,6 @@ offensiveYN,postId,annId,demographics,output,prediction,parsed_output
 
 
 ",1,[the sentence is offensive][because][it suggests that women are responsible for the birth of children and that men are trapped into having babies]
-0,4104,7304061,"{'gender': 'man', 'political leaning': 'liberal'}","
- [The sentence is not offensive][because][it is not offensive]
- ### Constraints:
- 1. The input sentence will be a string of length at most 1000 characters.
- 2. The input sentence will not contain any special characters.
- 3. The input sentence will not contain any numbers.
- 4. The input sentence will not contain any punctuation.
- 5. The input sentence will not contain any spaces.
- 6. The",0,[the sentence is not offensive][because][it is not offensive]
-0,4104,51869641,"{'gender': 'woman', 'political leaning': 'liberal'}","
- [The sentence is not offensive][because][it is not offensive]
- ### Constraints:
- 1. The input sentence will be a string of length at most 1000 characters.
- 2. The input sentence will not contain any special characters.
- 3. The input sentence will not contain any numbers.
- 4. The input sentence will not contain any punctuation.
- 5. The input sentence will not contain any spaces.
- 6. The",0,[the sentence is not offensive][because][it is not offensive]
 1,3441,5171967,"{'gender': 'man', 'political leaning': 'liberal'}","
  [The sentence is offensive][because][it contains vulgar language and conveys a stereotypical message suggesting that women use their bodies to obtain benefits]
  ### Constraints:
