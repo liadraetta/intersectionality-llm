@@ -4,63 +4,70 @@ McNemar's Test ResultsModel: Ministral, CoT: noCoT
 Contingency Table:
 Baseline           0     1
 Intersectional            
-0               1219    12
-1                 30  1821
+0               1086   135
+1                 24  1827
 McNemar's Test Result:
-Statistic: 12.0, p-value (greater): 0.003957948667448363
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
 Contingency Table:
 Baseline           0     1
 Intersectional            
-0               1203    15
-1                 46  1818
+0               1084   124
+1                 26  1838
 McNemar's Test Result:
-Statistic: 15.0, p-value (greater): 4.418778163779378e-05
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
 Contingency Table:
 Baseline           0     1
 Intersectional            
-0               1213    23
-1                 36  1810
+0               1092   134
+1                 18  1828
 McNemar's Test Result:
-Statistic: 23.0, p-value (greater): 0.05873867512252924
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
 Contingency Table:
 Baseline           0     1
 Intersectional            
-0               1196    19
-1                 53  1814
+0               1087   118
+1                 23  1844
 McNemar's Test Result:
-Statistic: 19.0, p-value (greater): 3.777905742215698e-05
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
 Contingency Table:
 Baseline           0     1
 Intersectional            
-0               1204    23
-1                 45  1810
+0               1093   124
+1                 17  1838
 McNemar's Test Result:
-Statistic: 23.0, p-value (greater): 0.00516883059684773
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
 Contingency Table:
 Baseline           0     1
 Intersectional            
-0               1200    24
-1                 49  1809
+0               1091   123
+1                 19  1839
 McNemar's Test Result:
-Statistic: 24.0, p-value (greater): 0.002313146960947756
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
 Contingency Table:
 Baseline           0     1
 Intersectional            
-0               1194    31
-1                 55  1802
+0               1096   119
+1                 14  1843
 McNemar's Test Result:
-Statistic: 31.0, p-value (greater): 0.006336256976157431
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 

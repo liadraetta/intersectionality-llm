@@ -3,71 +3,73 @@ McNemar's Test Results for Positive LabelsModel: Qwen2, CoT: noCoT
 
 Trait: gender
 Contingency Table:
-Baseline         0     1
-Intersectional          
-0               16     0
-1               24  1546
+Baseline          0     1
+Intersectional           
+0               160     7
+1                 0  1413
 McNemar's Test Result:
-Statistic: 0.0, p-value (greater): 5.960464477539063e-08
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
 Trait: race
 Contingency Table:
-Baseline         0     1
-Intersectional          
-0               15     0
-1               25  1546
+Baseline          0     1
+Intersectional           
+0               142    13
+1                18  1407
 McNemar's Test Result:
-Statistic: 0.0, p-value (greater): 2.9802322387695312e-08
+Statistic: 13.0, p-value (greater): 0.23656482994556427
 --------------------------------------------------
 
 Trait: political
 Contingency Table:
-Baseline         0     1
-Intersectional          
-0               11     0
-1               29  1546
+Baseline          0     1
+Intersectional           
+0               149     8
+1                11  1412
 McNemar's Test Result:
-Statistic: 0.0, p-value (greater): 1.862645149230957e-09
+Statistic: 8.0, p-value (greater): 0.3238029479980469
 --------------------------------------------------
 
 Trait: gender_race
 Contingency Table:
-Baseline         0     1
-Intersectional          
-0               18     0
-1               22  1546
+Baseline          0     1
+Intersectional           
+0               147    10
+1                13  1410
 McNemar's Test Result:
-Statistic: 0.0, p-value (greater): 2.384185791015625e-07
+Statistic: 10.0, p-value (greater): 0.3388197422027588
 --------------------------------------------------
 
 Trait: gender_political
 Contingency Table:
-Baseline         0     1
-Intersectional          
-0               14     0
-1               26  1546
+Baseline          0     1
+Intersectional           
+0               152    13
+1                 8  1407
 McNemar's Test Result:
-Statistic: 0.0, p-value (greater): 1.4901161193847656e-08
+The contingency table does not meet the requirements for a one-sided test.
+The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
 Trait: race_political
 Contingency Table:
-Baseline         0     1
-Intersectional          
-0               14     0
-1               26  1546
+Baseline          0     1
+Intersectional           
+0               136    16
+1                24  1404
 McNemar's Test Result:
-Statistic: 0.0, p-value (greater): 1.4901161193847656e-08
+Statistic: 16.0, p-value (greater): 0.13409362552738457
 --------------------------------------------------
 
 Trait: gender_race_political
 Contingency Table:
-Baseline         0     1
-Intersectional          
-0               14     0
-1               26  1546
+Baseline          0     1
+Intersectional           
+0               147    13
+1                13  1407
 McNemar's Test Result:
-Statistic: 0.0, p-value (greater): 1.4901161193847656e-08
+Statistic: 13.0, p-value (greater): 0.5
 --------------------------------------------------
 
