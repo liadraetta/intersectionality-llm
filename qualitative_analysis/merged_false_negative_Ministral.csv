@@ -1,2 +1,0 @@
-offensiveYN,postId,annId,demographics_x,prediction,parsed_output,tweet,isAAE,vulgar,targetsBlackPeople,prediction_ministral_intersection,demographics_y
-1,2260,8526465,,0,[the sentence is not offensive][because][it describes a neutral observation about a person's appearance and behavior],of him walking by late at night. You both reached the water fountain at the same time. The class difference was immediately noticeable.,False,False,False,1,"{'gender': 'woman', 'race': 'black', 'political leaning': 'liberal'}"
