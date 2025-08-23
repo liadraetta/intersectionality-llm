@@ -357,3 +357,184 @@ def visualize_combined_heatmap(all_models_data, vmin=-0.1, vmax=1.0, save_path=N
         print(f"Combined plot saved to: {save_path}")
     else:
         plt.show()
+
+
+def visualize_heatmap_combined_metrics(data, 
+                                       vmin=50.0, 
+                                       vmax=100.0, 
+                                       save_path=None, 
+                                       model_name=None):
+    """
+    Create a heatmap showing exact match percentages with kappa scores in brackets below
+    """
+    kappa_df, filter_mapping, exact_counts = create_visualization_table(data, 'kappa')
+    perc_df, _, _ = create_visualization_table(data, 'exact_match_perc')
+    
+    # Create a proper heatmap visualization
+    plt.figure(figsize=(16, 10))
+    
+    # Create combined annotation matrix
+    combined_annot = perc_df.copy().astype(str)
+    for i in range(len(perc_df)):
+        for j in range(len(perc_df.columns)):
+            kappa_val = kappa_df.iloc[i, j]
+            perc_val = perc_df.iloc[i, j]
+            
+            if pd.isna(perc_val):
+                combined_annot.iloc[i, j] = ''
+            else:
+                combined_annot.iloc[i, j] = f'{perc_val:.1f}%\n({kappa_val:.3f})'
+    
+    # Set appropriate bounds for exact match percentages (0-100%)
+    cmap = 'RdYlGn'
+    
+    # Create the heatmap using exact match percentages for color scheme
+    cbar_kws = {'label': 'Exact Match Percentage (%)'}
+    mask = perc_df.isnull()
+    ax = sns.heatmap(perc_df,
+                     annot=combined_annot,
+                     fmt='',  # Empty format since we're providing custom annotations
+                     cmap=cmap,
+                     vmin=vmin,
+                     vmax=vmax,
+                     mask=mask,
+                     cbar_kws=cbar_kws,
+                     square=False)
+    
+    # Add a vertical line to separate "Overall" from other columns
+    if 'Overall' in perc_df.columns:
+        plt.axvline(x=1, color='black', linewidth=2)
+    
+    # Create custom x-axis labels with exact match counts
+    x_labels = []
+    for col in perc_df.columns:
+        if col in exact_counts:
+            label = f"{col}\n({exact_counts[col]})"
+        else:
+            label = col
+        x_labels.append(label)
+    
+    # Set the custom labels
+    ax.set_xticklabels(x_labels, rotation=45, ha='right')
+    
+    plt.title(f'{model_name} - Exact Match % with Kappa Scores', fontsize=20, pad=20)
+    plt.xlabel('Input values in intersection', fontsize=16)
+    plt.ylabel('Trait variables', fontsize=16)
+    
+    plt.yticks(rotation=0)
+    plt.tight_layout()
+    
+    # Save the figure if save_path is provided, otherwise display it
+    if save_path:
+        plt.savefig(save_path, dpi=300, bbox_inches='tight')
+        plt.close()  # Close the figure to free memory
+    else:
+        plt.show()
+
+
+def visualize_combined_heatmap_with_metrics(all_models_data, 
+                                           vmin=50.0, 
+                                           vmax=100.0, 
+                                           save_path=None):
+    """
+    Create a combined heatmap with all 4 models showing exact match percentages with kappa scores in brackets
+    """
+    model_names = list(all_models_data.keys())
+    # Create subplots - 2x2 grid for 4 models
+    fig, axes = plt.subplots(2, 2, figsize=(24, 20), dpi=150)
+    axes = axes.flatten()
+    
+    # Common colormap and normalization
+    cmap = 'RdYlGn'
+    
+    # Create visualization tables for each model
+    model_kappa_dfs = {}
+    model_perc_dfs = {}
+    all_exact_counts = {}
+    
+    for model_name, data in all_models_data.items():
+        kappa_df, filter_mapping, exact_counts = create_visualization_table(data, 'kappa')
+        perc_df, _, _ = create_visualization_table(data, 'exact_match_perc')
+        model_kappa_dfs[model_name] = kappa_df
+        model_perc_dfs[model_name] = perc_df
+        all_exact_counts[model_name] = exact_counts
+    
+    # Create heatmaps for each model
+    for i, model_name in enumerate(model_names):
+        ax = axes[i]
+        kappa_df = model_kappa_dfs[model_name]
+        perc_df = model_perc_dfs[model_name]
+        exact_counts = all_exact_counts[model_name]
+        
+        # Create combined annotation matrix
+        combined_annot = perc_df.copy().astype(str)
+        for row in range(len(perc_df)):
+            for col in range(len(perc_df.columns)):
+                kappa_val = kappa_df.iloc[row, col]
+                perc_val = perc_df.iloc[row, col]
+                
+                if pd.isna(perc_val):
+                    combined_annot.iloc[row, col] = ''
+                else:
+                    combined_annot.iloc[row, col] = f'{perc_val:.0f}%\n({kappa_val:.2f})'
+        
+        # Create mask for missing values
+        mask = perc_df.isnull()
+        
+        # Create heatmap using exact match percentages for color scheme (without individual colorbars)
+        sns.heatmap(perc_df,
+                   annot=combined_annot,
+                   fmt='',  # Empty format since we're providing custom annotations
+                   cmap=cmap,
+                   vmin=vmin,
+                   vmax=vmax,
+                   mask=mask,
+                   cbar=False,  # No individual colorbar
+                   square=False,
+                   ax=ax)
+        
+        # Add vertical line to separate "Overall" from other columns
+        if 'Overall' in perc_df.columns:
+            ax.axvline(x=1, color='black', linewidth=2)
+        
+        # Create custom x-axis labels with exact match counts
+        x_labels = []
+        for col in perc_df.columns:
+            if col in exact_counts:
+                label = f"{col}\n({exact_counts[col]})"
+            else:
+                label = col
+            x_labels.append(label)
+        
+        # Set labels and title
+        ax.set_xticklabels(x_labels, rotation=45, ha='right')
+        ax.set_title(f'{model_name}', fontsize=20, pad=10)
+        ax.set_xlabel('Input values in intersection', fontsize=16)
+        ax.set_ylabel('Trait variables', fontsize=16)
+        ax.tick_params(axis='y', rotation=0)
+    
+    # Add a shared colorbar
+    import matplotlib.cm as cm
+    import matplotlib.colors as mcolors
+    
+    # Create normalization and scalar mappable for colorbar (using exact match percentage range)
+    norm = mcolors.Normalize(vmin=vmin, vmax=vmax)
+    sm = cm.ScalarMappable(cmap=cmap, norm=norm)
+    sm.set_array([])
+    
+    # Adjust layout to make room for colorbar and title
+    plt.subplots_adjust(left=0.08, bottom=0.1, right=0.82, top=0.92, 
+                       wspace=0.3, hspace=0.4)
+    
+    # Add colorbar - positioned to the right of the plots
+    cbar_ax = fig.add_axes([0.85, 0.15, 0.03, 0.7])  # [left, bottom, width, height]
+    cbar = fig.colorbar(sm, cax=cbar_ax)
+    cbar.set_label('Exact Match Percentage (%)', fontsize=20)
+    
+    # Save the figure if save_path is provided, otherwise display it
+    if save_path:
+        plt.savefig(save_path, dpi=500, bbox_inches='tight')
+        plt.close()
+        print(f"Combined plot with metrics saved to: {save_path}")
+    else:
+        plt.show()

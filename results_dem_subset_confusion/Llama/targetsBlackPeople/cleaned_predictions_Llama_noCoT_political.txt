@@ -1,0 +1,25 @@
+Classification report for targetsBlackPeople = True
+               precision    recall  f1-score   support
+
+Not Offensive      0.357     0.353     0.355        85
+    Offensive      0.924     0.926     0.925       725
+
+     accuracy                          0.865       810
+    macro avg      0.641     0.639     0.640       810
+ weighted avg      0.865     0.865     0.865       810
+
+Total samples: 810
+==================================================
+
+Classification report for targetsBlackPeople = False
+               precision    recall  f1-score   support
+
+Not Offensive      0.855     0.714     0.778      1407
+    Offensive      0.630     0.801     0.705       855
+
+     accuracy                          0.747      2262
+    macro avg      0.743     0.758     0.742      2262
+ weighted avg      0.770     0.747     0.751      2262
+
+Total samples: 2262
+==================================================

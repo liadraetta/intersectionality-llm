@@ -1,0 +1,25 @@
+Classification report for vulgar = True
+               precision    recall  f1-score   support
+
+Not Offensive      0.769     0.343     0.475       600
+    Offensive      0.715     0.941     0.813      1051
+
+     accuracy                          0.724      1651
+    macro avg      0.742     0.642     0.644      1651
+ weighted avg      0.735     0.724     0.690      1651
+
+Total samples: 1651
+==================================================
+
+Classification report for vulgar = False
+               precision    recall  f1-score   support
+
+Not Offensive      0.881     0.775     0.825       892
+    Offensive      0.684     0.824     0.748       529
+
+     accuracy                          0.793      1421
+    macro avg      0.783     0.799     0.786      1421
+ weighted avg      0.808     0.793     0.796      1421
+
+Total samples: 1421
+==================================================

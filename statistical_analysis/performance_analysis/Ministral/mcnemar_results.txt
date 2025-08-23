@@ -1,6 +1,7 @@
 McNemar's Test ResultsModel: Ministral, CoT: noCoT
 ==================================================
 
+Trait: gender
 Contingency Table:
 Baseline           0     1
 Intersectional            
@@ -11,6 +12,7 @@ The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
+Trait: race
 Contingency Table:
 Baseline           0     1
 Intersectional            
@@ -21,6 +23,7 @@ The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
+Trait: political
 Contingency Table:
 Baseline           0     1
 Intersectional            
@@ -31,6 +34,7 @@ The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
+Trait: gender_race
 Contingency Table:
 Baseline           0     1
 Intersectional            
@@ -41,6 +45,7 @@ The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
+Trait: gender_political
 Contingency Table:
 Baseline           0     1
 Intersectional            
@@ -51,6 +56,7 @@ The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
+Trait: race_political
 Contingency Table:
 Baseline           0     1
 Intersectional            
@@ -61,6 +67,7 @@ The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
+Trait: gender_race_political
 Contingency Table:
 Baseline           0     1
 Intersectional            

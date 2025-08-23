@@ -1,0 +1,25 @@
+Classification report for isAAE = True
+               precision    recall  f1-score   support
+
+Not Offensive      0.873     0.623     0.727       973
+    Offensive      0.578     0.851     0.689       591
+
+     accuracy                          0.709      1564
+    macro avg      0.726     0.737     0.708      1564
+ weighted avg      0.762     0.709     0.713      1564
+
+Total samples: 1564
+==================================================
+
+Classification report for isAAE = False
+               precision    recall  f1-score   support
+
+Not Offensive      0.801     0.559     0.658       519
+    Offensive      0.800     0.927     0.859       989
+
+     accuracy                          0.800      1508
+    macro avg      0.801     0.743     0.759      1508
+ weighted avg      0.800     0.800     0.790      1508
+
+Total samples: 1508
+==================================================

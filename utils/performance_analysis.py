@@ -64,6 +64,8 @@ def run_mcnemar_tests(all_model_datasets,
         # Merge on postID, annID, offensiveYN
         merged_df = df.merge(baseline_df, on=['postId', 'annId', 'offensiveYN'], suffixes=('', '_baseline'))
         correct_intersectional, correct_baseline = extract_correct(merged_df)
+        with open(output_path, 'a') as f:
+            f.write(f"Trait: {key}\n")
         get_mcnemar_results(correct_intersectional, correct_baseline, option='greater', file_path=output_path)
         with open(output_path, 'a') as f:
             f.write(f"{'-'*50}\n\n")

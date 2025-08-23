@@ -1,6 +1,7 @@
 McNemar's Test ResultsModel: gemma, CoT: noCoT
 ==================================================
 
+Trait: gender
 Contingency Table:
 Baseline           0     1
 Intersectional            
@@ -10,6 +11,7 @@ McNemar's Test Result:
 Statistic: 104.0, p-value (greater): 0.12904074000332597
 --------------------------------------------------
 
+Trait: race
 Contingency Table:
 Baseline           0     1
 Intersectional            
@@ -19,6 +21,7 @@ McNemar's Test Result:
 Statistic: 110.0, p-value (greater): 0.043115681927884626
 --------------------------------------------------
 
+Trait: political
 Contingency Table:
 Baseline           0     1
 Intersectional            
@@ -28,6 +31,7 @@ McNemar's Test Result:
 Statistic: 113.0, p-value (greater): 0.11283546313820268
 --------------------------------------------------
 
+Trait: gender_race
 Contingency Table:
 Baseline           0     1
 Intersectional            
@@ -38,6 +42,7 @@ The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
+Trait: gender_political
 Contingency Table:
 Baseline           0     1
 Intersectional            
@@ -48,6 +53,7 @@ The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
+Trait: race_political
 Contingency Table:
 Baseline           0     1
 Intersectional            
@@ -58,6 +64,7 @@ The contingency table does not meet the requirements for a one-sided test.
 The results with intersectional data are worse than the baseline.
 --------------------------------------------------
 
+Trait: gender_race_political
 Contingency Table:
 Baseline           0     1
 Intersectional            
