@@ -1,0 +1,38 @@
+=== Results for race_political ===
+Silhouette Coefficient: 0.120
+Calinski-Harabasz Index: 78.714
+Davies-Bouldin Index: 3.212
+
+Cluster vs Source:
+source   baseline  race_political
+cluster                          
+0              98             187
+1             333             360
+--------------------------------------------------
+Cluster vs OffensiveYN:
+offensiveYN    0    1
+cluster              
+0             57  228
+1            141  552
+--------------------------------------------------
+Cluster vs prediction:
+prediction    1
+cluster        
+0           285
+1           693
+--------------------------------------------------
+isAAE    False  True 
+cluster              
+0          164    121
+1          376    317
+--------------------------------------------------
+vulgar   False  True 
+cluster              
+0          122    163
+1          171    522
+--------------------------------------------------
+targetsBlackPeople  False  True 
+cluster                         
+0                     153    132
+1                     430    263
+====================================================================================================

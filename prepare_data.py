@@ -76,7 +76,7 @@ plot_data.columns = ["off_avg", "count"]
 
 plt.figure(figsize=(8, 5))
 sns.barplot(data=plot_data, x="off_avg", y="count", palette="Blues")
-plt.xlabel("Offensive Average")
+plt.xlabel("Offensiveness")
 plt.ylabel("Frequency")
 
 for i in range(len(plot_data)):

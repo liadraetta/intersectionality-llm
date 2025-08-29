@@ -1,0 +1,38 @@
+=== Results for political ===
+Silhouette Coefficient: 0.145
+Calinski-Harabasz Index: 80.467
+Davies-Bouldin Index: 2.278
+
+Cluster vs Source:
+source   baseline  political
+cluster                     
+0              70         75
+1             230        241
+--------------------------------------------------
+Cluster vs OffensiveYN:
+offensiveYN    0    1
+cluster              
+0             96   49
+1            365  106
+--------------------------------------------------
+Cluster vs prediction:
+prediction    0
+cluster        
+0           145
+1           471
+--------------------------------------------------
+isAAE    False  True 
+cluster              
+0           61     84
+1          182    289
+--------------------------------------------------
+vulgar   False  True 
+cluster              
+0           88     57
+1          310    161
+--------------------------------------------------
+targetsBlackPeople  False  True 
+cluster                         
+0                     124     21
+1                     443     28
+====================================================================================================

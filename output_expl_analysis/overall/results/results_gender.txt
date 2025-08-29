@@ -1,0 +1,23 @@
+=== Results for gender ===
+Silhouette Coefficient: 0.150
+Calinski-Harabasz Index: 262.640
+Davies-Bouldin Index: 2.373
+
+Cluster vs Source:
+source   baseline  gender
+cluster                  
+0             316     357
+1             415     480
+--------------------------------------------------
+Cluster vs OffensiveYN:
+offensiveYN    0    1
+cluster              
+0            455  218
+1            238  657
+--------------------------------------------------
+Cluster vs prediction:
+prediction    0    1
+cluster             
+0           538  135
+1           103  792
+====================================================================================================

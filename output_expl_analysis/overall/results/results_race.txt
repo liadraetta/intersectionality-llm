@@ -1,0 +1,23 @@
+=== Results for race ===
+Silhouette Coefficient: 0.158
+Calinski-Harabasz Index: 277.496
+Davies-Bouldin Index: 2.317
+
+Cluster vs Source:
+source   baseline  race
+cluster                
+0             294   357
+1             437   510
+--------------------------------------------------
+Cluster vs OffensiveYN:
+offensiveYN    0    1
+cluster              
+0            459  192
+1            240  707
+--------------------------------------------------
+Cluster vs prediction:
+prediction    0    1
+cluster             
+0           559   92
+1           113  834
+====================================================================================================

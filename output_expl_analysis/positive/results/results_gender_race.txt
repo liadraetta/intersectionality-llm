@@ -1,0 +1,50 @@
+=== Results for gender_race ===
+Silhouette Coefficient: 0.107
+Calinski-Harabasz Index: 81.337
+Davies-Bouldin Index: 2.314
+
+Cluster vs Source:
+source   baseline  gender_race
+cluster                       
+0              12           12
+1             154          205
+2              72          142
+3             193          239
+--------------------------------------------------
+Cluster vs OffensiveYN:
+offensiveYN   0    1
+cluster             
+0            13   11
+1            83  276
+2            52  162
+3            81  351
+--------------------------------------------------
+Cluster vs prediction:
+prediction    1
+cluster        
+0            24
+1           359
+2           214
+3           432
+--------------------------------------------------
+isAAE    False  True 
+cluster              
+0           10     14
+1          180    179
+2          120     94
+3          244    188
+--------------------------------------------------
+vulgar   False  True 
+cluster              
+0           11     13
+1          104    255
+2          105    109
+3           95    337
+--------------------------------------------------
+targetsBlackPeople  False  True 
+cluster                         
+0                      22      2
+1                     214    145
+2                      98    116
+3                     282    150
+====================================================================================================
