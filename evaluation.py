@@ -41,8 +41,8 @@ def main():
         print(f"Running evaluator on models with socio-demographic traits")
         for model_name in list_models:
 
-            dir_predictions_original = f"./predictions_dem/{model_name}/original"
-            dir_predictions_cleaned = f"./predictions_dem/{model_name}/cleaned"
+            dir_predictions_original = f"results/predictions_dem/{model_name}/original"
+            dir_predictions_cleaned = f"results/predictions_dem/{model_name}/cleaned"
 
             Path(dir_predictions_cleaned).mkdir(parents=True, exist_ok=True)
             results_dir=f"results/evaluation_results_dem/{model_name}/"

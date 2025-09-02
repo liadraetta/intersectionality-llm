@@ -52,9 +52,10 @@ Where:
 
 Contain the code for the additional analyses which are conducted in the paper. 
 - `analysis_by_textual_variable_split.py`: contains code to obtain the classification performance on data splits for the textual variables. It can be run in the same way as `evaluation.py`.
+- `analysis_explanations.py`: contains the code to extract the embeddings of the explanations and the clustering step.
 - `analysis_label_distribution.py`: contains the code to analyse whether models alter their predictions depending on which socio-demographic traits are passed. 
 - `analysis_model_performance_stat.py`: contains the code to run McNemar tests on all socio-demographic models compared to the baseline.
-- `analysis_explanations.py`: contains the code to extract the embeddings of the explanations and the clustering step.
+- `prepare_analysis.py`: contains the code to prepare the qualitative analysis.
 - `analysis_qualitative.ipynb`: notebook containing the code to conduct the qualitative analysis from the paper.
 
 ## 📁 Structure of the Repository

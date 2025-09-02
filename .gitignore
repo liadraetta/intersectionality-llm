@@ -3,7 +3,7 @@
 .gitignore
 .DS_Store
 data/.DS_Store
-.DS_Store
+*.DS_Store
 data/.DS_Store
 *__pycache__*
 *.pyc
