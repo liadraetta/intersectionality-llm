@@ -110,26 +110,22 @@ ids_to_remove = [3768, 213, 4104, 1770]
 def main():
     args = parse_command_line_args()
     if not args.sociodemographic_traits:
-        dir_predictions_original = "./predictions/original"
-        dir_predictions_cleaned = "./predictions/cleaned"
+        dir_predictions_cleaned = "results/predictions/cleaned"
 
-        results_dir="./results_subset_confusion/"
+        results_dir="results/evaluation_results_textual_variables/"
         pattern_cleaned = "cleaned_predictions_*_*_*.csv"
     
         generate_classification_reports_confusion_matrix_subset_variables(dir_predictions_cleaned, results_dir, pattern_cleaned)
 
     else:
         for model_name in list_models:
-
-            dir_predictions_original = f"./predictions_dem/{model_name}/original"
             dir_predictions_cleaned = f"./predictions_dem/{model_name}/cleaned"
 
             Path(dir_predictions_cleaned).mkdir(parents=True, exist_ok=True)
-            results_dir=f"./results_dem_subset_confusion/{model_name}/"
+            results_dir=f"results/evaluation_results_dem_textual_variables/{model_name}/"
             Path(results_dir).mkdir(parents=True, exist_ok=True)
             
-            pattern = f"predictions_{model_name}*.csv"
-            pattern_cleaned = f"cleaned_predictions_{model_name}*.csv"    
+            pattern_cleaned = f"results/cleaned_predictions_{model_name}*.csv"    
             generate_classification_reports_confusion_matrix_subset_variables(dir_predictions_cleaned, results_dir, pattern_cleaned)
 
 

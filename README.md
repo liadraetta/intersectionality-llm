@@ -14,8 +14,8 @@ Reads the original dataset from `data` and prepares it for the experiments in `d
 
 ### 2. Obtain model predictions and explanations `classification.py`
 Obtain the model's predictions and explanations without any postprocessing. Ensure that a valid `HF_TOKEN` to download the models is specified in a `.env` file in the home directory.\
-The results without any socio-demographic prompting are saved to `predictions/original/predictions_<model_name>_<isCoT>_baseline.csv`.\
-The results with socio-demographic prompting are saved to `predictions_dem/<model_name>/original/predictions_<model_name>_<isCoT>_<traits used>.csv`
+The results without any socio-demographic prompting are saved to `results/predictions/original/predictions_<model_name>_<isCoT>_baseline.csv`.\
+The results with socio-demographic prompting are saved to `results/predictions_dem/<model_name>/original/predictions_<model_name>_<isCoT>_<traits used>.csv`
 
 **Usage:**
 ```
@@ -48,34 +48,47 @@ python evaluation.py \
 Where: 
 - `--sociodemographic_traits`: if passed, the results for socio-demographic analaysis are postprocessed otherwise the baselines.
 
-### 4. Further analyses `analysis_by_textual_variable_split.py`, `analysis_label_distribution.py`, `analysis_model_performance_stat.py`
+### 4. Further analyses
 
 Contain the code for the additional analyses which are conducted in the paper. 
 - `analysis_by_textual_variable_split.py`: contains code to obtain the classification performance on data splits for the textual variables. It can be run in the same way as `evaluation.py`.
 - `analysis_label_distribution.py`: contains the code to analyse whether models alter their predictions depending on which socio-demographic traits are passed. 
 - `analysis_model_performance_stat.py`: contains the code to run McNemar tests on all socio-demographic models compared to the baseline.
+- `analysis_explanations.py`: contains the code to extract the embeddings of the explanations and the clustering step.
+- `analysis_qualitative.ipynb`: notebook containing the code to conduct the qualitative analysis from the paper.
 
 ## 📁 Structure of the Repository
 - `data/`  
     - `annWithAttitudes/` - Directory with the original data from the AnnotatorWithAttitudes work.
 - `dataset/` - Directory containing the dataset in the format expected for the analyses.
-- `predictions/`
-  - `original/`- Contains raw generations for baseline models.
-  - `cleaned/`- Contains the postprocessed generations with extracted labels and explanations.
-- `predictions_dem/`
-  - `original/` - Contains raw generations for models prompted with sociodemographics.
-  - `cleaned/` - Contains postprocessed generations with extracted labels and explanations for models prompted with sociodemographics.
-- `results/` - contains classification reports for the baseline models.
-- `results_dem/` - contains classification reports for the models prompted with socio-demographic traits.
-- `qualitative_analysis/` - TODO
-- `statistical_analysis/`
-  - `abltation_label_distribution/` - contains plots obtained to investigate variability of model labelling behaviour.
-  - `performance_analysis/` - contains results of McNemar tests.
+- `results`
+  - `output_expl_analysis`
+    - `negative` - contains clustering results comparing baseline and best model explanations on the negative class.
+    - `positive` - contains clustering results comparing baseline and best model explanations on the positive class.
+    - `overall` - contains clustering results comparing baseline and best model explanations on all the explanations.
+  - `predictions/`
+    - `original/`- Contains raw generations for baseline models.
+    - `cleaned/`- Contains the postprocessed generations with extracted labels and explanations.
+  - `predictions_dem/`
+    - `original/` - Contains raw generations for models prompted with sociodemographics.
+    - `cleaned/` - Contains postprocessed generations with extracted labels and explanations for models prompted with sociodemographics.
+  - `evaluation_results/` - contains classification reports for the baseline models.
+  - `evaluation_results_dem/` - contains classification reports for the models prompted with sociodemographic traits.
+  - `evaluation_results_textual_variables/` - contains classification reports and confusion matrices for the baseline models depending on the value of the textual variables.
+  - `evaluation_results_dem_textual variables/` - contains classification reports and confusion matrices for the models prompted with sociodemographic traits depending on the value of textual variables.
+  - `statistical_analysis/`
+    - `abltation_label_distribution/` - contains plots obtained to investigate variability of model labelling behaviour.
+    - `performance_analysis/` - contains results of McNemar tests.
+
+- `qualitative_analysis/` - Contains the files with the sentences of interest analysed qualitatively.
 - `utils/` - contains all utils for the scripts described in the section above.
 - `prepare_data.py`- used to prepare the dataset for the experiments.
+- `prepare_analysis.py` - used to prepare datasets for the qualitative analysis for the best performing model.
 - `classification.py` - used to generate model label and explanations.
 - `evaluation.py` - used to postprocess generations and evaluate model performance.
 - `analysis_by_textual_variable_split.py` - analysis into model performance by textual variable split.
+- `analysis_explanations.py` - analysis into the explanations produced by the model.
+- `analysis_qualitative.py` - notebook with code for the qualitative analysis and explanation analysis for the paper.
 - `analysis_label_distribution.py` - analysis of model labelling variability.
 - `analysis_model_performance_stat.py` - McNemar tests results.
   

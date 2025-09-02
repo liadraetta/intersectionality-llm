@@ -19,13 +19,13 @@ def main():
     model_names = ['Qwen2', 'gemma', 'Llama', 'Ministral', 'deepseek']
     socio_demographic_variables = ['gender', 'race', 'political']
     cot_names = ['noCoT']
-    results_base_path = pathlib.Path('predictions/cleaned') 
+    results_base_path = pathlib.Path('results/predictions/cleaned') 
     for model_name in model_names:
-        results_socdem_base_path = pathlib.Path(f"predictions_dem/{model_name}/cleaned")
+        results_socdem_base_path = pathlib.Path(f"results/predictions_dem/{model_name}/cleaned")
         for cot_name in cot_names:
-            output_path = pathlib.Path(f"statistical_analysis/performance_analysis/{model_name}/mcnemar_results.txt")
-            output_path_positive = pathlib.Path(f"statistical_analysis/performance_analysis/{model_name}/mcnemar_results_positive.txt")
-            output_path_negative = pathlib.Path(f"statistical_analysis/performance_analysis/{model_name}/mcnemar_results_negative.txt")
+            output_path = pathlib.Path(f"results/statistical_analysis/performance_analysis/{model_name}/mcnemar_results.txt")
+            output_path_positive = pathlib.Path(f"results/statistical_analysis/performance_analysis/{model_name}/mcnemar_results_positive.txt")
+            output_path_negative = pathlib.Path(f"results/statistical_analysis/performance_analysis/{model_name}/mcnemar_results_negative.txt")
             # Create parent directories if they don't exist
             output_path.parent.mkdir(parents=True, exist_ok=True)
             output_path_positive.parent.mkdir(parents=True, exist_ok=True)

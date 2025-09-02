@@ -19,10 +19,10 @@ def main():
     args = parse_command_line_args()
     if not args.sociodemographic_traits:
         print(f"Running evaluator on models without socio-demographic traits")
-        dir_predictions_original = "./predictions/original"
-        dir_predictions_cleaned = "./predictions/cleaned"
+        dir_predictions_original = "results/predictions/original"
+        dir_predictions_cleaned = "results/predictions/cleaned"
 
-        results_dir="./results/"
+        results_dir="results/evaluation_results/"
         pattern="predictions_*_*_*.csv"
         pattern_cleaned = "cleaned_predictions_*_*_*.csv"
 
@@ -45,7 +45,7 @@ def main():
             dir_predictions_cleaned = f"./predictions_dem/{model_name}/cleaned"
 
             Path(dir_predictions_cleaned).mkdir(parents=True, exist_ok=True)
-            results_dir=f"./results_dem/{model_name}/"
+            results_dir=f"results/evaluation_results_dem/{model_name}/"
             Path(results_dir).mkdir(parents=True, exist_ok=True)
             
             pattern = f"predictions_{model_name}*.csv"

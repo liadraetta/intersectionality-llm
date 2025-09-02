@@ -3,18 +3,12 @@ import os
 
 input_data_path = "dataset/AnnAttDataset.csv"
 #predictions_folder = "predictions_dem/Llama/cleaned"
-predictions_path = "predictions_dem/Llama/cleaned/cleaned_predictions_Llama_noCoT_race_political.csv"
+predictions_path = "results/predictions_dem/Llama/cleaned/cleaned_predictions_Llama_noCoT_race_political.csv"
 output_folder = "qualitative_analysis"
-path_ministral_intersection = "predictions_dem/Ministral/cleaned/cleaned_predictions_Ministral_noCoT_gender_race_political.csv"
 os.makedirs(output_folder, exist_ok=True)
 
 input_df = pd.read_csv(input_data_path)
-
 input_df = input_df[['postId', 'tweet', 'isAAE', 'vulgar', 'targetsBlackPeople']].drop_duplicates(subset='postId')
-
-#df_intersections = pd.read_csv(path_ministral_intersection).drop_duplicates(subset='postId')
-#df_intersections = df_intersections[['prediction', 'postId', 'demographics']].rename(columns={'prediction': 'prediction_ministral_intersection'})
-
 
 df = pd.read_csv(predictions_path, sep=",")
 df.columns = df.columns.str.strip()

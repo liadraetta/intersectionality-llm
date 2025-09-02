@@ -73,8 +73,8 @@ def main():
   else:
     list_traits=[None]
 
-  dir_predictions_base = f"predictions/{model_name}/original"
-  dir_predictions_dem_model = f"predictions_dem/{model_name}/original"
+  dir_predictions_base = f"results/predictions/{model_name}/original"
+  dir_predictions_dem_model = f"results/predictions_dem/{model_name}/original"
   dir_predictions = dir_predictions_dem_model if args.sociodemographic_traits else dir_predictions_base
 
   tokenizer, model, device = prepare_tokenizer_model_device(args.model_id, hf_token)
