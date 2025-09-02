@@ -1,0 +1,38 @@
+=== Results for race ===
+Silhouette Coefficient: 0.141
+Calinski-Harabasz Index: 89.638
+Davies-Bouldin Index: 2.534
+
+Cluster vs Source:
+source   baseline  race
+cluster                
+0             199   260
+1             101   112
+--------------------------------------------------
+Cluster vs OffensiveYN:
+offensiveYN    0    1
+cluster              
+0            356  103
+1            153   60
+--------------------------------------------------
+Cluster vs prediction:
+prediction    0
+cluster        
+0           459
+1           213
+--------------------------------------------------
+isAAE    False  True 
+cluster              
+0          160    299
+1           93    120
+--------------------------------------------------
+vulgar   False  True 
+cluster              
+0          294    165
+1          128     85
+--------------------------------------------------
+targetsBlackPeople  False  True 
+cluster                         
+0                     432     27
+1                     188     25
+====================================================================================================

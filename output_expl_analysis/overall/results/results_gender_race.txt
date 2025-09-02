@@ -1,0 +1,23 @@
+=== Results for gender_race ===
+Silhouette Coefficient: 0.152
+Calinski-Harabasz Index: 296.455
+Davies-Bouldin Index: 2.348
+
+Cluster vs Source:
+source   baseline  gender_race
+cluster                       
+0             415          591
+1             316          418
+--------------------------------------------------
+Cluster vs OffensiveYN:
+offensiveYN    0    1
+cluster              
+0            270  736
+1            501  233
+--------------------------------------------------
+Cluster vs prediction:
+prediction    0    1
+cluster             
+0           118  888
+1           593  141
+====================================================================================================

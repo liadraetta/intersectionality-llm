@@ -1,0 +1,23 @@
+=== Results for gender_race_political ===
+Silhouette Coefficient: 0.148
+Calinski-Harabasz Index: 295.301
+Davies-Bouldin Index: 2.385
+
+Cluster vs Source:
+source   baseline  gender_race_political
+cluster                                 
+0             316                    431
+1             415                    630
+--------------------------------------------------
+Cluster vs OffensiveYN:
+offensiveYN    0    1
+cluster              
+0            508  239
+1            296  749
+--------------------------------------------------
+Cluster vs prediction:
+prediction    0    1
+cluster             
+0           601  146
+1           132  913
+====================================================================================================
