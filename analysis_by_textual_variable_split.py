@@ -16,7 +16,7 @@ def generate_classification_reports_confusion_matrix_subset_variables(prediction
                                   results_dir, 
                                   pattern):
     """
-    Generate classification reports for all prediction files matching the pattern.
+    Generate classification reports and confusion matrix for all prediction files matching the pattern.
     
     Args:
         predictions_dir (str): Directory containing prediction CSV files

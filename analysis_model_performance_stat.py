@@ -6,18 +6,17 @@ from utils.label_distribution_analysis import read_all_model_datasets
 """
 Assesses whether the model performance when including the socio-demographic traits specified
  in socio_demographic_variables is significantly better than the baseline using McNemar's test.
- The results are stored in statistical_analysis/performance_analysis/mcnemar_results.txt
+ The results are stored in results/statistical_analysis/performance_analysis/mcnemar_results.txt
 
 Additionally, run the same test separately for the positive and negative labels.
  This is useful to understand if the model is better at predicting the positive or negative labels when using intersectional traits.
- The results are stored in statistical_analysis/performance_analysis/mcnemar_results_positive_negative.txt
+ The results are stored in results/statistical_analysis/performance_analysis/mcnemar_results_positive_negative.txt
 """
 
 # Restructure the code to have statistical_analysis/performance_analysis/{model_name}/[mcnemar_results.txt, mcnemar_results_positive.txt, mcnemar_results_negative.txt]
 
 def main():
     model_names = ['Qwen2', 'gemma', 'Llama', 'Ministral', 'deepseek']
-    socio_demographic_variables = ['gender', 'race', 'political']
     cot_names = ['noCoT']
     results_base_path = pathlib.Path('results/predictions/cleaned') 
     for model_name in model_names:
