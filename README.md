@@ -1,5 +1,5 @@
 # intersectionality-llm
-This repo contains the code for the paper \<PAPER NAME\>. \
+This repo contains the code for the paper [**Testing LLMs' Sensitivity to Sociodemographics in Offensive Speech Detection**](https://www.semanticscholar.org/paper/Testing-LLMs'-Sensitivity-to-Sociodemographics-in-Draetta-Lo/d3247f11536f75f439820f0675e7df6d49d12a14#citing-papers). \
 This paper explores the effect of socio-demographic prompting for small generative model on a complex and highly subjective task which is offensiveness detection on the AnnotatorwithAttitudes dataset [1].\ 
 
 ![](imgs/example_prompting_generation.png)
@@ -92,7 +92,19 @@ Contain the code for the additional analyses which are conducted in the paper.
 - `analysis_qualitative.py` - notebook with code for the qualitative analysis and explanation analysis for the paper.
 - `analysis_label_distribution.py` - analysis of model labelling variability.
 - `analysis_model_performance_stat.py` - McNemar tests results.
-  
+
+## Cite
+To cite this work please cite
+```bibtex
+@inproceedings{Draetta2025TestingLS,
+  title={Testing LLMs' Sensitivity to Sociodemographics in Offensive Speech Detection},
+  author={Lia Draetta and Soda Marem Lo and Samuele D'Avenia and Valerio Basile and Rossana Damiano},
+  booktitle={IAAI/ALA@ECAI},
+  year={2025},
+  url={https://api.semanticscholar.org/CorpusID:284278074}
+}
+}
+```
 
 ## Bibliography
 - [1] M. Sap, S. Swayamdipta, L. Vianna, X. Zhou, Y. Choi, and N. A.Smith. **Annotators with attitudes: How annotator beliefs and identties bias toxic language detection.** In *Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies*, pages 5884–5906, Seattle, United States, July 2022. Association for Computational Linguistics. doi: 10.18653/v1/2022.naacl-main.431. URL https://aclanthology.org/2022.naacl-main.431/. 
