@@ -103,7 +103,6 @@ To cite this work please cite
   year={2025},
   url={https://api.semanticscholar.org/CorpusID:284278074}
 }
-}
 ```
 
 ## Bibliography
